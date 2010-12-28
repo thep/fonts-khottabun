@@ -1,6 +1,12 @@
 2010-12-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Normalize BA, HIGH PA, HIGH PHA, HIGH FA.
+	  - Re-adjust RATA.
+
+2010-12-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Adjust some spline points for LOW CA, LOW SA, LOW RATHA, HIGH TA.
 
 2010-12-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
