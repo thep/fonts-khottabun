@@ -14,14 +14,13 @@ Descent: 492
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 373 914837695 14756271]
 FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1293641272
+ModificationTime: 1293641597
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -53,8 +52,12 @@ DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
 WinInfo: 6688 8 4
-BeginPrivate: 1
+BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
+StdHW 4 [90]
+StemSnapH 7 [66 90]
+StdVW 4 [90]
+StemSnapV 7 [66 90]
 EndPrivate
 Grid
 -66 2580 m 0
