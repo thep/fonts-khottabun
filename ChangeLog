@@ -1,3 +1,8 @@
+2011-01-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize HIGH YA, RA, RUE, LA.
+
 2010-12-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
