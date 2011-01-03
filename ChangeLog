@@ -1,3 +1,9 @@
+2011-01-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize WA, HIGH SHA.
+	  - Re-adjust LOW KA (as the base for HIGH SHA).
+
 2011-01-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
