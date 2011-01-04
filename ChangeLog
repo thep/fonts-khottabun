@@ -1,3 +1,10 @@
+2011-01-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust HIGH KA, HIGH KHA, LOW KHA.
+	  - Remove tip-cut spline from LOW KA background layer, not needed.
+	  - Ditto for HIGH KA, HIGH KHA, LOW KHA.
+
 2011-01-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
