@@ -1,6 +1,11 @@
 2011-01-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Re-adjust HIGH CHA, LOW CA, LOW SA, LOW CHA.
+
+2011-01-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Re-adjust NGA, HIGH CA.
 
 2011-01-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
