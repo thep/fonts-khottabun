@@ -1,6 +1,11 @@
 2011-01-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Re-adjust LOW PA, LOW FA, LOW PHA, MA.
+
+2011-01-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Re-adjust NA, BA, HIGH PA, HIGH PHA.
 	  - Re-compose HIGH FA based on HIGH PHA.
 
