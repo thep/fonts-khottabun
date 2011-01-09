@@ -1,3 +1,8 @@
+2011-01-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust LOW YA, HIGH YA, RA, RUE, LA, HIGH SHA.
+
 2011-01-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
