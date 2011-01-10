@@ -1,6 +1,11 @@
 2011-01-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Normalize HIGH HA.
+
+2011-01-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Normalize HIGH SSA, HIGH SA.
 
 2011-01-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
