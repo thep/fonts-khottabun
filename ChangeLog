@@ -1,3 +1,13 @@
+2011-01-12  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Adjust guidelines for subjoined characters. The height is 2/3 of
+	    normal characters, and the stem width is 80 (8/9 of normal
+	    characters).
+	  - Prepare ring for subjoined characters in the guideline layer.
+	  - Normalize subjoined HIGH KA, subjoined HIGH KHA, subjoined LOW KA,
+	    subjoined LOW KHA.
+
 2011-01-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
