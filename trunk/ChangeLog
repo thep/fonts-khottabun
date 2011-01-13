@@ -1,3 +1,9 @@
+2011-01-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize subjoined NGA, subjoined HIGH CA, subjoined HIGH CHA,
+	    subjoined LOW CA.
+
 2011-01-12  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
