@@ -1,3 +1,9 @@
+2011-01-14  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust subjoined LOW CA.
+	  - Normalize subjoined LOW CHA, subjoined NYA, subjoined RATA.
+
 2011-01-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
