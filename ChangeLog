@@ -1,6 +1,15 @@
 2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Re-compose following glyphs by composing the glyphs before
+	    expanding strokes: subjoined HIGH KA, subjoined HIGH KHA,
+	    subjoined LOW KA, subjoined NYA, subjoined RATA. (Subjoined
+	    LOW KHA is skipped because the ring hook would overlap with
+	    another stroke otherwise.)
+
+2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Normalize subjoined HIGH RATHA (uni1A5B & uni1A2E.sub).
 	  - Reverse the glyph referencing between uni1A5B and uni1A2E.sub,
 	    so editable subjoined consonants are placed in the same zone.
