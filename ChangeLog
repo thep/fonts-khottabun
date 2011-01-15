@@ -1,6 +1,12 @@
 2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Correct width of subjoined HIGH CHA.
+	  - Normalize subjoined NA.
+
+2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Normalize subjoined LOW RATHA, subjoined RANA, subjoined HIGH TA,
 	    subjoined HIGH THA, subjoined LOW TA, subjoined LOW THA.
 
