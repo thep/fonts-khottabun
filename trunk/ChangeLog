@@ -1,6 +1,12 @@
 2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Normalize subjoined LOW RATHA, subjoined RANA, subjoined HIGH TA,
+	    subjoined HIGH THA, subjoined LOW TA, subjoined LOW THA.
+
+2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Re-compose following glyphs by composing the glyphs before
 	    expanding strokes: subjoined HIGH KA, subjoined HIGH KHA,
 	    subjoined LOW KA, subjoined NYA, subjoined RATA. (Subjoined
