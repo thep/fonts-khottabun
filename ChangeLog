@@ -1,3 +1,11 @@
+2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize subjoined HIGH RATHA (uni1A5B & uni1A2E.sub).
+	  - Reverse the glyph referencing between uni1A5B and uni1A2E.sub,
+	    so editable subjoined consonants are placed in the same zone.
+	  - Normalize subjoined DA.
+
 2011-01-14  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
