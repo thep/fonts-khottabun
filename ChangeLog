@@ -1,6 +1,16 @@
 2011-01-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Reposition & reshape subjoined NA, subjoined MA.
+	    They should be placed at lower-right of base character.
+	  - Reshape subjoined HIGH CA, subjoined LOW THA, subjoined LOW PA,
+	    after cross-checking with different sources.
+	  - Adjust shape of subjoined HIGH RATHA, for more distinction from
+	    subjoined LOW PA.
+
+2011-01-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Normalize subjoined WA, subjoined HIGH SHA, subjoined HIGH SA,
 	    subjoined HIGH HA, vowel OA BELOW (+ subjoined A).
 
