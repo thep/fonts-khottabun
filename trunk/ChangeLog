@@ -1,3 +1,11 @@
+2011-01-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Reshape vowel OA BELOW (+ subjoined A) with ending stroke to the
+	    right rather than to the top.
+	  - Reshape subjoined BA, subjoined HIGH PA, subjoined HIGH PHA with
+	    fewer curved steps.
+
 2011-01-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
