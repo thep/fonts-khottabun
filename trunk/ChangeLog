@@ -1,6 +1,12 @@
 2011-01-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Use the same shape for subjoined HIGH RATHA and subjoined HIGH THA
+	    for now, until we can find more subtle difference.
+
+2011-01-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Reshape vowel OA BELOW (+ subjoined A) with ending stroke to the
 	    right rather than to the top.
 	  - Reshape subjoined BA, subjoined HIGH PA, subjoined HIGH PHA with
