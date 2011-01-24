@@ -1,3 +1,9 @@
+2011-01-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize independent VOWEL I, independent VOWEL II,
+	    independent VOWEL U, independent VOWEL UU, independent VOWEL EE.
+
 2011-01-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
