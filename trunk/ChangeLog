@@ -1,3 +1,9 @@
+2011-01-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize VOWEL A, MAI SAT, VOWEL TALL AA, VOWEL I, VOWEL II,
+	    VOWEL UE, VOWEL UEE, VOWEL U, VOWEL UU, VOWEL OY.
+
 2011-01-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
