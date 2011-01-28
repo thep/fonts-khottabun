@@ -1,3 +1,9 @@
+2011-01-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize FINAL NG, VOWEL E, VOWEL AE, VOWEL OO,
+	    VOWEL AI MAIMUAN, VOWEL AI MAIMALAI.
+
 2011-01-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
