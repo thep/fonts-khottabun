@@ -1,3 +1,8 @@
+2011-01-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize VOWEL OA ABOVE, MAI KANG, TONE-1, TONE-2.
+
 2011-01-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
