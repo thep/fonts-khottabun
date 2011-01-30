@@ -1,3 +1,9 @@
+2011-01-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize ligature NAA (uni1A36.uni1A63),
+	    ligature WAA (uni1A45.uni1A64), ligature NYA-NYA (uni1A2C.uni1A2C).
+
 2011-01-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
