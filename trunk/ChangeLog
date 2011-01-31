@@ -1,3 +1,8 @@
+2011-01-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize DIGIT ZERO, DIGIT ONE, DIGIT TWO.
+
 2011-01-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
