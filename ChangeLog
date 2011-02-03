@@ -1,3 +1,8 @@
+2011-02-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize DIGIT THREE, DIGIT FOUR, DIGIT FIVE.
+
 2011-01-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
