@@ -1,6 +1,13 @@
 2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Add MAI YAMOK glyph.
+	  - Normalize SATKAANKUU.
+	  - Create SATKAAN glyph by copying part from SATKAANKUU.
+
+2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Re-create subjoined HIGH RATHA using scaled version.
 
 	    According to Wadhana's Pali tutorial, CONSONANT SIGN HIGH RATHA
