@@ -1,6 +1,21 @@
 2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Re-create subjoined HIGH RATHA using scaled version.
+
+	    According to Wadhana's Pali tutorial, CONSONANT SIGN HIGH RATHA
+	    OR LOW PA (uni1A5B) is used for both HIGH RATHA and HIGH THA if
+	    combined below RATA and HIGH TA, respectively, while the scaled
+	    versions are used when combined below RANA and NA, respectively.
+
+	    The subjoined LOW PA, however, has a slightly different shape.
+	    So, it's not relevant to U+1A5B.
+
+	  - Unreference uni1A5B as required.
+
+2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Recompose independent VOWEL OO using VOWEL O + A.
 	    Left to resolve: Wadhana's reference uses VOWEL EE + A + VOWEL AA.
 	  - Use scaled version for subjoined HIGH THA.
