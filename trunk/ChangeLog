@@ -1,3 +1,11 @@
+2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Compose LAE glyph based on LA and UbwManut's glyph.
+	  - Re-shape VOWEL O (uni1A6B) so it's distinguished from contracted
+	    AE vowel.
+	  - Create CONSONANT SIGN BA (uni1A5D) by HIGH PA transformation.
+
 2011-02-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
