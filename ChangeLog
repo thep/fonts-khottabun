@@ -1,6 +1,13 @@
 2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Recompose independent VOWEL OO using VOWEL O + A.
+	    Left to resolve: Wadhana's reference uses VOWEL EE + A + VOWEL AA.
+	  - Use scaled version for subjoined HIGH THA.
+
+2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Compose LAE glyph based on LA and UbwManut's glyph.
 	  - Re-shape VOWEL O (uni1A6B) so it's distinguished from contracted
 	    AE vowel.
