@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1297008842
+ModificationTime: 1297171711
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -129,7 +129,7 @@ Grid
 -2048 940 m 0
  4096 940 l 0
 EndSplineSet
-BeginChars: 65586 197
+BeginChars: 65586 199
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -16144,6 +16144,53 @@ SplineSet
  522 270 436 221 339 221 c 3
  154 221 27 346 27 538 c 3
  27 700 161 826 325 826 c 3
+EndSplineSet
+EndChar
+
+StartChar: uni1AA8
+Encoding: 6824 6824 197
+Width: 586
+VWidth: 0
+Flags: W
+HStem: 806 20G<248 338>
+VStem: 248 90<-276 826>
+LayerCount: 2
+Back
+SplineSet
+204 781 m 17
+ 256 781 293 746 293 694 c 2
+ 293 -276 l 9
+EndSplineSet
+Fore
+SplineSet
+338 826 m 1
+ 338 -276 l 1
+ 248 -276 l 1
+ 248 826 l 1
+ 338 826 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1AA9
+Encoding: 6825 6825 198
+Width: 725
+VWidth: 0
+Flags: W
+HStem: 806 20G<248 338 387 477>
+VStem: 248 90<-276 826> 387 90<-276 826>
+LayerCount: 2
+Fore
+SplineSet
+477 826 m 1
+ 477 -276 l 1
+ 387 -276 l 1
+ 387 826 l 1
+ 477 826 l 1
+338 826 m 1
+ 338 -276 l 1
+ 248 -276 l 1
+ 248 826 l 1
+ 338 826 l 1
 EndSplineSet
 EndChar
 EndChars
