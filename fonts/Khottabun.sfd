@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1297244676
+ModificationTime: 1297249798
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -3265,6 +3265,8 @@ VWidth: 2260
 Flags: W
 HStem: -20 85<134.738 290.377> 439 66<76.6678 175.547> 736 90<162.127 432.237>
 VStem: 5 66<510.668 607.426> 181 66<510.453 609.499> 523 90<354.989 645.047>
+AnchorPoint: "BelowBase" 292 -42 basechar 0
+AnchorPoint: "AboveBase" 292 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -5866,6 +5868,8 @@ VWidth: 2260
 Flags: W
 HStem: -20 21G<51.5 111> 1302 90<-247.135 40.5229>
 VStem: 122 90<73.537 1228.37>
+AnchorPoint: "AboveBase" -73 1419 basechar 0
+AnchorPoint: "BelowBase" 167 -42 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8873,40 +8877,25 @@ Encoding: 6752 6752 120
 Width: 0
 VWidth: 2260
 Flags: W
-HStem: -342 246
-VStem: -326 245
+HStem: -258 80<-324 -243 -163 -81>
+VStem: -243 80<-340 -258 -178 -96>
+AnchorPoint: "BelowBase" -203 -42 mark 0
 LayerCount: 2
-Back
-SplineSet
--326 -178 m 1
- -326 -260 l 1
- -245 -260 l 1
- -245 -342 l 1
- -163 -342 l 1
- -163 -260 l 1
- -81 -260 l 1
- -81 -178 l 1
- -163 -178 l 1
- -163 -96 l 1
- -245 -96 l 1
- -245 -178 l 1
- -326 -178 l 1
-EndSplineSet
 Fore
 SplineSet
--326 -178 m 1
- -326 -260 l 1
- -245 -260 l 1
- -245 -342 l 1
- -163 -342 l 1
- -163 -260 l 1
- -81 -260 l 1
- -81 -178 l 1
- -163 -178 l 1
+-324 -178 m 1
+ -243 -178 l 1
+ -243 -96 l 1
  -163 -96 l 1
- -245 -96 l 1
- -245 -178 l 1
- -326 -178 l 1
+ -163 -178 l 1
+ -81 -178 l 1
+ -81 -258 l 1
+ -163 -258 l 1
+ -163 -340 l 1
+ -243 -340 l 1
+ -243 -258 l 1
+ -324 -258 l 1
+ -324 -178 l 1
 EndSplineSet
 EndChar
 
@@ -9213,7 +9202,7 @@ VWidth: 2260
 Flags: W
 HStem: -667 80<-790.82 -425.733> -414 80<-536.34 -329.11> -276 80<-536.831 -328.117>
 VStem: -992 80<-485.839 -268.913> -288 80<-484.954 -387.644>
-AnchorPoint: "BelowMark" -288 -667 basemark 0
+AnchorPoint: "BelowMark" -288 -154 mark 0
 AnchorPoint: "BelowBase" -613 -42 mark 0
 LayerCount: 2
 Back

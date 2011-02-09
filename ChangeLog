@@ -1,5 +1,11 @@
 2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* fonts/Khottabun.sfd:
+	  - Add anchors to VOWEL AA, VOWEL TALL AA, SAKOT.
+	  - Make VOWEL OA BELOW a mark for BelowMark anchor.
+
+2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	According to Wadhana's and Phraya Luang Mahasena's tutorials,
 	subjoined HIGH THA is only reshaped when combined with HIGH TA.
 	Otherwise, it's in scaled form.
