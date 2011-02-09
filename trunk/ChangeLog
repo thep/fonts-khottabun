@@ -1,3 +1,11 @@
+2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add 'mark' and 'mkmk' GPOS lookups, with anchor classes
+	    AboveBase, BelowBase, AboveMark, BelowMark.
+	  - Add AboveBase and BelowBase anchors to glyphs, shifting some
+	    glyph positions as needed.
+
 2011-02-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
