@@ -1,5 +1,20 @@
 2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	According to Wadhana's and Phraya Luang Mahasena's tutorials,
+	subjoined HIGH THA is only reshaped when combined with HIGH TA.
+	Otherwise, it's in scaled form.
+
+	Subjoined HIGH RATHA, however, has only one shape in Phraya Luang
+	Mahasena's. So, just conclude it accordingly for now, and use the
+	reshaped form for both uni1A2E.sub and uni1A5B (CONSONANT SIGN
+	HIGH RATHA OR LOW PA).
+
+	* fonts/Khottabun.sfd:
+	  - Use reshaped form for subjoined HIGH RATHA.
+	  - Add "uni1A32.uni1A33" ligature for "HIGH TA + subjoined HIGH THA".
+
+2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* fonts/Khottabun.sfd:
 	  - Really add 'mkmk' GPOS lookups (the previous commit didn't).
 	  - Add AboveMark and BelowMark anchors to glyphs.
