@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1297313970
+ModificationTime: 1297333211
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -46,11 +46,12 @@ Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Pos
 Lookup: 260 0 0 "'mark' AboveBase Mark Positioning"  {"'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
-MarkAttachClasses: 5
+MarkAttachClasses: 6
 "AboveBase" 0 
 "BelowBase" 0 
 "AboveMark" 0 
 "BelowMark" 0 
+"BelowRight" 0 
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2010, Theppitak Karoonboonyanan (thep@linux.thai.net),+AAoA-with Reserved Font Name Khottabun.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" 
 GaspTable: 2 8 2 65535 3
@@ -137,7 +138,7 @@ Grid
 -2048 940 m 0
  4096 940 l 0
 EndSplineSet
-AnchorClass2: "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
+AnchorClass2: "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
 BeginChars: 65586 200
 
 StartChar: uni1A20
@@ -147,6 +148,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 66<348.789 446.547 848 975.494> 156 66<347.529 446.547> 736 90<225.975 472.899 701.745 938.998>
 VStem: -2 90<220.3 574.762> 276 66<91.3619 150.484> 452 66<51.453 150.547> 1051 90<255.608 596.964>
+AnchorPoint: "BelowRight" 950 -42 basechar 0
 AnchorPoint: "BelowBase" 587 -42 basechar 0
 AnchorPoint: "AboveBase" 587 883 basechar 0
 LayerCount: 2
@@ -220,6 +222,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<198.501 635.727> 294 90<201.969 616.455> 388 66<76.6678 175.547> 736 90<224.622 621.052>
 VStem: 5 66<459.668 556.91> 52 90<121.089 240.07> 181 66<459.453 558.004> 806 90<249.945 566.037>
+AnchorPoint: "BelowRight" 752 -42 basechar 0
 AnchorPoint: "BelowBase" 416 -42 basechar 0
 AnchorPoint: "AboveBase" 416 883 basechar 0
 LayerCount: 2
@@ -290,6 +293,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 66<324.261 422.547 743 870.578> 156 66<323.529 422.547> 736 90<310.001 710.642>
 VStem: 12 90<183.603 541.305> 252 66<91.3619 150.484> 428 66<51.453 150.547> 918 90<231.372 540.038>
+AnchorPoint: "BelowRight" 836 -42 basechar 0
 AnchorPoint: "BelowBase" 520 -42 basechar 0
 AnchorPoint: "AboveBase" 520 883 basechar 0
 LayerCount: 2
@@ -356,6 +360,7 @@ Flags: W
 HStem: -20 90<108.869 240.972 515.739 677.254 985.189 1168.61> 92 90<306.028 450.261> 467 66<52.6678 151.547> 643 66<102 151.011> 656 90<234.334 355.737> 736 90<102.327 211.44 378.783 535.664 773 877.011 1123 1226.75>
 VStem: -19 66<538.668 635.741> 9 90<75.7751 272.904> 157 66<538.453 637.547> 555 90<537.015 719.031> 843 90<295.378 616.167> 1247 90<160.746 559.713>
 DStem2: 152 390 242 331 0.936473 0.350739<-86.163 438.315>
+AnchorPoint: "BelowRight" 1179 -42 basechar 0
 AnchorPoint: "BelowBase" 702 -42 basechar 0
 AnchorPoint: "AboveBase" 702 883 basechar 0
 LayerCount: 2
@@ -489,6 +494,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<96.8477 240.692> 79 90<283.651 645.535> 736 90<212.157 580.141>
 VStem: 0 90<76.1875 218.021 434.905 632.659>
+AnchorPoint: "BelowRight" 649 -42 basechar 0
 AnchorPoint: "BelowBase" 398 -42 basechar 0
 AnchorPoint: "AboveBase" 398 883 basechar 0
 LayerCount: 2
@@ -521,6 +527,7 @@ VWidth: 2249
 Flags: W
 HStem: -20 90<274.263 629.836> 736 90<267.73 629.836>
 VStem: 198 90<312.741 436.058> 811 90<245.986 560.014>
+AnchorPoint: "BelowRight" 732 -42 basechar 0
 AnchorPoint: "BelowBase" 454 -42 basechar 0
 AnchorPoint: "AboveBase" 454 883 basechar 0
 LayerCount: 2
@@ -563,6 +570,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<370.127 663.543> -20 66<114.933 209.525> 146 66<114.933 228.028> 252 66<147.668 247.14> 428 66<147.453 245.287> 602 80<10.635 128.83> 736 90<282.417 635.8>
 VStem: 1 95<616.812 720.199> 45 66<49.9329 142.067> 76 66<323.668 422.547> 251 90<194.696 426.792> 815 90<236.848 557.845>
+AnchorPoint: "BelowRight" 748 -42 basechar 0
 AnchorPoint: "BelowBase" 471 -42 basechar 0
 AnchorPoint: "AboveBase" 471 883 basechar 0
 LayerCount: 2
@@ -655,6 +663,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<153.176 320.738 535.262 699.481> 66 90<346.262 509.738> 268 66<707.668 805.281> 444 66<707.023 793.557> 736 90<249.676 645.359>
 VStem: 59 90<75.4612 191.162> 186 90<267.439 333.561> 636 66<339.668 438.547> 811 143<285.5 434.022> 934 20<224.208 266.753>
+AnchorPoint: "BelowRight" 699 -42 basechar 0
 AnchorPoint: "BelowBase" 438 -42 basechar 0
 AnchorPoint: "AboveBase" 438 883 basechar 0
 LayerCount: 2
@@ -699,7 +708,7 @@ SplineSet
  693 268 636 325 636 389 c 3
  636 454 690 510 757 510 c 3
  770 510 782 508 794 506 c 1
- 752 658 630 736 438 736 c 7
+ 752 658 630 736 438 736 c 3
  220 736 144 625 98 446 c 1
  222 409 276 372 276 303 c 3
  276 223 149 179 149 144 c 3
@@ -830,6 +839,7 @@ VWidth: 2260
 Flags: W
 HStem: -251 90<675.163 791.408 887.768 1002.05> -20 90<153.176 320.738> 66 90<346.262 509.665> 268 66<707.668 805.281> 444 66<707.023 793.557> 736 90<249.676 645.359> 894 66<813.985 950.703>
 VStem: 59 90<75.4612 191.162> 186 90<267.439 333.561> 584 90<-159.429 -13.7984> 636 66<339.668 438.547> 811 143<285.5 434.022> 934 20<224.208 266.753> 1010 90<-158.566 669.504>
+AnchorPoint: "BelowRight" 970 -281 basechar 0
 AnchorPoint: "BelowBase" 348 -42 basechar 0
 AnchorPoint: "AboveBase" 438 883 basechar 0
 LayerCount: 2
@@ -957,6 +967,7 @@ VWidth: 2260
 Flags: W
 HStem: -778 90<307.559 875.649> -20 90<728.017 928.433> 421 66<86.6678 185.547> 736 90<197.877 552.848> 770 56<903.249 1003.08>
 VStem: -2 90<-519.104 -219.608> 15 66<492.668 591.11> 191 66<492.453 591.499> 700 90<226.234 588.266> 1092 90<237.402 552.989>
+AnchorPoint: "BelowRight" 1055 -42 basechar 0
 AnchorPoint: "BelowBase" 745 -42 basechar 0
 AnchorPoint: "AboveBase" 745 883 basechar 0
 LayerCount: 2
@@ -1048,6 +1059,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<130.227 271.11 553.127 742.495> 125 90<364.152 463.218> 584 66<197.988 297.547> 760 66<200.243 297.547 628.941 776.108>
 VStem: 9 90<98.8256 298.018 544.009 688.197> 104 90<340.444 500.209> 303 66<655.453 754.547> 528 100<713.5 769.593> 870 90<199.286 524.69>
+AnchorPoint: "BelowRight" 815 -42 basechar 0
 AnchorPoint: "BelowBase" 484 -42 basechar 0
 AnchorPoint: "AboveBase" 484 883 basechar 0
 LayerCount: 2
@@ -1135,6 +1147,7 @@ VWidth: 2260
 Flags: W
 HStem: -540 90<142.828 668.656> -153 90<151.044 580.687> -20 90<163.361 521.776> 456 90<552.593 704.009> 736 90<227.748 688.76>
 VStem: -11 90<-392.96 -215.461 481.728 626.465> 13 90<126.766 269.597> 596 90<137.293 326.54> 746 90<-376.245 414.408> 895 59<330.7 502.183>
+AnchorPoint: "BelowRight" 823 -540 basechar 0
 AnchorPoint: "BelowBase" 405 -570 basechar 0
 AnchorPoint: "AboveBase" 465 883 basechar 0
 LayerCount: 2
@@ -1183,6 +1196,7 @@ Flags: W
 HStem: -20 90<106.223 337.219> 70 90<368.328 656.254> 389 66<81.6678 180.547> 736 90<251.031 628.256>
 VStem: 10 66<460.668 559.274> 16 90<71.2924 144.79> 186 66<460.453 559.486> 661 90<-266.674 61.1558> 741 90<413.401 640.8>
 DStem2: 123 231 180 155 0.959149 0.282901<-52.2534 643.908> 255 95 280 3 0.972479 0.23299<-120.847 310.402>
+AnchorPoint: "BelowRight" 270 -42 basechar 0
 AnchorPoint: "BelowBase" 420 -42 basechar 0
 AnchorPoint: "AboveBase" 420 883 basechar 0
 LayerCount: 2
@@ -1273,6 +1287,7 @@ Flags: W
 HStem: -20 90<112.597 341.929 843.304 1022.95> 128 90<513.375 746.664> 467 66<67.6678 166.547> 618 90<304.621 415.995> 643 66<121 165.859> 736 90<122.101 235.554 486.368 617.081 956.5 1069.12>
 VStem: -4 66<538.668 637.199> 22 90<73.8192 204.68> 172 66<538.453 637.177> 658 90<472.639 696.969> 1157 90<216.154 543.66>
 DStem2: 242 342 268 255 0.955908 0.293665<-168.197 428.445> 380 129 413 45 0.933217 0.359313<-195.506 259.095>
+AnchorPoint: "BelowRight" 1049 -42 basechar 0
 AnchorPoint: "BelowBase" 703 -42 basechar 0
 AnchorPoint: "AboveBase" 703 883 basechar 0
 LayerCount: 2
@@ -1384,6 +1399,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<676.123 901.877> -20 66<280.925 377.547> 156 66<278.692 377.547> 736 90<235.908 551.607 1019.32 1297.11>
 VStem: 4 90<204.372 582.789> 383 66<51.453 150.547> 543 90<115.087 333.559> 658 90<404.58 637.795> 830 90<404.58 644.214> 945 90<115.087 333.559> 1436 90<280.015 587.105>
+AnchorPoint: "BelowRight" 1324 -42 basechar 0
 AnchorPoint: "BelowBase" 789 -42 basechar 0
 AnchorPoint: "AboveBase" 789 883 basechar 0
 LayerCount: 2
@@ -1473,6 +1489,7 @@ VWidth: 2240
 Flags: W
 HStem: -20 90<256.177 583.823 1202.24 1341.36> 736 90<256.177 583.164 977.717 1294.87>
 VStem: 0 90<237.908 568.092> 750 90<238.609 568.793> 1174 100<70.0037 108.196> 1433 90<302.758 602.311>
+AnchorPoint: "BelowRight" 1371 -42 basechar 0
 AnchorPoint: "BelowBase" 790 -42 basechar 0
 AnchorPoint: "AboveBase" 790 883 basechar 0
 LayerCount: 2
@@ -1535,6 +1552,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 66<308.38 404.547> 156 66<305.453 404.547> 736 90<218.173 618.011>
 VStem: 3 90<132.656 291.271 450.297 639.749> 234 66<86.1551 150.547> 410 66<51.453 150.547> 819 90<233.55 548.102>
+AnchorPoint: "BelowRight" 770 -42 basechar 0
 AnchorPoint: "BelowBase" 424 -42 basechar 0
 AnchorPoint: "AboveBase" 424 883 basechar 0
 LayerCount: 2
@@ -1601,6 +1619,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<219.317 453.846> 146 66<423.502 476.184> 322 66<422.453 521.547> 736 90<275.253 652.149>
 VStem: -2 90<215.015 562.355> 351 66<217.023 316.547> 527 66<220.279 316.547> 841 90<228.52 553.128>
+AnchorPoint: "BelowRight" 775 -42 basechar 0
 AnchorPoint: "BelowBase" 473 -42 basechar 0
 AnchorPoint: "AboveBase" 473 883 basechar 0
 LayerCount: 2
@@ -1662,6 +1681,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 21G<171 337.5 611.5 726> 135 90<390.945 540.039> 736 90<287.591 679.89>
 VStem: 4 90<247.366 536.997> 40 69<590.756 696.124> 854 90<281.56 582.551>
+AnchorPoint: "BelowRight" 806 -42 basechar 0
 AnchorPoint: "AboveBase" 467 883 basechar 0
 AnchorPoint: "BelowBase" 467 -42 basechar 0
 LayerCount: 2
@@ -1698,6 +1718,7 @@ VWidth: 2260
 Flags: W
 HStem: 74 90<98.2684 718.307> 316 66<658.668 757.908> 492 66<658.453 757.004> 736 90<225.712 732.927>
 VStem: 3 90<133 598.646> 587 66<387.668 486.547> 860 90<455.086 635.618> 1162 32<-539.127 -451.314>
+AnchorPoint: "BelowRight" 392 -42 basechar 0
 AnchorPoint: "BelowBase" 484 -42 basechar 0
 AnchorPoint: "AboveBase" 484 883 basechar 0
 LayerCount: 2
@@ -1763,6 +1784,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<239.425 634.864> 760 66<61.453 160.547>
 VStem: -10 66<655.814 754.547> -3 90<203.679 471.358> 166 66<655.745 754.547> 714 119<626.148 816.272> 779 90<211.212 724.742>
+AnchorPoint: "BelowRight" 734 -42 basechar 0
 AnchorPoint: "BelowBase" 433 -42 basechar 0
 AnchorPoint: "AboveBase" 433 883 basechar 0
 LayerCount: 2
@@ -1822,6 +1844,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<239.425 634.864> 760 66<61.453 160.547 694.5 783.051>
 VStem: -10 66<655.814 754.547> -3 90<203.679 471.358> 166 66<655.745 754.547> 779 90<211.427 595.696>
+AnchorPoint: "BelowRight" 834 -42 basechar 0
 AnchorPoint: "AboveBase" 433 883 basechar 0
 AnchorPoint: "BelowBase" 433 -42 basechar 0
 LayerCount: 2
@@ -1889,6 +1912,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<134.349 280.44 542.655 746.059> 102 90<352.197 472.457> 563 90<585.955 756.637> 584 66<197.859 297.547> 736 90<585.155 752.864> 760 66<200.259 297.547> 789 20G<869.5 885>
 VStem: 14 90<97.7718 296.149 517.165 678.998> 103 90<322.184 482.977> 303 66<655.453 754.547> 495 90<653.612 734.614> 853 90<186.637 611.302>
+AnchorPoint: "BelowRight" 815 -42 basechar 0
 AnchorPoint: "BelowBase" 484 -42 basechar 0
 AnchorPoint: "AboveBase" 484 883 basechar 0
 LayerCount: 2
@@ -1982,6 +2006,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<119.349 265.44 527.655 703.832> 102 90<337.197 457.457> 584 66<183.076 282.547> 760 66<185.259 282.547> 1152 70<143.463 499.558>
 VStem: -1 90<97.7718 296.149 517.165 678.998> 88 90<322.184 482.977> 288 66<655.453 754.547> 799 90<183.683 738.686>
+AnchorPoint: "BelowRight" 705 -42 basechar 0
 AnchorPoint: "BelowBase" 399 -42 basechar 0
 AnchorPoint: "AboveBase" 399 1248 basechar 0
 LayerCount: 2
@@ -2075,6 +2100,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<210.012 452.202> -20 59<844.5 971.795> 218 66<456.668 535.505> 394 66<456.453 554.632> 736 90<225.975 471.053 709.46 935.298>
 VStem: -2 90<206.451 572.817> 385 66<289.668 388.547> 561 74<235.968 389.893> 1051 90<223.409 596.347>
+AnchorPoint: "BelowRight" 953 -42 basechar 0
 AnchorPoint: "BelowBase" 587 -42 basechar 0
 AnchorPoint: "AboveBase" 587 883 basechar 0
 LayerCount: 2
@@ -2155,6 +2181,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<204.687 461.812> -20 59<848 971.795> 197 66<457.668 534.394> 373 66<457.453 555.586> 670 90<276.946 399.023 705.363 941.46> 907 66<421.475 640.269>
 VStem: -2 90<197.616 520.611> 208 66<766.78 859.481> 386 66<268.668 367.547 761.94 866.081> 562 73<216.222 369.604> 1051 90<226.692 546.382>
+AnchorPoint: "BelowRight" 964 -42 basechar 0
 AnchorPoint: "BelowBase" 587 -42 basechar 0
 AnchorPoint: "AboveBase" 587 1000 basechar 0
 LayerCount: 2
@@ -2263,6 +2290,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 75<786 872.948> 736 90<351.209 732.211> 760 66<68.453 167.406>
 VStem: -3 66<655.836 754.547> 6 90<188.757 383.684> 902 90<242.723 580.901>
+AnchorPoint: "BelowRight" 803 -42 basechar 0
 AnchorPoint: "BelowBase" 549 -42 basechar 0
 AnchorPoint: "AboveBase" 549 883 basechar 0
 LayerCount: 2
@@ -2337,6 +2365,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<239.425 635.439> 216 66<389.668 488.547> 392 66<389.453 488.439> 760 66<61.453 160.547 694.5 783.051>
 VStem: -10 66<655.814 754.547> -3 90<203.679 471.358> 166 66<655.745 754.547> 318 66<287.668 386.547> 494 66<287.453 356.216> 779 90<378.218 594.033> 913 85<-69.6746 174.819>
+AnchorPoint: "BelowRight" 749 -42 basechar 0
 AnchorPoint: "BelowBase" 433 -42 basechar 0
 AnchorPoint: "AboveBase" 433 883 basechar 0
 LayerCount: 2
@@ -2439,6 +2468,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<217.324 487.023 794.161 1061.24> 760 66<61.453 160.547 563.5 652.051 1060.5 1149.05>
 VStem: -10 66<655.814 754.547> -3 90<196.825 471.358> 166 66<655.745 754.547> 608 90<228.171 642.943> 1185 90<203.809 564.782>
+AnchorPoint: "BelowRight" 1125 -42 basechar 0
 AnchorPoint: "AboveBase" 634 883 basechar 0
 AnchorPoint: "BelowBase" 634 -42 basechar 0
 LayerCount: 2
@@ -2533,6 +2563,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<191.832 656.217> 584 66<113.927 213.547> 760 66<114.372 213.547> 1209 70<181.011 536.908>
 VStem: 2 90<153.647 348.428> 6 103<592.557 757.751> 219 66<655.453 754.547> 801 90<223.574 790.922>
+AnchorPoint: "BelowRight" 737 -42 basechar 0
 AnchorPoint: "AboveBase" 419 1300 basechar 0
 AnchorPoint: "BelowBase" 419 -42 basechar 0
 LayerCount: 2
@@ -2615,6 +2646,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<183.536 546.187> 277 66<89.453 188.547> 622 50<676.457 779.181> 736 90<107.139 477.411>
 VStem: 1 90<603.653 715.168> 18 66<173.987 271.547> 194 66<172.035 271.547> 638 90<149.852 348.295>
+AnchorPoint: "BelowRight" 582 -42 basechar 0
 AnchorPoint: "AboveBase" 363 883 basechar 0
 AnchorPoint: "BelowBase" 363 -42 basechar 0
 LayerCount: 2
@@ -2686,6 +2718,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<668.549 980.196> -20 66<195.255 293.547> 156 66<194.271 293.547> 736 90<236.39 492.351 975.046 1071.24>
 VStem: 16 90<196.624 599.266> 299 66<51.453 150.547> 499 90<142.59 313.4> 568 90<340.783 654.626> 1092 90<187.275 511.607>
+AnchorPoint: "BelowRight" 1005 -42 basechar 0
 AnchorPoint: "AboveBase" 578 883 basechar 0
 AnchorPoint: "BelowBase" 578 -42 basechar 0
 LayerCount: 2
@@ -2771,6 +2804,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<294.014 627.986> 736 90<294.014 627.986>
 VStem: 34 90<237.908 568.092> 798 90<237.908 568.092>
+AnchorPoint: "BelowRight" 735 -42 basechar 0
 AnchorPoint: "AboveBase" 461 883 basechar 0
 AnchorPoint: "BelowBase" 461 -42 basechar 0
 LayerCount: 2
@@ -2796,6 +2830,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<350.318 677.098> -20 66<51.6678 141.398> 156 66<51.453 146.32> 584 66<66.6678 146.559> 760 66<66.453 165.547 645.5 741.458>
 VStem: -20 66<51.6678 150.547> -5 66<655.668 754.547> 147 90<217 588> 171 66<654.917 754.011> 797 90<192.794 541.182>
+AnchorPoint: "BelowRight" 727 -42 basechar 0
 AnchorPoint: "AboveBase" 524 883 basechar 0
 AnchorPoint: "BelowBase" 524 -42 basechar 0
 LayerCount: 2
@@ -2882,6 +2917,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<156.705 475.095 931.348 1024.87> 584 66<96.2444 150.93> 736 90<654.356 957.058> 760 66<94.453 193.547>
 VStem: 6 90<127.518 363.907> 23 66<656.162 754.547> 199 66<655.537 754.547> 478 90<300.746 651.854> 536 90<126.355 408.135> 1058 90<297.19 635.51>
+AnchorPoint: "BelowRight" 987 -42 basechar 0
 AnchorPoint: "AboveBase" 552 883 basechar 0
 AnchorPoint: "BelowBase" 552 -42 basechar 0
 LayerCount: 2
@@ -2957,6 +2993,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<202.381 666.52> 231 66<707.453 806.547> 400 90<170.116 722.214> 608 70<647.718 860.069> 736 90<146.785 453.442>
 VStem: 0 90<154.065 329.708> 47 93<640.508 716.946> 636 66<125.9 225.547> 812 66<128.671 225.547>
+AnchorPoint: "BelowRight" 715 -42 basechar 0
 AnchorPoint: "AboveBase" 434 883 basechar 0
 AnchorPoint: "BelowBase" 434 -42 basechar 0
 LayerCount: 2
@@ -3034,6 +3071,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 66<670.668 787.368> 156 66<670.453 776.512> 736 90<351.209 732.433> 760 66<68.453 167.406>
 VStem: -3 66<655.836 754.547> 6 90<188.757 383.684> 599 66<51.6678 150.547> 804 56<-42.2551 -1> 902 90<186.947 561.778>
+AnchorPoint: "BelowRight" 803 -42 basechar 0
 AnchorPoint: "AboveBase" 549 883 basechar 0
 AnchorPoint: "BelowBase" 549 -42 basechar 0
 LayerCount: 2
@@ -3120,6 +3158,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<299.888 605.527> 283 66<204.453 303.547> 497 90<95.0705 531.894> 611 90<526.646 759.782> 736 90<124.226 412.74>
 VStem: 5 90<526 705.271> 133 66<178.662 277.547> 309 66<178.51 277.547> 673 90<136.345 386.969> 930 7<904 1043.64>
+AnchorPoint: "BelowRight" 684 -42 basechar 0
 AnchorPoint: "AboveBase" 447 883 basechar 0
 AnchorPoint: "BelowBase" 447 -42 basechar 0
 LayerCount: 2
@@ -3265,6 +3304,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 85<134.738 290.377> 439 66<76.6678 175.547> 736 90<162.127 432.237>
 VStem: 5 66<510.668 607.426> 181 66<510.453 609.499> 523 90<354.989 645.047>
+AnchorPoint: "BelowRight" 433 -42 basechar 0
 AnchorPoint: "BelowBase" 292 -42 basechar 0
 AnchorPoint: "AboveBase" 292 883 basechar 0
 LayerCount: 2
@@ -3719,6 +3759,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 66<149.668 248.209> 156 66<149.453 248.965> 1658 90<106.526 394.278>
 VStem: 38 90<537.512 722.342> 78 66<51.6678 150.547> 330 90<141.469 314.4> 473 90<1215.7 1578.13>
+AnchorPoint: "BelowRight" 199 -42 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3788,6 +3829,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 66<179.861 279.547> 156 66<179.924 279.547>
 VStem: -207 44<1603.05 1776.92> 68 90<131.884 537.418> 204 90<717.777 1050.3> 285 66<51.453 150.547>
+AnchorPoint: "BelowRight" 230 -42 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3928,6 +3970,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<350.318 676.699 894.556 1161.24> -20 66<51.6678 141.398> 156 66<51.453 146.32> 584 66<66.6678 146.559> 760 66<66.453 165.547 645.5 741.458 1160.5 1249.05>
 VStem: -20 66<51.6678 150.547> -5 66<655.668 754.547> 147 90<217 588> 171 66<654.917 754.011> 797 90<189.237 541.182> 1285 90<203.809 564.782>
+AnchorPoint: "BelowRight" 1224 -42 basechar 0
 AnchorPoint: "AboveBase" 1025 883 basechar 0
 AnchorPoint: "BelowBase" 1025 -42 basechar 0
 LayerCount: 2
@@ -4163,6 +4206,7 @@ VWidth: 4760
 Flags: W
 HStem: -20 90<668.549 980.196> -20 66<195.255 293.547> 156 66<194.271 293.547> 736 90<236.39 492.351 724.642 1003.62> 827 21G<1214 1236.5> 1355 90<637.579 971.24>
 VStem: 16 90<196.624 599.266> 299 66<51.453 150.547> 446 90<983.694 1262.6> 499 90<142.59 313.4> 568 90<340.783 654.626> 1006 90<669.504 733.495> 1092 90<187.275 510.977> 1233 11<828.92 1089>
+AnchorPoint: "BelowRight" 1005 -42 basechar 0
 AnchorPoint: "BelowBase" 578 -42 basechar 0
 LayerCount: 2
 Back
@@ -5868,6 +5912,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 21G<51.5 111> 1302 90<-247.135 40.5229>
 VStem: 122 90<73.537 1228.37>
+AnchorPoint: "BelowRight" 167 -42 basechar 0
 AnchorPoint: "AboveBase" -73 1419 basechar 0
 AnchorPoint: "BelowBase" 167 -42 basechar 0
 LayerCount: 2
@@ -6039,6 +6084,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 66<324.261 422.547 743 870.578> 156 66<323.529 422.547> 736 90<310.001 711.675>
 VStem: 12 90<183.603 541.305> 252 66<91.3619 150.484> 428 66<51.453 150.547> 918 90<231.372 544.963>
+AnchorPoint: "BelowRight" 848 -42 basechar 0
 AnchorPoint: "AboveBase" 520 883 basechar 0
 AnchorPoint: "BelowBase" 520 -42 basechar 0
 LayerCount: 2
@@ -6128,6 +6174,7 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<350.318 676.949> -20 66<51.6678 141.398> 161 66<54.0201 146.32 527.668 626.547> 337 66<527.453 626.36> 584 66<66.6678 146.559> 760 66<66.453 165.547 645.5 741.458>
 VStem: -20 66<51.6678 150.547> -5 66<655.668 754.547> 147 90<217 588> 171 66<654.917 754.011> 456 66<232.668 331.547> 632 66<232.453 297.344> 797 90<317.812 541.182>
+AnchorPoint: "BelowRight" 817 -42 basechar 0
 AnchorPoint: "AboveBase" 524 883 basechar 0
 AnchorPoint: "BelowBase" 524 -42 basechar 0
 LayerCount: 2
@@ -7831,6 +7878,7 @@ VWidth: 2260
 Flags: W
 HStem: -437 80<-412.482 -292.951> -247 80<-412.827 -290 -210 16.3262>
 VStem: -496 80<-352.221 -252.459> -290 80<-350.197 -250 -167 -83>
+AnchorPoint: "BelowRight" -250 -42 mark 0
 AnchorPoint: "BelowMark" -210 -437 basemark 0
 LayerCount: 2
 Back
@@ -8339,44 +8387,45 @@ Encoding: 65566 -1 108
 Width: 0
 VWidth: 2260
 Flags: W
-HStem: -667 80<-596.524 -42.2017> -438 80<-202.711 -116.812> -214 80<-607.432 -290>
-VStem: -830 80<-477.22 -321.819> -290 80<-353.375 -230 -139 -83> -114 80<-357.67 -247.131>
-AnchorPoint: "BelowMark" -114 -667 basemark 0
+HStem: -667 80<-839.524 -285.202> -438 80<-445.711 -359.812> -214 80<-850.432 -533>
+VStem: -1073 80<-477.22 -321.819> -533 80<-353.375 -230 -139 -83> -357 80<-357.67 -247.131>
+AnchorPoint: "BelowBase" -613 -42 mark 0
+AnchorPoint: "BelowMark" -357 -667 basemark 0
 LayerCount: 2
 Back
 SplineSet
--250 -83 m 17
- -250 -280 l 2
- -250 -336 -220 -398 -158 -398 c 3
- -96 -398 -74 -338 -74 -294 c 3
- -74 -200 -200 -174 -450 -174 c 3
- -565 -174 -790 -256 -790 -402 c 3
- -790 -548 -560 -627 -370 -627 c 3
- -180 -627 -30 -604 188 -589 c 8
+-493 -83 m 17
+ -493 -280 l 2
+ -493 -336 -463 -398 -401 -398 c 3
+ -339 -398 -317 -338 -317 -294 c 3
+ -317 -200 -443 -174 -693 -174 c 3
+ -808 -174 -1033 -256 -1033 -402 c 3
+ -1033 -548 -803 -627 -613 -627 c 3
+ -423 -627 -273 -604 -55 -589 c 8
 EndSplineSet
 Fore
 SplineSet
--290 -219 m 1
- -337 -215 -391 -214 -450 -214 c 3
- -564 -214 -750 -300 -750 -402 c 3
- -750 -504 -560 -587 -370 -587 c 3
- -182 -587 -30 -578 185 -549 c 1
- 20 -638 -247 -667 -370 -667 c 3
- -555 -667 -830 -595 -830 -402 c 3
- -830 -216 -571 -134 -450 -134 c 3
- -393 -134 -339 -135 -290 -139 c 1
- -290 -83 l 1
- -210 -83 l 1
- -210 -148 l 1
- -115 -164 -34 -204 -34 -294 c 3
- -34 -342 -59 -438 -158 -438 c 3
- -251 -438 -290 -348 -290 -280 c 2
- -290 -219 l 1
--210 -230 m 1
- -210 -280 l 2
- -210 -329 -186 -358 -158 -358 c 3
- -129 -358 -114 -330 -114 -294 c 3
- -114 -268 -129 -246 -210 -230 c 1
+-533 -219 m 1
+ -580 -215 -634 -214 -693 -214 c 3
+ -807 -214 -993 -300 -993 -402 c 3
+ -993 -504 -803 -587 -613 -587 c 3
+ -425 -587 -273 -578 -58 -549 c 1
+ -223 -638 -490 -667 -613 -667 c 3
+ -798 -667 -1073 -595 -1073 -402 c 3
+ -1073 -216 -814 -134 -693 -134 c 3
+ -636 -134 -582 -135 -533 -139 c 1
+ -533 -83 l 1
+ -453 -83 l 1
+ -453 -148 l 1
+ -358 -164 -277 -204 -277 -294 c 3
+ -277 -342 -302 -438 -401 -438 c 3
+ -494 -438 -533 -348 -533 -280 c 2
+ -533 -219 l 1
+-453 -230 m 1
+ -453 -280 l 2
+ -453 -329 -429 -358 -401 -358 c 3
+ -372 -358 -357 -330 -357 -294 c 3
+ -357 -268 -372 -246 -453 -230 c 1
 EndSplineSet
 LCarets2: 1 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A3E
@@ -8389,6 +8438,9 @@ VWidth: 2260
 Flags: W
 HStem: -431 80<-227.843 28.7966> -143 60<-330.485 -271.515> 806 20G<109 134.5>
 VStem: -391 60<-200.156 -143.515> -271 60<-202.407 -143.515> 118 80<-262.922 659.974>
+AnchorPoint: "AboveBase" 163 883 basechar 0
+AnchorPoint: "BelowBase" 118 -431 basechar 0
+AnchorPoint: "BelowRight" 118 -431 basechar 0
 AnchorPoint: "BelowMark" 118 -431 basemark 0
 LayerCount: 2
 Back
@@ -8915,6 +8967,7 @@ VWidth: 2260
 Flags: W
 HStem: 74 90<98.2684 718.307> 316 66<658.668 757.908> 492 66<658.453 757.004> 736 90<162.342 345.694 602.306 790.056>
 VStem: 3 90<133 651.436> 587 66<387.668 486.547> 860 90<455.086 659.51> 1162 32<-539.127 -451.314>
+AnchorPoint: "BelowRight" 392 -42 basechar 0
 AnchorPoint: "BelowBase" 474 -42 basechar 0
 AnchorPoint: "AboveBase" 474 883 basechar 0
 LayerCount: 2
