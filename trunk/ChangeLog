@@ -1,5 +1,14 @@
 2011-02-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* fonts/Khottabun.sfd:
+	  - MEDIAL RA: shorten the lower stem to prevent overlapping with
+	    other subjoined glyph.
+	  - HIGH TA, HIGH TA + subjoined HIGH THA (uni1A32.uni1A33):
+	    condense glyphs for more proper width.
+	  - subjoined NA: lengthen vertical stem a little bit.
+
+2011-02-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Manage subjoined NA positioning.
 
 	* fonts/Khottabun.sfd:
