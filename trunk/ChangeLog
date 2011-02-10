@@ -1,5 +1,25 @@
 2011-02-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Manage subjoined NA positioning.
+
+	* fonts/Khottabun.sfd:
+	  - Add BelowRight anchor class to 'mark' BelowBase lookup.
+	  - Add BelowRight mark anchor to subjoined NA.
+	  - Add BelowRight base anchor with specific positions to
+	    subjoined LOW YA, DA, NA, VOWEL TALL AA, VOWEL AI MAIMUAN,
+	    VOWEL AI MAIMALAI, NA + VOWEL AA ligature (uni1A36.uni1A63)
+	  - Add BelowRight base anchor with <char-width> - 250 to other
+	    base glyphs.
+
+	Manage subjoined MA positioning.
+
+	* fonts/Khottabun.sfd:
+	  - Add BelowBase mark anchor to subjoind MA and center the glyph.
+	  - Add BelowBase (and also AboveBase) base anchors to subjoined
+	    LOW YA.
+
+2011-02-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	* fonts/Khottabun.sfd:
 	  - Switch VOWEL O back to the ring-hooked version. Redraw it so it's
 	    composed in the same manner as other glyphs.
