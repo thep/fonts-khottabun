@@ -1,3 +1,10 @@
+2011-02-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	=== Start editing Thai Noi glyphs. ===
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) KO, KHO SUNG, KHO TAM.
+
 2011-02-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
