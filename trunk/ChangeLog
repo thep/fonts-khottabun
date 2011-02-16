@@ -1,3 +1,9 @@
+2011-02-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) HO SUNG, O, HO TAM.
+	  - Replace final stem of THO TAM with the one from HO SUNG.
+
 2011-02-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
