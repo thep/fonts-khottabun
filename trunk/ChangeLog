@@ -1,3 +1,9 @@
+2011-02-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) VOWEL A, MAI KAN, VOWEL AA, NIGGAHITA,
+	    VOWEL AM, VOWEL I, VOWEL II, VOWEL Y, VOWEL YY.
+
 2011-02-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
