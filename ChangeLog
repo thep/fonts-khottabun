@@ -1,3 +1,9 @@
+2011-02-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) VOWEL U, VOWEL UU, MAI KON,
+	    Subjoined Lo, Subjoined Nyo.
+
 2011-02-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
