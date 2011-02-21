@@ -1,3 +1,9 @@
+2011-02-21  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) Subjoined Bo, Subjoined Do, VOWEL E,
+	    VOWEL EI.
+
 2011-02-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
