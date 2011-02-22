@@ -1,3 +1,8 @@
+2011-02-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) VOWEL O, VOWEL AY, VOWEL AI.
+
 2011-02-21  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
