@@ -1,3 +1,9 @@
+2011-02-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) HO NO, HO MO, Clustering Mo,
+	    Clustering Lo.
+
 2011-02-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
