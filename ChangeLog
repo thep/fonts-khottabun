@@ -1,3 +1,9 @@
+2011-02-26  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) DIGIT SIX, DIGIT SEVEN, DIGIT EIGHT,
+	    DIGIT NINE.
+
 2011-02-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
