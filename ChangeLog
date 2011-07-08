@@ -1,3 +1,9 @@
+2011-07-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Replace Tham COMBINING CRYPTOGRAMMIC DOT with double dot,
+	    representing final KA.
+
 2011-02-26  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
