@@ -1,3 +1,9 @@
+2011-07-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Remove holes in Tham COMBINING CRYPTOGRAMMIC DOT.
+	  - Add BelowBase anchor to it.
+
 2011-07-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
