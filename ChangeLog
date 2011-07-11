@@ -1,6 +1,12 @@
 2011-07-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Add glyphs and ligature lookups for precomposed
+	    Cons + MEDIAL RA + VOWEL E.
+
+2011-07-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Add glyphs and ligature lookups for precomposed Cons + MEDIAL RA.
 
 2011-07-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
