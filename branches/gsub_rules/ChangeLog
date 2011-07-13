@@ -1,6 +1,11 @@
 2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Add 'ccmp' rules for MEDIAL RA reordering.
+
+2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Add 'ccmp' rules for leading vowels reordering.
 
 2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
