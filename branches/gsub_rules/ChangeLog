@@ -1,3 +1,11 @@
+2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	=== Start GSUB rules editing for logical order support ===
+
+	* fonts/Khottabun.sfd:
+	  - Add 'ccmp' rules for Pali NGA-above.
+	  - Add 'zerojoin' glyph as needed by the rules.
+
 2011-07-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:

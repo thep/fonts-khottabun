@@ -14,14 +14,13 @@ Descent: 492
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 373 914837695 14756271]
 FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1310203367
+ModificationTime: 1310537188
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -41,7 +40,11 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Pali NGA-above stage 1"  {"'ccmp' Pali NGA-above append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Pali NGA-above stage 2"  {"'ccmp' Pali NGA-above remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 2 0 0 "NGA-above append intermediate"  {"NGA-above append intermediate lookup"  } []
+Lookup: 4 0 0 "NGA-above remove intermediate"  {"NGA-above remove intermediate lookup"  } []
 Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' AboveBase Mark Positioning"  {"'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
@@ -53,15 +56,38 @@ MarkAttachClasses: 6
 "BelowMark" 0 
 "BelowRight" 0 
 DEI: 91125
+ContextSub2: class "'ccmp' Pali NGA-above remove intermediate"  5 0 0 1
+  Class: 7 uni1A59
+  Class: 7 uni1A60
+  Class: 8 zerojoin
+  Class: 335 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C
+ 4 0 0
+  ClsList: 1 2 3 4
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "NGA-above remove intermediate" 
+EndFPST
+ContextSub2: class "'ccmp' Pali NGA-above append intermediate"  4 1 1 1
+  Class: 7 uni1A59
+  Class: 7 uni1A60
+  Class: 335 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C
+ 3 0 0
+  ClsList: 1 2 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 2 "NGA-above append intermediate" 
+EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2010, Theppitak Karoonboonyanan (thep@linux.thai.net),+AAoA-with Reserved Font Name Khottabun.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" 
 GaspTable: 2 8 2 65535 3
-Encoding: UnicodeBmp
+Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6752 8 4
+WinInfo: 6688 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -141,7 +167,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65586 200
+BeginChars: 65586 201
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -215,6 +241,9 @@ SplineSet
  452 131 427 156 397 156 c 3
  367 156 342 131 342 101 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A20
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A20 uni1A59
 EndChar
 
 StartChar: uni1A21
@@ -286,6 +315,9 @@ SplineSet
  52 312 222 384 416 384 c 3
  567 384 695 326 775 248 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A21
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A21 uni1A59
 EndChar
 
 StartChar: uni1A23
@@ -352,6 +384,9 @@ SplineSet
  428 131 403 156 373 156 c 3
  343 156 318 131 318 101 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A23
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A23 uni1A59
 EndChar
 
 StartChar: uni1A25
@@ -487,6 +522,9 @@ SplineSet
  157 618 132 643 102 643 c 3
  72 643 47 618 47 588 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A25
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A25 uni1A59
 EndChar
 
 StartChar: uni1A26
@@ -520,6 +558,9 @@ SplineSet
  15 190 58 260 117 329 c 1
  42 380 0 453 0 523 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A26
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A26 uni1A59
 EndChar
 
 StartChar: uni1A27
@@ -563,6 +604,9 @@ SplineSet
  241 523 288 460 288 391 c 3
  288 316 246 270 157 198 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A27
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A27 uni1A59
 EndChar
 
 StartChar: uni1A28
@@ -656,6 +700,9 @@ SplineSet
  133 252 76 309 76 373 c 3x7e70
  76 438 132 494 197 494 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A28
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A28 uni1A59
 EndChar
 
 StartChar: uni1A29
@@ -737,6 +784,9 @@ SplineSet
  795 334 811 359 811 405 c 0x3f80
  811 413 810 422 809 433 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A29
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A29 uni1A59
 EndChar
 
 StartChar: uni1A2A
@@ -832,6 +882,9 @@ SplineSet
  795 334 811 359 811 405 c 3
  811 413 810 422 809 433 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2A
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2A uni1A59
 EndChar
 
 StartChar: uni1A2B
@@ -960,6 +1013,9 @@ SplineSet
  795 334 811 359 811 405 c 3
  811 413 810 422 809 433 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2B
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2B uni1A59
 EndChar
 
 StartChar: uni1A2C
@@ -1052,6 +1108,9 @@ SplineSet
  700 597 584 736 387 736 c 3xf5c0
  297 736 209 712 156 661 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2C
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2C uni1A59
 EndChar
 
 StartChar: uni1A2D
@@ -1140,6 +1199,9 @@ SplineSet
  104 485 9 519 9 615 c 3
  9 731 104 826 248 826 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2D
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2D uni1A59
 EndChar
 
 StartChar: uni1A2E
@@ -1188,6 +1250,9 @@ SplineSet
  565 -63 624 -127 711 -239 c 1
  545 -164 508 -153 393 -153 c 3xfdc0
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2E
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2E uni1A59
 EndChar
 
 StartChar: uni1A2F
@@ -1279,6 +1344,9 @@ SplineSet
  741 675 576 736 420 736 c 3
  323 736 221 689 159 627 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2F
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2F uni1A59
 EndChar
 
 StartChar: uni1A30
@@ -1392,6 +1460,9 @@ SplineSet
  238 523 182 467 117 467 c 3
  53 467 -4 524 -4 588 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A30
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A30 uni1A59
 EndChar
 
 StartChar: uni1A31
@@ -1482,6 +1553,9 @@ SplineSet
  94 287 135 174 208 114 c 1
  215 173 267 222 328 222 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A31
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A31 uni1A59
 EndChar
 
 StartChar: uni1A32
@@ -1545,6 +1619,9 @@ SplineSet
  650 587 525 736 370 736 c 3
  215 736 90 587 90 403 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A32
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A32 uni1A59
 EndChar
 
 StartChar: uni1A33
@@ -1612,6 +1689,9 @@ SplineSet
  410 131 385 156 355 156 c 3
  325 156 300 131 300 101 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A33
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A33 uni1A59
 EndChar
 
 StartChar: uni1A34
@@ -1674,6 +1754,9 @@ SplineSet
  88 230 189 70 357 70 c 3
  415 70 454 102 477 146 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A34
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A34 uni1A59
 EndChar
 
 StartChar: uni1A35
@@ -1711,6 +1794,9 @@ SplineSet
  131 562 133 560 134 557 c 1
  107 522 94 473 94 428 c 3xf4
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A35
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A35 uni1A59
 EndChar
 
 StartChar: uni1A36
@@ -1777,6 +1863,9 @@ SplineSet
  713 826 950 743 950 539 c 3
  950 403 845 316 708 316 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A36
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A36 uni1A59
 EndChar
 
 StartChar: uni1A37
@@ -1837,6 +1926,9 @@ SplineSet
  200 -20 -3 122 -3 331 c 3xda
  -3 428 48 515 90 586 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A37
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A37 uni1A59
 EndChar
 
 StartChar: uni1A38
@@ -1905,6 +1997,9 @@ SplineSet
  200 -20 -3 122 -3 331 c 3xdc
  -3 428 48 515 90 586 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A38
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A38 uni1A59
 EndChar
 
 StartChar: uni1A39
@@ -1999,6 +2094,9 @@ SplineSet
  585 667 604 653 639 653 c 3xe870
  691 653 728 666 758 688 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A39
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A39 uni1A59
 EndChar
 
 StartChar: uni1A3A
@@ -2093,6 +2191,9 @@ SplineSet
  354 640 298 584 233 584 c 3
  177 584 127 628 115 682 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3A
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3A uni1A59
 EndChar
 
 StartChar: uni1A3B
@@ -2174,6 +2275,9 @@ SplineSet
  88 206 204 70 327 70 c 3xbf80
  419 70 508 142 536 222 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3B
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3B uni1A59
 EndChar
 
 StartChar: uni1A3C
@@ -2283,6 +2387,9 @@ SplineSet
  400 844 372 868 337 868 c 3
  302 868 274 844 274 814 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3C
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3C uni1A59
 EndChar
 
 StartChar: uni1A3D
@@ -2358,6 +2465,9 @@ SplineSet
  149 -20 6 138 6 361 c 3
  6 460 50 531 89 588 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3D
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3D uni1A59
 EndChar
 
 StartChar: uni1A3E
@@ -2461,6 +2571,9 @@ SplineSet
  620 70 728 146 765 282 c 1
  704 319 631 344 558 357 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3E
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3E uni1A59
 EndChar
 
 StartChar: uni1A3F
@@ -2556,6 +2669,9 @@ SplineSet
  200 -20 -3 122 -3 331 c 3xde
  -3 428 48 515 90 586 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3F
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3F uni1A59
 EndChar
 
 StartChar: uni1A40
@@ -2639,6 +2755,9 @@ SplineSet
  40 491 6 542 6 643 c 3
  6 729 60 826 164 826 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A40
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A40 uni1A59
 EndChar
 
 StartChar: uni1A41
@@ -2711,6 +2830,9 @@ SplineSet
  194 252 169 277 139 277 c 3
  109 277 84 252 84 222 c 3xf7
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A41
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A41 uni1A59
 EndChar
 
 StartChar: uni1A43
@@ -2797,6 +2919,9 @@ SplineSet
  299 131 274 156 244 156 c 3
  214 156 189 131 189 101 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A43
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A43 uni1A59
 EndChar
 
 StartChar: uni1A45
@@ -2823,6 +2948,9 @@ SplineSet
  888 170 697 -20 461 -20 c 3
  225 -20 34 170 34 403 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A45
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A45 uni1A59
 EndChar
 
 StartChar: uni1A48
@@ -2910,6 +3038,9 @@ SplineSet
  -20 166 36 222 101 222 c 3
  118 222 133 220 147 217 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A48
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A48 uni1A59
 EndChar
 
 StartChar: uni1A49
@@ -2986,6 +3117,9 @@ SplineSet
  150 -20 6 69 6 218 c 3xeac0
  6 361 105 462 151 584 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A49
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A49 uni1A59
 EndChar
 
 StartChar: uni1A4A
@@ -3064,6 +3198,9 @@ SplineSet
  90 121 296 70 434 70 c 3
  499 70 595 75 671 93 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A4A
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A4A uni1A59
 EndChar
 
 StartChar: uni1A4B
@@ -3151,6 +3288,9 @@ SplineSet
  96 229 162 114 280 69 c 1
  183 123 110 234 97 384 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A4B
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A4B uni1A59
 EndChar
 
 StartChar: uni1A4C
@@ -3223,6 +3363,9 @@ SplineSet
  309 258 284 283 254 283 c 3
  224 283 199 258 199 228 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A4C
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A4C uni1A59
 EndChar
 
 StartChar: uni1A61
@@ -4983,6 +5126,9 @@ SplineSet
  478 -178 456 -156 429 -156 c 3
  402 -156 380 -178 380 -205 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A42
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A42 uni1A59
 EndChar
 
 StartChar: uni1A59
@@ -6167,6 +6313,9 @@ SplineSet
  428 131 403 156 373 156 c 3
  343 156 318 131 318 101 c 3
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A46
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A46 uni1A59
 EndChar
 
 StartChar: uni1A47
@@ -6288,6 +6437,9 @@ SplineSet
  819 653 887 527 887 349 c 3
  887 316 883 283 876 253 c 1
 EndSplineSet
+LCarets2: 3 0 0 0 
+Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A47
+MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A47 uni1A59
 EndChar
 
 StartChar: uni1A20.sub
@@ -13954,6 +14106,14 @@ SplineSet
 EndSplineSet
 LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A32 uni1A60 uni1A33
+EndChar
+
+StartChar: zerojoin
+Encoding: 8205 8205 200
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
