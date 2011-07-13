@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1310548454
+ModificationTime: 1310554788
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -45,6 +45,8 @@ Lookup: 5 0 0 "'ccmp' Pali NGA-above stage 2"  {"'ccmp' Pali NGA-above remove in
 Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1"  {"'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2"  {"'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' RA reorder stage 1"  {"'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' RA reorder stage 2"  {"'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 2 0 0 "NGA-above append intermediate"  {"NGA-above append intermediate lookup"  } []
 Lookup: 4 0 0 "NGA-above remove intermediate"  {"NGA-above remove intermediate lookup"  } []
 Lookup: 2 0 0 "LV E prepend intermediate"  {"LV E prepend intermediate lookup"  } []
@@ -53,6 +55,8 @@ Lookup: 2 0 0 "LV O prepend intermediate"  {"LV O prepend intermediate lookup"  
 Lookup: 2 0 0 "LV AI MAIMUAN prepend intermediate"  {"LV AI MAIMUAN prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV AI MAIMALAI prepend intermediate"  {"LV AI MAIMALAI prepend intermediate lookup"  } []
 Lookup: 4 0 0 "LV remove intermediate"  {"LV remove intermediate for subjoin"  "LV remove intermediate for cons"  } []
+Lookup: 2 0 0 "RA prepend intermediate"  {"RA prepend intermediate lookup"  } []
+Lookup: 4 0 0 "RA remove intermediate"  {"RA remove intermediate lookup"  } []
 Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' AboveBase Mark Positioning"  {"'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
@@ -64,6 +68,27 @@ MarkAttachClasses: 6
 "BelowMark" 0 
 "BelowRight" 0 
 DEI: 91125
+ContextSub2: class "'ccmp' RA reorder remove intermediate"  4 0 0 1
+  Class: 335 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C
+  Class: 8 zerojoin
+  Class: 7 uni1A55
+ 3 0 0
+  ClsList: 1 2 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA remove intermediate" 
+EndFPST
+ContextSub2: class "'ccmp' RA reorder prepend intermediate"  3 0 0 1
+  Class: 335 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C
+  Class: 7 uni1A55
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA prepend intermediate" 
+EndFPST
 ContextSub2: class "'ccmp' LV reorder remove intermediate"  5 0 0 2
   Class: 8 zerojoin
   Class: 443 uni1A55 uni1A56 uni1A57 uni1A59 uni1A5B uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
@@ -336,6 +361,8 @@ SplineSet
  452 131 427 156 397 156 c 3
  367 156 342 131 342 101 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A20 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A20 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A70
@@ -420,6 +447,8 @@ SplineSet
  52 312 222 384 416 384 c 3
  567 384 695 326 775 248 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A21 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A21 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A21 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A21 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A21 zerojoin uni1A70
@@ -499,6 +528,8 @@ SplineSet
  428 131 403 156 373 156 c 3
  343 156 318 131 318 101 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A23 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A23 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A23 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A23 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A23 zerojoin uni1A70
@@ -647,6 +678,8 @@ SplineSet
  157 618 132 643 102 643 c 3
  72 643 47 618 47 588 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A25 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A25 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A25 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A25 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A25 zerojoin uni1A70
@@ -693,6 +726,8 @@ SplineSet
  15 190 58 260 117 329 c 1
  42 380 0 453 0 523 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A26 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A26 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A26 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A26 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A26 zerojoin uni1A70
@@ -749,6 +784,8 @@ SplineSet
  241 523 288 460 288 391 c 3
  288 316 246 270 157 198 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A27 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A27 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A27 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A27 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A27 zerojoin uni1A70
@@ -855,6 +892,8 @@ SplineSet
  133 252 76 309 76 373 c 3x7e70
  76 438 132 494 197 494 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A28 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A28 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A28 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A28 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A28 zerojoin uni1A70
@@ -949,6 +988,8 @@ SplineSet
  795 334 811 359 811 405 c 0x3f80
  811 413 810 422 809 433 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A29 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A29 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A29 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A29 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A29 zerojoin uni1A70
@@ -1057,6 +1098,8 @@ SplineSet
  795 334 811 359 811 405 c 3
  811 413 810 422 809 433 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A2A zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A2A zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A2A zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A2A zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2A zerojoin uni1A70
@@ -1198,6 +1241,8 @@ SplineSet
  795 334 811 359 811 405 c 3
  811 413 810 422 809 433 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A2B zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A2B zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A2B zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A2B zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2B zerojoin uni1A70
@@ -1303,6 +1348,8 @@ SplineSet
  700 597 584 736 387 736 c 3xf5c0
  297 736 209 712 156 661 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A2C zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A2C zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A2C zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A2C zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2C zerojoin uni1A70
@@ -1404,6 +1451,8 @@ SplineSet
  104 485 9 519 9 615 c 3
  9 731 104 826 248 826 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A2D zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A2D zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A2D zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A2D zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2D zerojoin uni1A70
@@ -1465,6 +1514,8 @@ SplineSet
  565 -63 624 -127 711 -239 c 1
  545 -164 508 -153 393 -153 c 3xfdc0
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A2E zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A2E zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A2E zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A2E zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2E zerojoin uni1A70
@@ -1569,6 +1620,8 @@ SplineSet
  741 675 576 736 420 736 c 3
  323 736 221 689 159 627 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A2F zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A2F zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A2F zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A2F zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2F zerojoin uni1A70
@@ -1695,6 +1748,8 @@ SplineSet
  238 523 182 467 117 467 c 3
  53 467 -4 524 -4 588 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A30 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A30 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A30 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A30 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A30 zerojoin uni1A70
@@ -1798,6 +1853,8 @@ SplineSet
  94 287 135 174 208 114 c 1
  215 173 267 222 328 222 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A31 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A31 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A31 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A31 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A31 zerojoin uni1A70
@@ -1874,6 +1931,8 @@ SplineSet
  650 587 525 736 370 736 c 3
  215 736 90 587 90 403 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A32 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A32 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A32 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A32 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A32 zerojoin uni1A70
@@ -1954,6 +2013,8 @@ SplineSet
  410 131 385 156 355 156 c 3
  325 156 300 131 300 101 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A33 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A33 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A33 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A33 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A33 zerojoin uni1A70
@@ -2029,6 +2090,8 @@ SplineSet
  88 230 189 70 357 70 c 3
  415 70 454 102 477 146 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A34 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A34 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A34 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A34 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A34 zerojoin uni1A70
@@ -2079,6 +2142,8 @@ SplineSet
  131 562 133 560 134 557 c 1
  107 522 94 473 94 428 c 3xf4
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A35 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A35 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A35 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A35 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A35 zerojoin uni1A70
@@ -2158,6 +2223,8 @@ SplineSet
  713 826 950 743 950 539 c 3
  950 403 845 316 708 316 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A36 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A36 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A36 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A36 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A36 zerojoin uni1A70
@@ -2231,6 +2298,8 @@ SplineSet
  200 -20 -3 122 -3 331 c 3xda
  -3 428 48 515 90 586 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A37 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A37 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A37 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A37 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A37 zerojoin uni1A70
@@ -2312,6 +2381,8 @@ SplineSet
  200 -20 -3 122 -3 331 c 3xdc
  -3 428 48 515 90 586 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A38 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A38 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A38 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A38 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A38 zerojoin uni1A70
@@ -2419,6 +2490,8 @@ SplineSet
  585 667 604 653 639 653 c 3xe870
  691 653 728 666 758 688 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A39 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A39 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A39 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A39 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A39 zerojoin uni1A70
@@ -2526,6 +2599,8 @@ SplineSet
  354 640 298 584 233 584 c 3
  177 584 127 628 115 682 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A3A zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A3A zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A3A zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A3A zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3A zerojoin uni1A70
@@ -2620,6 +2695,8 @@ SplineSet
  88 206 204 70 327 70 c 3xbf80
  419 70 508 142 536 222 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A3B zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A3B zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A3B zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A3B zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3B zerojoin uni1A70
@@ -2742,6 +2819,8 @@ SplineSet
  400 844 372 868 337 868 c 3
  302 868 274 844 274 814 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A3C zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A3C zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A3C zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A3C zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3C zerojoin uni1A70
@@ -2830,6 +2909,8 @@ SplineSet
  149 -20 6 138 6 361 c 3
  6 460 50 531 89 588 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A3D zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A3D zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A3D zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A3D zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3D zerojoin uni1A70
@@ -2946,6 +3027,8 @@ SplineSet
  620 70 728 146 765 282 c 1
  704 319 631 344 558 357 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A3E zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A3E zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A3E zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A3E zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3E zerojoin uni1A70
@@ -3054,6 +3137,8 @@ SplineSet
  200 -20 -3 122 -3 331 c 3xde
  -3 428 48 515 90 586 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A3F zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A3F zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A3F zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A3F zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3F zerojoin uni1A70
@@ -3150,6 +3235,8 @@ SplineSet
  40 491 6 542 6 643 c 3
  6 729 60 826 164 826 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A40 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A40 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A40 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A40 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A40 zerojoin uni1A70
@@ -3235,6 +3322,8 @@ SplineSet
  194 252 169 277 139 277 c 3
  109 277 84 252 84 222 c 3xf7
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A41 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A41 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A41 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A41 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A41 zerojoin uni1A70
@@ -3334,6 +3423,8 @@ SplineSet
  299 131 274 156 244 156 c 3
  214 156 189 131 189 101 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A43 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A43 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A43 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A43 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A43 zerojoin uni1A70
@@ -3373,6 +3464,8 @@ SplineSet
  888 170 697 -20 461 -20 c 3
  225 -20 34 170 34 403 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A45 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A45 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A45 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A45 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A45 zerojoin uni1A70
@@ -3473,6 +3566,8 @@ SplineSet
  -20 166 36 222 101 222 c 3
  118 222 133 220 147 217 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A48 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A48 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A48 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A48 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A48 zerojoin uni1A70
@@ -3562,6 +3657,8 @@ SplineSet
  150 -20 6 69 6 218 c 3xeac0
  6 361 105 462 151 584 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A49 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A49 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A49 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A49 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A49 zerojoin uni1A70
@@ -3653,6 +3750,8 @@ SplineSet
  90 121 296 70 434 70 c 3
  499 70 595 75 671 93 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A4A zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A4A zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A4A zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A4A zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A4A zerojoin uni1A70
@@ -3753,6 +3852,8 @@ SplineSet
  96 229 162 114 280 69 c 1
  183 123 110 234 97 384 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A4B zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A4B zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A4B zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A4B zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A4B zerojoin uni1A70
@@ -3838,6 +3939,8 @@ SplineSet
  309 258 284 283 254 283 c 3
  224 283 199 258 199 228 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A4C zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A4C zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A4C zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A4C zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A4C zerojoin uni1A70
@@ -5621,6 +5724,8 @@ SplineSet
  478 -178 456 -156 429 -156 c 3
  402 -156 380 -178 380 -205 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A42 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A42 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A42 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A42 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A42 zerojoin uni1A70
@@ -6833,6 +6938,8 @@ SplineSet
  428 131 403 156 373 156 c 3
  343 156 318 131 318 101 c 3
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A46 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A46 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A46 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A46 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A46 zerojoin uni1A70
@@ -6967,6 +7074,8 @@ SplineSet
  819 653 887 527 887 349 c 3
  887 316 883 283 876 253 c 1
 EndSplineSet
+Ligature2: "RA remove intermediate lookup" uni1A47 zerojoin uni1A55
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A47 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A47 zerojoin uni1A72
 Ligature2: "LV remove intermediate for cons" uni1A47 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A47 zerojoin uni1A70
