@@ -1,0 +1,477 @@
+2011-07-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Remove holes in Tham COMBINING CRYPTOGRAMMIC DOT.
+	  - Add BelowBase anchor to it.
+
+2011-07-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Replace Tham COMBINING CRYPTOGRAMMIC DOT with double dot,
+	    representing final KA.
+
+2011-02-26  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) DIGIT SIX, DIGIT SEVEN, DIGIT EIGHT,
+	    DIGIT NINE.
+
+2011-02-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) DIGIT ZERO, DIGIT ONE, DIGIT TWO,
+	    DIGIT THREE, DIGIT FOUR, DIGIT FIVE.
+
+2011-02-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) HO NO, HO MO, Clustering Mo,
+	    Clustering Lo.
+
+2011-02-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) Vowel Oy, KO LA (repetition), MAI EK,
+	    MAI THO.
+
+2011-02-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) VOWEL O, VOWEL AY, VOWEL AI.
+
+2011-02-21  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) Subjoined Bo, Subjoined Do, VOWEL E,
+	    VOWEL EI.
+
+2011-02-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) VOWEL U, VOWEL UU, MAI KON,
+	    Subjoined Lo, Subjoined Nyo.
+
+2011-02-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Fix thickness of VOWEL I, VOWEL II, VOWEL Y, VOWEL YY in last
+	    commit.
+
+2011-02-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) VOWEL A, MAI KAN, VOWEL AA, NIGGAHITA,
+	    VOWEL AM, VOWEL I, VOWEL II, VOWEL Y, VOWEL YY.
+
+2011-02-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) HO SUNG, O, HO TAM.
+	  - Replace final stem of THO TAM with the one from HO SUNG.
+
+2011-02-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) Lo Ling, WO, SO SUNG.
+
+2011-02-14  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) BO, PO, PHO SUNG, Fo Sung, PHO TAM,
+	    Fo Tam, MO, Ro Rot.
+	  - Adjust tail for Thai Noi (Lao) NO using stem from BO.
+
+2011-02-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) DO, TO, THO TAM, NO.
+
+2011-02-12  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) NGO, CO, SO TAM, NYO, THO SUNG, YO.
+
+2011-02-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	=== Start editing Thai Noi glyphs. ===
+
+	* fonts/Khottabun.sfd:
+	  - Normalize Thai Noi (Lao) KO, KHO SUNG, KHO TAM.
+
+2011-02-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - MEDIAL RA: shorten the lower stem to prevent overlapping with
+	    other subjoined glyph.
+	  - HIGH TA, HIGH TA + subjoined HIGH THA (uni1A32.uni1A33):
+	    condense glyphs for more proper width.
+	  - subjoined NA: lengthen vertical stem a little bit.
+
+2011-02-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Manage subjoined NA positioning.
+
+	* fonts/Khottabun.sfd:
+	  - Add BelowRight anchor class to 'mark' BelowBase lookup.
+	  - Add BelowRight mark anchor to subjoined NA.
+	  - Add BelowRight base anchor with specific positions to
+	    subjoined LOW YA, DA, NA, VOWEL TALL AA, VOWEL AI MAIMUAN,
+	    VOWEL AI MAIMALAI, NA + VOWEL AA ligature (uni1A36.uni1A63)
+	  - Add BelowRight base anchor with <char-width> - 250 to other
+	    base glyphs.
+
+	Manage subjoined MA positioning.
+
+	* fonts/Khottabun.sfd:
+	  - Add BelowBase mark anchor to subjoind MA and center the glyph.
+	  - Add BelowBase (and also AboveBase) base anchors to subjoined
+	    LOW YA.
+
+2011-02-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Switch VOWEL O back to the ring-hooked version. Redraw it so it's
+	    composed in the same manner as other glyphs.
+
+2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add anchors to VOWEL AA, VOWEL TALL AA, SAKOT.
+	  - Make VOWEL OA BELOW a mark for BelowMark anchor.
+
+2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	According to Wadhana's and Phraya Luang Mahasena's tutorials,
+	subjoined HIGH THA is only reshaped when combined with HIGH TA.
+	Otherwise, it's in scaled form.
+
+	Subjoined HIGH RATHA, however, has only one shape in Phraya Luang
+	Mahasena's. So, just conclude it accordingly for now, and use the
+	reshaped form for both uni1A2E.sub and uni1A5B (CONSONANT SIGN
+	HIGH RATHA OR LOW PA).
+
+	* fonts/Khottabun.sfd:
+	  - Use reshaped form for subjoined HIGH RATHA.
+	  - Add "uni1A32.uni1A33" ligature for "HIGH TA + subjoined HIGH THA".
+
+2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Really add 'mkmk' GPOS lookups (the previous commit didn't).
+	  - Add AboveMark and BelowMark anchors to glyphs.
+
+2011-02-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add 'mark' and 'mkmk' GPOS lookups, with anchor classes
+	    AboveBase, BelowBase, AboveMark, BelowMark.
+	  - Add AboveBase and BelowBase anchors to glyphs, shifting some
+	    glyph positions as needed.
+
+2011-02-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add KAAN, KAANKUU glyphs.
+
+2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add MAI YAMOK glyph.
+	  - Normalize SATKAANKUU.
+	  - Create SATKAAN glyph by copying part from SATKAANKUU.
+
+2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-create subjoined HIGH RATHA using scaled version.
+
+	    According to Wadhana's Pali tutorial, CONSONANT SIGN HIGH RATHA
+	    OR LOW PA (uni1A5B) is used for both HIGH RATHA and HIGH THA if
+	    combined below RATA and HIGH TA, respectively, while the scaled
+	    versions are used when combined below RANA and NA, respectively.
+
+	    The subjoined LOW PA, however, has a slightly different shape.
+	    So, it's not relevant to U+1A5B.
+
+	  - Unreference uni1A5B as required.
+
+2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Recompose independent VOWEL OO using VOWEL O + A.
+	    Left to resolve: Wadhana's reference uses VOWEL EE + A + VOWEL AA.
+	  - Use scaled version for subjoined HIGH THA.
+
+2011-02-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Compose LAE glyph based on LA and UbwManut's glyph.
+	  - Re-shape VOWEL O (uni1A6B) so it's distinguished from contracted
+	    AE vowel.
+	  - Create CONSONANT SIGN BA (uni1A5D) by HIGH PA transformation.
+
+2011-02-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize DIGIT SIX, DIGIT SEVEN, DIGIT EIGHT, DIGIT NINE.
+
+2011-02-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize DIGIT THREE, DIGIT FOUR, DIGIT FIVE.
+
+2011-01-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize DIGIT ZERO, DIGIT ONE, DIGIT TWO.
+
+2011-01-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add glyph for space.
+	  - Correct glyph for subjoined BA.
+
+2011-01-30  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize ligature NAA (uni1A36.uni1A63),
+	    ligature WAA (uni1A45.uni1A64), ligature NYA-NYA (uni1A2C.uni1A2C).
+
+2011-01-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize VOWEL OA ABOVE, MAI KANG, TONE-1, TONE-2.
+
+2011-01-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize FINAL NG, VOWEL E, VOWEL AE, VOWEL OO,
+	    VOWEL AI MAIMUAN, VOWEL AI MAIMALAI.
+
+2011-01-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize VOWEL A, MAI SAT, VOWEL TALL AA, VOWEL I, VOWEL II,
+	    VOWEL UE, VOWEL UEE, VOWEL U, VOWEL UU, VOWEL OY.
+
+2011-01-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize VOWEL AA, independent VOWEL OO, GREAT SA.
+
+2011-01-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize independent VOWEL I, independent VOWEL II,
+	    independent VOWEL U, independent VOWEL UU, independent VOWEL EE.
+
+2011-01-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Use the same shape for subjoined HIGH RATHA and subjoined HIGH THA
+	    for now, until we can find more subtle difference.
+
+2011-01-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Reshape vowel OA BELOW (+ subjoined A) with ending stroke to the
+	    right rather than to the top.
+	  - Reshape subjoined BA, subjoined HIGH PA, subjoined HIGH PHA with
+	    fewer curved steps.
+
+2011-01-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add a right-side stroke to subjoined HIGH SA.
+	  - Redraw subjoined LOW THA to have sharp tips rather than rounded.
+	  - Round splines to int, as they are apparently rewritten with
+	    non-integer values in some previous fontforge version.
+
+2011-01-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Reposition & reshape subjoined NA, subjoined MA.
+	    They should be placed at lower-right of base character.
+	  - Reshape subjoined HIGH CA, subjoined LOW THA, subjoined LOW PA,
+	    after cross-checking with different sources.
+	  - Adjust shape of subjoined HIGH RATHA, for more distinction from
+	    subjoined LOW PA.
+
+2011-01-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize subjoined WA, subjoined HIGH SHA, subjoined HIGH SA,
+	    subjoined HIGH HA, vowel OA BELOW (+ subjoined A).
+
+2011-01-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize MEDIAL RA (+ subjoined RA), MEDIAL LA (+ subjoined LA),
+	    LA TANG LAI.
+
+2011-01-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize subjoined LOW PA, subjoined LOW PHA, subjoined MA,
+	    subjoined LOW YA.
+
+2011-01-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize subjoined BA, subjoined HIGH PA, subjoined HIGH PHA.
+
+2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Correct width of subjoined HIGH CHA.
+	  - Normalize subjoined NA.
+
+2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize subjoined LOW RATHA, subjoined RANA, subjoined HIGH TA,
+	    subjoined HIGH THA, subjoined LOW TA, subjoined LOW THA.
+
+2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-compose following glyphs by composing the glyphs before
+	    expanding strokes: subjoined HIGH KA, subjoined HIGH KHA,
+	    subjoined LOW KA, subjoined NYA, subjoined RATA. (Subjoined
+	    LOW KHA is skipped because the ring hook would overlap with
+	    another stroke otherwise.)
+
+2011-01-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize subjoined HIGH RATHA (uni1A5B & uni1A2E.sub).
+	  - Reverse the glyph referencing between uni1A5B and uni1A2E.sub,
+	    so editable subjoined consonants are placed in the same zone.
+	  - Normalize subjoined DA.
+
+2011-01-14  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust subjoined LOW CA.
+	  - Normalize subjoined LOW CHA, subjoined NYA, subjoined RATA.
+
+2011-01-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize subjoined NGA, subjoined HIGH CA, subjoined HIGH CHA,
+	    subjoined LOW CA.
+
+2011-01-12  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Adjust guidelines for subjoined characters. The height is 2/3 of
+	    normal characters, and the stem width is 80 (8/9 of normal
+	    characters).
+	  - Prepare ring for subjoined characters in the guideline layer.
+	  - Normalize subjoined HIGH KA, subjoined HIGH KHA, subjoined LOW KA,
+	    subjoined LOW KHA.
+
+2011-01-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize LLA, A, LOW HA.
+
+2011-01-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize HIGH HA.
+
+2011-01-10  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize HIGH SSA, HIGH SA.
+
+2011-01-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust LOW YA, HIGH YA, RA, RUE, LA, HIGH SHA.
+
+2011-01-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust LOW PA, LOW FA, LOW PHA, MA.
+
+2011-01-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust NA, BA, HIGH PA, HIGH PHA.
+	  - Re-compose HIGH FA based on HIGH PHA.
+
+2011-01-07  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust RANA, HIGH TA, HIGH THA, LOW TA, LOW THA.
+
+2011-01-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust LOW RATHA.
+
+2011-01-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust NYA, RATA, HIGH RATHA, DA.
+
+2011-01-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust HIGH CHA, LOW CA, LOW SA, LOW CHA.
+
+2011-01-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust NGA, HIGH CA.
+
+2011-01-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Re-adjust HIGH KA, HIGH KHA, LOW KHA.
+	  - Remove tip-cut spline from LOW KA background layer, not needed.
+	  - Ditto for HIGH KA, HIGH KHA, LOW KHA.
+
+2011-01-03  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize WA, HIGH SHA.
+	  - Re-adjust LOW KA (as the base for HIGH SHA).
+
+2011-01-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize HIGH YA, RA, RUE, LA.
+
+2010-12-31  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize MA, LOW YA.
+
+2010-12-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add StdHW, StemSnapH, StdVW, StemSnapV.
+
+2010-12-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize LOW PHA.
+
+2010-12-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Normalize BA, HIGH PA, HIGH PHA, HIGH FA.
+	  - Re-adjust RATA.
+
+2010-12-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Adjust some spline points for LOW CA, LOW SA, LOW RATHA, HIGH TA.
+
+2010-12-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* First created the project.
+
