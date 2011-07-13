@@ -1,5 +1,10 @@
 2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	* fonts/Khottabun.sfd:
+	  - Add 'ccmp' rules for leading vowels reordering.
+
+2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	=== Start GSUB rules editing for logical order support ===
 
 	* fonts/Khottabun.sfd:
