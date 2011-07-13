@@ -1,6 +1,12 @@
 2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Add 'ccmp' rules for complicated NAA (NA + AA) ligature.
+	  - Move NAA and WAA ligatures to a last "'ccmp' Misc ligatures" rule.
+
+2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Add 'ccmp' rules for MEDIAL RA reordering.
 
 2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
