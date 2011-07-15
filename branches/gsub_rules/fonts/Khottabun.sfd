@@ -14,13 +14,14 @@ Descent: 492
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
+NeedsXUIDChange: 1
 XUID: [1021 373 914837695 14756271]
 FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1310733769
+ModificationTime: 1310742241
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -243,7 +244,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65560 8 4
+WinInfo: 6720 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -4374,6 +4375,7 @@ SplineSet
  -518 -411 -434 -432 -339 -432 c 3
  -159 -432 94 -386 206 -364 c 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A69 uni1A63
 EndChar
 
@@ -4860,6 +4862,8 @@ VWidth: 2260
 Flags: W
 HStem: -343 90<217.205 421.373> -114 66<398.453 497.547> 1407 90<589.374 1208.05>
 VStem: 60 90<-179.251 1098.8> 327 66<-218.804 -119.453> 503 66<-217.725 -119.453>
+AnchorPoint: "BelowBase" 329 -365 basechar 0
+AnchorPoint: "AboveBase" 334 1473 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -4908,6 +4912,7 @@ SplineSet
  150 -177 227 -253 329 -253 c 3
  340 -253 351 -252 361 -251 c 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A55 uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A71
@@ -9520,11 +9525,14 @@ VWidth: 4760
 Flags: W
 HStem: -343 90<217.205 421.373> -114 66<398.453 497.547> 1407 90<589.374 1208.05>
 VStem: 60 90<-179.251 1098.8> 327 66<-218.804 -119.453> 503 66<-217.725 -119.453>
+AnchorPoint: "BelowBase" 329 -365 basechar 0
+AnchorPoint: "AboveBase" 334 1473 basechar 0
 LayerCount: 2
 Back
 Refer: 55 6741 N 1 0 0 1 0 0 2
 Fore
 Refer: 55 6741 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0 
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A41.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A71

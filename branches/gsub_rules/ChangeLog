@@ -1,6 +1,11 @@
 2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Add anchors for MEDIAL RA.
+
+2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Compose WAA ligature with WA + AA instead of WA + tall-AA.
 
 2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
