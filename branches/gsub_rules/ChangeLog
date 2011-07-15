@@ -1,6 +1,12 @@
 2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Add glyph for U+1A5C subjoined MA.
+	  - Fix spline joint in TA-THA ligature.
+
+2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Bump font version to 001.001
 
 2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
