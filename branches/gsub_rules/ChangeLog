@@ -1,6 +1,13 @@
 2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Replace special TA-THA ligature with "'ccmp' Context-sensitive
+	    subjoin" rule, which only converts subjoined THA to alternate
+	    form when following TA.
+
+2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Add glyph for U+1A5C subjoined MA.
 	  - Fix spline joint in TA-THA ligature.
 

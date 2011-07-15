@@ -14,14 +14,13 @@ Descent: 492
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 373 914837695 14756271]
 FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1310711316
+ModificationTime: 1310716264
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -43,6 +42,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 5 0 0 "'ccmp' Pali NGA-above stage 1"  {"'ccmp' Pali NGA-above append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Pali NGA-above stage 2"  {"'ccmp' Pali NGA-above remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1"  {"'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2"  {"'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -51,6 +51,7 @@ Lookup: 5 0 0 "'ccmp' RA reorder stage 2"  {"'ccmp' RA reorder remove intermedia
 Lookup: 5 0 0 "'ccmp' NAA ligature stage 1"  {"'ccmp' NAA ligature conversion intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' NAA ligature stage 2"  {"'ccmp' NAA ligature remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Misc ligatures"  {"'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 4 0 0 "Alternate subjoined consonant"  {"Alternate subjoined consonant lookup"  } []
 Lookup: 2 0 0 "NGA-above append intermediate"  {"NGA-above append intermediate lookup"  } []
 Lookup: 4 0 0 "NGA-above remove intermediate"  {"NGA-above remove intermediate lookup"  } []
 Lookup: 2 0 0 "LV E prepend intermediate"  {"LV E prepend intermediate lookup"  } []
@@ -74,6 +75,13 @@ MarkAttachClasses: 6
 "BelowMark" 0 
 "BelowRight" 0 
 DEI: 91125
+ChainSub2: glyph "Context-sensitive subjoin convert"  0 0 0 1
+ String: 15 uni1A60 uni1A33
+ BString: 7 uni1A32
+ FString: 0 
+ 1
+  SeqLookup: 0 "Alternate subjoined consonant" 
+EndFPST
 ContextSub2: class "'ccmp' NAA ligature remove intermediate"  4 1 1 1
   Class: 8 zerojoin
   Class: 551 uni1A55 uni1A56 uni1A57 uni1A5B uni1A5D uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A69 uni1A6A uni1A6B uni1A6C uni1A73 uni1A74 uni1A75 uni1A76 uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub
@@ -14909,102 +14917,81 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni1A32.uni1A33
+StartChar: uni1A33.sub2
 Encoding: 65585 -1 199
-Width: 1421
+Width: 0
 VWidth: 2240
 Flags: W
-HStem: -667 90<455.491 925.38> -325 66<1045.67 1109.84> -149 66<1045.45 1144.55> -20 90<232.47 507.53 1002.24 1141.36> 736 90<232.47 509.419 856.966 1111.13>
-VStem: 0 90<226.331 579.669> 165 90<-405.665 -204.015> 650 90<229.185 580.753> 974 100<70.0037 111.338> 974 66<-253.332 -154.453> 1150 66<-252.488 -154.453> 1233 90<310.345 609.324>
-AnchorPoint: "BelowMark" 969 -667 basemark 0
-AnchorPoint: "AboveBase" 690 883 basechar 0
+HStem: -667 90<-965.509 -495.62> -325 66<-375.332 -311.155> -149 66<-375.547 -276.453>
+VStem: -1256 90<-405.665 -204.015> -447 66<-253.332 -154.453> -271 66<-252.488 -154.453>
+AnchorPoint: "BelowBase" -731 -42 mark 0
+AnchorPoint: "BelowMark" -452 -667 basemark 0
 LayerCount: 2
 Back
 SplineSet
-165 -260 m 3
- 165 -166 264 -136 264 -136 c 1
- 260 -156 255 -221 255 -260 c 3
- 255 -416 392 -577 695 -577 c 3
- 1005 -577 1126 -404 1126 -204 c 1
- 1216 -204 l 1
- 1216 -457 1054 -667 695 -667 c 3
- 316 -667 165 -441 165 -260 c 3
-1040 -204 m 3x3e54
- 1040 -234 1065 -259 1095 -259 c 3
- 1125 -259 1150 -234 1150 -204 c 3
- 1150 -174 1125 -149 1095 -149 c 3
- 1065 -149 1040 -174 1040 -204 c 3x3e54
-1095 -83 m 3
- 1160 -83 1216 -139 1216 -204 c 3
- 1216 -269 1160 -325 1095 -325 c 3
- 1031 -325 974 -268 974 -204 c 3x3e4c
- 974 -139 1030 -83 1095 -83 c 3
-740 403 m 1
- 650 403 l 17
- 650 636 782 826 986 826 c 3
- 1155 826 1323 667 1323 456 c 3
- 1323 286 1158 130 1074 83 c 1
- 1074 75 1077 70 1084 70 c 3
- 1110 70 1170 101 1265 160 c 1
- 1234 91 1119 -19 1030 -20 c 0
- 992 -20 974 -2 974 33 c 3
- 974 70 996 110 1041 152 c 0
- 1127 233 1233 316 1233 456 c 3
- 1233 612 1107 736 986 736 c 3
- 835 736 740 583 740 403 c 1
-90 403 m 3
- 90 219 215 70 370 70 c 3
- 525 70 650 219 650 403 c 3
- 650 587 525 736 370 736 c 3
- 215 736 90 587 90 403 c 3
-0 403 m 3
- 0 636 166 826 370 826 c 3
- 574 826 740 636 740 403 c 3
- 740 170 574 -20 370 -20 c 3
- 166 -20 0 170 0 403 c 3
+-1256 -260 m 3
+ -1256 -166 -1157 -136 -1157 -136 c 1
+ -1161 -156 -1166 -221 -1166 -260 c 3
+ -1166 -416 -1029 -577 -726 -577 c 3
+ -416 -577 -295 -404 -295 -204 c 1
+ -205 -204 l 1
+ -205 -457 -367 -667 -726 -667 c 3
+ -1105 -667 -1256 -441 -1256 -260 c 3
+-381 -204 m 3x3e54
+ -381 -234 -356 -259 -326 -259 c 3
+ -296 -259 -271 -234 -271 -204 c 3
+ -271 -174 -296 -149 -326 -149 c 3
+ -356 -149 -381 -174 -381 -204 c 3x3e54
+-326 -83 m 3
+ -261 -83 -205 -139 -205 -204 c 3
+ -205 -269 -261 -325 -326 -325 c 3
+ -390 -325 -447 -268 -447 -204 c 3x3e4c
+ -447 -139 -391 -83 -326 -83 c 3
+-681 403 m 1
+ -771 403 l 17
+ -771 636 -639 826 -435 826 c 3
+ -266 826 -98 667 -98 456 c 3
+ -98 286 -263 130 -347 83 c 1
+ -347 75 -344 70 -337 70 c 3
+ -311 70 -251 101 -156 160 c 1
+ -187 91 -302 -19 -391 -20 c 0
+ -429 -20 -447 -2 -447 33 c 3
+ -447 70 -425 110 -380 152 c 0
+ -294 233 -188 316 -188 456 c 3
+ -188 612 -314 736 -435 736 c 3
+ -586 736 -681 583 -681 403 c 1
+-1331 403 m 3
+ -1331 219 -1206 70 -1051 70 c 3
+ -896 70 -771 219 -771 403 c 3
+ -771 587 -896 736 -1051 736 c 3
+ -1206 736 -1331 587 -1331 403 c 3
+-1421 403 m 3
+ -1421 636 -1255 826 -1051 826 c 3
+ -847 826 -681 636 -681 403 c 3
+ -681 170 -847 -20 -1051 -20 c 3
+ -1255 -20 -1421 170 -1421 403 c 3
 EndSplineSet
 Fore
 SplineSet
-90 403 m 3xff30
- 90 219 215 70 370 70 c 3
- 525 70 650 219 650 403 c 3
- 650 587 525 736 370 736 c 3
- 215 736 90 587 90 403 c 3xff30
-0 403 m 3
- 0 636 166 826 370 826 c 3
- 507 826 627 741 691 614 c 1
- 745 741 849 826 986 826 c 3
- 1155 826 1323 667 1323 456 c 3
- 1323 286 1158 130 1074 83 c 1xffb0
- 1074 75 1077 70 1084 70 c 3
- 1110 70 1170 101 1265 160 c 1
- 1234 91 1119 -19 1030 -20 c 3
- 992 -20 974 -2 974 33 c 3xff70
- 974 70 996 110 1041 152 c 0
- 1127 233 1233 316 1233 456 c 3
- 1233 612 1107 736 986 736 c 3
- 835 736 740 583 740 403 c 3
- 740 170 574 -20 370 -20 c 3
- 166 -20 0 170 0 403 c 3
-1040 -204 m 3xff70
- 1040 -234 1065 -259 1095 -259 c 3
- 1125 -259 1150 -234 1150 -204 c 3
- 1150 -174 1125 -149 1095 -149 c 3
- 1065 -149 1040 -174 1040 -204 c 3xff70
-1110 -324 m 1
- 1105 -325 1100 -325 1095 -325 c 3
- 1031 -325 974 -268 974 -204 c 3
- 974 -139 1030 -83 1095 -83 c 3
- 1160 -83 1216 -139 1216 -204 c 3
- 1216 -457 1054 -667 695 -667 c 3
- 316 -667 165 -441 165 -260 c 3
- 165 -166 264 -136 264 -136 c 1
- 260 -156 255 -221 255 -260 c 3
- 255 -416 392 -577 695 -577 c 3
- 940 -577 1068 -468 1110 -324 c 1
+-381 -204 m 3
+ -381 -234 -356 -259 -326 -259 c 3
+ -296 -259 -271 -234 -271 -204 c 3
+ -271 -174 -296 -149 -326 -149 c 3
+ -356 -149 -381 -174 -381 -204 c 3
+-311 -324 m 1
+ -316 -325 -321 -325 -326 -325 c 3
+ -390 -325 -447 -268 -447 -204 c 3
+ -447 -139 -391 -83 -326 -83 c 3
+ -261 -83 -205 -139 -205 -204 c 3
+ -205 -457 -367 -667 -726 -667 c 3
+ -1105 -667 -1256 -441 -1256 -260 c 3
+ -1256 -166 -1157 -136 -1157 -136 c 1
+ -1161 -156 -1166 -221 -1166 -260 c 3
+ -1166 -416 -1029 -577 -726 -577 c 3
+ -481 -577 -353 -468 -311 -324 c 1
 EndSplineSet
+Ligature2: "Alternate subjoined consonant lookup" uni1A60 uni1A33
 LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A32 uni1A60 uni1A33
 EndChar
 
 StartChar: zerojoin
