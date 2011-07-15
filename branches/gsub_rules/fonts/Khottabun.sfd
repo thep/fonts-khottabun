@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1310716264
+ModificationTime: 1310733769
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -10109,7 +10109,7 @@ Ligature2: "'ccmp' Misc ligatures lookup" uni1A36 uni1A63
 LCarets2: 1 0 
 EndChar
 
-StartChar: uni1A45.uni1A64
+StartChar: uni1A45.uni1A63
 Encoding: 65583 -1 122
 Width: 1166
 VWidth: 2260
@@ -10198,7 +10198,7 @@ SplineSet
  228 991 203 1016 173 1016 c 3
  143 1016 118 991 118 961 c 3
 EndSplineSet
-Ligature2: "'ccmp' Misc ligatures lookup" uni1A45 uni1A64
+Ligature2: "'ccmp' Misc ligatures lookup" uni1A45 uni1A63
 LCarets2: 1 0 
 EndChar
 

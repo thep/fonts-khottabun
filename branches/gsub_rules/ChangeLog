@@ -1,6 +1,11 @@
 2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Compose WAA ligature with WA + AA instead of WA + tall-AA.
+
+2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Replace special TA-THA ligature with "'ccmp' Context-sensitive
 	    subjoin" rule, which only converts subjoined THA to alternate
 	    form when following TA.
