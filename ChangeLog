@@ -1,6 +1,11 @@
 2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Add AboveMark Mark anchor to MAI KANG. (Sample: ปาปุณิํสุ)
+
+2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Add missing anchor for DOUBLE NYA ligature.
 	  - Fix direction for independent VOWEL UU.
 
