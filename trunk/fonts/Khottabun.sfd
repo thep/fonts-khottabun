@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1310711316
+ModificationTime: 1310808096
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6736 8 4
+WinInfo: 6712 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -4632,12 +4632,12 @@ SplineSet
  389 131 364 156 334 156 c 3
  304 156 279 131 279 101 c 3
 648 -138 m 1
- 546 -162 430 -240 430 -309 c 3
- 430 -375 493 -435 583 -435 c 3
- 643 -435 714 -408 786 -339 c 1
- 738 -362 683 -373 636 -373 c 3
- 571 -373 520 -352 520 -309 c 3xfec0
- 520 -243 567 -198 648 -138 c 1
+ 567 -198 520 -243 520 -309 c 3
+ 520 -352 571 -373 636 -373 c 3
+ 683 -373 738 -362 786 -339 c 1
+ 714 -408 643 -435 583 -435 c 3
+ 493 -435 430 -375 430 -309 c 3xfec0
+ 430 -240 546 -162 648 -138 c 1
 EndSplineSet
 EndChar
 
@@ -9158,6 +9158,7 @@ Flags: W
 HStem: -492 62<401.337 533.787> -324 64<474.244 647.765> -20 90<773.786 1042.42> -20 66<268.661 366.547> 156 66<267.122 366.547> 736 90<218.878 500.845 1004.74 1056>
 VStem: 8 90<177.861 599.252> 196 90<-356.064 -194.782> 372 66<51.453 150.547> 622 90<150.164 596.482> 1183 90<220.842 561.873>
 DStem2: 306 -92 419 -120 0.793911 0.608035<56.3712 392.132>
+AnchorPoint: "BelowRight" 1146 -42 basechar 0
 AnchorPoint: "AboveBase" 667 883 basechar 0
 AnchorPoint: "BelowBase" 879 -42 basechar 0
 LayerCount: 2

@@ -1,3 +1,9 @@
+2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add missing anchor for DOUBLE NYA ligature.
+	  - Fix direction for independent VOWEL UU.
+
 2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
