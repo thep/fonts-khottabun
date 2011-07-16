@@ -1,3 +1,11 @@
+2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Extend MEDIAL RA rules to cover complicated cases like "ดูรา"
+	    and "ปุริโส", where MEDIAL RA must be moved left for more than
+	    one position, and for the latter case, VOWEL I must be pulled
+	    along with it.
+
 2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
