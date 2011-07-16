@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1310808096
+ModificationTime: 1310812182
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -61,7 +61,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6712 8 4
+WinInfo: 6752 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -6004,6 +6004,7 @@ VWidth: 2260
 Flags: W
 HStem: 940 80<-691.825 -534.175> 1162 80<-691.825 -534.175>
 VStem: -783 80<1032.29 1149.71> -523 80<1032.29 1149.71>
+AnchorPoint: "AboveMark" -613 883 mark 0
 AnchorPoint: "AboveMark" -613 1299 basemark 0
 AnchorPoint: "AboveBase" -613 883 mark 0
 LayerCount: 2
