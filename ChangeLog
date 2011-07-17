@@ -1,3 +1,9 @@
+2011-07-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Extend MEDIAL RA rules to cover triple-character cluster.
+	    Sample: สนฺตินฺทริโย
+
 2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
