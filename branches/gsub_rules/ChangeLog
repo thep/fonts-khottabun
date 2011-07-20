@@ -1,3 +1,8 @@
+2011-07-20  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A5C (CONSONANT SIGN MA) to subjoin sets in GSUB rules.
+
 2011-07-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
