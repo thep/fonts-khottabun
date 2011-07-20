@@ -14,14 +14,13 @@ Descent: 492
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Fore"  0
-NeedsXUIDChange: 1
 XUID: [1021 373 914837695 14756271]
 FSType: 8
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1310910589
+ModificationTime: 1311137536
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -146,7 +145,7 @@ ChainSub2: glyph "Context-sensitive subjoin convert"  0 0 0 1
 EndFPST
 ContextSub2: class "'ccmp' NAA ligature remove intermediate"  4 1 1 1
   Class: 8 zerojoin
-  Class: 551 uni1A55 uni1A56 uni1A57 uni1A5B uni1A5D uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A69 uni1A6A uni1A6B uni1A6C uni1A73 uni1A74 uni1A75 uni1A76 uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub
+  Class: 559 uni1A55 uni1A56 uni1A57 uni1A5B uni1A5C uni1A5D uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A69 uni1A6A uni1A6B uni1A6C uni1A73 uni1A74 uni1A75 uni1A76 uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub
   Class: 7 uni1A63
  3 0 0
   ClsList: 1 2 3
@@ -157,7 +156,7 @@ ContextSub2: class "'ccmp' NAA ligature remove intermediate"  4 1 1 1
 EndFPST
 ContextSub2: class "'ccmp' NAA ligature conversion intermediate"  4 1 1 1
   Class: 7 uni1A36
-  Class: 551 uni1A55 uni1A56 uni1A57 uni1A5B uni1A5D uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A69 uni1A6A uni1A6B uni1A6C uni1A73 uni1A74 uni1A75 uni1A76 uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub
+  Class: 559 uni1A55 uni1A56 uni1A57 uni1A5B uni1A5C uni1A5D uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A69 uni1A6A uni1A6B uni1A6C uni1A73 uni1A74 uni1A75 uni1A76 uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub
   Class: 7 uni1A63
  3 0 0
   ClsList: 1 2 3
@@ -223,7 +222,7 @@ ContextSub2: class "'ccmp' RA reorder prepend intermediate"  5 1 1 3
 EndFPST
 ContextSub2: class "'ccmp' LV reorder remove intermediate"  5 1 1 2
   Class: 8 zerojoin
-  Class: 443 uni1A55 uni1A56 uni1A57 uni1A59 uni1A5B uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
+  Class: 451 uni1A55 uni1A56 uni1A57 uni1A59 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
   Class: 39 uni1A6E uni1A6F uni1A70 uni1A71 uni1A72
  3 0 0
@@ -241,7 +240,7 @@ ContextSub2: class "'ccmp' LV reorder remove intermediate"  5 1 1 2
 EndFPST
 ContextSub2: class "'ccmp' LV reorder prepend intermediate"  8 1 1 10
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
-  Class: 443 uni1A55 uni1A56 uni1A57 uni1A59 uni1A5B uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
+  Class: 451 uni1A55 uni1A56 uni1A57 uni1A59 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
   Class: 7 uni1A6E
   Class: 7 uni1A6F
   Class: 7 uni1A70
@@ -339,7 +338,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6704 8 4
+WinInfo: 6728 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -15819,6 +15818,12 @@ SplineSet
  -844 -147 -855 -161 -855 -174 c 3xfbe0
 EndSplineSet
 Validated: 1
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5C uni1A63
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A6E
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A5C uni1A55
 EndChar
 
