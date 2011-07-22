@@ -1,3 +1,9 @@
+2011-07-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A33.sub2 (context-sensitive subjoined HIGH THA)
+	    to subjoin sets in GSUB rules.
+
 2011-07-20  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
