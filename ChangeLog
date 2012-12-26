@@ -1,3 +1,15 @@
+2011-08-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add BelowRight base anchor to all subjoined glyphs.
+	  - Support subjoined WA as reduced UA vowel form under another
+	    subjoined consonant, e.g. "หลวง", by adding BelowMark mark
+	    anchor to WA.
+	  - Also move BelowMark base anchor for subjoined consonants to
+	    center position, for proper alignment of WA below it. With this,
+	    also move vowal OA BelowMark mark anchor to center accordingly.
+	    (No move for U, UU vowels, center position is OK.)
+
 2011-07-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
