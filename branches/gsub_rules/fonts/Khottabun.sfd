@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1365237227
+ModificationTime: 1365238802
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -57,8 +57,8 @@ Lookup: 4 0 0 "ANG-LAN remove intermediate"  {"ANG-LAN remove intermediate looku
 Lookup: 2 0 0 "LV E prepend intermediate"  {"LV E prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV AE prepend intermediate"  {"LV AE prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV O prepend intermediate"  {"LV O prepend intermediate lookup"  } []
-Lookup: 2 0 0 "LV AI MAIMUAN prepend intermediate"  {"LV AI MAIMUAN prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV AI MAIMALAI prepend intermediate"  {"LV AI MAIMALAI prepend intermediate lookup"  } []
+Lookup: 2 0 0 "LV AI MAIMUAN prepend intermediate"  {"LV AI MAIMUAN prepend intermediate lookup"  } []
 Lookup: 4 0 0 "LV remove intermediate"  {"LV remove intermediate for subjoin"  "LV remove intermediate for cons"  } []
 Lookup: 2 0 0 "RA-I prepend intermediate"  {"RA-I prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA-II prepend intermediate"  {"RA-II prepend intermediate lookup"  } []
@@ -284,13 +284,13 @@ ContextSub2: class "'ccmp' LV reorder prepend intermediate"  8 1 1 10
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "LV AI MAIMUAN prepend intermediate" 
+  SeqLookup: 0 "LV AI MAIMALAI prepend intermediate" 
  3 0 0
   ClsList: 1 2 7
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "LV AI MAIMALAI prepend intermediate" 
+  SeqLookup: 0 "LV AI MAIMUAN prepend intermediate" 
  2 0 0
   ClsList: 1 3
   BClsList:
@@ -314,13 +314,13 @@ ContextSub2: class "'ccmp' LV reorder prepend intermediate"  8 1 1 10
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "LV AI MAIMUAN prepend intermediate" 
+  SeqLookup: 0 "LV AI MAIMALAI prepend intermediate" 
  2 0 0
   ClsList: 1 7
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "LV AI MAIMALAI prepend intermediate" 
+  SeqLookup: 0 "LV AI MAIMUAN prepend intermediate" 
   ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  "6"  "7"  
   BClassNames: "0"  
   FClassNames: "0"  
@@ -362,7 +362,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6736 8 4
+WinInfo: 6752 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -531,8 +531,8 @@ Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A20 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A20 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A20 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A20 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A20 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A20 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A20 zerojoin
@@ -625,8 +625,8 @@ Ligature2: "LV remove intermediate for cons" uni1A21 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A21 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A21 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A21 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A21 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A21 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A21 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A21 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A21 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A21 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A21 zerojoin
@@ -714,8 +714,8 @@ Ligature2: "LV remove intermediate for cons" uni1A23 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A23 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A23 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A23 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A23 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A23 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A23 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A23 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A23 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A23 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A23 zerojoin
@@ -872,8 +872,8 @@ Ligature2: "LV remove intermediate for cons" uni1A25 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A25 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A25 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A25 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A25 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A25 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A25 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A25 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A25 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A25 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A25 zerojoin
@@ -928,8 +928,8 @@ Ligature2: "LV remove intermediate for cons" uni1A26 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A26 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A26 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A26 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A26 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A26 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A26 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A26 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A26 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A26 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A26 zerojoin
@@ -994,8 +994,8 @@ Ligature2: "LV remove intermediate for cons" uni1A27 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A27 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A27 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A27 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A27 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A27 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A27 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A27 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A27 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A27 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A27 zerojoin
@@ -1110,8 +1110,8 @@ Ligature2: "LV remove intermediate for cons" uni1A28 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A28 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A28 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A28 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A28 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A28 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A28 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A28 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A28 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A28 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A28 zerojoin
@@ -1214,8 +1214,8 @@ Ligature2: "LV remove intermediate for cons" uni1A29 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A29 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A29 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A29 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A29 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A29 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A29 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A29 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A29 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A29 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A29 zerojoin
@@ -1332,8 +1332,8 @@ Ligature2: "LV remove intermediate for cons" uni1A2A zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2A zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A2A zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A2A zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A2A zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A2A zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2A zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2A zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2A zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2A zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2A zerojoin
@@ -1483,8 +1483,8 @@ Ligature2: "LV remove intermediate for cons" uni1A2B zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2B zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A2B zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A2B zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A2B zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A2B zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2B zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2B zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2B zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2B zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2B zerojoin
@@ -1598,8 +1598,8 @@ Ligature2: "LV remove intermediate for cons" uni1A2C zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2C zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A2C zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A2C zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A2C zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A2C zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2C zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2C zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2C zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2C zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2C zerojoin
@@ -1709,8 +1709,8 @@ Ligature2: "LV remove intermediate for cons" uni1A2D zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2D zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A2D zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A2D zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A2D zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A2D zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2D zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2D zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2D zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2D zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2D zerojoin
@@ -1780,8 +1780,8 @@ Ligature2: "LV remove intermediate for cons" uni1A2E zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2E zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A2E zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A2E zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A2E zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A2E zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2E zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2E zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2E zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2E zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2E zerojoin
@@ -1894,8 +1894,8 @@ Ligature2: "LV remove intermediate for cons" uni1A2F zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2F zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A2F zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A2F zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A2F zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A2F zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2F zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2F zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2F zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2F zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2F zerojoin
@@ -2030,8 +2030,8 @@ Ligature2: "LV remove intermediate for cons" uni1A30 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A30 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A30 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A30 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A30 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A30 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A30 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A30 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A30 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A30 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A30 zerojoin
@@ -2143,8 +2143,8 @@ Ligature2: "LV remove intermediate for cons" uni1A31 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A31 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A31 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A31 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A31 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A31 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A31 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A31 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A31 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A31 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A31 zerojoin
@@ -2229,8 +2229,8 @@ Ligature2: "LV remove intermediate for cons" uni1A32 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A32 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A32 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A32 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A32 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A32 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A32 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A32 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A32 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A32 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A32 zerojoin
@@ -2319,8 +2319,8 @@ Ligature2: "LV remove intermediate for cons" uni1A33 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A33 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A33 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A33 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A33 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A33 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A33 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A33 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A33 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A33 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A33 zerojoin
@@ -2404,8 +2404,8 @@ Ligature2: "LV remove intermediate for cons" uni1A34 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A34 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A34 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A34 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A34 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A34 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A34 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A34 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A34 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A34 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A34 zerojoin
@@ -2464,8 +2464,8 @@ Ligature2: "LV remove intermediate for cons" uni1A35 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A35 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A35 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A35 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A35 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A35 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A35 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A35 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A35 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A35 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A35 zerojoin
@@ -2554,8 +2554,8 @@ Ligature2: "LV remove intermediate for cons" uni1A36 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A36 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A36 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A36 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A36 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A36 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A36 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A36 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A36 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A36 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A36 zerojoin
@@ -2637,8 +2637,8 @@ Ligature2: "LV remove intermediate for cons" uni1A37 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A37 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A37 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A37 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A37 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A37 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A37 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A37 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A37 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A37 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A37 zerojoin
@@ -2728,8 +2728,8 @@ Ligature2: "LV remove intermediate for cons" uni1A38 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A38 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A38 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A38 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A38 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A38 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A38 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A38 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A38 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A38 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A38 zerojoin
@@ -2845,8 +2845,8 @@ Ligature2: "LV remove intermediate for cons" uni1A39 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A39 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A39 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A39 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A39 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A39 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A39 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A39 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A39 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A39 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A39 zerojoin
@@ -2962,8 +2962,8 @@ Ligature2: "LV remove intermediate for cons" uni1A3A zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3A zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A3A zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A3A zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A3A zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A3A zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A3A zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A3A zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3A zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3A zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3A zerojoin
@@ -3066,8 +3066,8 @@ Ligature2: "LV remove intermediate for cons" uni1A3B zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3B zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A3B zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A3B zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A3B zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A3B zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A3B zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A3B zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3B zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3B zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3B zerojoin
@@ -3198,8 +3198,8 @@ Ligature2: "LV remove intermediate for cons" uni1A3C zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3C zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A3C zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A3C zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A3C zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A3C zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A3C zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A3C zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3C zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3C zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3C zerojoin
@@ -3296,8 +3296,8 @@ Ligature2: "LV remove intermediate for cons" uni1A3D zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3D zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A3D zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A3D zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A3D zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A3D zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A3D zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A3D zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3D zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3D zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3D zerojoin
@@ -3422,8 +3422,8 @@ Ligature2: "LV remove intermediate for cons" uni1A3E zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3E zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A3E zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A3E zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A3E zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A3E zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A3E zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A3E zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3E zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3E zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3E zerojoin
@@ -3540,8 +3540,8 @@ Ligature2: "LV remove intermediate for cons" uni1A3F zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A3F zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A3F zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A3F zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A3F zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A3F zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A3F zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A3F zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3F zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3F zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3F zerojoin
@@ -3646,8 +3646,8 @@ Ligature2: "LV remove intermediate for cons" uni1A40 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A40 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A40 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A40 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A40 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A40 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A40 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A40 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A40 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A40 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A40 zerojoin
@@ -3741,8 +3741,8 @@ Ligature2: "LV remove intermediate for cons" uni1A41 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A41 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A41 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A41 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A41 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A41 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A41 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A41 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A41 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A41 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A41 zerojoin
@@ -3850,8 +3850,8 @@ Ligature2: "LV remove intermediate for cons" uni1A43 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A43 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A43 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A43 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A43 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A43 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A43 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A43 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A43 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A43 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A43 zerojoin
@@ -3899,8 +3899,8 @@ Ligature2: "LV remove intermediate for cons" uni1A45 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A45 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A45 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A45 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A45 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A45 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A45 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A45 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A45 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A45 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A45 zerojoin
@@ -4009,8 +4009,8 @@ Ligature2: "LV remove intermediate for cons" uni1A48 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A48 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A48 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A48 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A48 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A48 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A48 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A48 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A48 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A48 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A48 zerojoin
@@ -4108,8 +4108,8 @@ Ligature2: "LV remove intermediate for cons" uni1A49 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A49 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A49 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A49 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A49 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A49 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A49 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A49 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A49 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A49 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A49 zerojoin
@@ -4209,8 +4209,8 @@ Ligature2: "LV remove intermediate for cons" uni1A4A zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A4A zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A4A zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A4A zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A4A zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A4A zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A4A zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A4A zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A4A zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A4A zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A4A zerojoin
@@ -4319,8 +4319,8 @@ Ligature2: "LV remove intermediate for cons" uni1A4B zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A4B zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A4B zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A4B zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A4B zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A4B zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A4B zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A4B zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A4B zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A4B zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A4B zerojoin
@@ -4414,8 +4414,8 @@ Ligature2: "LV remove intermediate for cons" uni1A4C zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A4C zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A4C zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A4C zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A4C zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A4C zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A4C zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A4C zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A4C zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A4C zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A4C zerojoin
@@ -5017,6 +5017,75 @@ EndChar
 
 StartChar: uni1A71
 Encoding: 6769 6769 51
+Width: 407
+VWidth: 2260
+Flags: W
+HStem: -20 66<179.861 279.547> 156 66<179.924 279.547>
+VStem: -207 44<1603.05 1776.92> 68 90<131.884 537.418> 204 90<717.777 1050.3> 285 66<51.453 150.547>
+AnchorPoint: "BelowRight" 230 -42 basechar 0
+LayerCount: 2
+Back
+SplineSet
+175 101 m 3x3e54
+ 175 71 200 46 230 46 c 3
+ 260 46 285 71 285 101 c 3
+ 285 131 260 156 230 156 c 3
+ 200 156 175 131 175 101 c 3x3e54
+230 222 m 3
+ 295 222 351 166 351 101 c 3
+ 351 36 295 -20 230 -20 c 3
+ 166 -20 109 37 109 101 c 3x3e4c
+ 109 166 165 222 230 222 c 3
+221 604 m 0
+ 177 461 158 347 158 282 c 3
+ 158 192 184 70 230 70 c 1
+ 230 -20 l 1
+ 124 -20 68 110 68 282 c 3
+ 68 365 89 477 131 618 c 128
+ 173 759 204 875 204 956 c 3
+ 204 1015 161 1060 96 1099 c 0
+ 2 1156 -60 1204 -91 1244 c 0
+ -163 1339 -207 1494 -207 1689 c 0
+ -207 1748 -199 1777 -184 1777 c 0
+ -177 1777 -166 1755 -163 1732 c 0
+ -153 1665 -126 1498 -104 1427 c 0
+ -83 1360 -29 1284 76 1219 c 0
+ 151 1173 202 1139 226 1113 c 0
+ 265 1069 294 1024 294 956 c 3
+ 294 866 267 756 221 604 c 0
+EndSplineSet
+Fore
+SplineSet
+230 222 m 3xf8
+ 295 222 351 166 351 101 c 3xf4
+ 351 36 295 -20 230 -20 c 3
+ 124 -20 68 110 68 282 c 3
+ 68 365 89 477 131 618 c 0
+ 173 759 204 875 204 956 c 3
+ 204 1015 161 1060 96 1099 c 0
+ 2 1156 -60 1204 -91 1244 c 0
+ -163 1339 -207 1494 -207 1689 c 3
+ -207 1748 -199 1777 -184 1777 c 3
+ -177 1777 -166 1755 -163 1732 c 0
+ -153 1665 -126 1498 -104 1427 c 0
+ -83 1360 -29 1284 76 1219 c 0
+ 151 1173 202 1139 226 1113 c 0
+ 265 1069 294 1024 294 956 c 3
+ 294 866 267 756 221 604 c 0
+ 178 461 158 347 158 282 c 3
+ 158 257 160 228 164 201 c 1
+ 183 214 206 222 230 222 c 3xf8
+175 101 m 3
+ 175 71 200 46 230 46 c 3
+ 260 46 285 71 285 101 c 3
+ 285 131 260 156 230 156 c 3
+ 200 156 175 131 175 101 c 3
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uni1A72
+Encoding: 6770 6770 52
 Width: 458
 VWidth: 2260
 Flags: W
@@ -5082,75 +5151,6 @@ SplineSet
  170 730 128 659 128 616 c 3xf6
  128 495 420 444 420 194 c 3
  420 92 316 -20 199 -20 c 3
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni1A72
-Encoding: 6770 6770 52
-Width: 407
-VWidth: 2260
-Flags: W
-HStem: -20 66<179.861 279.547> 156 66<179.924 279.547>
-VStem: -207 44<1603.05 1776.92> 68 90<131.884 537.418> 204 90<717.777 1050.3> 285 66<51.453 150.547>
-AnchorPoint: "BelowRight" 230 -42 basechar 0
-LayerCount: 2
-Back
-SplineSet
-175 101 m 3x3e54
- 175 71 200 46 230 46 c 3
- 260 46 285 71 285 101 c 3
- 285 131 260 156 230 156 c 3
- 200 156 175 131 175 101 c 3x3e54
-230 222 m 3
- 295 222 351 166 351 101 c 3
- 351 36 295 -20 230 -20 c 3
- 166 -20 109 37 109 101 c 3x3e4c
- 109 166 165 222 230 222 c 3
-221 604 m 0
- 177 461 158 347 158 282 c 3
- 158 192 184 70 230 70 c 1
- 230 -20 l 1
- 124 -20 68 110 68 282 c 3
- 68 365 89 477 131 618 c 128
- 173 759 204 875 204 956 c 3
- 204 1015 161 1060 96 1099 c 0
- 2 1156 -60 1204 -91 1244 c 0
- -163 1339 -207 1494 -207 1689 c 0
- -207 1748 -199 1777 -184 1777 c 0
- -177 1777 -166 1755 -163 1732 c 0
- -153 1665 -126 1498 -104 1427 c 0
- -83 1360 -29 1284 76 1219 c 0
- 151 1173 202 1139 226 1113 c 0
- 265 1069 294 1024 294 956 c 3
- 294 866 267 756 221 604 c 0
-EndSplineSet
-Fore
-SplineSet
-230 222 m 3xf8
- 295 222 351 166 351 101 c 3xf4
- 351 36 295 -20 230 -20 c 3
- 124 -20 68 110 68 282 c 3
- 68 365 89 477 131 618 c 0
- 173 759 204 875 204 956 c 3
- 204 1015 161 1060 96 1099 c 0
- 2 1156 -60 1204 -91 1244 c 0
- -163 1339 -207 1494 -207 1689 c 3
- -207 1748 -199 1777 -184 1777 c 3
- -177 1777 -166 1755 -163 1732 c 0
- -153 1665 -126 1498 -104 1427 c 0
- -83 1360 -29 1284 76 1219 c 0
- 151 1173 202 1139 226 1113 c 0
- 265 1069 294 1024 294 956 c 3
- 294 866 267 756 221 604 c 0
- 178 461 158 347 158 282 c 3
- 158 257 160 228 164 201 c 1
- 183 214 206 222 230 222 c 3xf8
-175 101 m 3
- 175 71 200 46 230 46 c 3
- 260 46 285 71 285 101 c 3
- 285 131 260 156 230 156 c 3
- 200 156 175 131 175 101 c 3
 EndSplineSet
 Validated: 1
 EndChar
@@ -5355,8 +5355,8 @@ Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A54 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A54 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A54 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A54 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A54 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A54 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A54 zerojoin
@@ -6309,8 +6309,8 @@ Ligature2: "LV remove intermediate for cons" uni1A42 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A42 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A42 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A42 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A42 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A42 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A42 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A42 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A42 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A42 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A42 zerojoin
@@ -7557,8 +7557,8 @@ Ligature2: "LV remove intermediate for cons" uni1A46 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A46 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A46 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A46 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A46 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A46 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A46 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A46 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A46 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A46 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A46 zerojoin
@@ -7701,8 +7701,8 @@ Ligature2: "LV remove intermediate for cons" uni1A47 zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A47 zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A47 zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A47 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A47 zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A47 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A47 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A47 zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A47 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A47 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A47 zerojoin
@@ -10960,8 +10960,8 @@ Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A71
 Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A70
 Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A6F
 Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A72 uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A71 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2C.uni1A2C zerojoin
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2C.uni1A2C zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2C.uni1A2C zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2C.uni1A2C zerojoin

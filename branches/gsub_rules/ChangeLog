@@ -1,5 +1,13 @@
 2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Swap Mai Muan and Mai Malai encodings
+
+	* fonts/Khottabun.sfd:
+	  - Swap glyph data for uni1A71 and uni1A72.
+	  - Swap rule names "LV AI MAIMALAI/MAIMUAN prepend intermediate".
+
+2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Handle Mai Ang Lan as MAI KANG LAI and FINAL NGA separately.
 
 	* fonts/Khottabun.sfd:
