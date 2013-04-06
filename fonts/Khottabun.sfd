@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1365238802
+ModificationTime: 1365239926
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -362,7 +362,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6752 8 4
+WinInfo: 65560 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -10162,27 +10162,80 @@ EndChar
 
 StartChar: uni1A43.sub
 Encoding: 65571 -1 111
-Width: 0
-VWidth: 4760
+Width: 289
+VWidth: 2260
 Flags: W
-HStem: -459 60<-902.704 -844.515> -459 80<-499.579 -321.5> -339 60<-903.884 -844.515> -163 80<-919.704 -715.606>
-VStem: -1030 80<-312.856 -195.766> -844 60<-398.485 -339.515> -288 80<-343.203 -203.704>
-AnchorPoint: "BelowRight" -288 -459 basechar 0
-AnchorPoint: "BelowMark" -613 -459 basemark 0
-AnchorPoint: "BelowBase" -613 -42 mark 0
+HStem: -494 80<-165.005 26.377> -494 60<-623.739 -564.515> -374 60<-623.61 -564.515> -163 80<-632.409 -413.407> 749 77<37.1914 141.999>
+VStem: -759 80<-352.057 -208.282> -564 60<-433.485 -374.515> 72 80<-367 640.181>
+AnchorPoint: "BelowRight" 72 -494 basechar 0
+AnchorPoint: "BelowMark" -297 -494 basemark 0
 LayerCount: 2
 Back
-Refer: 56 6742 N 1 0 0 1 0 0 2
+SplineSet
+-624 -404 m 3
+ -624 -421 -611 -434 -594 -434 c 3
+ -577 -434 -564 -421 -564 -404 c 3
+ -564 -387 -577 -374 -594 -374 c 3
+ -611 -374 -624 -387 -624 -404 c 3
+-684 -404 m 3
+ -684 -354 -644 -314 -594 -314 c 3
+ -544 -314 -504 -354 -504 -404 c 3
+ -504 -454 -544 -494 -594 -494 c 3
+ -644 -494 -684 -454 -684 -404 c 3
+152 564 m 10
+ 152 -290 l 2
+ 152 -408 34 -494 -86 -494 c 3
+ -296 -494 -328 -163 -508 -163 c 3
+ -598 -163 -679 -212 -679 -290 c 3
+ -679 -375 -637 -411 -594 -414 c 1
+ -594 -494 l 1
+ -703 -491 -759 -394 -759 -290 c 3
+ -759 -173 -656 -83 -508 -83 c 3
+ -279 -83 -232 -414 -86 -414 c 3
+ -7 -414 72 -359 72 -290 c 10
+ 72 564 l 2
+ 72 591 -2 703 -54 727 c 1
+ -38 792 -7 826 61 826 c 3
+ 129 826 176 766 228 645 c 1
+ 148 722 122 749 37 749 c 1
+ 63 722 152 615 152 564 c 10
+EndSplineSet
 Fore
-Refer: 56 6742 N 1 0 0 1 0 0 2
+SplineSet
+-624 -404 m 3x7f
+ -624 -421 -611 -434 -594 -434 c 3
+ -577 -434 -564 -421 -564 -404 c 3
+ -564 -387 -577 -374 -594 -374 c 3
+ -611 -374 -624 -387 -624 -404 c 3x7f
+-594 -494 m 3
+ -704 -494 -759 -391 -759 -290 c 3
+ -759 -173 -656 -83 -508 -83 c 3
+ -279 -83 -232 -414 -86 -414 c 3
+ -7 -414 72 -359 72 -290 c 2
+ 72 564 l 2
+ 72 591 -2 703 -54 727 c 1
+ -38 792 -7 826 61 826 c 3
+ 129 826 176 766 228 645 c 1
+ 148 722 122 749 37 749 c 1
+ 63 722 152 615 152 564 c 2
+ 152 -290 l 2
+ 152 -408 34 -494 -86 -494 c 3xbf
+ -296 -494 -328 -163 -508 -163 c 3
+ -598 -163 -679 -212 -679 -290 c 3
+ -679 -315 -675 -337 -669 -354 c 1
+ -653 -330 -625 -314 -594 -314 c 3
+ -544 -314 -504 -354 -504 -404 c 3
+ -504 -454 -544 -494 -594 -494 c 3
+EndSplineSet
 LCarets2: 2 0 0 
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A43.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A43.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6F
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A43
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A43.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A43.sub uni1A55
 EndChar
 
 StartChar: uni1A45.sub
