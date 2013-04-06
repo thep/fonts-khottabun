@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1313071035
+ModificationTime: 1365237227
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -40,8 +40,8 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 5 0 0 "'ccmp' Pali NGA-above stage 1"  {"'ccmp' Pali NGA-above append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Pali NGA-above stage 2"  {"'ccmp' Pali NGA-above remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1"  {"'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2"  {"'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1"  {"'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -52,8 +52,8 @@ Lookup: 5 0 0 "'ccmp' NAA ligature stage 1"  {"'ccmp' NAA ligature conversion in
 Lookup: 5 0 0 "'ccmp' NAA ligature stage 2"  {"'ccmp' NAA ligature remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Misc ligatures"  {"'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "Alternate subjoined consonant"  {"Alternate subjoined consonant lookup"  } []
-Lookup: 2 0 0 "NGA-above append intermediate"  {"NGA-above append intermediate lookup"  } []
-Lookup: 4 0 0 "NGA-above remove intermediate"  {"NGA-above remove intermediate lookup"  } []
+Lookup: 2 0 0 "ANG-LAN append intermediate"  {"ANG-LAN append intermediate lookup"  } []
+Lookup: 4 0 0 "ANG-LAN remove intermediate"  {"ANG-LAN remove intermediate lookup"  } []
 Lookup: 2 0 0 "LV E prepend intermediate"  {"LV E prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV AE prepend intermediate"  {"LV AE prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV O prepend intermediate"  {"LV O prepend intermediate lookup"  } []
@@ -153,6 +153,9 @@ ContextSub2: class "'ccmp' NAA ligature remove intermediate"  4 1 1 1
   FClsList:
  1
   SeqLookup: 0 "NAA remove intermediate" 
+  ClassNames: "0"  "1"  "2"  "3"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "'ccmp' NAA ligature conversion intermediate"  4 1 1 1
   Class: 7 uni1A36
@@ -164,6 +167,9 @@ ContextSub2: class "'ccmp' NAA ligature conversion intermediate"  4 1 1 1
   FClsList:
  1
   SeqLookup: 0 "NAA conversion intermediate" 
+  ClassNames: "0"  "1"  "2"  "3"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "'ccmp' RA reorder remove intermediate"  6 1 1 4
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
@@ -195,6 +201,9 @@ ContextSub2: class "'ccmp' RA reorder remove intermediate"  6 1 1 4
   FClsList:
  1
   SeqLookup: 0 "RA remove intermediate" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "'ccmp' RA reorder prepend intermediate"  5 1 1 3
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
@@ -219,10 +228,13 @@ ContextSub2: class "'ccmp' RA reorder prepend intermediate"  5 1 1 3
   FClsList:
  1
   SeqLookup: 0 "RA-deep prepend intermediate" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "'ccmp' LV reorder remove intermediate"  5 1 1 2
   Class: 8 zerojoin
-  Class: 464 uni1A55 uni1A56 uni1A57 uni1A59 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A33.sub2 uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
+  Class: 472 uni1A55 uni1A56 uni1A57 uni1A58 uni1A59 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A33.sub2 uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
   Class: 39 uni1A6E uni1A6F uni1A70 uni1A71 uni1A72
  3 0 0
@@ -237,10 +249,13 @@ ContextSub2: class "'ccmp' LV reorder remove intermediate"  5 1 1 2
   FClsList:
  1
   SeqLookup: 0 "LV remove intermediate" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
 ContextSub2: class "'ccmp' LV reorder prepend intermediate"  8 1 1 10
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
-  Class: 464 uni1A55 uni1A56 uni1A57 uni1A59 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A33.sub2 uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
+  Class: 472 uni1A55 uni1A56 uni1A57 uni1A58 uni1A59 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A33.sub2 uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub
   Class: 7 uni1A6E
   Class: 7 uni1A6F
   Class: 7 uni1A70
@@ -306,9 +321,12 @@ ContextSub2: class "'ccmp' LV reorder prepend intermediate"  8 1 1 10
   FClsList:
  1
   SeqLookup: 0 "LV AI MAIMALAI prepend intermediate" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  "6"  "7"  
+  BClassNames: "0"  
+  FClassNames: "0"  
 EndFPST
-ContextSub2: class "'ccmp' Pali NGA-above remove intermediate"  5 1 1 1
-  Class: 7 uni1A59
+ContextSub2: class "'ccmp' Pali ANG-LAN remove intermediate"  5 1 1 1
+  Class: 7 uni1A58
   Class: 7 uni1A60
   Class: 8 zerojoin
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
@@ -317,10 +335,13 @@ ContextSub2: class "'ccmp' Pali NGA-above remove intermediate"  5 1 1 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "NGA-above remove intermediate" 
+  SeqLookup: 0 "ANG-LAN remove intermediate" 
+  ClassNames: "All_Others"  "1"  "2"  "3"  "4"  
+  BClassNames: "All_Others"  
+  FClassNames: "All_Others"  
 EndFPST
-ContextSub2: class "'ccmp' Pali NGA-above append intermediate"  4 1 1 1
-  Class: 7 uni1A59
+ContextSub2: class "'ccmp' Pali ANG-LAN append intermediate"  4 1 1 1
+  Class: 7 uni1A58
   Class: 7 uni1A60
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
  3 0 0
@@ -328,17 +349,20 @@ ContextSub2: class "'ccmp' Pali NGA-above append intermediate"  4 1 1 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 2 "NGA-above append intermediate" 
+  SeqLookup: 2 "ANG-LAN append intermediate" 
+  ClassNames: "All_Others"  "1"  "2"  "3"  
+  BClassNames: "All_Others"  
+  FClassNames: "All_Others"  
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2010, Theppitak Karoonboonyanan (thep@linux.thai.net),+AAoA-with Reserved Font Name Khottabun.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" 
-GaspTable: 2 8 2 65535 3
+GaspTable: 2 8 2 65535 3 0
 Encoding: Custom
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6712 8 4
+WinInfo: 6736 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -418,7 +442,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65587 203
+BeginChars: 65587 204
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -513,8 +537,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A20 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A20 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A20 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A20
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A20 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A20
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A20 uni1A58
 EndChar
 
 StartChar: uni1A21
@@ -607,8 +631,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A21 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A21 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A21 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A21
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A21 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A21
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A21 uni1A58
 EndChar
 
 StartChar: uni1A23
@@ -696,8 +720,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A23 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A23 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A23 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A23
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A23 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A23
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A23 uni1A58
 EndChar
 
 StartChar: uni1A25
@@ -854,8 +878,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A25 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A25 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A25 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A25
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A25 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A25
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A25 uni1A58
 EndChar
 
 StartChar: uni1A26
@@ -910,8 +934,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A26 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A26 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A26 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A26
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A26 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A26
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A26 uni1A58
 EndChar
 
 StartChar: uni1A27
@@ -976,8 +1000,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A27 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A27 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A27 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A27
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A27 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A27
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A27 uni1A58
 EndChar
 
 StartChar: uni1A28
@@ -1092,8 +1116,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A28 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A28 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A28 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A28
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A28 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A28
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A28 uni1A58
 EndChar
 
 StartChar: uni1A29
@@ -1196,8 +1220,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A29 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A29 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A29 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A29
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A29 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A29
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A29 uni1A58
 EndChar
 
 StartChar: uni1A2A
@@ -1314,8 +1338,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2A zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2A zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2A zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2A
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2A uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2A
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2A uni1A58
 EndChar
 
 StartChar: uni1A2B
@@ -1465,8 +1489,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2B zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2B zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2B zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2B
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2B uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2B
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2B uni1A58
 EndChar
 
 StartChar: uni1A2C
@@ -1580,8 +1604,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2C zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2C zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2C zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2C
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2C uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2C
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2C uni1A58
 EndChar
 
 StartChar: uni1A2D
@@ -1691,8 +1715,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2D zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2D zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2D zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2D
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2D uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2D
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2D uni1A58
 EndChar
 
 StartChar: uni1A2E
@@ -1762,8 +1786,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2E zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2E zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2E zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2E
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2E uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2E
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2E uni1A58
 EndChar
 
 StartChar: uni1A2F
@@ -1876,8 +1900,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2F zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2F zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2F zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2F
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2F uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2F
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2F uni1A58
 EndChar
 
 StartChar: uni1A30
@@ -2012,8 +2036,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A30 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A30 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A30 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A30
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A30 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A30
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A30 uni1A58
 EndChar
 
 StartChar: uni1A31
@@ -2125,8 +2149,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A31 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A31 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A31 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A31
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A31 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A31
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A31 uni1A58
 EndChar
 
 StartChar: uni1A32
@@ -2211,8 +2235,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A32 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A32 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A32 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A32
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A32 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A32
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A32 uni1A58
 EndChar
 
 StartChar: uni1A33
@@ -2301,8 +2325,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A33 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A33 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A33 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A33
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A33 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A33
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A33 uni1A58
 EndChar
 
 StartChar: uni1A34
@@ -2386,8 +2410,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A34 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A34 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A34 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A34
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A34 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A34
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A34 uni1A58
 EndChar
 
 StartChar: uni1A35
@@ -2446,8 +2470,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A35 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A35 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A35 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A35
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A35 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A35
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A35 uni1A58
 EndChar
 
 StartChar: uni1A36
@@ -2536,8 +2560,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A36 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A36 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A36 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A36
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A36 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A36
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A36 uni1A58
 EndChar
 
 StartChar: uni1A37
@@ -2619,8 +2643,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A37 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A37 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A37 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A37
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A37 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A37
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A37 uni1A58
 EndChar
 
 StartChar: uni1A38
@@ -2710,8 +2734,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A38 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A38 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A38 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A38
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A38 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A38
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A38 uni1A58
 EndChar
 
 StartChar: uni1A39
@@ -2827,8 +2851,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A39 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A39 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A39 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A39
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A39 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A39
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A39 uni1A58
 EndChar
 
 StartChar: uni1A3A
@@ -2944,8 +2968,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3A zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3A zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3A zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3A
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3A uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A3A
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A3A uni1A58
 EndChar
 
 StartChar: uni1A3B
@@ -3048,8 +3072,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3B zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3B zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3B zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3B
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3B uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A3B
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A3B uni1A58
 EndChar
 
 StartChar: uni1A3C
@@ -3180,8 +3204,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3C zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3C zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3C zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3C
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3C uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A3C
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A3C uni1A58
 EndChar
 
 StartChar: uni1A3D
@@ -3278,8 +3302,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3D zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3D zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3D zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3D
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3D uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A3D
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A3D uni1A58
 EndChar
 
 StartChar: uni1A3E
@@ -3404,8 +3428,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3E zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3E zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3E zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3E
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3E uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A3E
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A3E uni1A58
 EndChar
 
 StartChar: uni1A3F
@@ -3522,8 +3546,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3F zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3F zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3F zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A3F
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A3F uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A3F
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A3F uni1A58
 EndChar
 
 StartChar: uni1A40
@@ -3628,8 +3652,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A40 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A40 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A40 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A40
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A40 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A40
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A40 uni1A58
 EndChar
 
 StartChar: uni1A41
@@ -3723,8 +3747,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A41 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A41 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A41 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A41
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A41 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A41
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A41 uni1A58
 EndChar
 
 StartChar: uni1A43
@@ -3832,8 +3856,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A43 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A43 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A43 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A43
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A43 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A43
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A43 uni1A58
 EndChar
 
 StartChar: uni1A45
@@ -3881,8 +3905,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A45 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A45 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A45 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A45
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A45 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A45
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A45 uni1A58
 EndChar
 
 StartChar: uni1A48
@@ -3991,8 +4015,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A48 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A48 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A48 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A48
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A48 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A48
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A48 uni1A58
 EndChar
 
 StartChar: uni1A49
@@ -4090,8 +4114,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A49 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A49 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A49 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A49
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A49 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A49
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A49 uni1A58
 EndChar
 
 StartChar: uni1A4A
@@ -4191,8 +4215,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A4A zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A4A zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A4A zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A4A
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A4A uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A4A
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A4A uni1A58
 EndChar
 
 StartChar: uni1A4B
@@ -4301,8 +4325,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A4B zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A4B zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A4B zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A4B
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A4B uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A4B
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A4B uni1A58
 EndChar
 
 StartChar: uni1A4C
@@ -4396,8 +4420,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A4C zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A4C zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A4C zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A4C
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A4C uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A4C
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A4C uni1A58
 EndChar
 
 StartChar: uni1A61
@@ -5337,8 +5361,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A54 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A54 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A54 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A54
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A54 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A54
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A54 uni1A58
 EndChar
 
 StartChar: uni1A55
@@ -6291,8 +6315,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A42 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A42 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A42 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A42
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A42 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A42
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A42 uni1A58
 EndChar
 
 StartChar: uni1A59
@@ -6365,11 +6389,12 @@ SplineSet
  -585 1150 -523 1103 -523 1030 c 3
 EndSplineSet
 Validated: 1
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A6E
+LCarets2: 2 0 0 
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6E
 EndChar
 
 StartChar: uni1A90
@@ -7538,8 +7563,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A46 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A46 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A46 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A46
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A46 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A46
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A46 uni1A58
 EndChar
 
 StartChar: uni1A47
@@ -7682,8 +7707,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A47 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A47 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A47 zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A47
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A47 uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A47
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A47 uni1A58
 EndChar
 
 StartChar: uni1A20.sub
@@ -10941,8 +10966,8 @@ MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2C.uni1A2C zerojo
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2C.uni1A2C zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2C.uni1A2C zerojoin
 LCarets2: 3 0 0 0 
-Ligature2: "NGA-above remove intermediate lookup" uni1A59 uni1A60 zerojoin uni1A2C.uni1A2C
-MultipleSubs2: "NGA-above append intermediate lookup" zerojoin uni1A2C.uni1A2C uni1A59
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2C.uni1A2C
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2C.uni1A2C uni1A58
 LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A2C uni1A60 uni1A2C
 EndChar
@@ -15897,6 +15922,20 @@ SplineSet
  150 -796 227 -872 329 -872 c 3
  340 -872 351 -871 361 -870 c 1
 EndSplineSet
+EndChar
+
+StartChar: uni1A58
+Encoding: 6744 6744 203
+Width: 0
+VWidth: 2260
+Flags: W
+HStem: 940 60<-642.485 -583.515> 1021 80<-380.556 -203.741> 1282 80<-849.846 -644.722>
+VStem: -703 60<1000.51 1059.77> -583 60<1000.51 1059.67>
+AnchorPoint: "AboveBase" -613 883 mark 0
+AnchorPoint: "AboveMark" -613 1419 basemark 0
+LayerCount: 2
+Fore
+Refer: 65 6745 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

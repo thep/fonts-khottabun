@@ -1,3 +1,15 @@
+2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Handle Mai Ang Lan as MAI KANG LAI and FINAL NGA separately.
+
+	* fonts/Khottabun.sfd:
+	  - Add glyph for MAI KANG LAI (U+1A58) with ref to U+1A59.
+	  - Rename rules "Pali NGA-above *" to "ANG-LAN *".
+	  - "Pali ANG-LAN append/remove intermediate": replace uni1A59 with
+	    uni1A58.
+	  - "LV reorder append/remove intermediate": add uni1A58 to the
+	    class uni1A59 belongs to.
+
 2011-08-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
