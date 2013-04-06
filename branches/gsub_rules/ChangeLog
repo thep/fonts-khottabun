@@ -1,5 +1,14 @@
 2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Replace SAKOT + LA with spacing medial form
+
+	* fonts/Khottabun.sfd:
+	  - Replace uni1A43.sub glyph with copy from uni1A57 (LA TANG LAI).
+	  - Add subjoin rule for uni1A60 + uni1A43 -> uni1A43.sub.
+	  - LA TANG LAI is now doubtful for its use in Lao Tham.
+
+2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Swap Mai Muan and Mai Malai encodings
 
 	* fonts/Khottabun.sfd:
