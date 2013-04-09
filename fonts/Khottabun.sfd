@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.002
+Version: 001.003
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1365516533
+ModificationTime: 1365518241
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -362,7 +362,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6776 8 4
+WinInfo: 65560 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -4498,6 +4498,7 @@ SplineSet
  -9 1251 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A62 uni1A63
 EndChar
 
@@ -10815,6 +10816,9 @@ VWidth: 2260
 Flags: W
 HStem: -20 90<294.014 627.986> 736 90<294.014 627.986> 840 66<122.895 222.547> 1016 66<123.381 222.547> 1228 90<140.978 425.678 637.312 907.112>
 VStem: -1 90<1047 1176.45> 34 90<237.908 568.092> 228 66<911.453 1010.55> 798 90<237.908 568.092> 979 90<220.125 1155.08>
+AnchorPoint: "BelowRight" 1024 -42 basechar 0
+AnchorPoint: "BelowBase" 1024 -42 basechar 0
+AnchorPoint: "AboveBase" 529 1314 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -10874,7 +10878,7 @@ SplineSet
  238 1082 294 1026 294 961 c 3
  294 896 238 840 173 840 c 3
  57 840 -1 955 -1 1063 c 3
- -1 1224 116 1317 279 1318 c 0
+ -1 1224 116 1317 279 1318 c 3
  377 1318 460 1278 529 1198 c 1
  592 1265 673 1318 773 1318 c 3
  964 1318 1069 1185 1069 998 c 2
@@ -10897,7 +10901,6 @@ SplineSet
  228 991 203 1016 173 1016 c 3
  143 1016 118 991 118 961 c 3
 EndSplineSet
-Validated: 1
 Ligature2: "'ccmp' Misc ligatures lookup" uni1A45 uni1A63
 LCarets2: 1 0 
 EndChar
