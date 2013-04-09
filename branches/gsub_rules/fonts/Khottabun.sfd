@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1365500265
+ModificationTime: 1365516533
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -362,7 +362,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6800 8 4
+WinInfo: 6776 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -442,7 +442,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65587 205
+BeginChars: 65588 206
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -16279,6 +16279,20 @@ SplineSet
  845 322 789 266 724 266 c 3
  660 266 603 323 603 387 c 3
 EndSplineSet
+EndChar
+
+StartChar: uni1A63.uni1A74
+Encoding: 65587 -1 205
+Width: 683
+VWidth: 2260
+Flags: W
+HStem: -20 85<134.738 290.377> 439 66<76.6678 175.547> 736 90<162.127 432.237> 940 80<-78.825 78.825> 1162 80<-78.825 78.825>
+VStem: -170 80<1032.29 1149.71> 5 66<510.668 607.426> 90 80<1032.29 1149.71> 181 66<510.453 609.499> 523 90<354.989 645.047>
+LayerCount: 2
+Fore
+Refer: 79 6772 N 1 0 0 1 613 0 2
+Refer: 41 6755 N 1 0 0 1 0 0 2
+Ligature2: "'ccmp' Misc ligatures lookup" uni1A63 uni1A74
 EndChar
 EndChars
 EndSplineFont
