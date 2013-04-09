@@ -1,3 +1,12 @@
+2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add DOK MAI glyph.
+
+	* fonts/Khottabun.sfd:
+	  - Add DOK MAI (U+1AA5) glyph, based on shaped found in manuscript
+	    http://sea.lib.niu.edu/fedora/repository/SEAImages:S0135collection/-/Kan%20Sukhwan
+	  - Bump font version to 001.002.
+
 2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Replace SAKOT + LA with spacing medial form
