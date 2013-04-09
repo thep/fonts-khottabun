@@ -1,5 +1,12 @@
 2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Add vowel AM ligature.
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A63.uni1A74 ligature glyph for vowel AM, with GSUB rule.
+
+2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Add DOK MAI glyph.
 
 	* fonts/Khottabun.sfd:
