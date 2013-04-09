@@ -1,5 +1,13 @@
 2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Add anchors to WA + AA ligature.
+
+	* fonts/Khottabun.sfd:
+	  - Add missing base anchors for uni1A45.uni1A63 glyph.
+	  - Bump font version to 001.003.
+
+2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Add vowel AM ligature.
 
 	* fonts/Khottabun.sfd:
