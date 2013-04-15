@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.003
+Version: 001.004
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1365518241
+ModificationTime: 1366003701
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -42,15 +42,16 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1"  {"'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2"  {"'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1"  {"'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2"  {"'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' RA reorder stage 1"  {"'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' RA reorder stage 2"  {"'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' NAA ligature stage 1"  {"'ccmp' NAA ligature conversion intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' NAA ligature stage 2"  {"'ccmp' NAA ligature remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Misc ligatures"  {"'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' NAA ligature stage 1"  {"'ccmp' NAA ligature conversion intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' NAA ligature stage 2"  {"'ccmp' NAA ligature remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 4 0 1 "'ccmp' Misc ligatures"  {"'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 4 8 0 "'pstf' Post Base Ligatures"  {"'pstf' Post Base Ligatures lookup"  } ['pstf' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 4 0 0 "Alternate subjoined consonant"  {"Alternate subjoined consonant lookup"  } []
 Lookup: 2 0 0 "ANG-LAN append intermediate"  {"ANG-LAN append intermediate lookup"  } []
 Lookup: 4 0 0 "ANG-LAN remove intermediate"  {"ANG-LAN remove intermediate lookup"  } []
@@ -448,6 +449,7 @@ StartChar: uni1A20
 Encoding: 6688 6688 0
 Width: 1200
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<348.789 446.547 848 975.494> 156 66<347.529 446.547> 736 90<225.975 472.899 701.745 938.998>
 VStem: -2 90<220.3 574.762> 276 66<91.3619 150.484> 452 66<51.453 150.547> 1051 90<255.608 596.964>
@@ -517,34 +519,34 @@ SplineSet
  367 156 342 131 342 101 c 3
 EndSplineSet
 Validated: 1
-MultipleSubs2: "RA-deep prepend intermediate lookup" uni1A55.deep uni1A20 zerojoin
-MultipleSubs2: "RA-UU prepend intermediate lookup" uni1A55 uni1A6A uni1A20 zerojoin
-MultipleSubs2: "RA-U prepend intermediate lookup" uni1A55 uni1A69 uni1A20 zerojoin
-MultipleSubs2: "RA-UEE prepend intermediate lookup" uni1A55 uni1A68 uni1A20 zerojoin
-MultipleSubs2: "RA-UE prepend intermediate lookup" uni1A55 uni1A67 uni1A20 zerojoin
-MultipleSubs2: "RA-II prepend intermediate lookup" uni1A55 uni1A66 uni1A20 zerojoin
-MultipleSubs2: "RA-I prepend intermediate lookup" uni1A55 uni1A65 uni1A20 zerojoin
-Ligature2: "RA-C remove intermediate lookup" uni1A20 zerojoin uni1A55
-MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A20 zerojoin
-Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A72
-Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A71
-Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A70
-Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A6F
-Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A20 zerojoin
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A20 zerojoin
-MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A20 zerojoin
-MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A20 zerojoin
-MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A20 zerojoin
-LCarets2: 3 0 0 0 
 Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A20
+Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A6E
+Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A6F
+Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A70
+Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A71
+Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A72
+Ligature2: "RA-C remove intermediate lookup" uni1A20 zerojoin uni1A55
 MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A20 uni1A58
+MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A20 zerojoin
+MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A20 zerojoin
+MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A20 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A20 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A20 zerojoin
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A20 zerojoin
+MultipleSubs2: "RA-I prepend intermediate lookup" uni1A55 uni1A65 uni1A20 zerojoin
+MultipleSubs2: "RA-II prepend intermediate lookup" uni1A55 uni1A66 uni1A20 zerojoin
+MultipleSubs2: "RA-UE prepend intermediate lookup" uni1A55 uni1A67 uni1A20 zerojoin
+MultipleSubs2: "RA-UEE prepend intermediate lookup" uni1A55 uni1A68 uni1A20 zerojoin
+MultipleSubs2: "RA-U prepend intermediate lookup" uni1A55 uni1A69 uni1A20 zerojoin
+MultipleSubs2: "RA-UU prepend intermediate lookup" uni1A55 uni1A6A uni1A20 zerojoin
+MultipleSubs2: "RA-deep prepend intermediate lookup" uni1A55.deep uni1A20 zerojoin
 EndChar
 
 StartChar: uni1A21
 Encoding: 6689 6689 1
 Width: 1002
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<198.501 635.727> 294 90<201.969 616.455> 388 66<76.6678 175.547> 736 90<224.622 621.052>
 VStem: 5 66<459.668 556.91> 52 90<121.089 240.07> 181 66<459.453 558.004> 806 90<249.945 566.037>
@@ -639,6 +641,7 @@ StartChar: uni1A23
 Encoding: 6691 6691 2
 Width: 1086
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<324.261 422.547 743 870.578> 156 66<323.529 422.547> 736 90<310.001 710.642>
 VStem: 12 90<183.603 541.305> 252 66<91.3619 150.484> 428 66<51.453 150.547> 918 90<231.372 540.038>
@@ -728,6 +731,7 @@ StartChar: uni1A25
 Encoding: 6693 6693 3
 Width: 1429
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<108.869 240.972 515.739 677.254 985.189 1168.61> 92 90<306.028 450.261> 467 66<52.6678 151.547> 643 66<102 151.011> 656 90<234.334 355.737> 736 90<102.327 211.44 378.783 535.664 773 877.011 1123 1226.75>
 VStem: -19 66<538.668 635.741> 9 90<75.7751 272.904> 157 66<538.453 637.547> 555 90<537.015 719.031> 843 90<295.378 616.167> 1247 90<160.746 559.713>
@@ -886,6 +890,7 @@ StartChar: uni1A26
 Encoding: 6694 6694 4
 Width: 899
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<96.8477 240.692> 79 90<283.651 645.535> 736 90<212.157 580.141>
 VStem: 0 90<76.1875 218.021 434.905 632.659>
@@ -942,6 +947,7 @@ StartChar: uni1A27
 Encoding: 6695 6695 5
 Width: 982
 VWidth: 2249
+GlyphClass: 2
 Flags: W
 HStem: -20 90<274.263 629.836> 736 90<267.73 629.836>
 VStem: 198 90<312.741 436.058> 811 90<245.986 560.014>
@@ -1008,6 +1014,7 @@ StartChar: uni1A28
 Encoding: 6696 6696 6
 Width: 998
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<370.127 663.543> -20 66<114.933 209.525> 146 66<114.933 228.028> 252 66<147.668 247.14> 428 66<147.453 245.287> 602 80<10.635 128.83> 736 90<282.417 635.8>
 VStem: 1 95<616.812 720.199> 45 66<49.9329 142.067> 76 66<323.668 422.547> 251 90<194.696 426.792> 815 90<236.848 557.845>
@@ -1124,6 +1131,7 @@ StartChar: uni1A29
 Encoding: 6697 6697 7
 Width: 949
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<153.176 320.738 535.262 699.481> 66 90<346.262 509.738> 268 66<707.668 805.281> 444 66<707.023 793.557> 736 90<249.676 645.359>
 VStem: 59 90<75.4612 191.162> 186 90<267.439 333.561> 636 66<339.668 438.547> 811 143<285.5 434.022> 934 20<224.208 266.753>
@@ -1228,6 +1236,7 @@ StartChar: uni1A2A
 Encoding: 6698 6698 8
 Width: 1105
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<153.176 320.738 535.262 699.481> 66 90<346.262 509.738> 268 66<707.668 805.281> 444 66<707.023 793.557> 736 90<248.535 645.359> 1361 90<289.566 923.037>
 VStem: 17 90<687 1205.81> 59 90<75.4612 191.162> 186 90<267.439 333.561> 636 66<339.668 438.547> 811 143<285.5 434.022> 934 20<224.208 266.753>
@@ -1346,6 +1355,7 @@ StartChar: uni1A2B
 Encoding: 6699 6699 9
 Width: 1220
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -251 90<675.163 791.408 887.768 1002.05> -20 90<153.176 320.738> 66 90<346.262 509.665> 268 66<707.668 805.281> 444 66<707.023 793.557> 736 90<249.676 645.359> 894 66<813.985 950.703>
 VStem: 59 90<75.4612 191.162> 186 90<267.439 333.561> 584 90<-159.429 -13.7984> 636 66<339.668 438.547> 811 143<285.5 434.022> 934 20<224.208 266.753> 1010 90<-158.566 669.504>
@@ -1497,6 +1507,7 @@ StartChar: uni1A2C
 Encoding: 6700 6700 10
 Width: 1305
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -778 90<307.559 875.649> -20 90<728.017 928.433> 421 66<86.6678 185.547> 736 90<197.877 552.848> 770 56<903.249 1003.08>
 VStem: -2 90<-519.104 -219.608> 15 66<492.668 591.11> 191 66<492.453 591.499> 700 90<226.234 588.266> 1092 90<237.402 552.989>
@@ -1612,6 +1623,7 @@ StartChar: uni1A2D
 Encoding: 6701 6701 11
 Width: 1065
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<130.227 271.11 553.127 742.495> 125 90<364.152 463.218> 584 66<197.988 297.547> 760 66<200.243 297.547 628.941 776.108>
 VStem: 9 90<98.8256 298.018 544.009 688.197> 104 90<340.444 500.209> 303 66<655.453 754.547> 528 100<713.5 769.593> 870 90<199.286 524.69>
@@ -1723,6 +1735,7 @@ StartChar: uni1A2E
 Encoding: 6702 6702 12
 Width: 1073
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -540 90<142.828 668.656> -153 90<151.044 580.687> -20 90<163.361 521.776> 456 90<552.593 704.009> 736 90<227.748 688.76>
 VStem: -11 90<-392.96 -215.461 481.728 626.465> 13 90<126.766 269.597> 596 90<137.293 326.54> 746 90<-376.245 414.408> 895 59<330.7 502.183>
@@ -1794,6 +1807,7 @@ StartChar: uni1A2F
 Encoding: 6703 6703 13
 Width: 962
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<106.223 337.219> 70 90<368.328 656.254> 389 66<81.6678 180.547> 736 90<251.031 628.256>
 VStem: 10 66<460.668 559.274> 16 90<71.2924 144.79> 186 66<460.453 559.486> 661 90<-266.674 61.1558> 741 90<413.401 640.8>
@@ -1908,6 +1922,7 @@ StartChar: uni1A30
 Encoding: 6704 6704 14
 Width: 1299
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<112.597 341.929 843.304 1022.95> 128 90<513.375 746.664> 467 66<67.6678 166.547> 618 90<304.621 415.995> 643 66<121 165.859> 736 90<122.101 235.554 486.368 617.081 956.5 1069.12>
 VStem: -4 66<538.668 637.199> 22 90<73.8192 204.68> 172 66<538.453 637.177> 658 90<472.639 696.969> 1157 90<216.154 543.66>
@@ -2044,6 +2059,7 @@ StartChar: uni1A31
 Encoding: 6705 6705 15
 Width: 1574
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<676.123 901.877> -20 66<280.925 377.547> 156 66<278.692 377.547> 736 90<235.908 551.607 1019.32 1297.11>
 VStem: 4 90<204.372 582.789> 383 66<51.453 150.547> 543 90<115.087 333.559> 658 90<404.58 637.795> 830 90<404.58 644.214> 945 90<115.087 333.559> 1436 90<280.015 587.105>
@@ -2157,6 +2173,7 @@ StartChar: uni1A32
 Encoding: 6706 6706 16
 Width: 1421
 VWidth: 2240
+GlyphClass: 2
 Flags: W
 HStem: -20 90<232.47 507.53 1002.24 1141.36> 736 90<232.47 509.419 856.966 1111.13>
 VStem: 0 90<226.331 579.669> 650 90<229.185 580.753> 974 100<70.0037 111.338> 1233 90<310.345 609.324>
@@ -2243,6 +2260,7 @@ StartChar: uni1A33
 Encoding: 6707 6707 17
 Width: 1020
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<308.38 404.547> 156 66<305.453 404.547> 736 90<218.173 618.011>
 VStem: 3 90<132.656 291.271 450.297 639.749> 234 66<86.1551 150.547> 410 66<51.453 150.547> 819 90<233.55 548.102>
@@ -2333,6 +2351,7 @@ StartChar: uni1A34
 Encoding: 6708 6708 18
 Width: 1025
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<219.317 453.846> 146 66<423.502 476.184> 322 66<422.453 521.547> 736 90<275.253 652.149>
 VStem: -2 90<215.015 562.355> 351 66<217.023 316.547> 527 66<220.279 316.547> 841 90<228.52 553.128>
@@ -2418,6 +2437,7 @@ StartChar: uni1A35
 Encoding: 6709 6709 19
 Width: 1056
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 21G<171 337.5 611.5 726> 135 90<390.945 540.039> 736 90<287.591 679.89>
 VStem: 4 90<247.366 536.997> 40 69<590.756 696.124> 854 90<281.56 582.551>
@@ -2478,6 +2498,7 @@ StartChar: uni1A36
 Encoding: 6710 6710 20
 Width: 1028
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: 74 90<98.2684 718.307> 316 66<658.668 757.908> 492 66<658.453 757.004> 736 90<225.712 732.927>
 VStem: 3 90<133 598.646> 587 66<387.668 486.547> 860 90<455.086 635.618> 1162 32<-539.127 -451.314>
@@ -2568,6 +2589,7 @@ StartChar: uni1A37
 Encoding: 6711 6711 21
 Width: 984
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<239.425 634.864> 760 66<61.453 160.547>
 VStem: -10 66<655.814 754.547> -3 90<203.679 471.358> 166 66<655.745 754.547> 714 119<626.148 816.272> 779 90<211.212 724.742>
@@ -2651,6 +2673,7 @@ StartChar: uni1A38
 Encoding: 6712 6712 22
 Width: 984
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<239.425 634.864> 760 66<61.453 160.547 694.5 783.051>
 VStem: -10 66<655.814 754.547> -3 90<203.679 471.358> 166 66<655.745 754.547> 779 90<211.427 595.696>
@@ -2742,6 +2765,7 @@ StartChar: uni1A39
 Encoding: 6713 6713 23
 Width: 1065
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<134.349 280.44 542.655 746.059> 102 90<352.197 472.457> 563 90<585.955 756.637> 584 66<197.859 297.547> 736 90<585.155 752.864> 760 66<200.259 297.547> 789 20G<869.5 885>
 VStem: 14 90<97.7718 296.149 517.165 678.998> 103 90<322.184 482.977> 303 66<655.453 754.547> 495 90<653.612 734.614> 853 90<186.637 611.302>
@@ -2859,6 +2883,7 @@ StartChar: uni1A3A
 Encoding: 6714 6714 24
 Width: 955
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<119.349 265.44 527.655 703.832> 102 90<337.197 457.457> 584 66<183.076 282.547> 760 66<185.259 282.547> 1152 70<143.463 499.558>
 VStem: -1 90<97.7718 296.149 517.165 678.998> 88 90<322.184 482.977> 288 66<655.453 754.547> 799 90<183.683 738.686>
@@ -2976,6 +3001,7 @@ StartChar: uni1A3B
 Encoding: 6715 6715 25
 Width: 1200
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<210.012 452.202> -20 59<844.5 971.795> 218 66<456.668 535.505> 394 66<456.453 554.632> 736 90<225.975 471.053 709.46 935.298>
 VStem: -2 90<206.451 572.817> 385 66<289.668 388.547> 561 74<235.968 389.893> 1051 90<223.409 596.347>
@@ -3080,6 +3106,7 @@ StartChar: uni1A3C
 Encoding: 6716 6716 26
 Width: 1214
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<204.687 461.812> -20 59<848 971.795> 197 66<457.668 534.394> 373 66<457.453 555.586> 670 90<276.946 399.023 705.363 941.46> 907 66<421.475 640.269>
 VStem: -2 90<197.616 520.611> 208 66<766.78 859.481> 386 66<268.668 367.547 761.94 866.081> 562 73<216.222 369.604> 1051 90<226.692 546.382>
@@ -3212,6 +3239,7 @@ StartChar: uni1A3D
 Encoding: 6717 6717 27
 Width: 1053
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 75<786 872.948> 736 90<351.209 732.211> 760 66<68.453 167.406>
 VStem: -3 66<655.836 754.547> 6 90<188.757 383.684> 902 90<242.723 580.901>
@@ -3310,6 +3338,7 @@ StartChar: uni1A3E
 Encoding: 6718 6718 28
 Width: 999
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<239.425 635.439> 216 66<389.668 488.547> 392 66<389.453 488.439> 760 66<61.453 160.547 694.5 783.051>
 VStem: -10 66<655.814 754.547> -3 90<203.679 471.358> 166 66<655.745 754.547> 318 66<287.668 386.547> 494 66<287.453 356.216> 779 90<378.218 594.033> 913 85<-69.6746 174.819>
@@ -3436,6 +3465,7 @@ StartChar: uni1A3F
 Encoding: 6719 6719 29
 Width: 1375
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<217.324 487.023 794.161 1061.24> 760 66<61.453 160.547 563.5 652.051 1060.5 1149.05>
 VStem: -10 66<655.814 754.547> -3 90<196.825 471.358> 166 66<655.745 754.547> 608 90<228.171 642.943> 1185 90<203.809 564.782>
@@ -3554,6 +3584,7 @@ StartChar: uni1A40
 Encoding: 6720 6720 30
 Width: 987
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<191.832 656.217> 584 66<113.927 213.547> 760 66<114.372 213.547> 1209 70<181.011 536.908>
 VStem: 2 90<153.647 348.428> 6 103<592.557 757.751> 219 66<655.453 754.547> 801 90<223.574 790.922>
@@ -3660,6 +3691,7 @@ StartChar: uni1A41
 Encoding: 6721 6721 31
 Width: 832
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<183.536 546.187> 277 66<89.453 188.547> 622 50<676.457 779.181> 736 90<107.139 477.411>
 VStem: 1 90<603.653 715.168> 18 66<173.987 271.547> 194 66<172.035 271.547> 638 90<149.852 348.295>
@@ -3755,6 +3787,7 @@ StartChar: uni1A43
 Encoding: 6723 6723 32
 Width: 1255
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<668.549 980.196> -20 66<195.255 293.547> 156 66<194.271 293.547> 736 90<236.39 492.351 975.046 1071.24>
 VStem: 16 90<196.624 599.266> 299 66<51.453 150.547> 499 90<142.59 313.4> 568 90<340.783 654.626> 1092 90<187.275 511.607>
@@ -3864,6 +3897,7 @@ StartChar: uni1A45
 Encoding: 6725 6725 33
 Width: 985
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<294.014 627.986> 736 90<294.014 627.986>
 VStem: 34 90<237.908 568.092> 798 90<237.908 568.092>
@@ -3913,6 +3947,7 @@ StartChar: uni1A48
 Encoding: 6728 6728 34
 Width: 977
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<350.318 677.098> -20 66<51.6678 141.398> 156 66<51.453 146.32> 584 66<66.6678 146.559> 760 66<66.453 165.547 645.5 741.458>
 VStem: -20 66<51.6678 150.547> -5 66<655.668 754.547> 147 90<217 588> 171 66<654.917 754.011> 797 90<192.794 541.182>
@@ -4023,6 +4058,7 @@ StartChar: uni1A49
 Encoding: 6729 6729 35
 Width: 1237
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<156.705 475.095 931.348 1024.87> 584 66<96.2444 150.93> 736 90<654.356 957.058> 760 66<94.453 193.547>
 VStem: 6 90<127.518 363.907> 23 66<656.162 754.547> 199 66<655.537 754.547> 478 90<300.746 651.854> 536 90<126.355 408.135> 1058 90<297.19 635.51>
@@ -4122,6 +4158,7 @@ StartChar: uni1A4A
 Encoding: 6730 6730 36
 Width: 965
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<202.381 666.52> 231 66<707.453 806.547> 400 90<170.116 722.214> 608 70<647.718 860.069> 736 90<146.785 453.442>
 VStem: 0 90<154.065 329.708> 47 93<640.508 716.946> 636 66<125.9 225.547> 812 66<128.671 225.547>
@@ -4223,6 +4260,7 @@ StartChar: uni1A4B
 Encoding: 6731 6731 37
 Width: 1053
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<670.668 787.368> 156 66<670.453 776.512> 736 90<351.209 732.433> 760 66<68.453 167.406>
 VStem: -3 66<655.836 754.547> 6 90<188.757 383.684> 599 66<51.6678 150.547> 804 56<-42.2551 -1> 902 90<186.947 561.778>
@@ -4333,6 +4371,7 @@ StartChar: uni1A4C
 Encoding: 6732 6732 38
 Width: 934
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<299.888 605.527> 283 66<204.453 303.547> 497 90<95.0705 531.894> 611 90<526.646 759.782> 736 90<124.226 412.74>
 VStem: 5 90<526 705.271> 133 66<178.662 277.547> 309 66<178.51 277.547> 673 90<136.345 386.969> 930 7<904 1043.64>
@@ -4428,6 +4467,7 @@ StartChar: uni1A61
 Encoding: 6753 6753 39
 Width: 445
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: 23 90<115.197 273.547> 255 90<116.453 274.803> 414 90<115.197 273.547> 646 90<116.453 274.803>
 VStem: 18 90<123.015 245.768 514.015 636.768> 282 90<122.232 244.985 513.232 635.985>
@@ -4475,6 +4515,7 @@ StartChar: uni1A62
 Encoding: 6754 6754 40
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 969 367
 AnchorPoint: "AboveMark" -613 1228 basemark 0
@@ -4498,7 +4539,6 @@ SplineSet
  -9 1251 l 1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A62 uni1A63
 EndChar
 
@@ -4506,6 +4546,7 @@ StartChar: uni1A63
 Encoding: 6755 6755 41
 Width: 683
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 85<134.738 290.377> 439 66<76.6678 175.547> 736 90<162.127 432.237>
 VStem: 5 66<510.668 607.426> 181 66<510.453 609.499> 523 90<354.989 645.047>
@@ -4569,6 +4610,7 @@ StartChar: uni1A65
 Encoding: 6757 6757 42
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-796.662 -602 -558.918 -421.315> 1282 80<-770.068 -456.112>
 VStem: -915 80<1058.5 1221.13> -398 80<1039.5 1226.11>
@@ -4594,21 +4636,21 @@ SplineSet
  -915 1284 -766 1362 -613 1362 c 3
 EndSplineSet
 Validated: 1
-LCarets2: 3 0 0 0 
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A6A
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A69
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A68
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A67
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A66
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A65
-Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A65 uni1A55
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A65 uni1A63
+Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A65 uni1A55
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A65
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A66
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A67
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A68
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A69
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A6A
 EndChar
 
 StartChar: uni1A66
 Encoding: 6758 6758 43
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-797.633 -725 -528.977 -420.186> 1084 80<-529.992 -411> 1282 80<-770.068 -456.025>
 VStem: -915 80<1054.04 1221.13> -610 80<1021.51 1083.45>
@@ -4660,19 +4702,20 @@ SplineSet
  -454 1020 -426 1042 -411 1075 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A6A
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A69
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A68
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A67
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A66
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A65
 Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A66 uni1A55
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A65
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A66
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A67
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A68
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A69
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A66 uni1A55 uni1A6A
 EndChar
 
 StartChar: uni1A67
 Encoding: 6759 6759 44
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-558.918 -421.315> 940 60<-743.994 -685.515> 1060 60<-744.308 -685.515> 1282 80<-770.068 -456.112>
 VStem: -915 80<1058.51 1221.13> -685 60<1000.51 1059.48> -398 80<1039.5 1226.11>
@@ -4729,20 +4772,21 @@ SplineSet
  -625 980 -665 940 -715 940 c 3
 EndSplineSet
 Validated: 1
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A6A
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A69
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A68
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A67
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A66
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A65
-Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A67 uni1A55
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A67 uni1A63
+Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A67 uni1A55
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A65
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A66
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A67
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A68
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A69
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A6A
 EndChar
 
 StartChar: uni1A68
 Encoding: 6760 6760 45
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-528.977 -420.186> 940 60<-743.994 -685.515> 1060 60<-744.23 -685.515> 1084 80<-529.992 -411> 1282 80<-770.068 -456.025>
 VStem: -915 80<1061.37 1221.13> -685 60<1000.51 1059.48> -610 80<1021.51 1083.45>
@@ -4811,20 +4855,21 @@ SplineSet
  -454 1020 -426 1042 -411 1075 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A6A
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A69
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A68
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A67
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A66
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A65
-Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A68 uni1A55
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A68 uni1A63
+Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A68 uni1A55
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A65
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A66
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A67
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A68
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A69
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A6A
 EndChar
 
 StartChar: uni1A69
 Encoding: 6761 6761 46
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -492 60<-518.775 -82.4007>
 VStem: -658 90<-399.938 -168.596>
@@ -4843,21 +4888,21 @@ SplineSet
  -159 -432 94 -386 206 -364 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A6A
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A69
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A68
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A67
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A66
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A65
-Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A69 uni1A55
-LCarets2: 3 0 0 0 
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A69 uni1A63
+Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A69 uni1A55
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A65
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A66
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A67
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A68
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A69
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A6A
 EndChar
 
 StartChar: uni1A6A
 Encoding: 6762 6762 47
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -492 60<-518.775 -82.4007>
 VStem: -658 90<-399.938 -168.596> -497 80<-340.1 -142.812>
@@ -4881,20 +4926,21 @@ SplineSet
  -159 -432 94 -386 206 -364 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A6A
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A69
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A68
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A67
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A66
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A65
-Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A6A uni1A55
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A6A uni1A63
+Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A6A uni1A55
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A65
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A66
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A67
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A68
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A69
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A6A
 EndChar
 
 StartChar: uni1A6E
 Encoding: 6766 6766 48
 Width: 822
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<413.637 507.547> 156 66<408.453 507.547> 736 90<237.757 507.483>
 VStem: 8 90<237.649 589.009> 337 66<86.1551 150.547> 513 66<51.453 150.547>
@@ -4946,6 +4992,7 @@ StartChar: uni1A6F
 Encoding: 6767 6767 49
 Width: 1561
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<413.637 507.547 1178.64 1272.55> 156 66<408.453 507.547 1173.45 1272.55> 736 90<237.757 507.483 1002.76 1272.48>
 VStem: 8 90<237.649 589.009> 337 66<86.1551 150.547> 513 66<51.453 150.547> 773 90<237.649 589.009> 1102 66<86.1551 150.547> 1278 66<51.453 150.547>
@@ -4960,6 +5007,7 @@ StartChar: uni1A70
 Encoding: 6768 6768 50
 Width: 519
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<300.103 397.547> 156 66<299.162 397.547> 1570 90<152.008 565.689>
 VStem: -170 90<979.62 1348.83> 50 90<124.355 353.116> 227 66<96.8163 149.934> 235 90<535.888 670.541> 403 66<51.453 150.547>
@@ -5020,6 +5068,7 @@ StartChar: uni1A71
 Encoding: 6769 6769 51
 Width: 407
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<179.861 279.547> 156 66<179.924 279.547>
 VStem: -207 44<1603.05 1776.92> 68 90<131.884 537.418> 204 90<717.777 1050.3> 285 66<51.453 150.547>
@@ -5089,6 +5138,7 @@ StartChar: uni1A72
 Encoding: 6770 6770 52
 Width: 458
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<149.668 248.209> 156 66<149.453 248.965> 1658 90<106.526 394.278>
 VStem: 38 90<537.512 722.342> 78 66<51.6678 150.547> 330 90<141.469 314.4> 473 90<1215.7 1578.13>
@@ -5160,6 +5210,7 @@ StartChar: uni1A6D
 Encoding: 6765 6765 53
 Width: 369
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -438 90<-421.657 -0.402023> -190 66<-563.547 -464.453> 1245 85<-115.028 239.491> 1426 90<-609.491 -388.857>
 VStem: -635 66<-294.286 -195.453> -459 66<-295.179 -195.453> 137 90<-192.351 949.395>
@@ -5234,6 +5285,7 @@ StartChar: uni1A54
 Encoding: 6740 6740 54
 Width: 1474
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<350.318 676.699 894.556 1161.24> -20 66<51.6678 141.398> 156 66<51.453 146.32> 584 66<66.6678 146.559> 760 66<66.453 165.547 645.5 741.458 1160.5 1249.05>
 VStem: -20 66<51.6678 150.547> -5 66<655.668 754.547> 147 90<217 588> 171 66<654.917 754.011> 797 90<189.237 541.182> 1285 90<203.809 564.782>
@@ -5343,33 +5395,33 @@ SplineSet
  118 222 133 220 147 217 c 1
 EndSplineSet
 Validated: 1
-MultipleSubs2: "RA-UU prepend intermediate lookup" uni1A55 uni1A6A uni1A54 zerojoin
-MultipleSubs2: "RA-U prepend intermediate lookup" uni1A55 uni1A69 uni1A54 zerojoin
-MultipleSubs2: "RA-UEE prepend intermediate lookup" uni1A55 uni1A68 uni1A54 zerojoin
-MultipleSubs2: "RA-UE prepend intermediate lookup" uni1A55 uni1A67 uni1A54 zerojoin
-MultipleSubs2: "RA-II prepend intermediate lookup" uni1A55 uni1A66 uni1A54 zerojoin
-MultipleSubs2: "RA-I prepend intermediate lookup" uni1A55 uni1A65 uni1A54 zerojoin
-Ligature2: "RA-C remove intermediate lookup" uni1A54 zerojoin uni1A55
-MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A54 zerojoin
-Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A72
-Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A71
-Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A70
-Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A6F
-Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A54 zerojoin
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A54 zerojoin
-MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A54 zerojoin
-MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A54 zerojoin
-MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A54 zerojoin
-LCarets2: 3 0 0 0 
 Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A54
+Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A6E
+Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A6F
+Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A70
+Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A71
+Ligature2: "LV remove intermediate for cons" uni1A54 zerojoin uni1A72
+Ligature2: "RA-C remove intermediate lookup" uni1A54 zerojoin uni1A55
 MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A54 uni1A58
+MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A54 zerojoin
+MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A54 zerojoin
+MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A54 zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A54 zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A54 zerojoin
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A54 zerojoin
+MultipleSubs2: "RA-I prepend intermediate lookup" uni1A55 uni1A65 uni1A54 zerojoin
+MultipleSubs2: "RA-II prepend intermediate lookup" uni1A55 uni1A66 uni1A54 zerojoin
+MultipleSubs2: "RA-UE prepend intermediate lookup" uni1A55 uni1A67 uni1A54 zerojoin
+MultipleSubs2: "RA-UEE prepend intermediate lookup" uni1A55 uni1A68 uni1A54 zerojoin
+MultipleSubs2: "RA-U prepend intermediate lookup" uni1A55 uni1A69 uni1A54 zerojoin
+MultipleSubs2: "RA-UU prepend intermediate lookup" uni1A55 uni1A6A uni1A54 zerojoin
 EndChar
 
 StartChar: uni1A55
 Encoding: 6741 6741 55
 Width: 294
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -343 90<217.205 421.373> -114 66<398.453 497.547> 1407 90<589.374 1208.05>
 VStem: 60 90<-179.251 1098.8> 327 66<-218.804 -119.453> 503 66<-217.725 -119.453>
@@ -5424,19 +5476,19 @@ SplineSet
  340 -253 351 -252 361 -251 c 1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A55 uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A55 uni1A63
 EndChar
 
 StartChar: uni1A56
 Encoding: 6742 6742 56
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -459 80<-499.579 -321.5> -459 60<-902.704 -844.515> -339 60<-903.884 -844.515> -163 80<-919.704 -715.606>
 VStem: -1030 80<-312.856 -195.766> -844 60<-398.485 -339.515> -288 80<-343.203 -203.704>
@@ -5497,20 +5549,20 @@ SplineSet
  -824 -279 -784 -319 -784 -369 c 3
  -784 -419 -824 -459 -874 -459 c 3
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A56 uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A56 uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A56 uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A56 uni1A55
 EndChar
 
 StartChar: uni1A53
 Encoding: 6739 6739 57
 Width: 1255
 VWidth: 4760
+GlyphClass: 2
 Flags: W
 HStem: -20 90<668.549 980.196> -20 66<195.255 293.547> 156 66<194.271 293.547> 736 90<236.39 492.351 724.642 1003.62> 827 21G<1214 1236.5> 1355 90<637.579 971.24>
 VStem: 16 90<196.624 599.266> 299 66<51.453 150.547> 446 90<983.694 1262.6> 499 90<142.59 313.4> 568 90<340.783 654.626> 1006 90<669.504 733.495> 1092 90<187.275 510.977> 1233 11<828.92 1089>
@@ -5612,6 +5664,7 @@ StartChar: uni1A4D
 Encoding: 6733 6733 58
 Width: 1131
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -140 66<276.668 375.547> 74 66<406.696 637.269> 117 58<783 894.553> 134 66<276.738 375.547> 310 66<276.746 375.547> 736 90<212.115 453.055 638.945 871.261>
 VStem: 11 90<315.717 611.618> 205 66<-68.3322 29.9455 257 305.083> 381 66<-68.547 30.729 205.453 304.547> 966 90<326.167 624.362>
@@ -5713,6 +5766,7 @@ StartChar: uni1A4E
 Encoding: 6734 6734 59
 Width: 1346
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -251 90<578.584 954.598> -120 66<245.668 344.547> -23 66<496.453 595.547> 94 66<375.696 606.269> 137 58<760 871.553> 154 66<253.738 352.547> 330 66<253.746 352.547> 736 90<189.115 430.055 615.945 848.261> 1294 85<839.972 1194.49> 1475 90<345.509 566.143>
 VStem: -12 90<335.717 617.424> 174 66<-48.3322 49.9455 277 319.925> 350 66<-48.547 50.729 222.726 327.274> 425 66<-126.856 -28.453> 601 66<-127.753 -28.453> 943 90<346.167 625.591> 1092 90<-5.35141 998.395>
@@ -5871,6 +5925,7 @@ StartChar: uni1A50
 Encoding: 6736 6736 60
 Width: 1004
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -535 40<455.541 578.05> -435 62<534.636 696.198> -20 66<286.817 383.547> 156 66<284.208 383.547> 736 90<296.726 623.45>
 VStem: 9 90<193.039 536.93> 250 90<-428.071 -225.382> 389 66<51.453 150.547> 430 90<-361.887 -229.884> 822 90<218.556 536.93>
@@ -5954,6 +6009,7 @@ StartChar: uni1A4F
 Encoding: 6735 6735 61
 Width: 1004
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -535 40<455.541 578.05> -20 66<286.817 383.547> 156 66<284.208 383.547> 736 90<296.726 623.45>
 VStem: 9 90<193.039 536.93> 250 90<-428.071 -225.382> 389 66<51.453 150.547> 822 90<218.556 536.93>
@@ -6024,6 +6080,7 @@ StartChar: uni1A51
 Encoding: 6737 6737 62
 Width: 796
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -498 42<317.756 510.752> -20 90<333.646 497.205> 255 66<248.453 347.547> 736 90<193.804 494.9>
 VStem: -28 90<-131.338 581.824> 177 66<150.195 249.547> 353 66<149.952 249.547> 614 90<216.258 602.844>
@@ -6086,6 +6143,7 @@ StartChar: uni1A52
 Encoding: 6738 6738 63
 Width: 1572
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<300.103 397.547 1189.67 1306.37> 156 66<299.162 397.547 1189.45 1295.51> 736 90<870.209 1251.43> 760 66<587.453 686.406> 1570 90<152.008 565.689>
 VStem: -170 90<979.62 1348.83> 50 90<124.355 353.116> 227 66<96.8163 149.934> 235 90<535.888 670.541> 403 66<51.453 150.547> 516 66<655.836 754.547> 525 90<188.757 383.684> 1118 66<51.6678 150.547> 1323 56<-42.2551 -1> 1421 90<186.947 561.778>
@@ -6191,6 +6249,7 @@ StartChar: uni1A42
 Encoding: 6722 6722 64
 Width: 985
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -548 90<279.701 724.724> -344 90<380.684 477.316> -156 90<381.063 476.946> -20 90<211.754 523.332> 355 66<64.453 163.547> 670 90<464.603 735.698> 736 90<231.43 515.973>
 VStem: -7 66<253.757 349.547> 111 90<-391.803 -209.203> 169 66<250.996 349.547> 290 90<-253.316 -179.497> 478 90<-253.316 -183.556> 650 90<182.164 404.726> 811 90<-372.124 736>
@@ -6324,6 +6383,7 @@ StartChar: uni1A59
 Encoding: 6745 6745 65
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 60<-642.485 -583.515> 1021 80<-380.556 -203.741> 1282 80<-849.846 -644.722>
 VStem: -703 60<1000.51 1059.77> -583 60<1000.51 1059.67>
@@ -6390,18 +6450,18 @@ SplineSet
  -585 1150 -523 1103 -523 1030 c 3
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A72
 EndChar
 
 StartChar: uni1A90
 Encoding: 6800 6800 66
 Width: 958
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<266.172 601.828> 736 90<266.172 601.828>
 VStem: 5 90<237.908 568.092> 773 90<237.908 568.092>
@@ -6439,6 +6499,7 @@ StartChar: uni1A91
 Encoding: 6801 6801 67
 Width: 857
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 63<346.443 413.512> 162 90<165.591 279.723> 453 66<287.449 400.551> 736 90<223.04 541.215>
 VStem: 11 90<320.311 611.618> 208 66<314.95 440.132> 414 66<316.062 440.132> 664 90<278.169 611.618>
@@ -6504,6 +6565,7 @@ StartChar: uni1A92
 Encoding: 6802 6802 68
 Width: 691
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<182.062 293> 288 90<332.969 479.031> 1564 90<224.154 476.709>
 VStem: 15 90<151.249 1432.44> 231 90<128.436 276.031> 491 90<129.116 276.031> 616 87<1217.84 1399.41>
@@ -6565,6 +6627,7 @@ StartChar: uni1A93
 Encoding: 6803 6803 69
 Width: 1064
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<122.5 242.382 440.038 703.304> 188 90<122.5 261.174> 346 66<228.668 302.749> 522 66<228.453 327.547> 820 68<642.552 894.219> 991 90<228.757 392.013>
 VStem: 30 90<72.9874 185.013> 138 90<921.633 989.695> 157 66<417.668 516.547> 333 66<368.976 516.547> 830 90<216.605 539.891>
@@ -6662,6 +6725,7 @@ StartChar: uni1A94
 Encoding: 6804 6804 70
 Width: 1117
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<153.783 424.883 677.249 881.298> 119 73<825.168 883.289> 302 66<825.453 924.547> 1184 67<284.275 644.962>
 VStem: 3 90<131.407 397.196> 754 66<197.193 296.547> 873 86<765.709 1019.61> 930 66<198.563 296.547>
@@ -6742,6 +6806,7 @@ StartChar: uni1A95
 Encoding: 6805 6805 71
 Width: 1117
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<153.783 424.883 677.249 881.298> 119 73<825.168 883.289> 302 66<825.453 924.547> 834 90<699.094 784.664> 1184 67<284.275 644.962>
 VStem: 3 90<131.407 397.196> 609 90<740.136 833.712> 754 66<197.193 296.547> 873 86<840.221 1019.61> 930 66<198.563 296.547>
@@ -6840,6 +6905,7 @@ StartChar: uni1A96
 Encoding: 6806 6806 72
 Width: 955
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<132.037 332.073 483.927 700.436> 253 66<261.075 374.925> 461 66<262.328 374.925> 758 68<561.552 813.219> 929 90<147.757 311.013>
 VStem: 5 90<106.469 375.949> 57 90<859.633 927.695> 183 66<330.348 409.517> 387 66<330.348 449.652> 749 90<119.011 477.891>
@@ -6932,6 +6998,7 @@ StartChar: uni1A97
 Encoding: 6807 6807 73
 Width: 958
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -462 6<812 1017.2> -20 66<74.0749 189.134> 188 66<74.0749 189.004> 736 90<311.497 621.125>
 VStem: -4 66<57.348 176.652> 246 90<199.126 472.573> 674 90<-308.826 319.404> 708 90<36.2128 646.644>
@@ -7006,6 +7073,7 @@ StartChar: uni1A98
 Encoding: 6808 6808 74
 Width: 1200
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -269 90<755.794 844.206> -85 90<756.531 845> -20 66<284.698 395.925> 188 66<282.075 395.925> 477 90<169.819 414.211 549.789 793.814> 758 68<851.552 1103.22> 929 90<437.757 601.013>
 VStem: 0 90<141.085 397.104> 204 66<92.5239 176.652> 347 90<859.633 927.695> 408 66<57.348 176.652> 665 90<-177.527 -86.4649> 845 90<-176.07 -83 31 425.049> 1039 90<85.6929 477.891>
@@ -7123,6 +7191,7 @@ StartChar: uni1A99
 Encoding: 6809 6809 75
 Width: 1270
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<674.497 907.261> -20 66<195.343 309.925> 188 66<195.39 309.925> 644 90<193.229 431.6 736.941 926.969>
 VStem: 4 90<185.924 538.109> 322 66<57.348 176.652> 1015 90<201.487 549.538>
@@ -7195,6 +7264,7 @@ StartChar: uni1A57
 Encoding: 6743 6743 76
 Width: 289
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -494 80<-165.005 26.377> -494 60<-623.739 -564.515> -374 60<-623.61 -564.515> -163 80<-632.409 -413.407> 749 77<37.1914 141.999>
 VStem: -759 80<-352.057 -208.282> -564 60<-433.485 -374.515> 72 80<-367 640.181>
@@ -7258,20 +7328,20 @@ SplineSet
  -544 -314 -504 -354 -504 -404 c 3
  -504 -454 -544 -494 -594 -494 c 3
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A57 uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A57 uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A57 uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A57 uni1A55
 EndChar
 
 StartChar: uni1A64
 Encoding: 6756 6756 77
 Width: 307
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 21G<51.5 111> 1302 90<-247.135 40.5229>
 VStem: 122 90<73.537 1228.37>
@@ -7299,6 +7369,7 @@ StartChar: uni1A5D
 Encoding: 6749 6749 78
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-755.252 -465.234> -147 64<-854.236 -801.918>
 VStem: -919 64<-200.217 -147.918> -914 80<-516.664 -316.113> -801 64<-199.342 -147.764> -393 80<-515.969 -232.524>
@@ -7358,20 +7429,20 @@ SplineSet
  -773 -667 -914 -568 -914 -423 c 3xdc
  -914 -358 -882 -303 -857 -260 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A5D uni1A55
-LCarets2: 2 0 0 
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5D uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5D uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A5D uni1A55
 EndChar
 
 StartChar: uni1A74
 Encoding: 6772 6772 79
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-691.825 -534.175> 1162 80<-691.825 -534.175>
 VStem: -783 80<1032.29 1149.71> -523 80<1032.29 1149.71>
@@ -7392,7 +7463,6 @@ SplineSet
  -443 1008 -519 940 -613 940 c 3
  -707 940 -783 1008 -783 1091 c 3
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A74 uni1A63
 EndChar
 
@@ -7400,6 +7470,7 @@ StartChar: uni1A6B
 Encoding: 6763 6763 80
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 65<-840.621 -741.379> 1187 80<-731.317 -398.153>
 VStem: -917 69<1010.57 1118.8> -734 69<1010.57 1119.6>
@@ -7459,6 +7530,7 @@ StartChar: uni1A46
 Encoding: 6726 6726 81
 Width: 1098
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 66<324.261 422.547 743 870.578> 156 66<323.529 422.547> 736 90<310.001 711.675>
 VStem: 12 90<183.603 541.305> 252 66<91.3619 150.484> 428 66<51.453 150.547> 918 90<231.372 544.963>
@@ -7572,6 +7644,7 @@ StartChar: uni1A47
 Encoding: 6727 6727 82
 Width: 1067
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -20 90<350.318 676.949> -20 66<51.6678 141.398> 161 66<54.0201 146.32 527.668 626.547> 337 66<527.453 626.36> 584 66<66.6678 146.559> 760 66<66.453 165.547 645.5 741.458>
 VStem: -20 66<51.6678 150.547> -5 66<655.668 754.547> 147 90<217 588> 171 66<654.917 754.011> 456 66<232.668 331.547> 632 66<232.453 297.344> 797 90<317.812 541.182>
@@ -7716,6 +7789,7 @@ StartChar: uni1A20.sub
 Encoding: 65536 -1 83
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 89<-481.39 -395.524> -667 64<-764.682 -713.31> -550 64<-765.632 -713.457> -163 80<-861.448 -678.151 -546.3 -372.016>
 VStem: -1015 80<-511.875 -244.205> -713 64<-602.543 -550.764> -313 80<-485.912 -230.426>
@@ -7783,21 +7857,21 @@ SplineSet
  -713 -561 -726 -550 -739 -550 c 3
  -755 -550 -766 -564 -766 -577 c 3
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A20.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A20.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A20
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A20.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A20.sub uni1A55
 EndChar
 
 StartChar: uni1A21.sub
 Encoding: 65537 -1 84
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -666 80<-770.508 -450.705> -457 80<-764.48 -465.098> -394 64<-831.082 -778.764> -162 80<-754.44 -459.561>
 VStem: -896 64<-329.876 -277.311> -864 80<-559.239 -483.346> -778 64<-329.543 -277.783> -362 80<-458.454 -253.25>
@@ -7863,21 +7937,21 @@ SplineSet
  -784 -559 -682 -586 -612 -586 c 3
  -536 -586 -470 -567 -425 -529 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A21.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A21.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A21
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A21.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A21.sub uni1A55
 EndChar
 
 StartChar: uni1A23.sub
 Encoding: 65539 -1 85
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 89<-506.284 -422.898> -667 64<-737.049 -685.31> -550 64<-737.335 -685.457> -163 80<-771.1 -472.187>
 VStem: -962 80<-531.536 -270.321> -685 64<-602.543 -550.764> -358 80<-500.509 -267.636>
@@ -7937,21 +8011,21 @@ SplineSet
  -685 -561 -698 -550 -711 -550 c 3
  -727 -550 -738 -564 -738 -577 c 3
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A23.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A23.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A23
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A23.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A23.sub uni1A55
 EndChar
 
 StartChar: uni1A25.sub
 Encoding: 65541 -1 86
 Width: 287
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -667 80<-823.762 -716.305 -523.04 -371.343 -173.122 13.4269> -593 80<-688.695 -552.96> -352 60<-862.485 -803.515> -217 80<-752.541 -653.346> -163 80<-820.243 -752.541 -654.153 -544.645 -333.606 -330.257 -282 -223.016> 750 94<-25.6064 1.8166>
 VStem: -923 60<-291.485 -232.55> -905 80<-586.07 -457.208> -803 60<-291.485 -232.672> -541 80<-287.91 -164.747> -275 80<-475.366 -220.406> 69 80<-525.758 670.75>
@@ -8081,7 +8155,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A25
 EndChar
 
@@ -8089,6 +8162,7 @@ StartChar: uni1A26.sub
 Encoding: 65542 -1 87
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -459 63<-337.789 -150.661> -448 80<-897.445 -703.57> -263 60<-848.867 -789.515> -143 60<-848.937 -789.515>
 VStem: -1000 80<-344.441 -210.164> -789 60<-202.485 -143.515>
@@ -8160,6 +8234,7 @@ StartChar: uni1A27.sub
 Encoding: 65543 -1 88
 Width: 0
 VWidth: 2249
+GlyphClass: 4
 Flags: W
 HStem: -532 80<-759.155 -475.463> -162 80<-923.542 -820.058>
 VStem: -819 80<-278.655 -163.525> -347 80<-327.856 -108.909>
@@ -8222,6 +8297,7 @@ StartChar: uni1A28.sub
 Encoding: 65544 -1 89
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-694.56 -475.586> -667 64<-842.86 -788.223> -557 64<-842.027 -787.594> -485 60<-825.485 -770.309> -365 60<-825.485 -767.099> -163 80<-770.628 -488.973> -87 19<-705.424 -698.674>
 VStem: -907 64<-602.027 -557.14> -886 60<-424.485 -365.515> -766 76<-500.436 -481 -462.713 -365.212> -394 80<-497.049 -257.03>
@@ -8323,6 +8399,7 @@ StartChar: uni1A29.sub
 Encoding: 65545 -1 90
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-794.59 -677.454 -558.284 -433.919> -610 80<-686.546 -553.716> -475 64<-426.082 -374.549> -358 64<-426.264 -389.044> -163 80<-749.773 -459.526>
 VStem: -875 80<-585.683 -518.381> -491 64<-410.876 -358.842> -374 115<-410.993 -358.194> -288 29<-508.465 -463.346>
@@ -8412,6 +8489,7 @@ StartChar: uni1A2B.sub
 Encoding: 65547 -1 91
 Width: 180
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -821 80<-192.854 -115.979 -66.4337 8.7305> -667 80<-542.59 -425.454> -610 80<-434.546 -301.7> -475 64<-173.543 -122.48> -358 64<-171.815 -137.009> -163 80<-497.191 -207.033> 900 64<-90 6.43823>
 VStem: -623 80<-585.506 -518.944> -273 80<-740.989 -655.072> -238 64<-410.69 -358.842> -122 116<-410.993 -358.194> -35 29<-506.41 -466.744> 11 80<-738.944 766.89>
@@ -8530,21 +8608,21 @@ SplineSet
  -129 -411 -122 -401 -122 -374 c 2
  -122 -362 l 1x9f68
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2B.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2B.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A2B
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2B.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2B.sub uni1A55
 EndChar
 
 StartChar: uni1A2C.sub
 Encoding: 65548 -1 92
 Width: 200
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -891 80<-512.394 -68.1556> -522 80<-184.713 -4.20481> -373 64<-616.082 -564.31> -163 80<-553.49 -290.321> 768 58<-3.43504 84.859>
 VStem: -692 80<-736.861 -610.767 -308.876 -257.835> -564 64<-308.543 -256.613> -224 80<-391.269 -225.815> 37 80<-397.969 685.831>
@@ -8630,21 +8708,21 @@ SplineSet
  37 678 -26 714 -68 714 c 3
  -84 714 -90 713 -102 711 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2C.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2C.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A2C
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2C.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2C.sub uni1A55
 EndChar
 
 StartChar: uni1A2D.sub
 Encoding: 65549 -1 93
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-844.89 -747.981 -561.032 -427.954> -571 80<-688.557 -623.375> -265 64<-791.366 -739.764> -147 64<-790.323 -739.918 -500.202 -389.109>
 VStem: -935 80<-579.023 -437.358 -289.528 -209.05> -872 80<-425.467 -302.544> -739 64<-200.082 -147.764> -361 80<-521.951 -282.688>
@@ -8742,6 +8820,7 @@ StartChar: uni1A2E.sub
 Encoding: 65550 -1 94
 Width: 0
 VWidth: 4760
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-873.392 -371.571> -275 80<-916.475 -610.534> -25 20G<-223 -210>
 VStem: -1051 80<-514.29 -327.092> -290 80<-514.77 -204 -203.997 -63.1362>
@@ -8830,6 +8909,7 @@ StartChar: uni1A2F.sub
 Encoding: 65551 -1 95
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-812.705 -626.938> -607 80<-683.258 -461.841> -395 64<-832.082 -779.764> -163 80<-741.542 -458.507>
 VStem: -897 64<-330.236 -278.8> -893 80<-586.577 -552.803> -779 64<-330.082 -277.213> -463 80<-822.911 -607.235> -409 80<-369.526 -212.421>
@@ -8930,6 +9010,7 @@ StartChar: uni1A30.sub
 Encoding: 65552 -1 96
 Width: 200
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -667 80<-630.667 -463.76 -156.006 -25.6576> -569 80<-399.266 -217.751> -352 60<-668.485 -609.515> -242 80<-512.943 -434.794> -163 80<-621.226 -558.433 -395.022 -302.827> 806 20G<-48.5 -8.5>
 VStem: -729 60<-291.485 -232.835> -711 80<-586.269 -506.787> -609 60<-291.485 -232.191> -287 80<-331.56 -173.139> 45 80<-509.948 664.804>
@@ -9035,21 +9116,21 @@ SplineSet
  -557 -242 -573 -163 -599 -163 c 3xede0
  -609 -163 -616 -166 -623 -173 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A30.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A30.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A30
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A30.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A30.sub uni1A55
 EndChar
 
 StartChar: uni1A31.sub
 Encoding: 65553 -1 97
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-690.843 -534.298> -667 64<-946.718 -894.764> -550 64<-946.648 -894.918> -163 80<-991.901 -762.159 -468.793 -263.889>
 VStem: -1147 80<-518.63 -238.872> -894 64<-602.543 -550.764> -787 80<-570.545 -409.416> -711 80<-384.896 -210.468> -596 80<-384.956 -208.581> -519 80<-569.489 -409.303> -192 80<-473.34 -237.699>
@@ -9149,6 +9230,7 @@ StartChar: uni1A32.sub
 Encoding: 65554 -1 98
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-983.635 -742.572> -163 80<-983.428 -742.819 -502.202 -267.724>
 VStem: -1153 80<-496.161 -253.632> -653 80<-495.484 -252.313> -197 80<-451.305 -233.026>
@@ -9220,6 +9302,7 @@ StartChar: uni1A33.sub
 Encoding: 65555 -1 99
 Width: 0
 VWidth: 4760
+GlyphClass: 4
 Flags: W
 HStem: -667 64<-718.635 -633.31> -550 64<-685.973 -633.457> -163 80<-765.328 -466.532>
 VStem: -904 80<-558.144 -445.821 -346.874 -216.905> -750 64<-573 -550.94> -633 64<-602.543 -550.764> -360 80<-500.551 -268.636>
@@ -9309,6 +9392,7 @@ StartChar: uni1A34.sub
 Encoding: 65556 -1 100
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-792.782 -629.862> -439 64<-639.876 -587.918> -163 80<-761.54 -481.199>
 VStem: -940 80<-514.103 -256.937> -704 64<-492.977 -439.918> -587 64<-492.194 -439.764> -378 80<-509.938 -263.409>
@@ -9380,6 +9464,7 @@ StartChar: uni1A35.sub
 Encoding: 65557 -1 101
 Width: 0
 VWidth: 4760
+GlyphClass: 4
 Flags: W
 HStem: -532 462
 VStem: -922 80<-377.829 -190.404> -384 80<-378.341 -188.828>
@@ -9451,6 +9536,7 @@ StartChar: uni1A36.sub
 Encoding: 65558 -1 102
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -437 80<-412.482 -292.951> -247 80<-412.827 -290 -210 16.3262>
 VStem: -496 80<-352.221 -252.459> -290 80<-350.197 -250 -167 -42>
@@ -9503,6 +9589,7 @@ StartChar: uni1A37.sub
 Encoding: 65559 -1 103
 Width: 350
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -492 80<-513.44 -298.25 -116.354 96.1467> -373 60<-452.948 -393.515> -253 60<-452.334 -393.515> 765 61<118.043 186.719>
 VStem: -602 80<-400.816 -307> -393 60<-312.485 -253.515> 139 80<-367.125 671.588>
@@ -9603,21 +9690,21 @@ SplineSet
  -333 -333 -373 -373 -423 -373 c 3
  -465 -373 -500 -345 -510 -306 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A37.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A37.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A37
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A37.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A37.sub uni1A55
 EndChar
 
 StartChar: uni1A38.sub
 Encoding: 65560 -1 104
 Width: 350
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -492 80<-513.44 -298.25 -116.354 96.1467> -373 60<-452.948 -393.515> -253 60<-452.334 -393.515> 765 61<118.043 186.719>
 VStem: -602 80<-400.816 -307> -393 60<-312.485 -253.515> 139 80<-367.125 671.588>
@@ -9701,21 +9788,21 @@ SplineSet
  -333 -333 -373 -373 -423 -373 c 3
  -465 -373 -500 -345 -510 -306 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A38.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A38.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A38
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A38.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A38.sub uni1A55
 EndChar
 
 StartChar: uni1A39.sub
 Encoding: 65561 -1 105
 Width: 350
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -492 80<-513.44 -298.25 -116.354 96.1467> -373 60<-452.948 -393.515> -253 60<-452.334 -393.515> 610 80<58.6489 134.352> 746 80<58.6489 132.377>
 VStem: -602 80<-400.816 -307> -393 60<-312.485 -253.515> -22 80<690.45 745.55> 139 80<-367.125 614>
@@ -9828,21 +9915,21 @@ SplineSet
  58 703 72 690 90 690 c 3
  103 690 118 692 135 696 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A39.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A39.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A39
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A39.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A39.sub uni1A55
 EndChar
 
 StartChar: uni1A3B.sub
 Encoding: 65563 -1 106
 Width: 0
 VWidth: 4760
+GlyphClass: 4
 Flags: W
 HStem: -668 80<-896.595 -392.914> -338 80<-899.147 -290 -210 -107.697>
 VStem: -1046 80<-527.167 -389.737> -290 80<-506.817 -338 -258 -83>
@@ -9926,6 +10013,7 @@ StartChar: uni1A3D.sub
 Encoding: 65565 -1 107
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 72<-670.14 -664.034 -465.357 -458.562> -163 80<-702.417 -417.629> -147 64<-890.236 -838.033>
 VStem: -955 64<-200.787 -147.918> -949 80<-525.622 -390.679> -332 80<-493.865 -246.186>
@@ -10009,6 +10097,7 @@ StartChar: uni1A3E.sub
 Encoding: 65566 -1 108
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-839.524 -285.202> -438 80<-445.711 -359.812> -214 80<-850.432 -533>
 VStem: -1073 80<-477.22 -321.819> -533 80<-353.375 -230 -139 -83> -357 80<-357.67 -247.131>
@@ -10066,6 +10155,7 @@ StartChar: uni1A3F.sub
 Encoding: 65567 -1 109
 Width: 323
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -431 80<-227.843 28.7966> -143 60<-330.485 -271.515> 806 20G<109 134.5>
 VStem: -391 60<-200.156 -143.515> -271 60<-202.407 -143.515> 118 80<-262.922 659.974>
@@ -10125,21 +10215,21 @@ SplineSet
  -251 -83 -211 -123 -211 -173 c 3
  -211 -216 -241 -252 -282 -261 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A3F.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A3F.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A3F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A3F.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A3F.sub uni1A55
 EndChar
 
 StartChar: uni1A41.sub
 Encoding: 65569 -1 110
 Width: 620
 VWidth: 4760
+GlyphClass: 2
 Flags: W
 HStem: -343 90<217.205 421.373> -114 66<398.453 497.547> 1407 90<589.374 1208.05>
 VStem: 60 90<-179.251 1098.8> 327 66<-218.804 -119.453> 503 66<-217.725 -119.453>
@@ -10151,20 +10241,20 @@ Refer: 55 6741 N 1 0 0 1 0 0 2
 Fore
 Refer: 55 6741 N 1 0 0 1 0 0 2
 Validated: 1
-LCarets2: 2 0 0 
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A41.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A41.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A41.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A41.sub uni1A55
 EndChar
 
 StartChar: uni1A43.sub
 Encoding: 65571 -1 111
 Width: 289
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -494 80<-165.005 26.377> -494 60<-623.739 -564.515> -374 60<-623.61 -564.515> -163 80<-632.409 -413.407> 749 77<37.1914 141.999>
 VStem: -759 80<-352.057 -208.282> -564 60<-433.485 -374.515> 72 80<-367 640.181>
@@ -10228,21 +10318,21 @@ SplineSet
  -544 -314 -504 -354 -504 -404 c 3
  -504 -454 -544 -494 -594 -494 c 3
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A43
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A43.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A43.sub uni1A55
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A43.sub uni1A63
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A43
 EndChar
 
 StartChar: uni1A45.sub
 Encoding: 65573 -1 112
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-735.784 -490.679> -163 80<-735.578 -490.472>
 VStem: -908 80<-494.284 -253.417> -399 80<-496.583 -253.624>
@@ -10279,6 +10369,7 @@ StartChar: uni1A46.sub
 Encoding: 65574 -1 113
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 89<-499.284 -415.898> -667 64<-730.049 -678.31> -550 64<-730.335 -678.457> -163 80<-764.1 -477.265>
 VStem: -955 80<-531.536 -270.321> -678 64<-602.543 -550.764> -351 80<-500.509 -268.213>
@@ -10377,6 +10468,7 @@ StartChar: uni1A48.sub
 Encoding: 65576 -1 114
 Width: 196
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -667 80<-257.697 -15.6191> -667 64<-436.082 -389.771> -550 64<-435.479 -389.466> -379 64<-101.082 -48.7643> -265 64<-426.082 -389.177 -101.236 -48.5441> -147 64<-426.236 -373.918> 806 20G<4 35.5>
 VStem: -501 64<-602.876 -550.918 -199.922 -148.154> -389 80<-487 -264> -373 64<-200.99 -148.521> -166 64<-314.236 -261.918> -48 64<-314.8 -287.254> 44 80<-523.998 -334 -213 660.148>
@@ -10486,21 +10578,21 @@ SplineSet
  44 561 l 2
  44 610 -20 705 -75 780 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A48.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A48.sub uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A48
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A48.sub uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A48.sub uni1A55
 EndChar
 
 StartChar: uni1A49.sub
 Encoding: 65577 -1 115
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-902.752 -672.572 -361 -291.745> -163 80<-571.046 -351.858> -147 64<-927.876 -875.918>
 VStem: -1004 80<-562.266 -389.979 -200.335 -147.918> -875 64<-197.943 -147.764> -689 80<-497.085 -200.052> -650 80<-561.516 -307.814> -302 80<-458.386 -211.704>
@@ -10585,6 +10677,7 @@ StartChar: uni1A4B.sub
 Encoding: 65579 -1 116
 Width: 0
 VWidth: 4760
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-790.82 -425.733> -414 80<-536.34 -329.11> -276 80<-536.831 -328.117>
 VStem: -992 80<-485.839 -268.913> -288 80<-484.954 -387.644>
@@ -10606,6 +10699,7 @@ StartChar: uni1A75
 Encoding: 6773 6773 117
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 1476 320<-635 -591>
 VStem: -635 44<1476 1639.84>
@@ -10628,6 +10722,7 @@ StartChar: uni1A76
 Encoding: 6774 6774 118
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 1635 80<-882.642 -744.493>
 VStem: -744 90<1611 1632.97>
@@ -10660,6 +10755,7 @@ StartChar: uni1A7F
 Encoding: 6783 6783 119
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -312 180<-847.039 -692.961 -533.039 -378.961>
 VStem: -860 180<-299.039 -144.961> -546 180<-299.039 -144.961>
@@ -10708,6 +10804,7 @@ StartChar: uni1A60
 Encoding: 6752 6752 120
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -258 80<-324 -243 -163 -81>
 VStem: -243 80<-340 -258 -178 -96>
@@ -10736,6 +10833,7 @@ StartChar: uni1A36.uni1A63
 Encoding: 65582 -1 121
 Width: 1028
 VWidth: 2260
+GlyphClass: 3
 Flags: W
 HStem: 74 90<98.2684 718.307> 316 66<658.668 757.908> 492 66<658.453 757.004> 736 90<162.342 345.694 602.306 790.056>
 VStem: 3 90<133 651.436> 587 66<387.668 486.547> 860 90<455.086 659.51> 1162 32<-539.127 -451.314>
@@ -10806,13 +10904,14 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Misc ligatures lookup" uni1A36 uni1A63
-LCarets2: 1 0 
+Ligature2: "'pstf' Post Base Ligatures lookup" uni1A36 uni1A63
 EndChar
 
 StartChar: uni1A45.uni1A63
 Encoding: 65583 -1 122
 Width: 1166
 VWidth: 2260
+GlyphClass: 3
 Flags: W
 HStem: -20 90<294.014 627.986> 736 90<294.014 627.986> 840 66<122.895 222.547> 1016 66<123.381 222.547> 1228 90<140.978 425.678 637.312 907.112>
 VStem: -1 90<1047 1176.45> 34 90<237.908 568.092> 228 66<911.453 1010.55> 798 90<237.908 568.092> 979 90<220.125 1155.08>
@@ -10902,13 +11001,14 @@ SplineSet
  143 1016 118 991 118 961 c 3
 EndSplineSet
 Ligature2: "'ccmp' Misc ligatures lookup" uni1A45 uni1A63
-LCarets2: 1 0 
+Ligature2: "'pstf' Post Base Ligatures lookup" uni1A45 uni1A63
 EndChar
 
 StartChar: uni1A2C.uni1A2C
 Encoding: 65584 -1 123
 Width: 1369
 VWidth: 2260
+GlyphClass: 3
 Flags: W
 HStem: -492 62<401.337 533.787> -324 64<474.244 647.765> -20 90<773.786 1042.42> -20 66<268.661 366.547> 156 66<267.122 366.547> 736 90<218.878 500.845 1004.74 1056>
 VStem: 8 90<177.861 599.252> 196 90<-356.064 -194.782> 372 66<51.453 150.547> 622 90<150.164 596.482> 1183 90<220.842 561.873>
@@ -11003,35 +11103,34 @@ SplineSet
  287 156 262 131 262 101 c 3
 EndSplineSet
 Validated: 1
-MultipleSubs2: "RA-UU prepend intermediate lookup" uni1A55 uni1A6A uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "RA-U prepend intermediate lookup" uni1A55 uni1A69 uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "RA-UEE prepend intermediate lookup" uni1A55 uni1A68 uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "RA-UE prepend intermediate lookup" uni1A55 uni1A67 uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "RA-II prepend intermediate lookup" uni1A55 uni1A66 uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "RA-I prepend intermediate lookup" uni1A55 uni1A65 uni1A2C.uni1A2C zerojoin
-Ligature2: "RA-C remove intermediate lookup" uni1A2C.uni1A2C zerojoin uni1A55
-MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A2C.uni1A2C zerojoin
-Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A72
-Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A71
-Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A70
-Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A6F
-Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A6E
-MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2C.uni1A2C zerojoin
-MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2C.uni1A2C zerojoin
-LCarets2: 3 0 0 0 
-Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2C.uni1A2C
-MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2C.uni1A2C uni1A58
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A2C uni1A60 uni1A2C
+Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 uni1A60 zerojoin uni1A2C.uni1A2C
+Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A6E
+Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A6F
+Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A70
+Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A71
+Ligature2: "LV remove intermediate for cons" uni1A2C.uni1A2C zerojoin uni1A72
+Ligature2: "RA-C remove intermediate lookup" uni1A2C.uni1A2C zerojoin uni1A55
+MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A2C.uni1A2C uni1A58
+MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "LV AI MAIMUAN prepend intermediate lookup" uni1A72 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "RA-I prepend intermediate lookup" uni1A55 uni1A65 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "RA-II prepend intermediate lookup" uni1A55 uni1A66 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "RA-UE prepend intermediate lookup" uni1A55 uni1A67 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "RA-UEE prepend intermediate lookup" uni1A55 uni1A68 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "RA-U prepend intermediate lookup" uni1A55 uni1A69 uni1A2C.uni1A2C zerojoin
+MultipleSubs2: "RA-UU prepend intermediate lookup" uni1A55 uni1A6A uni1A2C.uni1A2C zerojoin
 EndChar
 
 StartChar: uni1A5B
 Encoding: 6747 6747 124
 Width: 0
 VWidth: 4760
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-873.392 -371.571> -275 80<-916.475 -610.534> -25 20G<-223 -210>
 VStem: -1051 80<-514.29 -327.092> -290 80<-514.77 -204 -203.997 -63.1362>
@@ -11055,20 +11154,20 @@ SplineSet
  -971 -545 -807 -587 -635 -587 c 3
  -392 -587 -290 -544 -290 -399 c 2
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A5B uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5B uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5B uni1A63
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A5B uni1A55
 EndChar
 
 StartChar: uni1A6C
 Encoding: 6764 6764 125
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-790.82 -425.733> -414 80<-536.34 -329.11> -276 80<-536.831 -328.117>
 VStem: -992 80<-485.839 -268.913> -288 80<-484.954 -387.644>
@@ -11110,7 +11209,6 @@ SplineSet
  -535 -310 -510 -334 -438 -334 c 3
  -406 -334 -365 -329 -327 -315 c 1
 EndSplineSet
-LCarets2: 2 0 0 
 Ligature2: "NAA remove intermediate lookup" zerojoin uni1A6C uni1A63
 EndChar
 
@@ -11118,6 +11216,7 @@ StartChar: uni1A73
 Encoding: 6771 6771 126
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 54<-1072.68 -996.352 -229.648 -153.322>
 VStem: -680 134<1243.54 1358.54>
@@ -11148,6 +11247,7 @@ StartChar: uni1AAB
 Encoding: 6827 6827 127
 Width: 864
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: 221 90<198.297 477.11> 736 90<196.633 456.923>
 VStem: 27 90<392.215 659.199> 487 90<536.611 701.537> 611 90<-351.037 357> 750 90<-391.074 298>
@@ -11190,6 +11290,7 @@ StartChar: uni0E81
 Encoding: 3713 3713 128
 Width: 913
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 66<56.6678 155.263> -20 38<745.578 797.358> 156 66<56.453 156.101> 521 66<87.6678 190.522> 697 66<87.453 192.049> 736 90<358.61 634.609>
 VStem: -15 66<51.6678 150.547> 16 66<592.668 691.547> 247 90<167.822 557.97> 619 90<28.4535 337.5> 701 90<330.802 667.993>
@@ -11271,6 +11372,7 @@ StartChar: uni0E82
 Encoding: 3714 3714 129
 Width: 820
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<79.0286 285.346> 465 66<91.6678 190.547> 736 90<193.315 527.521>
 VStem: -12 90<70.5653 154.286> 20 66<536.668 634.815> 196 66<536.453 636.134> 615 90<430.441 658.922>
@@ -11348,6 +11450,7 @@ StartChar: uni0E84
 Encoding: 3716 3716 130
 Width: 891
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<157.287 223.393> 264 66<344.905 444.547> 440 66<345.078 444.547> 736 90<238.223 584>
 VStem: 0 90<158.815 597.147> 224 90<72.2925 292> 450 66<335.453 434.547> 710 90<146.738 617.431>
@@ -11425,6 +11528,7 @@ StartChar: uni0E87
 Encoding: 3719 3719 131
 Width: 425
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: 476 66<54.6678 153.547> 652 66<107 152.438> 736 90<109.737 229.686>
 VStem: -17 66<547.668 646.054> 159 66<547.453 646.177> 250 90<-218 721.265>
@@ -11483,6 +11587,7 @@ StartChar: uni0E88
 Encoding: 3720 3720 132
 Width: 757
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<335.828 466.449> 246 66<232.917 289.93> 422 66<233.453 332.547> 590 46<71.8893 395.469> 736 90<92.5209 457.479>
 VStem: -20 90<640.074 702.664> 162 66<317.951 416.547> 245 90<70.4955 221.831> 338 66<316.96 416.547> 577 90<210.882 614.815>
@@ -11551,6 +11656,7 @@ StartChar: uni0E8A
 Encoding: 3722 3722 133
 Width: 823
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<106.223 304.75> 70 90<333.625 553.254> 389 66<81.6678 180.547> 736 90<222.597 547.866>
 VStem: 10 66<460.668 559.274> 16 90<71.2924 142.262> 186 66<460.453 559.919> 558 90<-266.674 61.1558> 638 90<415.868 654.313>
@@ -11640,6 +11746,7 @@ StartChar: uni0E94
 Encoding: 3732 3732 134
 Width: 919
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<177.368 388.73> 192 66<377.304 436.977> 368 66<376.453 475.547> 736 90<251.951 603.533>
 VStem: 2 90<165.567 571.21> 305 66<263.529 362.547> 481 66<262.938 362.547> 745 90<139.979 595.882>
@@ -11710,6 +11817,7 @@ StartChar: uni0E95
 Encoding: 3733 3733 135
 Width: 991
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<199.715 369.017> 218 66<337.668 408.461> 394 66<337.453 436.547> 661 90<368.73 549.27> 736 90<184.298 368.73 549.27 750.818>
 VStem: 8 90<206.7 632.328> 266 66<289.668 388.547> 442 66<293.403 388.547> 809 90<221.983 675.939>
@@ -11789,6 +11897,7 @@ StartChar: uni0E96
 Encoding: 3734 3734 136
 Width: 913
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -310 38<746.355 797.358> -20 66<56.6678 155.263> 156 66<56.453 156.101> 521 66<87.6678 190.522> 697 66<87.453 192.049> 736 90<358.61 634.609>
 VStem: -15 66<51.6678 150.547> 16 66<592.668 691.547> 247 90<167.822 557.97> 619 90<-260.836 208.452> 701 90<189.911 667.993>
@@ -11870,6 +11979,7 @@ StartChar: uni0E97
 Encoding: 3735 3735 137
 Width: 976
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<159.591 356.356> 584 66<62.9562 121.638> 736 90<524.139 727.019> 760 66<62.453 161.547>
 VStem: -9 66<655.74 754.547> 34 90<104.155 439.54> 167 66<656.191 754.547> 401 90<115.639 703.198> 759 90<241.072 706.129>
@@ -11948,6 +12058,7 @@ StartChar: uni0E99
 Encoding: 3737 3737 138
 Width: 921
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<529.698 682.761> 160 90<211.642 373.058> 584 66<79.6678 178.542> 760 66<79.453 178.867>
 VStem: 8 66<655.668 754.547> 56 99<-19.6836 77.968> 184 127<551.059 757.864> 728 90<115.92 712.969>
@@ -12034,6 +12145,7 @@ StartChar: uni0E9A
 Encoding: 3738 3738 139
 Width: 902
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<202.022 561.835> 584 66<71.0917 129.977> 760 66<69.453 168.547>
 VStem: -2 66<655.529 754.547> 42 90<140.934 461.709> 174 66<656.679 754.547> 668 90<178.525 712.969>
@@ -12100,6 +12212,7 @@ StartChar: uni0E9B
 Encoding: 3739 3739 140
 Width: 895
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<202.022 561.835> 584 66<71.0917 129.977> 760 66<69.453 168.547> 1257 90<266.416 497.028>
 VStem: -2 66<655.529 754.547> 42 90<140.934 461.709> 174 66<656.679 754.547> 668 90<179.113 897.249>
@@ -12172,6 +12285,7 @@ StartChar: uni0E9C
 Encoding: 3740 3740 141
 Width: 906
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<124.616 250.44 512.655 641.44> 102 90<322.197 442.457> 563 90<533.955 648.272> 584 66<189.859 289.547> 736 90<533.155 636.989> 760 66<192.259 289.547> 789 20G<795.5 811>
 VStem: 6 90<92.0776 296.149 517.165 678.998> 95 90<322.184 482.977> 295 66<655.453 754.547> 443 90<653.612 734.614> 710 90<159.793 586.309>
@@ -12264,6 +12378,7 @@ StartChar: uni0E9D
 Encoding: 3741 3741 142
 Width: 903
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<124.616 250.44 512.655 641.44> 102 90<322.197 442.457> 584 66<189.859 289.547> 760 66<192.259 289.547> 1257 90<308.416 539.028>
 VStem: 6 90<92.0776 296.149 517.165 678.998> 95 90<322.184 482.977> 295 66<655.453 754.547> 710 90<161.689 897.249>
@@ -12352,6 +12467,7 @@ StartChar: uni0E9E
 Encoding: 3742 3742 143
 Width: 954
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<152.481 302.833 617.167 749.664> 543 90<436.206 483.794> 584 66<77.2444 131.93> 760 66<75.453 174.547>
 VStem: 4 66<656.162 754.547> 36 90<91.9186 433.646> 180 66<655.708 754.547> 338 90<98.75 541.872> 492 90<98.75 541.872> 793 90<111.199 712.969>
@@ -12434,6 +12550,7 @@ StartChar: uni0E9F
 Encoding: 3743 3743 144
 Width: 954
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<152.481 302.833 617.167 749.664> 543 90<436.206 483.794> 584 66<77.2444 131.93> 760 66<75.453 174.547> 1257 90<391.416 622.028>
 VStem: 4 66<656.162 754.547> 36 90<91.9186 433.646> 180 66<655.708 754.547> 338 90<98.75 541.872> 492 90<98.75 541.872> 793 90<113.167 897.249>
@@ -12522,6 +12639,7 @@ StartChar: uni0EA1
 Encoding: 3745 3745 145
 Width: 981
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<382.64 619.036> -20 66<30.6678 128.36> 156 66<30.453 129.385> 736 90<228.429 281.571>
 VStem: -41 66<51.6678 150.547> 125 90<293.065 734.206> 295 90<281.658 734.206> 783 90<302.624 782.731>
@@ -12599,6 +12717,7 @@ StartChar: uni0EA2
 Encoding: 3746 3746 146
 Width: 883
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<129.037 530.5> 584 66<142.072 241.547> 760 66<143.454 241.547> 1257 90<256.416 487.028>
 VStem: -6 90<115.54 332.428 496.237 637.593> 247 66<655.453 754.547> 658 90<201.853 897.249>
@@ -12685,6 +12804,7 @@ StartChar: uni0EA3
 Encoding: 3747 3747 147
 Width: 786
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<338.713 514.191> 218 66<206.453 305.547> 449 90<88 436.954> 736 90<164.161 454.264>
 VStem: 135 66<113.267 212.547> 311 66<113.458 212.547> 561 90<117.862 358.248>
@@ -12757,6 +12877,7 @@ StartChar: uni0EA5
 Encoding: 3749 3749 148
 Width: 890
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<164.692 259.357 511.78 658.028> 81 90<309.303 462.911> 240 66<69.453 168.547> 544 52<49.7827 487.102> 736 90<124.986 521.248>
 VStem: -48 90<610.492 672.994> -2 66<136.688 234.547> 174 66<134.853 234.547> 715 90<132.309 546.283>
@@ -12827,6 +12948,7 @@ StartChar: uni0EA7
 Encoding: 3751 3751 149
 Width: 771
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<321.772 463.018> 216 66<187.453 286.547> 593 57<86 207.219> 736 90<129.265 442.42>
 VStem: 116 66<112.167 210.547> 292 66<111.008 210.547> 566 90<193.766 605.146>
@@ -12889,6 +13011,7 @@ StartChar: uni0EAA
 Encoding: 3754 3754 150
 Width: 890
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<164.692 259.357 511.78 658.028> 81 90<309.303 462.911> 240 66<69.453 168.547> 506 90<67.8741 501.77> 736 90<124.635 520.821>
 VStem: -26 90<624.869 683.963> -2 66<136.688 234.547> 174 66<134.853 234.547> 715 90<132.309 549.151>
@@ -12964,6 +13087,7 @@ StartChar: uni0EAB
 Encoding: 3755 3755 151
 Width: 1006
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<176.451 362.587> 584 66<80.8731 134.562> 616 66<366.573 437.664> 736 90<550.689 729.347> 760 66<79.453 178.547 366.573 450.664>
 VStem: 8 66<656.162 754.547> 48 90<107.942 443.913> 184 66<657.262 754.547> 300 66<684.046 757.954> 428 90<148.19 616.973> 772 90<241.072 692.663>
@@ -13058,6 +13182,7 @@ StartChar: uni0EAD
 Encoding: 3757 3757 152
 Width: 890
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<244.812 567.643> 332 66<113.453 212.547> 443 65<99.7784 506.104> 736 90<200.63 584.192>
 VStem: 42 66<227.499 326.547> 218 66<227.594 326.547> 731 90<235.672 592.486>
@@ -13120,6 +13245,7 @@ StartChar: uni0EAE
 Encoding: 3758 3758 153
 Width: 843
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<271.87 509.991> 258 66<168.453 267.547> 449 90<82.0337 442.275> 633 87<429.431 636.191> 736 90<111.247 370.372>
 VStem: -8 90<545.829 708.955> 97 66<155.119 252.547> 273 66<153.402 252.547> 548 90<108.103 371.275> 780 15<904 1046.98>
@@ -13194,6 +13320,7 @@ StartChar: uni0E8D
 Encoding: 3725 3725 154
 Width: 883
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<129.037 530.5> 584 66<142.072 241.547> 760 66<143.454 241.547>
 VStem: -6 90<115.54 332.428 496.237 637.593> 247 66<655.453 754.547> 658 90<200.485 634.208>
@@ -13268,6 +13395,7 @@ StartChar: uni0EBD
 Encoding: 3773 3773 155
 Width: 294
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -413 90<-342.516 -18.5161> -272 66<-349 -303.562> -96 66<-401.547 -302.453> 755 71<-86.097 43.7747>
 VStem: -473 66<-201.108 -101.453> -297 66<-200.177 -101.453> 71 90<-238.869 577.992>
@@ -13336,6 +13464,7 @@ StartChar: uni0EBC
 Encoding: 3772 3772 156
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: -341 80<-462.704 -315.006> -341 60<-772.485 -713.515> -163 80<-702.645 -595.671>
 VStem: -833 60<-280.485 -223.392> -713 60<-280.485 -221.629> -276 80<-219.764 -71.3957>
@@ -13390,6 +13519,7 @@ StartChar: uni0EB0
 Encoding: 3760 3760 157
 Width: 376
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: 108 66<76.3222 187.678> 240 66<76.3222 187.678> 441 66<76.3222 187.678> 573 66<76.3222 187.678>
 VStem: 10 66<177.195 236.805 510.195 569.805> 188 66<177.195 236.805 510.195 569.805>
@@ -13424,6 +13554,7 @@ StartChar: uni0EB2
 Encoding: 3762 3762 158
 Width: 697
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 21G<429 451.5> 736 90<176.078 391.533>
 VStem: -7 90<510 624.542> 474 90<60.2886 634.507>
@@ -13452,6 +13583,7 @@ StartChar: uni0EB3
 Encoding: 3763 3763 159
 Width: 697
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 21<429 451.5> 736 90<176.078 391.533> 940 66<-168.278 -49.7223> 1136 66<-168.278 -49.7223>
 VStem: -244 66<1016.73 1125.27> -40 66<1016.73 1125.27> -7 90<510 624.542> 474 90<60.2886 634.507>
@@ -13466,6 +13598,7 @@ StartChar: uni0EB4
 Encoding: 3764 3764 160
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-644.89 -397.11> 1282 80<-644.89 -397.11>
 VStem: -778 80<1069.68 1232.32> -344 80<1069.68 1232.32>
@@ -13490,6 +13623,7 @@ StartChar: uni0EB5
 Encoding: 3765 3765 161
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-663.218 -571 -471 -378.409 -306 -176> 1282 80<-644.89 -397.11>
 VStem: -778 80<1056.09 1231.28> -344 80<1054.28 1231.28>
@@ -13537,6 +13671,7 @@ StartChar: uni0EB6
 Encoding: 3766 3766 162
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-644.89 -397.11> 1085 132<-588.249 -453.751> 1282 80<-644.89 -397.11>
 VStem: -778 80<1069.68 1232.32> -592 142<1089.63 1212.37> -344 80<1069.68 1232.32>
@@ -13567,6 +13702,7 @@ StartChar: uni0EB7
 Encoding: 3767 3767 163
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 940 80<-663.218 -571 -471 -378.409 -306 -176> 1083 132<-588.249 -453.751> 1282 80<-644.89 -397.11>
 VStem: -778 80<1056.09 1231.28> -592 142<1087.63 1210.37> -344 80<1054.28 1231.28>
@@ -13625,6 +13761,7 @@ StartChar: uni0EB8
 Encoding: 3768 3768 164
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
 VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156>
@@ -13681,6 +13818,7 @@ StartChar: uni0EB9
 Encoding: 3769 3769 165
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
 VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156> -230 80<-476.491 -140.451>
@@ -13755,6 +13893,7 @@ StartChar: uni0EB1
 Encoding: 3761 3761 166
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 907 80<-492 -311> 1120 66<-633.547 -534.453>
 VStem: -705 66<1015.25 1114.55> -529 66<1015.02 1114.55> 103 17<1437.17 1445.52>
@@ -13803,6 +13942,7 @@ StartChar: uni0EBB
 Encoding: 3771 3771 167
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 857 65<-451.621 -352.379> 1104 80<-345.48 -76.3377>
 VStem: -528 69<927.572 1035.8> -345 69<927.572 1036.56>
@@ -13849,6 +13989,7 @@ StartChar: uni0EC0
 Encoding: 3776 3776 168
 Width: 384
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 66<198.842 298.547> 156 66<199.076 298.547> 806 20G<121 152>
 VStem: 11 90<129.364 653.21> 304 66<51.453 150.547>
@@ -13897,6 +14038,7 @@ StartChar: uni0EC1
 Encoding: 3777 3777 169
 Width: 750
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 66<198.842 298.547 568.842 668.547> 156 66<199.076 298.547 569.076 668.547> 806 20<121 152 491 522>
 VStem: 11 90<129.364 653.21> 304 66<51.453 150.547> 381 90<129.364 653.21> 674 66<51.453 150.547>
@@ -13911,6 +14053,7 @@ StartChar: uni0EC2
 Encoding: 3778 3778 170
 Width: 411
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 66<198.842 298.547> 156 66<199.076 298.547> 1397 90<162.975 495.768>
 VStem: -109 90<902.197 1214.8> 11 90<129.364 651.528> 304 66<51.453 150.547> 669 90<997 1200.11>
@@ -13975,6 +14118,7 @@ StartChar: uni0EC3
 Encoding: 3779 3779 171
 Width: 411
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 66<38.453 138.158> 156 66<38.453 137.924> 1397 90<-158.768 174.025>
 VStem: -422 90<997 1200.11> -33 66<51.453 150.547> 236 90<129.364 651.528> 356 90<902.197 1214.8>
@@ -14039,6 +14183,7 @@ StartChar: uni0EC4
 Encoding: 3780 3780 172
 Width: 350
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 66<155.26 253.547> 156 66<154.03 253.547> 1072 122<-31.1096 85.3969> 1224 90<154.389 246.576>
 VStem: 36 90<196.269 883.807> 259 66<51.453 150.547 1138.13 1219.99>
@@ -14111,6 +14256,7 @@ StartChar: uni0EC8
 Encoding: 3784 3784 173
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 1045 306<-333.208 -262.356>
 VStem: -333 70<1045.01 1287.35>
@@ -14132,6 +14278,7 @@ StartChar: uni0EC9
 Encoding: 3785 3785 174
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 1317 49<-396.537 -321.277>
 VStem: -450 48<1233.11 1311.16> -316 50<1232.79 1312.92>
@@ -14186,6 +14333,7 @@ StartChar: uni0ECD
 Encoding: 3789 3789 175
 Width: 0
 VWidth: 1908
+GlyphClass: 4
 Flags: W
 HStem: 940 66<-459.278 -340.722> 1136 66<-459.278 -340.722>
 VStem: -535 66<1016.73 1125.27> -331 66<1016.73 1125.27>
@@ -14210,6 +14358,7 @@ StartChar: uni0ED0
 Encoding: 3792 3792 176
 Width: 753
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<186.281 475.719> 546 90<186.281 475.719>
 VStem: -14 90<177.759 438.241> 586 90<177.759 438.241>
@@ -14234,6 +14383,7 @@ StartChar: uni0ED1
 Encoding: 3793 3793 177
 Width: 719
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 21G<418 520> 58 90<129.684 289.123> 172 66<243.197 291> 348 66<243.453 342.547> 546 90<170.617 447.691>
 VStem: -4 90<191.417 465.235> 172 66<243.96 342.547> 348 66<243.487 342.547> 545 90<124.017 447.11>
@@ -14294,6 +14444,7 @@ StartChar: uni0ED2
 Encoding: 3794 3794 178
 Width: 845
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<275.374 599.684> 394 66<209.668 308.049> 428 90<475.562 665.103> 570 66<209.453 309.094> 956 60<430.492 578.243>
 VStem: 0 90<244.802 626.054> 138 66<465.668 564.547> 314 66<466.809 521.93> 392 90<488 519.993> 688 90<162.502 404.449>
@@ -14307,6 +14458,7 @@ StartChar: uni0ED3
 Encoding: 3795 3795 179
 Width: 883
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<113.124 205.648 364.375 605.477> 142 90<113.124 206.787> 253 66<173.668 245.549> 429 66<173.453 272.547> 668 82<511.337 764.87> 813 90<191.11 343.643>
 VStem: 22 90<70.6859 141.314> 100 90<768.112 812.456> 102 66<324.668 423.547> 278 66<325.568 423.547> 691 90<161.661 440.467>
@@ -14401,6 +14553,7 @@ StartChar: uni0ED4
 Encoding: 3796 3796 180
 Width: 910
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 111<547.794 668.064> -18 90<158.174 419.506> 210 66<424.425 523.547> 386 71<423.737 524.074> 530 90<347.43 711.683> 546 90<200.731 580.147>
 VStem: -6 90<150.776 431.411> 245 90<201.563 321.117> 529 66<281.453 380.982> 801 40<806.505 905.024>
@@ -14473,6 +14626,7 @@ StartChar: uni0ED5
 Encoding: 3797 3797 181
 Width: 825
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 111<547.794 668.064> -18 90<158.174 419.506> 210 66<424.425 523.547> 386 71<423.737 524.074> 514 90<329.43 639.596> 546 90<194.042 554.516> 652 90<456.057 600.114> 812 90<457.293 599.532>
 VStem: -6 90<150.776 435.333> 245 90<201.563 321.117> 366 90<743.722 810.251> 529 66<281.453 380.982> 642 90<611.079 695.04> 705 38<973.875 1040.94>
@@ -14566,6 +14720,7 @@ StartChar: uni0ED6
 Encoding: 3798 3798 182
 Width: 809
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<113.584 284.595 403.405 594.106> 204 66<229.162 327.547> 380 66<228.734 327.547> 655 63<466.274 684.603> 795 90<123.358 254.341>
 VStem: 0 90<88.9552 313.61> 32 90<714.366 794.75> 157 66<276.873 330.562> 333 66<275.453 374.547> 622 90<94.7437 422.589>
@@ -14659,6 +14814,7 @@ StartChar: uni0ED7
 Encoding: 3799 3799 183
 Width: 775
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 66<61.6678 158.379> 156 66<61.453 160.481> 546 90<237.326 528.457>
 VStem: -10 66<51.6678 150.547> 206 90<175 371.591> 556 90<-295.316 307.538> 586 90<-96.6378 486.528>
@@ -14726,6 +14882,7 @@ StartChar: uni0ED8
 Encoding: 3800 3800 184
 Width: 904
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -401 90<651.659 796.341> -217 90<287.649 555.509> -177 90<653.946 796.341> 31 90<409.083 576 685 836.323> 71 90<287.649 572.984> 247 66<87.6678 186.547> 423 66<119.393 186.547> 443 90<309.022 430.978> 546 90<124.392 256.369 483.631 604.315>
 VStem: 16 66<318.668 417.078> 172 90<-98.4623 42.4623> 192 66<318.453 417.547> 557 90<-301.688 -200> 625 90<132.453 534.504> 801 90<-303.04 -184.96>
@@ -14827,6 +14984,7 @@ StartChar: uni0ED9
 Encoding: 3801 3801 185
 Width: 1025
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<571.398 763.68> -20 66<165.487 263.547> 156 66<164.072 263.547> 546 90<155.346 365.602 617.152 788.682>
 VStem: 0 90<173.448 475.853> 269 66<51.453 150.547> 847 90<163.778 485.272>
@@ -14900,6 +15058,7 @@ StartChar: uni0EDD
 Encoding: 3805 3805 186
 Width: 1327
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<162.556 346.913 827.962 1039.76> -20 66<583.668 685.546> 156 66<583.453 693.213> 584 66<71.2444 125.93> 616 66<346.311 416.735> 736 90<539.384 680.879> 760 66<69.453 168.547 345.573 430.483>
 VStem: -2 66<656.162 754.547> 38 90<102.503 453.334> 174 66<657.087 754.547> 279 66<684.046 757.954> 407 90<135.83 614.973> 512 66<51.6678 150.547> 736 90<201.787 675.375> 1106 90<142.59 712.969>
@@ -15019,6 +15178,7 @@ StartChar: uni0EDC
 Encoding: 3804 3804 187
 Width: 1327
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<162.556 346.913 880.787 1045.76> 68 90<744.785 849.08> 584 66<71.2444 125.93> 616 66<346.311 416.648> 736 90<533.069 662.46> 760 66<69.453 168.547 345.573 429.804>
 VStem: -2 66<656.162 754.547> 38 90<102.503 453.334> 174 66<657.087 754.547> 279 66<684.046 757.954> 407 90<135.83 614.973> 702 90<167.586 703.708> 1091 90<115.92 712.969>
@@ -15135,6 +15295,7 @@ StartChar: uni0EC6
 Encoding: 3782 3782 188
 Width: 845
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -20 90<275.374 599.684> 394 66<209.668 308.049> 428 90<475.562 665.103> 570 66<209.453 309.094> 956 60<430.492 578.243>
 VStem: 0 90<244.802 626.054> 138 66<465.668 564.547> 314 66<466.809 521.93> 392 90<488 519.993> 688 90<162.502 404.449>
@@ -15209,6 +15370,7 @@ StartChar: uni0EBE
 Encoding: 3774 3774 189
 Width: 242
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -350 90<-407.973 -313.198 -54.8204 65.6544> -242 66<-408.93 -354.18> -227 90<-237.327 -128.047> -66 66<-451.547 -352.453> 677 60<105.721 196.385> 744 82<-40.6191 85.8882>
 VStem: -523 66<-168.981 -71.453> -347 66<-170.26 -71.453> 78 90<-251.688 573.71>
@@ -15285,6 +15447,7 @@ StartChar: uni0EC5
 Encoding: 3781 3781 190
 Width: 258
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -385 90<-435.205 -90.9565> -152 66<-516.547 -417.453> 990 90<-387.633 -197.012> 1124 90<-388.501 -118.716>
 VStem: -588 66<-256.455 -157.453> -480 90<1080.31 1120.32> -412 66<-256.668 -157.453> 55 90<-139.796 737.368>
@@ -15353,6 +15516,7 @@ StartChar: uni0EBF
 Encoding: 3775 3775 191
 Width: 481
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -378 90<-116.787 115.938> -96 66<-213.547 -114.453> 192 90<170.868 255.6> 736 90<104.983 186.602>
 VStem: -285 66<-198.427 -101.453> -109 66<-200.353 -101.453> 10 90<387.367 735.055> 261 90<-109.029 204 283.117 284.516 398 597.054>
@@ -15420,6 +15584,7 @@ StartChar: uni0EDE
 Encoding: 3806 3806 192
 Width: 447
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -519 66<-425.766 -306.912> -456 90<-114.528 142.903> -309 66<-421.309 -280.787> -232 66<-353.332 -274.495> -56 66<-353.547 -254.453>
 VStem: -503 66<-441.766 -325.611> -425 66<-160.332 -61.453> -249 66<-159.868 -61.453> 208 90<-295.75 361.25>
@@ -15496,6 +15661,7 @@ StartChar: uni0EDF
 Encoding: 3807 3807 193
 Width: 302
 VWidth: 1908
+GlyphClass: 2
 Flags: W
 HStem: -392 66<-484.332 -385.453> -370 90<-117.561 36.6626> -189 90<-347 -259.343> 626 64<16.6812 115.857>
 VStem: -556 66<-320.332 -222.022> -380 66<-320.547 -221.196> 66 90<-252.267 539.249>
@@ -15566,6 +15732,7 @@ StartChar: space
 Encoding: 32 32 194
 Width: 984
 VWidth: 0
+GlyphClass: 2
 Flags: W
 LayerCount: 2
 EndChar
@@ -15574,6 +15741,7 @@ StartChar: uni1AA7
 Encoding: 6823 6823 195
 Width: 857
 VWidth: 0
+GlyphClass: 2
 Flags: W
 HStem: -20 90<240.105 638.891> 180 66<610.075 694.195> 388 66<610.075 723.925>
 VStem: 55 90<167.752 507.399> 532 66<257.348 376.652> 584 90<1011.12 1306.04> 736 66<258.469 376.652>
@@ -15639,6 +15807,7 @@ StartChar: uni1AAA
 Encoding: 6826 6826 196
 Width: 774
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: 221 90<198.297 477.11> 736 90<196.633 456.923>
 VStem: 27 90<392.215 659.199> 487 90<536.611 701.537> 611 90<-351.037 357>
@@ -15674,6 +15843,7 @@ StartChar: uni1AA8
 Encoding: 6824 6824 197
 Width: 586
 VWidth: 0
+GlyphClass: 2
 Flags: W
 HStem: 806 20G<248 338>
 VStem: 248 90<-276 826>
@@ -15699,6 +15869,7 @@ StartChar: uni1AA9
 Encoding: 6825 6825 198
 Width: 725
 VWidth: 0
+GlyphClass: 2
 Flags: W
 HStem: 806 20G<248 338 387 477>
 VStem: 248 90<-276 826> 387 90<-276 826>
@@ -15723,6 +15894,7 @@ StartChar: uni1A33.sub2
 Encoding: 65585 -1 199
 Width: 0
 VWidth: 2240
+GlyphClass: 4
 Flags: W
 HStem: -667 90<-965.509 -495.62> -325 66<-375.332 -311.155> -149 66<-375.547 -276.453>
 VStem: -1256 90<-405.665 -204.015> -447 66<-253.332 -154.453> -271 66<-252.488 -154.453>
@@ -15792,20 +15964,20 @@ SplineSet
  -1166 -416 -1029 -577 -726 -577 c 3
  -481 -577 -353 -468 -311 -324 c 1
 EndSplineSet
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A33.sub2 uni1A55
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A6E
 Ligature2: "Alternate subjoined consonant lookup" uni1A60 uni1A33
-LCarets2: 2 0 0 
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub2 uni1A72
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A33.sub2 uni1A55
 EndChar
 
 StartChar: zerojoin
 Encoding: 8205 8205 200
 Width: 0
 VWidth: 0
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 EndChar
@@ -15814,6 +15986,7 @@ StartChar: uni1A5C
 Encoding: 6748 6748 201
 Width: 0
 VWidth: 1506
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-755.252 -464.493> -510 64<-635.082 -583.124> -393 64<-635.236 -537.68> -147 64<-854.236 -801.918>
 VStem: -919 64<-200.217 -147.918> -914 80<-516.664 -316.113> -801 64<-199.342 -147.764> -700 64<-445.236 -393.457> -583 64<-445.8 -418.254> -393 80<-376 -233.686> -303 76<-704.454 -517.075>
@@ -15907,20 +16080,20 @@ SplineSet
  -801 -158 -815 -147 -828 -147 c 3
  -844 -147 -855 -161 -855 -174 c 3xfbe0
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5C uni1A63
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A6E
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A5C uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A72
+Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5C uni1A63
 EndChar
 
 StartChar: uni1A55.deep
 Encoding: 65586 -1 202
 Width: 294
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -962 90<217.205 421.373> -733 66<398.453 497.547> 1407 90<589.374 1208.05>
 VStem: 60 90<-798.251 1098.8> 327 66<-837.804 -738.453> 503 66<-836.724 -738.453>
@@ -15984,6 +16157,7 @@ StartChar: uni1A58
 Encoding: 6744 6744 203
 Width: 0
 VWidth: 2260
+GlyphClass: 4
 Flags: W
 HStem: 940 60<-642.485 -583.515> 1021 80<-380.556 -203.741> 1282 80<-849.846 -644.722>
 VStem: -703 60<1000.51 1059.77> -583 60<1000.51 1059.67>
@@ -15998,6 +16172,7 @@ StartChar: uni1AA5
 Encoding: 6821 6821 204
 Width: 1742
 VWidth: 2260
+GlyphClass: 2
 Flags: W
 HStem: -436 92<503.322 603.713 1054.29 1154.68> -118 91<542.287 642.678 1015.32 1115.71> -32 90<98.2215 282.008 1375.99 1559.78> 39 90<610.133 882.236> 204 90<139.492 323.279 1334.72 1518.51> 266 66<674.668 773.547> 480 90<139.492 323.279 794.355 932.2 1334.72 1518.51> 675 90<661.946 997.844> 716 90<98.2215 282.008 1375.99 1559.78> 801 91<542.287 642.678 1015.32 1115.71> 1118 92<503.322 603.713 1054.29 1154.68>
 VStem: 6 92<61.322 161.713 612.287 712.678> 324 91<100.287 200.678 573.322 673.713> 410 90<-343.779 -159.992 933.992 1117.78> 427 90<231.376 535.684> 603 66<337.668 435.668> 646 90<-302.508 -118.721 892.721 1076.51> 779 66<337.453 436.724> 922 90<-302.508 -118.721 892.721 1076.51> 964 90<203.964 449.437> 1158 90<-343.779 -159.992 206.503 515.834 933.992 1117.78> 1243 91<100.287 200.678 573.322 673.713> 1560 92<61.322 161.713 612.287 712.678>
@@ -16288,6 +16463,7 @@ StartChar: uni1A63.uni1A74
 Encoding: 65587 -1 205
 Width: 683
 VWidth: 2260
+GlyphClass: 3
 Flags: W
 HStem: -20 85<134.738 290.377> 439 66<76.6678 175.547> 736 90<162.127 432.237> 940 80<-78.825 78.825> 1162 80<-78.825 78.825>
 VStem: -170 80<1032.29 1149.71> 5 66<510.668 607.426> 90 80<1032.29 1149.71> 181 66<510.453 609.499> 523 90<354.989 645.047>
@@ -16296,6 +16472,7 @@ Fore
 Refer: 79 6772 N 1 0 0 1 613 0 2
 Refer: 41 6755 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Misc ligatures lookup" uni1A63 uni1A74
+Ligature2: "'pstf' Post Base Ligatures lookup" uni1A63 uni1A74
 EndChar
 EndChars
 EndSplineFont

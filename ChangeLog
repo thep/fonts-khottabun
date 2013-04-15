@@ -1,3 +1,16 @@
+2013-04-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Harfbuzz support.
+
+	* fonts/Khottabun.sfd:
+	  - Selectively set 'lana' script to GSUB rules, to get run by
+	    Harfbuzz. Those with 'DFLT' only will be ignored.
+	  - Handle NAA ligature with 'pstf' instead of 'ccmp', so that it
+	    gets run after Indic preprocessing.
+	  - Set glyph class for all glyphs, to make mark skipping in GSUB
+	    rules possible. (GDEF is thus explicitly generated.)
+	  - Bump font version to 001.004.
+
 2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Add anchors to WA + AA ligature.
