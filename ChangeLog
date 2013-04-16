@@ -1,3 +1,11 @@
+2013-04-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Simplify NAA ligature rule for 'DFLT' script.
+
+	* fonts/Khottabun.sfd:
+	  - Make 'Misc ligatures' rule skip marks.
+	  - Drop unnecessary 'NAA ligature stage 1/2' rules.
+
 2013-04-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Harfbuzz support.
