@@ -1,5 +1,13 @@
 2013-04-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Add 'lana' script tag to GPOS.
+
+	* fonts/Khottabun.sfd:
+	  - Also add 'lana' script tag (with lang tags) to GPOS, so it gets
+	    applied by Harfbuzz.
+
+2013-04-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Clean more stuffs on old NAA ligature rules.
 
 	* fonts/Khottabun.sfd:
