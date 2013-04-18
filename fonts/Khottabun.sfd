@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.004
+Version: 001.005
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1366091124
+ModificationTime: 1366276506
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -68,8 +68,6 @@ Lookup: 2 0 0 "RA-UU prepend intermediate"  {"RA-UU prepend intermediate lookup"
 Lookup: 2 0 0 "RA prepend intermediate"  {"RA prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA-deep prepend intermediate"  {"RA-deep prepend intermediate lookup"  } []
 Lookup: 4 0 0 "RA remove intermediate"  {"RA-VV remove intermediate lookup"  "RA-V remove intermediate lookup"  "RA-C remove intermediate lookup"  "RA-S remove intermediate lookup"  } []
-Lookup: 2 0 0 "NAA conversion intermediate"  {"NAA conversion intermediate lookup"  } []
-Lookup: 4 0 0 "NAA remove intermediate"  {"NAA remove intermediate lookup"  } []
 Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > ) ]
@@ -2537,7 +2535,6 @@ MultipleSubs2: "RA-UEE prepend intermediate lookup" uni1A55 uni1A68 uni1A36 zero
 MultipleSubs2: "RA-UE prepend intermediate lookup" uni1A55 uni1A67 uni1A36 zerojoin
 MultipleSubs2: "RA-II prepend intermediate lookup" uni1A55 uni1A66 uni1A36 zerojoin
 MultipleSubs2: "RA-I prepend intermediate lookup" uni1A55 uni1A65 uni1A36 zerojoin
-MultipleSubs2: "NAA conversion intermediate lookup" uni1A36.uni1A63 zerojoin
 Ligature2: "RA-C remove intermediate lookup" uni1A36 zerojoin uni1A55
 MultipleSubs2: "RA prepend intermediate lookup" uni1A55 uni1A36 zerojoin
 Ligature2: "LV remove intermediate for cons" uni1A36 zerojoin uni1A72
@@ -4509,7 +4506,6 @@ SplineSet
  -9 1251 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A62 uni1A63
 EndChar
 
 StartChar: uni1A63
@@ -4606,7 +4602,6 @@ SplineSet
  -915 1284 -766 1362 -613 1362 c 3
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A65 uni1A63
 Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A65 uni1A55
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A65
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A66
@@ -4742,7 +4737,6 @@ SplineSet
  -625 980 -665 940 -715 940 c 3
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A67 uni1A63
 Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A67 uni1A55
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A65
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A67 uni1A55 uni1A66
@@ -4825,7 +4819,6 @@ SplineSet
  -454 1020 -426 1042 -411 1075 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A68 uni1A63
 Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A68 uni1A55
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A65
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A68 uni1A55 uni1A66
@@ -4858,7 +4851,6 @@ SplineSet
  -159 -432 94 -386 206 -364 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A69 uni1A63
 Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A69 uni1A55
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A65
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A66
@@ -4896,7 +4888,6 @@ SplineSet
  -159 -432 94 -386 206 -364 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A6A uni1A63
 Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A6A uni1A55
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A65
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A66
@@ -5451,7 +5442,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A55 uni1A63
 EndChar
 
 StartChar: uni1A56
@@ -5524,7 +5514,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A56 uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A56 uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A56 uni1A55
 EndChar
 
@@ -7303,7 +7292,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A57 uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A57 uni1A55
 EndChar
 
@@ -7404,7 +7392,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5D uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5D uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A5D uni1A55
 EndChar
 
@@ -7433,7 +7420,6 @@ SplineSet
  -443 1008 -519 940 -613 940 c 3
  -707 940 -783 1008 -783 1091 c 3
 EndSplineSet
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A74 uni1A63
 EndChar
 
 StartChar: uni1A6B
@@ -7493,7 +7479,6 @@ SplineSet
  -660 1187 -700 1184 -733 1176 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A6B uni1A63
 EndChar
 
 StartChar: uni1A46
@@ -7833,7 +7818,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A20.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A20.sub uni1A55
 EndChar
 
@@ -7913,7 +7897,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A21.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A21.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A21.sub uni1A55
 EndChar
 
@@ -7987,7 +7970,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A23.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A23.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A23.sub uni1A55
 EndChar
 
@@ -8119,7 +8101,6 @@ SplineSet
  -812 -163 -817 -167 -821 -173 c 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A25.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A25.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A70
@@ -8190,7 +8171,6 @@ SplineSet
  -856 -263 -888 -241 -902 -208 c 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A26.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A26.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A26.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A26.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A26.sub uni1A70
@@ -8253,7 +8233,6 @@ SplineSet
  -347 -171 -350 -102 -368 -70 c 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A27.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A27.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A27.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A27.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A27.sub uni1A70
@@ -8355,7 +8334,6 @@ SplineSet
  -813 -365 -826 -378 -826 -395 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A28.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A28.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A28.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A28.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A28.sub uni1A70
@@ -8445,7 +8423,6 @@ SplineSet
  -381 -411 -374 -401 -374 -374 c 3x3f
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A29.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A29.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A29.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A29.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A29.sub uni1A70
@@ -8584,7 +8561,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2B.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2B.sub uni1A55
 EndChar
 
@@ -8684,7 +8660,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2C.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2C.sub uni1A55
 EndChar
 
@@ -8776,7 +8751,6 @@ SplineSet
  -935 -149 -865 -83 -766 -83 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2D.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2D.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2D.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2D.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2D.sub uni1A70
@@ -8865,7 +8839,6 @@ SplineSet
  -392 -587 -290 -544 -290 -399 c 2
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2E.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2E.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2E.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2E.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2E.sub uni1A70
@@ -8966,7 +8939,6 @@ SplineSet
  -671 -163 -730 -189 -768 -221 c 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2F.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A2F.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2F.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2F.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2F.sub uni1A70
@@ -9092,7 +9064,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A30.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A30.sub uni1A55
 EndChar
 
@@ -9186,7 +9157,6 @@ SplineSet
  -992 -510 -958 -486 -921 -486 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A31.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A31.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A31.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A31.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A31.sub uni1A70
@@ -9258,7 +9228,6 @@ SplineSet
  -1026 -667 -1153 -533 -1153 -375 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A32.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A32.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A32.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A32.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A32.sub uni1A70
@@ -9348,7 +9317,6 @@ SplineSet
  -675 -550 -686 -564 -686 -577 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A33.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A33.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A33.sub uni1A70
@@ -9420,7 +9388,6 @@ SplineSet
  -439 -83 -298 -214 -298 -383 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A34.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A34.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A34.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A34.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A34.sub uni1A70
@@ -9492,7 +9459,6 @@ SplineSet
  -384 -191 -457 -166 -501 -134 c 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A35.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A35.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A35.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A35.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A35.sub uni1A70
@@ -9545,7 +9511,6 @@ SplineSet
  -290 -248 l 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A36.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A36.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A70
@@ -9666,7 +9631,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A37.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A37.sub uni1A55
 EndChar
 
@@ -9764,7 +9728,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A38.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A38.sub uni1A55
 EndChar
 
@@ -9891,7 +9854,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A39.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A39.sub uni1A55
 EndChar
 
@@ -9969,7 +9931,6 @@ SplineSet
  -290 -338 l 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A3B.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A3B.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3B.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3B.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3B.sub uni1A70
@@ -10053,7 +10014,6 @@ SplineSet
  -790 -452 -746 -538 -597 -595 c 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A3D.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A3D.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3D.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3D.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3D.sub uni1A70
@@ -10111,7 +10071,6 @@ SplineSet
  -357 -268 -372 -246 -453 -230 c 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A3E.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A3E.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3E.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3E.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3E.sub uni1A70
@@ -10191,7 +10150,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A3F.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A3F.sub uni1A55
 EndChar
 
@@ -10216,7 +10174,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A41.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A41.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A41.sub uni1A55
 EndChar
 
@@ -10289,7 +10246,6 @@ SplineSet
  -504 -454 -544 -494 -594 -494 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A43.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A43.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A70
@@ -10325,7 +10281,6 @@ SplineSet
  -777 -667 -908 -534 -908 -375 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A45.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A45.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A70
@@ -10424,7 +10379,6 @@ SplineSet
  -720 -550 -731 -564 -731 -577 c 3
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A46.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A46.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A46.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A46.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A46.sub uni1A70
@@ -10554,7 +10508,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A48.sub uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A48.sub uni1A55
 EndChar
 
@@ -10633,7 +10586,6 @@ SplineSet
  -424 -667 -458 -620 -458 -559 c 1
 EndSplineSet
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A49.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A49.sub uni1A63
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A49.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A49.sub uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A49.sub uni1A70
@@ -10660,7 +10612,6 @@ Refer: 125 6764 N 1 0 0 1 0 0 2
 Fore
 Refer: 125 6764 N 1 0 0 1 0 0 2
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A4B.sub uni1A55
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A4B.sub uni1A63
 LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A4B
 EndChar
@@ -10685,7 +10636,6 @@ SplineSet
  -563 1796 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A75 uni1A63
 EndChar
 
 StartChar: uni1A76
@@ -10718,7 +10668,6 @@ SplineSet
  -857 1697 -814 1715 -763 1715 c 3
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A76 uni1A63
 EndChar
 
 StartChar: uni1A7F
@@ -11129,7 +11078,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5B uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5B uni1A63
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A5B uni1A55
 EndChar
 
@@ -11179,7 +11127,6 @@ SplineSet
  -535 -310 -510 -334 -438 -334 c 3
  -406 -334 -365 -329 -327 -315 c 1
 EndSplineSet
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A6C uni1A63
 EndChar
 
 StartChar: uni1A73
@@ -11210,7 +11157,6 @@ SplineSet
  -671 1341 -648 1362 -613 1362 c 3
 EndSplineSet
 Validated: 1
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A73 uni1A63
 EndChar
 
 StartChar: uni1AAB
@@ -16056,7 +16002,6 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A70
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A5C uni1A72
-Ligature2: "NAA remove intermediate lookup" zerojoin uni1A5C uni1A63
 EndChar
 
 StartChar: uni1A55.deep

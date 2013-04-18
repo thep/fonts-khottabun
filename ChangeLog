@@ -1,3 +1,11 @@
+2013-04-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Clean more stuffs on old NAA ligature rules.
+
+	* fonts/Khottabun.sfd:
+	  - Drop 'NAA ligature {conversion/remove} intermediate' lookups.
+	  - Bump font version to 001.005.
+
 2013-04-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Simplify NAA ligature rule for 'DFLT' script.
