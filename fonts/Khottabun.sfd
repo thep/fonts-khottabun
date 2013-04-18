@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1366276506
+ModificationTime: 1366279349
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -68,10 +68,10 @@ Lookup: 2 0 0 "RA-UU prepend intermediate"  {"RA-UU prepend intermediate lookup"
 Lookup: 2 0 0 "RA prepend intermediate"  {"RA prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA-deep prepend intermediate"  {"RA-deep prepend intermediate lookup"  } []
 Lookup: 4 0 0 "RA remove intermediate"  {"RA-VV remove intermediate lookup"  "RA-V remove intermediate lookup"  "RA-C remove intermediate lookup"  "RA-S remove intermediate lookup"  } []
-Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' AboveBase Mark Positioning"  {"'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' AboveBase Mark Positioning"  {"'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 MarkAttachClasses: 6
 "AboveBase" 0 
 "BelowBase" 0 
@@ -331,7 +331,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6744 8 4
+WinInfo: 6728 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -5437,6 +5437,7 @@ SplineSet
  340 -253 351 -252 361 -251 c 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A55 uni1A70
