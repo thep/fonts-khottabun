@@ -1,3 +1,12 @@
+2013-04-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Fix 'LV remove intermediate' for ANG-LAN, FINAL NGA.
+
+	* fonts/Khottabun.sfd:
+	  - Fix ligature pattern for uni1A59.
+	  - Add entries for uni1A58.
+	  - Bump font version to 001.007.
+
 2013-04-20  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Split vowel AM ligature rule.

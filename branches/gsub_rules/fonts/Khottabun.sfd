@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.006
+Version: 001.007
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1366447147
+ModificationTime: 1366620876
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -333,7 +333,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6744 8 4
+WinInfo: 6736 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -6412,11 +6412,11 @@ SplineSet
  -585 1150 -523 1103 -523 1030 c 3
 EndSplineSet
 Validated: 1
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A6E
 EndChar
 
 StartChar: uni1A90
@@ -16084,6 +16084,11 @@ AnchorPoint: "AboveMark" -613 1419 basemark 0
 LayerCount: 2
 Fore
 Refer: 65 6745 N 1 0 0 1 0 0 2
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A6E
 EndChar
 
 StartChar: uni1AA5
