@@ -1,3 +1,17 @@
+2013-04-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Differenciate glyphs.
+
+	* fonts/Khottabun.sfd:
+	  - Add a cross stem to uni1A57 (LA TANG LAI) to distinguish with
+	    uni1A43.sub (spacing MEDIAL LA). It's not actually found in
+	    manuscripts anyway.
+	  - Make uni1A58 (MAI ANG-LAN) and uni1A59 (FINAL NGA) a bit
+	    different. The two signs should be identical, but we need to
+	    distinguish them to make incorrect code point usage easily
+	    spotted.
+	  - Bump font version to 001.008.
+
 2013-04-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Fix 'LV remove intermediate' for ANG-LAN, FINAL NGA.

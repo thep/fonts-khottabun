@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.007
+Version: 001.008
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1366620876
+ModificationTime: 1367212749
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -333,7 +333,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6736 8 4
+WinInfo: 6728 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -6347,8 +6347,8 @@ Width: 0
 VWidth: 2260
 GlyphClass: 4
 Flags: W
-HStem: 940 60<-642.485 -583.515> 1021 80<-380.556 -203.741> 1282 80<-849.846 -644.722>
-VStem: -703 60<1000.51 1059.77> -583 60<1000.51 1059.67>
+HStem: 1021 80<-380.556 -213.999> 1282 80<-849.846 -644.722>
+VStem: -663 80<1030 1096.9>
 AnchorPoint: "AboveMark" -613 1419 basemark 0
 AnchorPoint: "AboveBase" -613 883 mark 0
 LayerCount: 2
@@ -6385,17 +6385,10 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--643 1030 m 3
- -643 1013 -630 1000 -613 1000 c 3
- -596 1000 -583 1013 -583 1030 c 3
- -583 1047 -596 1060 -613 1060 c 3
- -630 1060 -643 1047 -643 1030 c 3
--523 1030 m 3
- -523 980 -563 940 -613 940 c 3
- -663 940 -703 980 -703 1030 c 3
- -703 1060 -688 1087 -666 1103 c 1
- -689 1118 -713 1131 -732 1141 c 0
- -840 1200 -921 1219 -1006 1219 c 3
+-583 1030 m 1
+ -663 1030 l 1
+ -663 1072 -725 1121 -762 1141 c 0
+ -861 1195 -931 1219 -1006 1219 c 3
  -1019 1219 -1031 1218 -1043 1217 c 1
  -955 1322 -832 1362 -759 1362 c 3
  -696 1362 -647 1348 -589 1300 c 0
@@ -6408,10 +6401,10 @@ SplineSet
  -483 1110 -543 1157 -640 1239 c 0
  -678 1271 -732 1282 -759 1282 c 3
  -791 1282 -813 1278 -853 1265 c 1
- -813 1263 -770 1252 -688 1207 c 0
- -585 1150 -523 1103 -523 1030 c 3
+ -813 1258 -774 1238 -718 1207 c 0
+ -632 1160 -583 1103 -583 1030 c 1
 EndSplineSet
-Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A59 uni1A70
@@ -7228,13 +7221,29 @@ Width: 289
 VWidth: 2260
 GlyphClass: 2
 Flags: W
-HStem: -494 80<-165.005 26.377> -494 60<-623.739 -564.515> -374 60<-623.61 -564.515> -163 80<-632.409 -413.407> 749 77<37.1914 141.999>
-VStem: -759 80<-352.057 -208.282> -564 60<-433.485 -374.515> 72 80<-367 640.181>
+HStem: -494 80<-165.005 26.377> -494 60<-623.623 -564.515> -374 60<-623.61 -564.515> -261 60<-91.9914 -34.9023> -168 66<26 72> -163 80<-632.409 -413.407> -143 60<-91.9914 -34.5123> 749 77<37.1914 141.999>
+VStem: -759 80<-352.489 -208.282> -564 60<-433.485 -374.515> -152 60<-200.545 -143.455> -34 60<-200.099 -168.31> 72 80<-367 -220 -102 640.181> 282 14<-365 -355.193>
 AnchorPoint: "BelowRight" 72 -494 basechar 0
 AnchorPoint: "BelowMark" -297 -494 basemark 0
 LayerCount: 2
 Back
 SplineSet
+296 -360 m 2
+ 300 -399 l 1
+ 282 -365 l 2
+ 212 -232 86 -159 -64 -159 c 1
+ -64 -83 l 1
+ 117 -83 277 -177 296 -360 c 2
+-92 -172 m 3
+ -92 -188 -80 -201 -64 -201 c 3
+ -48 -201 -34 -188 -34 -172 c 3
+ -34 -156 -48 -143 -64 -143 c 3
+ -80 -143 -92 -156 -92 -172 c 3
+-64 -83 m 3
+ -16 -83 26 -124 26 -172 c 3
+ 26 -220 -16 -261 -64 -261 c 3
+ -112 -261 -152 -220 -152 -172 c 3
+ -152 -124 -112 -83 -64 -83 c 3
 -624 -404 m 3
  -624 -421 -611 -434 -594 -434 c 3
  -577 -434 -564 -421 -564 -404 c 3
@@ -7265,31 +7274,49 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--624 -404 m 3x7f
+-624 -404 m 3x71fc
  -624 -421 -611 -434 -594 -434 c 3
  -577 -434 -564 -421 -564 -404 c 3
  -564 -387 -577 -374 -594 -374 c 3
- -611 -374 -624 -387 -624 -404 c 3x7f
--594 -494 m 3
- -704 -494 -759 -391 -759 -290 c 3
- -759 -173 -656 -83 -508 -83 c 3
+ -611 -374 -624 -387 -624 -404 c 3x71fc
+-92 -172 m 3
+ -92 -188 -80 -201 -64 -201 c 3
+ -48 -201 -34 -188 -34 -172 c 3
+ -34 -156 -48 -143 -64 -143 c 3x33fc
+ -80 -143 -92 -156 -92 -172 c 3
+-594 -494 m 3x75fc
+ -703.041 -494 -759 -394 -759 -290 c 3
+ -759 -173 -656 -83 -508 -83 c 3x75fc
  -279 -83 -232 -414 -86 -414 c 3
  -7 -414 72 -359 72 -290 c 2
+ 72 -181 l 1
+ 57 -176 42 -171 26 -168 c 1xb9fc
+ 26 -172 l 2
+ 26 -220 -16 -261 -64 -261 c 3
+ -112 -261 -152 -220 -152 -172 c 3
+ -152 -124 -112 -83 -64 -83 c 3x33fc
+ -16 -83 30 -89 72 -102 c 1
  72 564 l 2
  72 591 -2 703 -54 727 c 1
  -38 792 -7 826 61 826 c 3
  129 826 176 766 228 645 c 1
  148 722 122 749 37 749 c 1
  63 722 152 615 152 564 c 2
+ 152 -137 l 1
+ 230 -183 285 -257 296 -360 c 2
+ 300 -399 l 1
+ 282 -365 l 2
+ 250 -303 205 -255 152 -220 c 1
  152 -290 l 2
- 152 -408 34 -494 -86 -494 c 3xbf
+ 152 -408 34 -494 -86 -494 c 3xb9fc
  -296 -494 -328 -163 -508 -163 c 3
  -598 -163 -679 -212 -679 -290 c 3
  -679 -315 -675 -337 -669 -354 c 1
  -653 -330 -625 -314 -594 -314 c 3
  -544 -314 -504 -354 -504 -404 c 3
- -504 -454 -544 -494 -594 -494 c 3
+ -504 -454 -544 -494 -594 -494 c 3x75fc
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A70
@@ -7815,6 +7842,7 @@ SplineSet
  -713 -561 -726 -550 -739 -550 c 3
  -755 -550 -766 -564 -766 -577 c 3
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A20
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A20.sub uni1A6F
@@ -10248,6 +10276,7 @@ SplineSet
  -544 -314 -504 -354 -504 -404 c 3
  -504 -454 -544 -494 -594 -494 c 3
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A43.sub uni1A55
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
@@ -10505,6 +10534,7 @@ SplineSet
  44 561 l 2
  44 610 -20 705 -75 780 c 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A48
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6F
@@ -16082,8 +16112,66 @@ VStem: -703 60<1000.51 1059.77> -583 60<1000.51 1059.67>
 AnchorPoint: "AboveBase" -613 883 mark 0
 AnchorPoint: "AboveMark" -613 1419 basemark 0
 LayerCount: 2
+Back
+SplineSet
+-643 1030 m 7xba
+ -643 1013 -630 1000 -613 1000 c 7
+ -596 1000 -583 1013 -583 1030 c 7
+ -583 1047 -596 1060 -613 1060 c 7
+ -630 1060 -643 1047 -643 1030 c 7xba
+-703 1030 m 7
+ -703 1080 -663 1120 -613 1120 c 7
+ -563 1120 -523 1080 -523 1030 c 7xbc
+ -523 980 -563 940 -613 940 c 7
+ -663 940 -703 980 -703 1030 c 7
+-523 1030 m 5
+ -603 1030 l 5
+ -603 1072 -686 1116 -732 1141 c 4
+ -840 1200 -921 1219 -1006 1219 c 7
+ -1019 1219 -1031 1218 -1043 1217 c 5
+ -955 1322 -832 1362 -759 1362 c 7
+ -696 1362 -647 1348 -589 1300 c 4
+ -495 1222 -466 1194 -419 1163 c 4
+ -349 1117 -290 1101 -209 1101 c 7
+ -199 1101 -163 1104 -163 1104 c 5
+ -229 1024 l 5
+ -240 1022 -252 1021 -264 1021 c 7xdc
+ -323 1021 -390 1046 -464 1097 c 4
+ -483 1110 -543 1157 -640 1239 c 4
+ -678 1271 -732 1282 -759 1282 c 7
+ -791 1282 -813 1278 -853 1265 c 5
+ -813 1263 -770 1252 -688 1207 c 4
+ -585 1150 -523 1103 -523 1030 c 5
+EndSplineSet
 Fore
-Refer: 65 6745 N 1 0 0 1 0 0 2
+SplineSet
+-643 1030 m 3
+ -643 1013 -630 1000 -613 1000 c 3
+ -596 1000 -583 1013 -583 1030 c 3
+ -583 1047 -596 1060 -613 1060 c 3
+ -630 1060 -643 1047 -643 1030 c 3
+-523 1030 m 3
+ -523 980 -563 940 -613 940 c 3
+ -663 940 -703 980 -703 1030 c 3
+ -703 1060 -688 1087 -666 1103 c 1
+ -689 1118 -713 1131 -732 1141 c 0
+ -840 1200 -921 1219 -1006 1219 c 3
+ -1019 1219 -1031 1218 -1043 1217 c 1
+ -955 1322 -832 1362 -759 1362 c 3
+ -696 1362 -647 1348 -589 1300 c 0
+ -495 1222 -466 1194 -419 1163 c 0
+ -349 1117 -290 1101 -209 1101 c 3
+ -199 1101 -163 1104 -163 1104 c 1
+ -229 1024 l 1
+ -240 1022 -252 1021 -264 1021 c 3
+ -323 1021 -390 1046 -464 1097 c 0
+ -483 1110 -543 1157 -640 1239 c 0
+ -678 1271 -732 1282 -759 1282 c 3
+ -791 1282 -813 1278 -853 1265 c 1
+ -813 1263 -770 1252 -688 1207 c 0
+ -585 1150 -523 1103 -523 1030 c 3
+EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58 uni1A70
