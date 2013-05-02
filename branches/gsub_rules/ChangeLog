@@ -1,5 +1,13 @@
 2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Also copy anchors for uni1A58.lai.
+
+	* fonts/Khottabun.sfd:
+	  - Copy anchors from uni1A58 to uni1A58.lai, missed in previous
+	    commit.
+
+2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Adjust ANG-LAN reordering for SAKOT-less scheme.
 
 	* fonts/Khottabun.sfd:

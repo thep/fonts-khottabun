@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1367302098
+ModificationTime: 1367492310
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -331,7 +331,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65560 8 4
+WinInfo: 6744 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -16492,9 +16492,12 @@ GlyphClass: 4
 Flags: W
 HStem: 940 60<-642.485 -583.515> 1021 80<-380.556 -203.741> 1282 80<-849.846 -644.722>
 VStem: -703 60<1000.51 1059.77> -583 60<1000.51 1059.67>
+AnchorPoint: "AboveMark" -613 1419 basemark 0
+AnchorPoint: "AboveBase" -613 883 mark 0
 LayerCount: 2
 Fore
 Refer: 203 6744 N 1 0 0 1 0 0 2
+LCarets2: 2 0 0 
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A6F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A70
