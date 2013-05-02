@@ -1,5 +1,39 @@
 2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Handle RA reordering on presence of ANG-LAN.
+
+	ANG-LAN + C + RA + V
+	-> C + ANG-LAN.lai + RA + V (another rule)
+	-> RA + V + C + zwj + ANG-LAN.lai + RA + V
+	-> RA + V + C + ANG-LAN.lai
+	* fonts/Khottabun.sfd:
+	  - Add "'ccmp' RA-CAR prepend intermediate" subtable to
+	    "'ccmp' RA reorder stage 1" GSUB.
+	    Just the matching patterns; the existing prepending lookup already
+	    applies.
+	  - Add new rule to cover uni1A58.lai + RA + V in
+	    "'ccmp RA reorder remove intermediate" GSUB.
+	  - Add "RA-AngV remove intermediate lookup" subtable to
+	    "RA remove intermediate" GSUB.
+
+	ANG-LAN + C + RA
+	-> C + ANG-LAN.lai + RA (another rule)
+	-> RA + C + zwj + ANG-LAN.lai + RA
+	-> RA + C + ANG-LAN.lai
+	* fonts/Khottabun.sfd:
+	  - Add new rule to cover uni1A58.lai in
+	    "'ccmp' RA reorder prepend intermediate" GSUB.
+	    Just the matching pattern; the existing prepending lookup already
+	    applies.
+	  - Add new rule to cover uni1A58.lai in
+	    "'ccmp RA reorder remove intermediate" GSUB.
+	  - Add "RA-Ang remove intermediate lookup" subtable to
+	    "RA remove intermediate" lookup.
+
+	  - Bump font version to 001.010.
+
+2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Also copy anchors for uni1A58.lai.
 
 	* fonts/Khottabun.sfd:
