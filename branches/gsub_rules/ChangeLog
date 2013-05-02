@@ -1,3 +1,20 @@
+2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Adjust ANG-LAN reordering for SAKOT-less scheme.
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A58.lai glyph which is identical to uni1A58, to prevent
+	    GSUB rules from recurring endlessly.
+	  - Remove uni1A60 (SAKOT) from 'ANG-LAN' rule patterns.
+	  - Make 'ANG-LAN append intermediate lookup' append uni1A58.lai
+	    instead of uni1A58.
+	  - Drop uni1A60 from 'ANG-LAN remove intermediate lookup' ligatures.
+	  - Add uni1A58.lai to mark class in 'LV reorder {prepend|remove}
+	    intermediate' rules.
+	  - Add 'LV remove intermediate for subjoin' ligature patterns for
+	    uni1A58.lai.
+	  - Bump font version to 001.009.
+
 2013-04-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Differenciate glyphs.
