@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.009
+Version: 001.010
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1367492310
+ModificationTime: 1367507022
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -46,7 +46,7 @@ Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin co
 Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1"  {"'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2"  {"'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' RA reorder stage 1"  {"'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' RA reorder stage 1"  {"'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA-CAR prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' RA reorder stage 2"  {"'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 8 1 "'ccmp' Misc ligatures"  {"'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Ligatures with marks"  {"'ccmp' Ligatures with marks lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -69,7 +69,7 @@ Lookup: 2 0 0 "RA-U prepend intermediate"  {"RA-U prepend intermediate lookup"  
 Lookup: 2 0 0 "RA-UU prepend intermediate"  {"RA-UU prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA prepend intermediate"  {"RA prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA-deep prepend intermediate"  {"RA-deep prepend intermediate lookup"  } []
-Lookup: 4 0 0 "RA remove intermediate"  {"RA-VV remove intermediate lookup"  "RA-V remove intermediate lookup"  "RA-C remove intermediate lookup"  "RA-S remove intermediate lookup"  } []
+Lookup: 4 0 0 "RA remove intermediate"  {"RA-VV remove intermediate lookup"  "RA-V remove intermediate lookup"  "RA-C remove intermediate lookup"  "RA-S remove intermediate lookup"  "RA-AngV remove intermediate lookup"  "RA-Ang remove intermediate lookup"  } []
 Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
@@ -81,6 +81,74 @@ MarkAttachClasses: 6
 "BelowMark" 0 
 "BelowRight" 0 
 DEI: 91125
+ContextSub2: class "'ccmp' RA-CAR prepend intermediate"  10 10 10 6
+  Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
+  Class: 11 uni1A58.lai
+  Class: 7 uni1A55
+  Class: 7 uni1A65
+  Class: 7 uni1A66
+  Class: 7 uni1A67
+  Class: 7 uni1A68
+  Class: 7 uni1A69
+  Class: 7 uni1A6A
+  BClass: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
+  BClass: 11 uni1A58.lai
+  BClass: 7 uni1A55
+  BClass: 7 uni1A65
+  BClass: 7 uni1A66
+  BClass: 7 uni1A67
+  BClass: 7 uni1A68
+  BClass: 7 uni1A69
+  BClass: 7 uni1A6A
+  FClass: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
+  FClass: 11 uni1A58.lai
+  FClass: 7 uni1A55
+  FClass: 7 uni1A65
+  FClass: 7 uni1A66
+  FClass: 7 uni1A67
+  FClass: 7 uni1A68
+  FClass: 7 uni1A69
+  FClass: 7 uni1A6A
+ 4 0 0
+  ClsList: 1 2 3 4
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA-I prepend intermediate" 
+ 4 0 0
+  ClsList: 1 2 3 5
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA-II prepend intermediate" 
+ 4 0 0
+  ClsList: 1 2 3 6
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA-UE prepend intermediate" 
+ 4 0 0
+  ClsList: 1 2 3 7
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA-UEE prepend intermediate" 
+ 4 0 0
+  ClsList: 1 2 3 8
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA-U prepend intermediate" 
+ 4 0 0
+  ClsList: 1 2 3 9
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA-UU prepend intermediate" 
+  ClassNames: "All_Others"  "1"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  
+  BClassNames: "All_Others"  "1"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  
+  FClassNames: "All_Others"  "1"  "2"  "3"  "4"  "5"  "6"  "7"  "8"  "9"  
+EndFPST
 ContextSub2: coverage "'ccmp' RA-CVR UU prepend intermediate"  0 0 0 1
  4 0 0
   Coverage: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
@@ -142,12 +210,13 @@ ChainSub2: glyph "Context-sensitive subjoin convert"  0 0 0 1
  1
   SeqLookup: 0 "Alternate subjoined consonant" 
 EndFPST
-ContextSub2: class "'ccmp' RA reorder remove intermediate"  6 1 1 4
+ContextSub2: class "'ccmp' RA reorder remove intermediate"  7 1 1 6
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
   Class: 8 zerojoin
   Class: 7 uni1A55
   Class: 47 uni1A65 uni1A66 uni1A67 uni1A68 uni1A69 uni1A6A
   Class: 460 uni1A56 uni1A57 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A33.sub2 uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub
+  Class: 11 uni1A58.lai
  3 0 0
   ClsList: 1 2 3
   BClsList:
@@ -172,15 +241,28 @@ ContextSub2: class "'ccmp' RA reorder remove intermediate"  6 1 1 4
   FClsList:
  1
   SeqLookup: 0 "RA remove intermediate" 
-  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  
+ 4 0 0
+  ClsList: 2 6 3 4
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA remove intermediate" 
+ 3 0 0
+  ClsList: 2 6 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA remove intermediate" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  "6"  
   BClassNames: "0"  
   FClassNames: "0"  
 EndFPST
-ContextSub2: class "'ccmp' RA reorder prepend intermediate"  5 1 1 3
+ContextSub2: class "'ccmp' RA reorder prepend intermediate"  6 1 1 4
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
   Class: 7 uni1A55
   Class: 47 uni1A65 uni1A66 uni1A67 uni1A68 uni1A69 uni1A6A
   Class: 460 uni1A56 uni1A57 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A25.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2B.sub uni1A2C.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A30.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A33.sub2 uni1A34.sub uni1A35.sub uni1A36.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A3F.sub uni1A41.sub uni1A43.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub
+  Class: 11 uni1A58.lai
  2 0 0
   ClsList: 1 2
   BClsList:
@@ -199,7 +281,13 @@ ContextSub2: class "'ccmp' RA reorder prepend intermediate"  5 1 1 3
   FClsList:
  1
   SeqLookup: 0 "RA-deep prepend intermediate" 
-  ClassNames: "0"  "1"  "2"  "3"  "4"  
+ 3 0 0
+  ClsList: 1 5 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "RA prepend intermediate" 
+  ClassNames: "0"  "1"  "2"  "3"  "4"  "5"  
   BClassNames: "0"  
   FClassNames: "0"  
 EndFPST
@@ -331,7 +419,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6744 8 4
+WinInfo: 6728 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -16497,6 +16585,13 @@ AnchorPoint: "AboveBase" -613 883 mark 0
 LayerCount: 2
 Fore
 Refer: 203 6744 N 1 0 0 1 0 0 2
+Ligature2: "RA-Ang remove intermediate lookup" zerojoin uni1A58.lai uni1A55
+Ligature2: "RA-AngV remove intermediate lookup" zerojoin uni1A58.lai uni1A55 uni1A65
+Ligature2: "RA-AngV remove intermediate lookup" zerojoin uni1A58.lai uni1A55 uni1A66
+Ligature2: "RA-AngV remove intermediate lookup" zerojoin uni1A58.lai uni1A55 uni1A67
+Ligature2: "RA-AngV remove intermediate lookup" zerojoin uni1A58.lai uni1A55 uni1A68
+Ligature2: "RA-AngV remove intermediate lookup" zerojoin uni1A58.lai uni1A55 uni1A69
+Ligature2: "RA-AngV remove intermediate lookup" zerojoin uni1A58.lai uni1A55 uni1A6A
 LCarets2: 2 0 0 
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A6F
