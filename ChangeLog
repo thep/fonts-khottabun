@@ -1,3 +1,16 @@
+2013-05-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Fix mark-to-mark composition for below-base vowels.
+
+	* fonts/Khottabun.sfd:
+	  - Add deep copies for SARA U, SARA UU, SARA AO BELOW, subjoined WA
+	    (uni1A69.deep, uni1A6A.deep, uni1A6C.deep, uni1A45.deep,
+	    respectively).
+	  - Move "BelowMark" mark anchors from normal glyphs to deep glyphs.
+	  - Add "'ccmp' Deep subjoins" GSUB to convert the four signs to
+	    deep copy when following BelowBase marks.
+	  - Bump font version to 001.011.
+
 2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Handle RA reordering on presence of ANG-LAN.
