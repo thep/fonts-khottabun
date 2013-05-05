@@ -1,5 +1,12 @@
 2013-05-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Mark subjoin glyphs with vertical stem as mark.
+
+	* fonts/Khottabun.sfd:
+	  - So that 'mkmk' applies to these glyphs as well.
+
+2013-05-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Adjust mark-to-mark composition for below-base marks.
 
 	* fonts/Khottabun.sfd:

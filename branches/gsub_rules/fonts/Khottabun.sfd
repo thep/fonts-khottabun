@@ -428,7 +428,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6768 8 4
+WinInfo: 6720 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -7317,7 +7317,7 @@ StartChar: uni1A57
 Encoding: 6743 6743 76
 Width: 289
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -494 80<-165.005 26.377> -494 60<-623.628 -564.515> -374 60<-623.61 -564.515> -261 60<-91.9914 -34.9023> -168 66<26 72> -163 80<-632.409 -413.407> -143 60<-91.9914 -34.5123> 749 77<37.1914 141.999>
 VStem: -759 80<-352.637 -208.282> -564 60<-433.485 -374.515> -152 60<-200.545 -143.455> -34 60<-200.099 -168.31> 72 80<-367 -220 -102 640.181> 282 14<-365 -355.193>
@@ -7416,13 +7416,12 @@ SplineSet
  -544 -314 -504 -354 -504 -404 c 3
  -504 -454 -544 -494 -594 -494 c 3x75fc
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A57 uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6E
 EndChar
 
 StartChar: uni1A64
@@ -8115,7 +8114,7 @@ StartChar: uni1A25.sub
 Encoding: 65541 -1 86
 Width: 287
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-823.762 -716.305 -523.04 -371.343 -173.122 13.4269> -593 80<-688.695 -552.96> -352 60<-862.485 -803.515> -217 80<-752.541 -653.346> -163 80<-820.243 -752.541 -654.153 -544.645 -333.606 -330.257 -282 -223.016> 750 94<-25.6064 1.8166>
 VStem: -923 60<-291.485 -232.55> -905 80<-586.07 -457.208> -803 60<-291.485 -232.672> -541 80<-287.91 -164.747> -275 80<-475.366 -220.406> 69 80<-525.758 670.75>
@@ -8239,14 +8238,13 @@ SplineSet
  -761 -217 -791 -163 -807 -163 c 3x2df0
  -812 -163 -817 -167 -821 -173 c 1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A25.sub uni1A55
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A6E
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A25
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A72
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A25.sub uni1A55
 EndChar
 
 StartChar: uni1A26.sub
@@ -8580,7 +8578,7 @@ StartChar: uni1A2B.sub
 Encoding: 65547 -1 91
 Width: 180
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -821 80<-192.854 -115.979 -66.4337 8.7305> -667 80<-542.59 -425.454> -610 80<-434.546 -301.7> -475 64<-173.543 -122.48> -358 64<-171.815 -137.009> -163 80<-497.191 -207.033> 900 64<-90 6.43823>
 VStem: -623 80<-585.506 -518.944> -273 80<-740.989 -655.072> -238 64<-410.69 -358.842> -122 116<-410.993 -358.194> -35 29<-506.41 -466.744> 11 80<-738.944 766.89>
@@ -8700,21 +8698,20 @@ SplineSet
  -129 -411 -122 -401 -122 -374 c 2
  -122 -362 l 1x9f68
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A2B
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2B.sub uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A2B
 EndChar
 
 StartChar: uni1A2C.sub
 Encoding: 65548 -1 92
 Width: 200
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -891 80<-512.394 -68.1556> -522 80<-184.713 -4.2048> -373 64<-616.082 -564.31> -163 80<-553.49 -290.321> 768 58<-3.43504 84.859>
 VStem: -692 80<-736.861 -610.767 -308.876 -257.835> -564 64<-308.543 -256.613> -224 80<-391.269 -225.815> 37 80<-397.969 685.831>
@@ -8801,14 +8798,13 @@ SplineSet
  37 678 -26 714 -68 714 c 3
  -84 714 -90 713 -102 711 c 1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A2C
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A2C.sub uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A2C
 EndChar
 
 StartChar: uni1A2D.sub
@@ -9103,7 +9099,7 @@ StartChar: uni1A30.sub
 Encoding: 65552 -1 96
 Width: 200
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-630.667 -463.76 -156.006 -25.6576> -569 80<-399.266 -217.751> -352 60<-668.485 -609.515> -242 80<-512.943 -434.794> -163 80<-621.226 -558.433 -395.022 -302.827> 806 20G<-48.5 -8.5>
 VStem: -729 60<-291.485 -232.835> -711 80<-586.269 -506.787> -609 60<-291.485 -232.191> -287 80<-331.56 -173.139> 45 80<-509.948 664.804>
@@ -9210,14 +9206,13 @@ SplineSet
  -557 -242 -573 -163 -599 -163 c 3xede0
  -609 -163 -616 -166 -623 -173 c 1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A30
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A30.sub uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A30
 EndChar
 
 StartChar: uni1A31.sub
@@ -9684,7 +9679,7 @@ StartChar: uni1A37.sub
 Encoding: 65559 -1 103
 Width: 350
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -492 80<-513.44 -298.25 -116.354 96.1467> -373 60<-452.948 -393.515> -253 60<-452.334 -393.515> 765 61<118.043 186.719>
 VStem: -602 80<-400.816 -307> -393 60<-312.485 -253.515> 139 80<-367.125 671.588>
@@ -9786,21 +9781,20 @@ SplineSet
  -333 -333 -373 -373 -423 -373 c 3
  -465 -373 -500 -345 -510 -306 c 1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A37
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A37.sub uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A37
 EndChar
 
 StartChar: uni1A38.sub
 Encoding: 65560 -1 104
 Width: 350
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -492 80<-513.44 -298.25 -116.354 96.1467> -373 60<-452.948 -393.515> -253 60<-452.334 -393.515> 765 61<118.043 186.719>
 VStem: -602 80<-400.816 -307> -393 60<-312.485 -253.515> 139 80<-367.125 671.588>
@@ -9885,21 +9879,20 @@ SplineSet
  -333 -333 -373 -373 -423 -373 c 3
  -465 -373 -500 -345 -510 -306 c 1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A38
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A38.sub uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A38
 EndChar
 
 StartChar: uni1A39.sub
 Encoding: 65561 -1 105
 Width: 350
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -492 80<-513.44 -298.25 -116.354 96.1467> -373 60<-452.948 -393.515> -253 60<-452.334 -393.515> 610 80<58.6489 134.352> 746 80<58.6489 132.377>
 VStem: -602 80<-400.816 -307> -393 60<-312.485 -253.515> -22 80<690.45 745.55> 139 80<-367.125 614>
@@ -10013,14 +10006,13 @@ SplineSet
  58 703 72 690 90 690 c 3
  103 690 118 692 135 696 c 1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A39
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A39.sub uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A39
 EndChar
 
 StartChar: uni1A3B.sub
@@ -10253,7 +10245,7 @@ StartChar: uni1A3F.sub
 Encoding: 65567 -1 109
 Width: 323
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -431 80<-227.843 28.7966> -143 60<-330.485 -271.515> 806 20G<109 134.5>
 VStem: -391 60<-200.156 -143.515> -271 60<-202.407 -143.515> 118 80<-262.922 659.974>
@@ -10313,14 +10305,13 @@ SplineSet
  -251 -83 -211 -123 -211 -173 c 3
  -211 -216 -241 -252 -282 -261 c 1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A3F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A3F.sub uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A3F
 EndChar
 
 StartChar: uni1A41.sub
@@ -10352,7 +10343,7 @@ StartChar: uni1A43.sub
 Encoding: 65571 -1 111
 Width: 289
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -494 80<-165.005 26.377> -494 60<-623.739 -564.515> -374 60<-623.61 -564.515> -163 80<-632.409 -413.407> 749 77<37.1914 141.999>
 VStem: -759 80<-352.057 -208.282> -564 60<-433.485 -374.515> 72 80<-367 640.181>
@@ -10418,14 +10409,13 @@ SplineSet
  -544 -314 -504 -354 -504 -404 c 3
  -504 -454 -544 -494 -594 -494 c 3
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A43.sub uni1A55
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6E
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A43
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A43.sub uni1A55
 EndChar
 
 StartChar: uni1A45.sub
@@ -10568,7 +10558,7 @@ StartChar: uni1A48.sub
 Encoding: 65576 -1 114
 Width: 196
 VWidth: 2260
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 HStem: -667 80<-257.697 -15.6191> -667 64<-436.082 -389.771> -550 64<-435.479 -389.466> -379 64<-101.082 -48.7643> -265 64<-426.082 -389.177 -101.236 -48.5441> -147 64<-426.236 -373.918> 806 20G<4 35.5>
 VStem: -501 64<-602.876 -550.918 -199.922 -148.154> -389 80<-487 -264> -373 64<-200.99 -148.521> -166 64<-314.236 -261.918> -48 64<-314.8 -287.254> 44 80<-523.998 -334 -213 660.148>
@@ -10679,14 +10669,13 @@ SplineSet
  44 561 l 2
  44 610 -20 705 -75 780 c 1
 EndSplineSet
-LCarets2: 2 0 0 
-Ligature2: "Subjoined consonants lookup" uni1A60 uni1A48
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6E
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A72
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A48.sub uni1A55
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A72
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6E
+Ligature2: "Subjoined consonants lookup" uni1A60 uni1A48
 EndChar
 
 StartChar: uni1A49.sub
