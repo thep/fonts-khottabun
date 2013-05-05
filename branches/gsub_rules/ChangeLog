@@ -1,3 +1,20 @@
+2013-05-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Adjust mark-to-mark composition for below-base marks.
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A60 (SAKOT) and uni1A36.sub (subjoined NA) to
+	    "Deep subjoins" rule. These are required for entering "ราทฺธฺนา".
+	  - Add new anchor classes: "BelowSideMark" and "BelowRightMark".
+	    "BelowSideMark" is for SARA U, SARA UU.
+	    "BelowRightMark" is for deep subjoined NA.
+	    "BelowMark" is for deep vowel AO below, deep subjoined WA.
+	  - Add uni1A60.deep and uni1A36.deep glyphs.
+	  - Change "BelowRight" base anchors in subjoined forms to
+	    "BelowRightMark", to let 'mkmk' apply separately from 'mark'.
+	  - Add "BelowSideMark" base anchors to subjoined forms.
+	  - Bump font version to 001.012.
+
 2013-05-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Fix mark-to-mark composition for below-base vowels.
