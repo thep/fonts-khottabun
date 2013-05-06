@@ -1,5 +1,20 @@
 2013-05-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Reorder lower vowel with some subjoins.
+
+	"รูป" <RA, UU, SAKOT, HIGH PA> must be reorderd to
+	<RA, SAKOT, HIGH PA, UU> when rendered.
+
+	* fonts/Khottabun.sfd:
+	  - Rename "'ccmp' Deep subjoins" to "'ccmp' Deep flexible subjoins",
+	    as well as its associated lookups.
+	  - Add "'ccmp' Deep flexible subjoins stage {1|2}" to reorder
+	    VOWEL U, UU with the following subjoin form if the subjoin
+	    has vertical stem.
+	  - Bump font version to 001.014.
+
+2013-05-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Subjoin glyphs with vertical stem should not be of mark class.
 
 	Previous commit caused AboveBase anchor to stop working.
