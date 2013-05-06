@@ -1,3 +1,20 @@
+2013-05-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Subjoin glyphs with vertical stem should not be of mark class.
+
+	Previous commit caused AboveBase anchor to stop working.
+	Just reverting it is not enough, either. All the deep mark
+	compositions must be undone as well.
+
+	* fonts/Khottabun.sfd:
+	  - Mark subjoin glyphs with vertical stem as base glyph.
+	  - For those glyphs:
+	    - Remove "BelowSideMark" anchor from those glyphs.
+	    - Change "BelowRightMark" anchor to "BelowRight".
+	    - Change "BelowMark" anchor to "BelowBase".
+	  - Drop those glyphs from "Deep subjoins" GSUB.
+	  - Bump font version to 001.013.
+
 2013-05-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Mark subjoin glyphs with vertical stem as mark.
