@@ -1,3 +1,282 @@
+2013-05-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Reorder lower vowel with some subjoins.
+
+	"รูป" <RA, UU, SAKOT, HIGH PA> must be reorderd to
+	<RA, SAKOT, HIGH PA, UU> when rendered.
+
+	* fonts/Khottabun.sfd:
+	  - Rename "'ccmp' Deep subjoins" to "'ccmp' Deep flexible subjoins",
+	    as well as its associated lookups.
+	  - Add "'ccmp' Deep flexible subjoins stage {1|2}" to reorder
+	    VOWEL U, UU with the following subjoin form if the subjoin
+	    has vertical stem.
+	  - Bump font version to 001.014.
+
+2013-05-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Subjoin glyphs with vertical stem should not be of mark class.
+
+	Previous commit caused AboveBase anchor to stop working.
+	Just reverting it is not enough, either. All the deep mark
+	compositions must be undone as well.
+
+	* fonts/Khottabun.sfd:
+	  - Mark subjoin glyphs with vertical stem as base glyph.
+	  - For those glyphs:
+	    - Remove "BelowSideMark" anchor from those glyphs.
+	    - Change "BelowRightMark" anchor to "BelowRight".
+	    - Change "BelowMark" anchor to "BelowBase".
+	  - Drop those glyphs from "Deep subjoins" GSUB.
+	  - Bump font version to 001.013.
+
+2013-05-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Mark subjoin glyphs with vertical stem as mark.
+
+	* fonts/Khottabun.sfd:
+	  - So that 'mkmk' applies to these glyphs as well.
+
+2013-05-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Adjust mark-to-mark composition for below-base marks.
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A60 (SAKOT) and uni1A36.sub (subjoined NA) to
+	    "Deep subjoins" rule. These are required for entering "ราทฺธฺนา".
+	  - Add new anchor classes: "BelowSideMark" and "BelowRightMark".
+	    "BelowSideMark" is for SARA U, SARA UU.
+	    "BelowRightMark" is for deep subjoined NA.
+	    "BelowMark" is for deep vowel AO below, deep subjoined WA.
+	  - Add uni1A60.deep and uni1A36.deep glyphs.
+	  - Change "BelowRight" base anchors in subjoined forms to
+	    "BelowRightMark", to let 'mkmk' apply separately from 'mark'.
+	  - Add "BelowSideMark" base anchors to subjoined forms.
+	  - Bump font version to 001.012.
+
+2013-05-04  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Fix mark-to-mark composition for below-base vowels.
+
+	* fonts/Khottabun.sfd:
+	  - Add deep copies for SARA U, SARA UU, SARA AO BELOW, subjoined WA
+	    (uni1A69.deep, uni1A6A.deep, uni1A6C.deep, uni1A45.deep,
+	    respectively).
+	  - Move "BelowMark" mark anchors from normal glyphs to deep glyphs.
+	  - Add "'ccmp' Deep subjoins" GSUB to convert the four signs to
+	    deep copy when following BelowBase marks.
+	  - Bump font version to 001.011.
+
+2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Handle RA reordering on presence of ANG-LAN.
+
+	ANG-LAN + C + RA + V
+	-> C + ANG-LAN.lai + RA + V (another rule)
+	-> RA + V + C + zwj + ANG-LAN.lai + RA + V
+	-> RA + V + C + ANG-LAN.lai
+	* fonts/Khottabun.sfd:
+	  - Add "'ccmp' RA-CAR prepend intermediate" subtable to
+	    "'ccmp' RA reorder stage 1" GSUB.
+	    Just the matching patterns; the existing prepending lookup already
+	    applies.
+	  - Add new rule to cover uni1A58.lai + RA + V in
+	    "'ccmp RA reorder remove intermediate" GSUB.
+	  - Add "RA-AngV remove intermediate lookup" subtable to
+	    "RA remove intermediate" GSUB.
+
+	ANG-LAN + C + RA
+	-> C + ANG-LAN.lai + RA (another rule)
+	-> RA + C + zwj + ANG-LAN.lai + RA
+	-> RA + C + ANG-LAN.lai
+	* fonts/Khottabun.sfd:
+	  - Add new rule to cover uni1A58.lai in
+	    "'ccmp' RA reorder prepend intermediate" GSUB.
+	    Just the matching pattern; the existing prepending lookup already
+	    applies.
+	  - Add new rule to cover uni1A58.lai in
+	    "'ccmp RA reorder remove intermediate" GSUB.
+	  - Add "RA-Ang remove intermediate lookup" subtable to
+	    "RA remove intermediate" lookup.
+
+	  - Bump font version to 001.010.
+
+2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Also copy anchors for uni1A58.lai.
+
+	* fonts/Khottabun.sfd:
+	  - Copy anchors from uni1A58 to uni1A58.lai, missed in previous
+	    commit.
+
+2013-05-02  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Adjust ANG-LAN reordering for SAKOT-less scheme.
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A58.lai glyph which is identical to uni1A58, to prevent
+	    GSUB rules from recurring endlessly.
+	  - Remove uni1A60 (SAKOT) from 'ANG-LAN' rule patterns.
+	  - Make 'ANG-LAN append intermediate lookup' append uni1A58.lai
+	    instead of uni1A58.
+	  - Drop uni1A60 from 'ANG-LAN remove intermediate lookup' ligatures.
+	  - Add uni1A58.lai to mark class in 'LV reorder {prepend|remove}
+	    intermediate' rules.
+	  - Add 'LV remove intermediate for subjoin' ligature patterns for
+	    uni1A58.lai.
+	  - Bump font version to 001.009.
+
+2013-04-29  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Differenciate glyphs.
+
+	* fonts/Khottabun.sfd:
+	  - Add a cross stem to uni1A57 (LA TANG LAI) to distinguish with
+	    uni1A43.sub (spacing MEDIAL LA). It's not actually found in
+	    manuscripts anyway.
+	  - Make uni1A58 (MAI ANG-LAN) and uni1A59 (FINAL NGA) a bit
+	    different. The two signs should be identical, but we need to
+	    distinguish them to make incorrect code point usage easily
+	    spotted.
+	  - Bump font version to 001.008.
+
+2013-04-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Fix 'LV remove intermediate' for ANG-LAN, FINAL NGA.
+
+	* fonts/Khottabun.sfd:
+	  - Fix ligature pattern for uni1A59.
+	  - Add entries for uni1A58.
+	  - Bump font version to 001.007.
+
+2013-04-20  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Split vowel AM ligature rule.
+
+	* fonts/Khottabun.sfd:
+	  - Split vowel AM ligature rule into separate 'ccmp' and 'pstf'
+	    lookups. Old lookups ignore marks, which makes MAI KANG ignored.
+	  - Bump font version to 001.006.
+
+2013-04-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add 'lana' script tag to GPOS.
+
+	* fonts/Khottabun.sfd:
+	  - Also add 'lana' script tag (with lang tags) to GPOS, so it gets
+	    applied by Harfbuzz.
+
+2013-04-18  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Clean more stuffs on old NAA ligature rules.
+
+	* fonts/Khottabun.sfd:
+	  - Drop 'NAA ligature {conversion/remove} intermediate' lookups.
+	  - Bump font version to 001.005.
+
+2013-04-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Simplify NAA ligature rule for 'DFLT' script.
+
+	* fonts/Khottabun.sfd:
+	  - Make 'Misc ligatures' rule skip marks.
+	  - Drop unnecessary 'NAA ligature stage 1/2' rules.
+
+2013-04-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Harfbuzz support.
+
+	* fonts/Khottabun.sfd:
+	  - Selectively set 'lana' script to GSUB rules, to get run by
+	    Harfbuzz. Those with 'DFLT' only will be ignored.
+	  - Handle NAA ligature with 'pstf' instead of 'ccmp', so that it
+	    gets run after Indic preprocessing.
+	  - Set glyph class for all glyphs, to make mark skipping in GSUB
+	    rules possible. (GDEF is thus explicitly generated.)
+	  - Bump font version to 001.004.
+
+2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add anchors to WA + AA ligature.
+
+	* fonts/Khottabun.sfd:
+	  - Add missing base anchors for uni1A45.uni1A63 glyph.
+	  - Bump font version to 001.003.
+
+2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add vowel AM ligature.
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A63.uni1A74 ligature glyph for vowel AM, with GSUB rule.
+
+2013-04-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add DOK MAI glyph.
+
+	* fonts/Khottabun.sfd:
+	  - Add DOK MAI (U+1AA5) glyph, based on shaped found in manuscript
+	    http://sea.lib.niu.edu/fedora/repository/SEAImages:S0135collection/-/Kan%20Sukhwan
+	  - Bump font version to 001.002.
+
+2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Replace SAKOT + LA with spacing medial form
+
+	* fonts/Khottabun.sfd:
+	  - Replace uni1A43.sub glyph with copy from uni1A57 (LA TANG LAI).
+	  - Add subjoin rule for uni1A60 + uni1A43 -> uni1A43.sub.
+	  - LA TANG LAI is now doubtful for its use in Lao Tham.
+
+2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Swap Mai Muan and Mai Malai encodings
+
+	* fonts/Khottabun.sfd:
+	  - Swap glyph data for uni1A71 and uni1A72.
+	  - Swap rule names "LV AI MAIMALAI/MAIMUAN prepend intermediate".
+
+2013-04-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Handle Mai Ang Lan as MAI KANG LAI and FINAL NGA separately.
+
+	* fonts/Khottabun.sfd:
+	  - Add glyph for MAI KANG LAI (U+1A58) with ref to U+1A59.
+	  - Rename rules "Pali NGA-above *" to "ANG-LAN *".
+	  - "Pali ANG-LAN append/remove intermediate": replace uni1A59 with
+	    uni1A58.
+	  - "LV reorder append/remove intermediate": add uni1A58 to the
+	    class uni1A59 belongs to.
+
+2011-08-11  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add BelowRight base anchor to all subjoined glyphs.
+	  - Support subjoined WA as reduced UA vowel form under another
+	    subjoined consonant, e.g. "หลวง", by adding BelowMark mark
+	    anchor to WA.
+	  - Also move BelowMark base anchor for subjoined consonants to
+	    center position, for proper alignment of WA below it. With this,
+	    also move vowal OA BelowMark mark anchor to center accordingly.
+	    (No move for U, UU vowels, center position is OK.)
+
+2011-07-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A33.sub2 (context-sensitive subjoined HIGH THA)
+	    to subjoin sets in GSUB rules.
+
+2011-07-20  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A5C (CONSONANT SIGN MA) to subjoin sets in GSUB rules.
+
+2011-07-17  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Extend MEDIAL RA rules to cover triple-character cluster.
+	    Sample: สนฺตินฺทริโย
+
 2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
@@ -6,14 +285,73 @@
 2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
+	  - Add GREAT SA and DOUBLE NYA to all consonant sets in GSUB rules.
+
+2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
 	  - Add missing anchor for DOUBLE NYA ligature.
 	  - Fix direction for independent VOWEL UU.
+
+2011-07-16  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Extend MEDIAL RA rules to cover complicated cases like "ดูรา"
+	    and "ปุริโส", where MEDIAL RA must be moved left for more than
+	    one position, and for the latter case, VOWEL I must be pulled
+	    along with it.
+
+2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add anchors for MEDIAL RA.
+
+2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Compose WAA ligature with WA + AA instead of WA + tall-AA.
+
+2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Replace special TA-THA ligature with "'ccmp' Context-sensitive
+	    subjoin" rule, which only converts subjoined THA to alternate
+	    form when following TA.
 
 2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	* fonts/Khottabun.sfd:
 	  - Add glyph for U+1A5C subjoined MA.
 	  - Fix spline joint in TA-THA ligature.
+
+2011-07-15  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Bump font version to 001.001
+
+2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add 'ccmp' rules for complicated NAA (NA + AA) ligature.
+	  - Move NAA and WAA ligatures to a last "'ccmp' Misc ligatures" rule.
+
+2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add 'ccmp' rules for MEDIAL RA reordering.
+
+2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	* fonts/Khottabun.sfd:
+	  - Add 'ccmp' rules for leading vowels reordering.
+
+2011-07-13  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	=== Start GSUB rules editing for logical order support ===
+
+	* fonts/Khottabun.sfd:
+	  - Add 'ccmp' rules for Pali NGA-above.
+	  - Add 'zerojoin' glyph as needed by the rules.
 
 2011-07-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
