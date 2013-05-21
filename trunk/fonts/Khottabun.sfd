@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1367846085
+ModificationTime: 1369140889
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -47,6 +47,7 @@ Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } [
 Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 1"  {"Deep rigid subjoins append intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 2"  {"Deep rigid subjoins remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Deep flexible subjoins"  {"Deep flexible subjoins"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Top marks"  {"'ccmp' Top marks lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1"  {"'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2"  {"'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' RA reorder stage 1"  {"'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA-CAR prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -63,6 +64,7 @@ Lookup: 1 0 0 "Deep flexible subjoins"  {"Deep flexible subjoins lookup"  } []
 Lookup: 2 0 0 "U Deep rigid subjoins append intermediate"  {"U Deep rigid subjoins append intermediate lookup"  } []
 Lookup: 2 0 0 "UU Deep rigid subjoins append intermediate"  {"UU Deep rigid subjoins append intermediate lookup"  } []
 Lookup: 4 0 0 "Deep rigid subjoins remove intermediate"  {"Deep rigid subjoins remove intermediate lookup"  } []
+Lookup: 1 0 0 "Top marks"  {"Top marks lookup"  } []
 Lookup: 2 0 0 "LV AE prepend intermediate"  {"LV AE prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV O prepend intermediate"  {"LV O prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV AI MAIMALAI prepend intermediate"  {"LV AI MAIMALAI prepend intermediate lookup"  } []
@@ -88,6 +90,13 @@ MarkAttachClasses: 6
 "BelowMark" 0 
 "BelowRight" 0 
 DEI: 91125
+ContextSub2: coverage "'ccmp' Top marks lookup"  0 0 0 1
+ 2 0 0
+  Coverage: 63 uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A6B uni1A73 uni1A74
+  Coverage: 23 uni1A74 uni1A75 uni1A76
+ 1
+  SeqLookup: 1 "Top marks" 
+EndFPST
 ContextSub2: class "Deep rigid subjoins remove intermediate"  4 4 4 1
   Class: 115 uni1A57 uni1A2B.sub uni1A2C.sub uni1A30.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3F.sub uni1A43.sub uni1A48.sub
   Class: 15 uni1A69 uni1A6A
@@ -479,7 +488,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6712 8 4
+WinInfo: 6744 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -559,7 +568,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65595 213
+BeginChars: 65598 216
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -7589,7 +7598,6 @@ GlyphClass: 4
 Flags: W
 HStem: 940 80<-691.825 -534.175> 1162 80<-691.825 -534.175>
 VStem: -783 80<1032.29 1149.71> -523 80<1032.29 1149.71>
-AnchorPoint: "AboveMark" -613 883 mark 0
 AnchorPoint: "AboveMark" -613 1299 basemark 0
 AnchorPoint: "AboveBase" -613 883 mark 0
 LayerCount: 2
@@ -7606,6 +7614,7 @@ SplineSet
  -443 1008 -519 940 -613 940 c 3
  -707 940 -783 1008 -783 1091 c 3
 EndSplineSet
+Substitution2: "Top marks lookup" uni1A74.top
 EndChar
 
 StartChar: uni1A6B
@@ -10889,7 +10898,6 @@ GlyphClass: 4
 Flags: W
 HStem: 1476 320<-635 -591>
 VStem: -635 44<1476 1639.84>
-AnchorPoint: "AboveMark" -613 1419 mark 0
 AnchorPoint: "AboveBase" -613 1419 mark 0
 LayerCount: 2
 Fore
@@ -10900,7 +10908,7 @@ SplineSet
  -663 1796 l 1
  -563 1796 l 1
 EndSplineSet
-Validated: 1
+Substitution2: "Top marks lookup" uni1A75.top
 EndChar
 
 StartChar: uni1A76
@@ -10912,7 +10920,6 @@ Flags: W
 HStem: 1635 80<-882.642 -744.493>
 VStem: -744 90<1611 1632.97>
 DStem2: -654 1611 -630 1535 0.942028 0.335534<0 726.396>
-AnchorPoint: "AboveMark" -613 1419 mark 0
 AnchorPoint: "AboveBase" -613 1419 mark 0
 LayerCount: 2
 Fore
@@ -10932,7 +10939,7 @@ SplineSet
  -896 1682 l 1
  -857 1697 -814 1715 -763 1715 c 3
 EndSplineSet
-Validated: 1
+Substitution2: "Top marks lookup" uni1A76.top
 EndChar
 
 StartChar: uni1A7F
@@ -16837,6 +16844,49 @@ AnchorPoint: "BelowRightMark" -250 -42 mark 0
 LayerCount: 2
 Fore
 Refer: 102 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1A74.top
+Encoding: 65595 -1 213
+Width: 0
+VWidth: 2260
+GlyphClass: 4
+Flags: W
+HStem: 940 80<-691.825 -534.175> 1162 80<-691.825 -534.175>
+VStem: -783 80<1032.29 1149.71> -523 80<1032.29 1149.71>
+AnchorPoint: "AboveMark" -613 883 mark 0
+LayerCount: 2
+Fore
+Refer: 79 6772 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1A75.top
+Encoding: 65596 -1 214
+Width: 0
+VWidth: 2260
+GlyphClass: 4
+Flags: W
+HStem: 1476 320<-635 -591>
+VStem: -635 44<1476 1639.84>
+AnchorPoint: "AboveMark" -613 1419 mark 0
+LayerCount: 2
+Fore
+Refer: 117 6773 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni1A76.top
+Encoding: 65597 -1 215
+Width: 0
+VWidth: 2260
+GlyphClass: 4
+Flags: W
+HStem: 1635 80<-882.642 -744.493>
+VStem: -744 90<1611 1632.97>
+DStem2: -654 1611 -630 1535 0.942028 0.335534<0 726.396>
+AnchorPoint: "AboveMark" -613 1419 mark 0
+LayerCount: 2
+Fore
+Refer: 118 6774 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

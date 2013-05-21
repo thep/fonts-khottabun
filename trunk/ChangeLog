@@ -1,3 +1,13 @@
+2013-05-21  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Lift NIKHAHIT and tone marks over upper vowel.
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A74.top, uni1A75.top, uni1A76.top glyphs.
+	  - Move "Above Mark" mark anchors from normal glyphs to *.top glyphs.
+	  - Add "'ccmp' Top marks" GSUB rule to replace normal glyphs with
+	    *.top glyphs on presence of upper vowel.
+
 2013-05-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Reorder lower vowel with some subjoins.
