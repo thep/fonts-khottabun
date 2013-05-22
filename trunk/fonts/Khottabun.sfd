@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.014
+Version: 001.015
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1369140889
+ModificationTime: 1369196925
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -47,6 +47,10 @@ Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } [
 Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 1"  {"Deep rigid subjoins append intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 2"  {"Deep rigid subjoins remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Deep flexible subjoins"  {"Deep flexible subjoins"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' AM reorder stage 1"  {"'ccmp' AM reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' AM reorder stage 2"  {"'ccmp' AM reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' AM-T reorder stage 3"  {"'ccmp' AM-T reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' AM-T reorder stage 4"  {"'ccmp' AM-T reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Top marks"  {"'ccmp' Top marks lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1"  {"'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2"  {"'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -64,6 +68,10 @@ Lookup: 1 0 0 "Deep flexible subjoins"  {"Deep flexible subjoins lookup"  } []
 Lookup: 2 0 0 "U Deep rigid subjoins append intermediate"  {"U Deep rigid subjoins append intermediate lookup"  } []
 Lookup: 2 0 0 "UU Deep rigid subjoins append intermediate"  {"UU Deep rigid subjoins append intermediate lookup"  } []
 Lookup: 4 0 0 "Deep rigid subjoins remove intermediate"  {"Deep rigid subjoins remove intermediate lookup"  } []
+Lookup: 2 0 0 "AM reorder prepend intermediate"  {"AM reorder prepend intermediate lookup"  } []
+Lookup: 4 0 0 "AM reorder remove intermediate"  {"AM reorder remove intermediate lookup"  } []
+Lookup: 2 0 0 "AM-T reorder prepend intermediate"  {"AM-T reorder prepend intermediate lookup"  } []
+Lookup: 4 0 0 "AM-T reorder remove intermediate"  {"AM-T reorder remove intermediate lookup"  } []
 Lookup: 1 0 0 "Top marks"  {"Top marks lookup"  } []
 Lookup: 2 0 0 "LV AE prepend intermediate"  {"LV AE prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV O prepend intermediate"  {"LV O prepend intermediate lookup"  } []
@@ -90,6 +98,80 @@ MarkAttachClasses: 6
 "BelowMark" 0 
 "BelowRight" 0 
 DEI: 91125
+ContextSub2: class "'ccmp' AM-T reorder remove intermediate"  4 4 4 1
+  Class: 15 uni1A75 uni1A76
+  Class: 8 zerojoin
+  Class: 7 uni1A74
+  BClass: 15 uni1A75 uni1A76
+  BClass: 8 zerojoin
+  BClass: 7 uni1A74
+  FClass: 15 uni1A75 uni1A76
+  FClass: 8 zerojoin
+  FClass: 7 uni1A74
+ 3 0 0
+  ClsList: 1 2 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "AM-T reorder remove intermediate" 
+  ClassNames: "All_Others"  "1"  "2"  "3"  
+  BClassNames: "All_Others"  "1"  "2"  "3"  
+  FClassNames: "All_Others"  "1"  "2"  "3"  
+EndFPST
+ContextSub2: class "'ccmp' AM-T reorder prepend intermediate"  3 3 3 1
+  Class: 15 uni1A75 uni1A76
+  Class: 7 uni1A74
+  BClass: 15 uni1A75 uni1A76
+  BClass: 7 uni1A74
+  FClass: 15 uni1A75 uni1A76
+  FClass: 7 uni1A74
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "AM-T reorder prepend intermediate" 
+  ClassNames: "All_Others"  "1"  "2"  
+  BClassNames: "All_Others"  "1"  "2"  
+  FClassNames: "All_Others"  "1"  "2"  
+EndFPST
+ContextSub2: class "'ccmp' AM reorder remove intermediate"  4 4 4 1
+  Class: 15 uni1A63 uni1A64
+  Class: 8 zerojoin
+  Class: 7 uni1A74
+  BClass: 15 uni1A63 uni1A64
+  BClass: 8 zerojoin
+  BClass: 7 uni1A74
+  FClass: 15 uni1A63 uni1A64
+  FClass: 8 zerojoin
+  FClass: 7 uni1A74
+ 3 0 0
+  ClsList: 1 2 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "AM reorder remove intermediate" 
+  ClassNames: "All_Others"  "1"  "2"  "3"  
+  BClassNames: "All_Others"  "1"  "2"  "3"  
+  FClassNames: "All_Others"  "1"  "2"  "3"  
+EndFPST
+ContextSub2: class "'ccmp' AM reorder prepend intermediate"  3 3 3 1
+  Class: 15 uni1A63 uni1A64
+  Class: 7 uni1A74
+  BClass: 15 uni1A63 uni1A64
+  BClass: 7 uni1A74
+  FClass: 15 uni1A63 uni1A64
+  FClass: 7 uni1A74
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "AM reorder prepend intermediate" 
+  ClassNames: "All_Others"  "1"  "2"  
+  BClassNames: "All_Others"  "1"  "2"  
+  FClassNames: "All_Others"  "1"  "2"  
+EndFPST
 ContextSub2: coverage "'ccmp' Top marks lookup"  0 0 0 1
  2 0 0
   Coverage: 63 uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A6B uni1A73 uni1A74
@@ -488,7 +570,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6744 8 4
+WinInfo: 6752 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -4728,6 +4810,8 @@ SplineSet
  62 439 5 496 5 560 c 3
 EndSplineSet
 Validated: 1
+Ligature2: "AM reorder remove intermediate lookup" uni1A63 zerojoin uni1A74
+MultipleSubs2: "AM reorder prepend intermediate lookup" uni1A74 uni1A63 zerojoin
 EndChar
 
 StartChar: uni1A65
@@ -7514,6 +7598,8 @@ SplineSet
  212 197 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "AM reorder remove intermediate lookup" uni1A64 zerojoin uni1A74
+MultipleSubs2: "AM reorder prepend intermediate lookup" uni1A74 uni1A64 zerojoin
 EndChar
 
 StartChar: uni1A5D
@@ -10908,6 +10994,8 @@ SplineSet
  -663 1796 l 1
  -563 1796 l 1
 EndSplineSet
+Ligature2: "AM-T reorder remove intermediate lookup" uni1A75 zerojoin uni1A74
+MultipleSubs2: "AM-T reorder prepend intermediate lookup" uni1A74 uni1A75 zerojoin
 Substitution2: "Top marks lookup" uni1A75.top
 EndChar
 
@@ -10939,6 +11027,8 @@ SplineSet
  -896 1682 l 1
  -857 1697 -814 1715 -763 1715 c 3
 EndSplineSet
+Ligature2: "AM-T reorder remove intermediate lookup" uni1A76 zerojoin uni1A74
+MultipleSubs2: "AM-T reorder prepend intermediate lookup" uni1A74 uni1A76 zerojoin
 Substitution2: "Top marks lookup" uni1A76.top
 EndChar
 
