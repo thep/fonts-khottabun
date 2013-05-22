@@ -1,3 +1,19 @@
+2013-05-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Reorder vowel AM in Bangkok style.
+
+	Not that I like it, as it's now hard to spot wrong encoding,
+	but it's the easiest way to cover all cases with tone marks.
+
+	* fonts/Khottabun.sfd:
+	  - Add "'ccmp' AM[-T] reorder stage{1-4}".
+	    Stage 1 + 2 reorder VOWEL AA + NIKHAHIT -> NIKHANIT + VOWEL AA.
+	    Stage 3 + 4 reorder tone + NIKHAHIT -> NIKHAHIT + tone.
+	    Then, let "'ccmp' Top marks" do the rest.
+	    With this multi-stage rules, stage 1-4 can be disabled once the
+	    rendering engines support vowel AM reordering.
+	  - Bump font version to 001.015.
+
 2013-05-21  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Lift NIKHAHIT and tone marks over upper vowel.
