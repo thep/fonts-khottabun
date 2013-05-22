@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.015
+Version: 001.016
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1369196925
+ModificationTime: 1369234167
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -174,7 +174,7 @@ ContextSub2: class "'ccmp' AM reorder prepend intermediate"  3 3 3 1
 EndFPST
 ContextSub2: coverage "'ccmp' Top marks lookup"  0 0 0 1
  2 0 0
-  Coverage: 63 uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A6B uni1A73 uni1A74
+  Coverage: 79 uni1A58 uni1A59 uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A6B uni1A73 uni1A74
   Coverage: 23 uni1A74 uni1A75 uni1A76
  1
   SeqLookup: 1 "Top marks" 
@@ -570,7 +570,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6752 8 4
+WinInfo: 6736 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]

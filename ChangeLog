@@ -1,5 +1,13 @@
 2013-05-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Also lift tone marks over MAI KANG LAI and FINAL NGA.
+
+	* fonts/Khottabun.sfd:
+	  - Add uni1A58 and uni1A59 to coverage of "'ccmp' Top marks lookup".
+	  - Bump font version to 001.016.
+
+2013-05-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Reorder vowel AM in Bangkok style.
 
 	Not that I like it, as it's now hard to spot wrong encoding,
