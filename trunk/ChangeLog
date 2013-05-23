@@ -1,3 +1,15 @@
+2013-05-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add OpenType features to Tai Noi script.
+
+	* fonts/Khottabun.sfd:
+	  - Add top variant for MAI EK, MAI THO.
+	  - Add deep variant for VOWEL U, VOWEL UU.
+	  - Add AboveBase, BelowBase, AboveMark, BelowMark anchors to glyphs.
+	  - Add "'ccmp' TN Top marks" and "'ccmp' TN Deep marks" GSUB rules
+	    to convert to top and deep varients.
+	  - Bump font version to 002.000.
+
 2013-05-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Also lift tone marks over MAI KANG LAI and FINAL NGA.

@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 001.016
+Version: 002.000
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1369234167
+ModificationTime: 1369310910
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -40,6 +40,10 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 5 0 0 "'ccmp' TN Top marks"  {"'ccmp' TN Top marks lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' TN Deep marks"  {"'ccmp' TN Deep marks lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 1 0 0 "TN Top marks"  {"TN Top marks lookup"  } []
+Lookup: 1 0 0 "TN Deep marks"  {"TN Deep marks lookup"  } []
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1"  {"'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2"  {"'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
@@ -87,10 +91,10 @@ Lookup: 2 0 0 "RA-UU prepend intermediate"  {"RA-UU prepend intermediate lookup"
 Lookup: 2 0 0 "RA prepend intermediate"  {"RA prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA-deep prepend intermediate"  {"RA-deep prepend intermediate lookup"  } []
 Lookup: 4 0 0 "RA remove intermediate"  {"RA-VV remove intermediate lookup"  "RA-V remove intermediate lookup"  "RA-C remove intermediate lookup"  "RA-S remove intermediate lookup"  "RA-AngV remove intermediate lookup"  "RA-Ang remove intermediate lookup"  } []
-Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 260 0 0 "'mark' AboveBase Mark Positioning"  {"'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' AboveBase Mark Positioning"  {"'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 MarkAttachClasses: 6
 "AboveBase" 0 
 "BelowBase" 0 
@@ -98,6 +102,20 @@ MarkAttachClasses: 6
 "BelowMark" 0 
 "BelowRight" 0 
 DEI: 91125
+ContextSub2: coverage "'ccmp' TN Deep marks lookup"  0 0 0 1
+ 2 0 0
+  Coverage: 7 uni0EBC
+  Coverage: 15 uni0EB8 uni0EB9
+ 1
+  SeqLookup: 1 "TN Deep marks" 
+EndFPST
+ContextSub2: coverage "'ccmp' TN Top marks lookup"  0 0 0 1
+ 2 0 0
+  Coverage: 55 uni0EB1 uni0EB4 uni0EB5 uni0EB6 uni0EB7 uni0EBB uni0ECD
+  Coverage: 15 uni0EC8 uni0EC9
+ 1
+  SeqLookup: 1 "TN Top marks" 
+EndFPST
 ContextSub2: class "'ccmp' AM-T reorder remove intermediate"  4 4 4 1
   Class: 15 uni1A75 uni1A76
   Class: 8 zerojoin
@@ -570,7 +588,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6736 8 4
+WinInfo: 3704 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -579,6 +597,39 @@ StdVW 4 [90]
 StemSnapV 7 [66 90]
 EndPrivate
 Grid
+-862 101 m 3xb280
+ -862 71 -837 46 -807 46 c 3
+ -777 46 -752 71 -752 101 c 3
+ -752 131 -777 156 -807 156 c 3
+ -837 156 -862 131 -862 101 c 3xb280
+-618 632 m 1
+ -592 573 -576 496 -576 405 c 3
+ -576 231 -622 -20 -807 -20 c 3
+ -871 -20 -928 37 -928 101 c 3xb6a0
+ -928 166 -872 222 -807 222 c 3
+ -765 222 -727 198 -705 164 c 1
+ -676 235 -666 333 -666 405 c 3
+ -666 455 -670 511 -680 560 c 1
+ -705 537 -734 521 -776 521 c 3
+ -840 521 -897 578 -897 642 c 3
+ -897 707 -841 763 -776 763 c 3xb980
+ -736 763 -697 743 -665 707 c 1
+ -622 766 -553 826 -401 826 c 3
+ -243 826 -122 703 -122 540 c 3x35a0
+ -122 406 -204 236 -204 136 c 3
+ -204 89 -176 18 -132 18 c 3
+ -106 18 -74 179 -42 236 c 1
+ -42 158 -70 25 -85 -8 c 1
+ -97 -15 -126 -20 -154 -20 c 3
+ -246 -20 -294 50 -294 136 c 3x74c0
+ -294 264 -212 425 -212 540 c 3
+ -212 652 -291 736 -401 736 c 3x74a0
+ -519 736 -574 685 -618 632 c 1
+-707 642 m 1
+ -724 676 -747 697 -776 697 c 3
+ -806 697 -831 672 -831 642 c 3x3980
+ -831 612 -806 587 -776 587 c 3
+ -745 587 -727 610 -707 642 c 1
 -2048 636 m 0
  4096 636 l 0
 -2048 1476 m 0
@@ -611,7 +662,7 @@ Grid
  -833 156 -858 131 -858 101 c 3
 -2048 940 m 0
  4096 940 l 0
--613 2580 m 4
+-613 2580 m 0
  -613 -1516 l 0
 128 -172 m 3
  128 -189 141 -202 158 -202 c 3
@@ -650,7 +701,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65598 216
+BeginChars: 65598 220
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -725,7 +776,6 @@ SplineSet
  452 131 427 156 397 156 c 3
  367 156 342 131 342 101 c 3
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0 
 Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 zerojoin uni1A20
 Ligature2: "LV remove intermediate for cons" uni1A20 zerojoin uni1A6E
@@ -3199,7 +3249,7 @@ MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A3A zero
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A3A zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A3A zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A3A zerojoin
-LCarets2: 3 0 0 0 
+LCarets2: 2 0 0 
 Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 zerojoin uni1A3A
 MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A3A uni1A58.lai
 EndChar
@@ -4844,6 +4894,7 @@ SplineSet
  -915 1284 -766 1362 -613 1362 c 3
 EndSplineSet
 Validated: 1
+LCarets2: 3 0 0 0 
 Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A65 uni1A55
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A65
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A65 uni1A55 uni1A66
@@ -9949,6 +10000,7 @@ SplineSet
  -333 -333 -373 -373 -423 -373 c 3
  -465 -373 -500 -345 -510 -306 c 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A37.sub
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A37.sub
 MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A37.sub uni1A69
@@ -10592,6 +10644,7 @@ SplineSet
  -544 -314 -504 -354 -504 -404 c 3
  -504 -454 -544 -494 -594 -494 c 3
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A43.sub
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A43.sub
 MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A43.sub uni1A69
@@ -10994,6 +11047,7 @@ SplineSet
  -663 1796 l 1
  -563 1796 l 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "AM-T reorder remove intermediate lookup" uni1A75 zerojoin uni1A74
 MultipleSubs2: "AM-T reorder prepend intermediate lookup" uni1A74 uni1A75 zerojoin
 Substitution2: "Top marks lookup" uni1A75.top
@@ -11576,6 +11630,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 66<56.6678 155.263> -20 38<745.578 797.358> 156 66<56.453 156.101> 521 66<87.6678 190.522> 697 66<87.453 192.049> 736 90<358.61 634.609>
 VStem: -15 66<51.6678 150.547> 16 66<592.668 691.547> 247 90<167.822 557.97> 619 90<28.4535 337.5> 701 90<330.802 667.993>
+AnchorPoint: "BelowBase" 403 -42 basechar 0
+AnchorPoint: "AboveBase" 403 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -11647,7 +11703,6 @@ SplineSet
  82 612 107 587 137 587 c 3
  168 587 186 610 206 642 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E82
@@ -11659,6 +11714,8 @@ Flags: W
 HStem: -20 90<79.0286 285.346> 465 66<91.6678 190.547> 736 90<193.315 527.521>
 VStem: -12 90<70.5653 154.286> 20 66<536.668 634.815> 196 66<536.453 636.134> 615 90<430.441 658.922>
 DStem2: 148 262 176 177 0.948369 0.31717<-116.301 483.1>
+AnchorPoint: "BelowBase" 358 -42 basechar 0
+AnchorPoint: "AboveBase" 358 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -11725,7 +11782,6 @@ SplineSet
  262 521 206 465 141 465 c 3
  77 465 20 522 20 586 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E84
@@ -11736,6 +11792,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<157.287 223.393> 264 66<344.905 444.547> 440 66<345.078 444.547> 736 90<238.223 584>
 VStem: 0 90<158.815 597.147> 224 90<72.2925 292> 450 66<335.453 434.547> 710 90<146.738 617.431>
+AnchorPoint: "BelowBase" 400 -42 basechar 0
+AnchorPoint: "AboveBase" 400 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -11803,7 +11861,6 @@ SplineSet
  516 320 460 264 395 264 c 3
  367 264 340 274 319 292 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E87
@@ -11814,6 +11871,8 @@ GlyphClass: 2
 Flags: W
 HStem: 476 66<54.6678 153.547> 652 66<107 152.438> 736 90<109.737 229.686>
 VStem: -17 66<547.668 646.054> 159 66<547.453 646.177> 250 90<-218 721.265>
+AnchorPoint: "BelowBase" 176 -333 basechar 0
+AnchorPoint: "AboveBase" 176 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -11862,7 +11921,6 @@ SplineSet
  225 532 169 476 104 476 c 3
  40 476 -17 533 -17 597 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E88
@@ -11873,6 +11931,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<335.828 466.449> 246 66<232.917 289.93> 422 66<233.453 332.547> 590 46<71.8893 395.469> 736 90<92.5209 457.479>
 VStem: -20 90<640.074 702.664> 162 66<317.951 416.547> 245 90<70.4955 221.831> 338 66<316.96 416.547> 577 90<210.882 614.815>
+AnchorPoint: "BelowBase" 344 -42 basechar 0
+AnchorPoint: "AboveBase" 344 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -11931,7 +11991,6 @@ SplineSet
  297 -20 245 30 245 115 c 3
  245 175 271 201 291 246 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E8A
@@ -11943,6 +12002,8 @@ Flags: W
 HStem: -20 90<106.223 304.75> 70 90<333.625 553.254> 389 66<81.6678 180.547> 736 90<222.597 547.866>
 VStem: 10 66<460.668 559.274> 16 90<71.2924 142.262> 186 66<460.453 559.919> 558 90<-266.674 61.1558> 638 90<415.868 654.313>
 DStem2: 123 231 180 155 0.937113 0.349027<-60.2844 554.264> 373 141 280 3 0.931708 0.363208<-245.929 71.2921>
+AnchorPoint: "BelowBase" 369 -42 basechar 0
+AnchorPoint: "AboveBase" 369 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12021,7 +12082,6 @@ SplineSet
  638 675 510 736 383 736 c 3
  287 736 200 691 149 630 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E94
@@ -12032,6 +12092,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<177.368 388.73> 192 66<377.304 436.977> 368 66<376.453 475.547> 736 90<251.951 603.533>
 VStem: 2 90<165.567 571.21> 305 66<263.529 362.547> 481 66<262.938 362.547> 745 90<139.979 595.882>
+AnchorPoint: "BelowBase" 418 -42 basechar 0
+AnchorPoint: "AboveBase" 418 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12092,7 +12154,6 @@ SplineSet
  92 194 157 70 298 70 c 3
  357 70 410 118 437 192 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E95
@@ -12103,6 +12164,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<199.715 369.017> 218 66<337.668 408.461> 394 66<337.453 436.547> 661 90<368.73 549.27> 736 90<184.298 368.73 549.27 750.818>
 VStem: 8 90<206.7 632.328> 266 66<289.668 388.547> 442 66<293.403 388.547> 809 90<221.983 675.939>
+AnchorPoint: "BelowBase" 453 -42 basechar 0
+AnchorPoint: "AboveBase" 453 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12172,7 +12235,6 @@ SplineSet
  98 267 174 70 287 70 c 3
  352 70 392 122 409 220 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E96
@@ -12183,6 +12245,8 @@ GlyphClass: 2
 Flags: W
 HStem: -310 38<746.355 797.358> -20 66<56.6678 155.263> 156 66<56.453 156.101> 521 66<87.6678 190.522> 697 66<87.453 192.049> 736 90<358.61 634.609>
 VStem: -15 66<51.6678 150.547> 16 66<592.668 691.547> 247 90<167.822 557.97> 619 90<-260.836 208.452> 701 90<189.911 667.993>
+AnchorPoint: "BelowBase" 403 -42 basechar 0
+AnchorPoint: "AboveBase" 403 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12254,7 +12318,6 @@ SplineSet
  82 612 107 587 137 587 c 3
  168 587 186 610 206 642 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E97
@@ -12265,6 +12328,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<159.591 356.356> 584 66<62.9562 121.638> 736 90<524.139 727.019> 760 66<62.453 161.547>
 VStem: -9 66<655.74 754.547> 34 90<104.155 439.54> 167 66<656.191 754.547> 401 90<115.639 703.198> 759 90<241.072 706.129>
+AnchorPoint: "BelowBase" 429 -42 basechar 0
+AnchorPoint: "AboveBase" 429 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12333,7 +12398,6 @@ SplineSet
  114 -20 34 79 34 251 c 3xe780
  34 374 90 479 122 584 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E99
@@ -12345,6 +12409,8 @@ Flags: W
 HStem: -20 90<529.698 682.761> 160 90<211.642 373.058> 584 66<79.6678 178.542> 760 66<79.453 178.867>
 VStem: 8 66<655.668 754.547> 56 99<-19.6836 77.968> 184 127<551.059 757.864> 728 90<115.92 712.969>
 DStem2: 97 178 179 113 0.25439 0.967102<-166.041 14.6485 86.0594 461.317>
+AnchorPoint: "BelowBase" 413 -42 basechar 0
+AnchorPoint: "AboveBase" 413 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12420,7 +12486,6 @@ SplineSet
  189 510 l 2
  200 550 212 590 218 624 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E9A
@@ -12431,6 +12496,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<202.022 561.835> 584 66<71.0917 129.977> 760 66<69.453 168.547>
 VStem: -2 66<655.529 754.547> 42 90<140.934 461.709> 174 66<656.679 754.547> 668 90<178.525 712.969>
+AnchorPoint: "BelowBase" 380 -42 basechar 0
+AnchorPoint: "AboveBase" 380 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12487,7 +12554,6 @@ SplineSet
  151 -20 42 85 42 294 c 3xee
  42 436 100 492 131 584 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E9B
@@ -12498,6 +12564,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<202.022 561.835> 584 66<71.0917 129.977> 760 66<69.453 168.547> 1257 90<266.416 497.028>
 VStem: -2 66<655.529 754.547> 42 90<140.934 461.709> 174 66<656.679 754.547> 668 90<179.113 897.249>
+AnchorPoint: "BelowBase" 380 -42 basechar 0
+AnchorPoint: "AboveBase" 380 1373 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12560,7 +12628,6 @@ SplineSet
  151 -20 42 85 42 294 c 3xf7
  42 436 100 492 131 584 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E9C
@@ -12571,6 +12638,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<124.616 250.44 512.655 641.44> 102 90<322.197 442.457> 563 90<533.955 648.272> 584 66<189.859 289.547> 736 90<533.155 636.989> 760 66<192.259 289.547> 789 20G<795.5 811>
 VStem: 6 90<92.0776 296.149 517.165 678.998> 95 90<322.184 482.977> 295 66<655.453 754.547> 443 90<653.612 734.614> 710 90<159.793 586.309>
+AnchorPoint: "BelowBase" 401 -42 basechar 0
+AnchorPoint: "AboveBase" 401 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12653,7 +12722,6 @@ SplineSet
  533 667 552 653 587 653 c 3xe870
  606 653 627 659 649 671 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E9D
@@ -12664,6 +12732,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<124.616 250.44 512.655 641.44> 102 90<322.197 442.457> 584 66<189.859 289.547> 760 66<192.259 289.547> 1257 90<308.416 539.028>
 VStem: 6 90<92.0776 296.149 517.165 678.998> 95 90<322.184 482.977> 295 66<655.453 754.547> 710 90<161.689 897.249>
+AnchorPoint: "BelowBase" 401 -42 basechar 0
+AnchorPoint: "AboveBase" 401 1373 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12742,7 +12812,6 @@ SplineSet
  361 640 305 584 240 584 c 3
  184 584 132 628 121 682 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E9E
@@ -12753,6 +12822,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<152.481 302.833 617.167 749.664> 543 90<436.206 483.794> 584 66<77.2444 131.93> 760 66<75.453 174.547>
 VStem: 4 66<656.162 754.547> 36 90<91.9186 433.646> 180 66<655.708 754.547> 338 90<98.75 541.872> 492 90<98.75 541.872> 793 90<111.199 712.969>
+AnchorPoint: "BelowBase" 443 -42 basechar 0
+AnchorPoint: "AboveBase" 443 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12825,7 +12896,6 @@ SplineSet
  103 -20 36 82 36 220 c 3xd7c0
  36 388 97 487 132 584 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E9F
@@ -12836,6 +12906,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<152.481 302.833 617.167 749.664> 543 90<436.206 483.794> 584 66<77.2444 131.93> 760 66<75.453 174.547> 1257 90<391.416 622.028>
 VStem: 4 66<656.162 754.547> 36 90<91.9186 433.646> 180 66<655.708 754.547> 338 90<98.75 541.872> 492 90<98.75 541.872> 793 90<113.167 897.249>
+AnchorPoint: "BelowBase" 443 -42 basechar 0
+AnchorPoint: "AboveBase" 443 1373 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12914,7 +12986,6 @@ SplineSet
  103 -20 36 82 36 220 c 3xdbe0
  36 388 97 487 132 584 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EA1
@@ -12925,6 +12996,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<382.64 619.036> -20 66<30.6678 128.36> 156 66<30.453 129.385> 736 90<228.429 281.571>
 VStem: -41 66<51.6678 150.547> 125 90<293.065 734.206> 295 90<281.658 734.206> 783 90<302.624 782.731>
+AnchorPoint: "BelowBase" 499 -42 basechar 0
+AnchorPoint: "AboveBase" 499 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -12992,7 +13065,6 @@ SplineSet
  231 736 215 661 215 529 c 3
  215 447 233 357 265 279 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EA2
@@ -13003,6 +13075,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<129.037 530.5> 584 66<142.072 241.547> 760 66<143.454 241.547> 1257 90<256.416 487.028>
 VStem: -6 90<115.54 332.428 496.237 637.593> 247 66<655.453 754.547> 658 90<201.853 897.249>
+AnchorPoint: "BelowBase" 371 -42 basechar 0
+AnchorPoint: "AboveBase" 371 1373 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13079,7 +13153,6 @@ SplineSet
  313 640 257 584 192 584 c 3
  152 584 115 606 93 638 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EA3
@@ -13090,6 +13163,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<338.713 514.191> 218 66<206.453 305.547> 449 90<88 436.954> 736 90<164.161 454.264>
 VStem: 135 66<113.267 212.547> 311 66<113.458 212.547> 561 90<117.862 358.248>
+AnchorPoint: "BelowBase" 369 -42 basechar 0
+AnchorPoint: "AboveBase" 369 873 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13152,7 +13227,6 @@ SplineSet
  311 193 286 218 256 218 c 3
  226 218 201 193 201 163 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EA5
@@ -13163,6 +13237,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<164.692 259.357 511.78 658.028> 81 90<309.303 462.911> 240 66<69.453 168.547> 544 52<49.7827 487.102> 736 90<124.986 521.248>
 VStem: -48 90<610.492 672.994> -2 66<136.688 234.547> 174 66<134.853 234.547> 715 90<132.309 546.283>
+AnchorPoint: "BelowBase" 378 -42 basechar 0
+AnchorPoint: "AboveBase" 378 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13223,7 +13299,6 @@ SplineSet
  174 215 149 240 119 240 c 3
  89 240 64 215 64 185 c 3xfb80
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EA7
@@ -13234,6 +13309,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<321.772 463.018> 216 66<187.453 286.547> 593 57<86 207.219> 736 90<129.265 442.42>
 VStem: 116 66<112.167 210.547> 292 66<111.008 210.547> 566 90<193.766 605.146>
+AnchorPoint: "BelowBase" 328 -42 basechar 0
+AnchorPoint: "AboveBase" 328 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13286,7 +13363,6 @@ SplineSet
  292 191 267 216 237 216 c 3
  207 216 182 191 182 161 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EAA
@@ -13297,6 +13373,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<164.692 259.357 511.78 658.028> 81 90<309.303 462.911> 240 66<69.453 168.547> 506 90<67.8741 501.77> 736 90<124.635 520.821>
 VStem: -26 90<624.869 683.963> -2 66<136.688 234.547> 174 66<134.853 234.547> 715 90<132.309 549.151>
+AnchorPoint: "BelowBase" 378 -42 basechar 0
+AnchorPoint: "AboveBase" 378 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13362,7 +13440,6 @@ SplineSet
  64 622 219 596 324 596 c 3
  395 596 479 622 560 670 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EAB
@@ -13373,6 +13450,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<176.451 362.587> 584 66<80.8731 134.562> 616 66<366.573 437.664> 736 90<550.689 729.347> 760 66<79.453 178.547 366.573 450.664>
 VStem: 8 66<656.162 754.547> 48 90<107.942 443.913> 184 66<657.262 754.547> 300 66<684.046 757.954> 428 90<148.19 616.973> 772 90<241.072 692.663>
+AnchorPoint: "BelowBase" 435 -42 basechar 0
+AnchorPoint: "AboveBase" 435 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13457,7 +13536,6 @@ SplineSet
  366 699 385 682 409 682 c 3xa9e0
  424 682 437 689 450 699 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EAD
@@ -13468,6 +13546,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<244.812 567.643> 332 66<113.453 212.547> 443 65<99.7784 506.104> 736 90<200.63 584.192>
 VStem: 42 66<227.499 326.547> 218 66<227.594 326.547> 731 90<235.672 592.486>
+AnchorPoint: "BelowBase" 390 -42 basechar 0
+AnchorPoint: "AboveBase" 390 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13520,7 +13600,6 @@ SplineSet
  218 307 193 332 163 332 c 3
  133 332 108 307 108 277 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EAE
@@ -13531,6 +13610,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<271.87 509.991> 258 66<168.453 267.547> 449 90<82.0337 442.275> 633 87<429.431 636.191> 736 90<111.247 370.372>
 VStem: -8 90<545.829 708.955> 97 66<155.119 252.547> 273 66<153.402 252.547> 548 90<108.103 371.275> 780 15<904 1046.98>
+AnchorPoint: "BelowBase" 369 -42 basechar 0
+AnchorPoint: "AboveBase" 369 873 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13595,7 +13676,6 @@ SplineSet
  273 233 248 258 218 258 c 3
  188 258 163 233 163 203 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0E8D
@@ -13606,6 +13686,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<129.037 530.5> 584 66<142.072 241.547> 760 66<143.454 241.547>
 VStem: -6 90<115.54 332.428 496.237 637.593> 247 66<655.453 754.547> 658 90<200.485 634.208>
+AnchorPoint: "BelowBase" 377 -42 basechar 0
+AnchorPoint: "AboveBase" 377 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13670,7 +13752,6 @@ SplineSet
  313 640 257 584 192 584 c 3
  152 584 115 606 93 638 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EBD
@@ -13681,6 +13762,7 @@ GlyphClass: 2
 Flags: W
 HStem: -413 90<-342.516 -18.5161> -272 66<-349 -303.562> -96 66<-401.547 -302.453> 755 71<-86.097 43.7747>
 VStem: -473 66<-201.108 -101.453> -297 66<-200.177 -101.453> 71 90<-238.869 577.992>
+AnchorPoint: "BelowBase" -155 -413 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -13739,7 +13821,6 @@ SplineSet
  -297 -121 -322 -96 -352 -96 c 3
  -382 -96 -407 -121 -407 -151 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EBC
@@ -13750,6 +13831,8 @@ GlyphClass: 4
 Flags: W
 HStem: -341 80<-462.704 -315.006> -341 60<-772.485 -713.515> -163 80<-702.645 -595.671>
 VStem: -833 60<-280.485 -223.392> -713 60<-280.485 -221.629> -276 80<-219.764 -71.3957>
+AnchorPoint: "BelowMark" -514 -341 basemark 0
+AnchorPoint: "BelowBase" -514 -42 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -13794,7 +13877,6 @@ SplineSet
  -531 -341 -581 -163 -663 -163 c 3
  -677 -163 -691 -165 -703 -170 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EB0
@@ -13873,7 +13955,6 @@ LayerCount: 2
 Fore
 Refer: 175 3789 N 1 0 0 1 291 0 2
 Refer: 158 3762 N 1 0 0 1 0 0 2
-Validated: 1
 EndChar
 
 StartChar: uni0EB4
@@ -13884,6 +13965,8 @@ GlyphClass: 4
 Flags: W
 HStem: 940 80<-644.89 -397.11> 1282 80<-644.89 -397.11>
 VStem: -778 80<1069.68 1232.32> -344 80<1069.68 1232.32>
+AnchorPoint: "AboveMark" -521 1419 basemark 0
+AnchorPoint: "AboveBase" -521 883 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13898,7 +13981,6 @@ SplineSet
  -264 1035 -379 940 -521 940 c 3
  -663 940 -778 1035 -778 1151 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EB5
@@ -13909,6 +13991,8 @@ GlyphClass: 4
 Flags: W
 HStem: 940 80<-663.218 -571 -471 -378.409 -306 -176> 1282 80<-644.89 -397.11>
 VStem: -778 80<1056.09 1231.28> -344 80<1054.28 1231.28>
+AnchorPoint: "AboveMark" -521 1419 basemark 0
+AnchorPoint: "AboveBase" -521 883 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -13946,7 +14030,6 @@ SplineSet
  -619 1282 -698 1221 -698 1149 c 3
  -698 1088 -654 1020 -571 1020 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EB6
@@ -13958,6 +14041,8 @@ Flags: W
 HStem: 940 80<-644.89 -397.11> 1085 132<-588.249 -453.751> 1282 80<-644.89 -397.11>
 VStem: -778 80<1069.68 1232.32> -592 142<1089.63 1212.37> -344 80<1069.68 1232.32>
 CounterMasks: 1 fc
+AnchorPoint: "AboveMark" -521 1419 basemark 0
+AnchorPoint: "AboveBase" -521 883 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13977,7 +14062,6 @@ SplineSet
  -264 1035 -379 940 -521 940 c 3
  -663 940 -778 1035 -778 1151 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EB7
@@ -13989,6 +14073,8 @@ Flags: W
 HStem: 940 80<-663.218 -571 -471 -378.409 -306 -176> 1083 132<-588.249 -453.751> 1282 80<-644.89 -397.11>
 VStem: -778 80<1056.09 1231.28> -592 142<1087.63 1210.37> -344 80<1054.28 1231.28>
 CounterMasks: 1 1c
+AnchorPoint: "AboveMark" -521 1419 basemark 0
+AnchorPoint: "AboveBase" -521 883 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -14036,7 +14122,6 @@ SplineSet
  -619 1282 -698 1221 -698 1149 c 3
  -698 1088 -654 1020 -571 1020 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EB8
@@ -14047,6 +14132,7 @@ GlyphClass: 4
 Flags: W
 HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
 VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156>
+AnchorPoint: "BelowBase" -370 -42 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -14093,7 +14179,7 @@ SplineSet
  -406 -242 -417 -231 -431 -231 c 3
  -445 -231 -456 -242 -456 -255 c 3
 EndSplineSet
-Validated: 1
+Substitution2: "TN Deep marks lookup" uni0EB8.deep
 EndChar
 
 StartChar: uni0EB9
@@ -14104,6 +14190,7 @@ GlyphClass: 4
 Flags: W
 HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
 VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156> -230 80<-476.491 -140.451>
+AnchorPoint: "BelowBase" -312 -42 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -14168,7 +14255,7 @@ SplineSet
  -406 -242 -417 -231 -431 -231 c 0
  -445 -231 -456 -242 -456 -255 c 3
 EndSplineSet
-Validated: 1
+Substitution2: "TN Deep marks lookup" uni0EB9.deep
 EndChar
 
 StartChar: uni0EB1
@@ -14179,6 +14266,8 @@ GlyphClass: 4
 Flags: W
 HStem: 907 80<-492 -311> 1120 66<-633.547 -534.453>
 VStem: -705 66<1015.25 1114.55> -529 66<1015.02 1114.55> 103 17<1437.17 1445.52>
+AnchorPoint: "AboveMark" -371 1243 basemark 0
+AnchorPoint: "AboveBase" -521 883 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -14217,7 +14306,6 @@ SplineSet
  -577 907 -705 948 -705 1065 c 3
  -705 1130 -649 1186 -584 1186 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EBB
@@ -14228,6 +14316,8 @@ GlyphClass: 4
 Flags: W
 HStem: 857 65<-451.621 -352.379> 1104 80<-345.48 -76.3377>
 VStem: -528 69<927.572 1035.8> -345 69<927.572 1036.56>
+AnchorPoint: "AboveMark" -256 1241 basemark 0
+AnchorPoint: "AboveBase" -521 883 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -14264,7 +14354,6 @@ SplineSet
  0 1045 -136 1104 -256 1104 c 3
  -289 1104 -321 1101 -348 1095 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EC0
@@ -14542,6 +14631,7 @@ GlyphClass: 4
 Flags: W
 HStem: 1045 306<-333.208 -262.356>
 VStem: -333 70<1045.01 1287.35>
+AnchorPoint: "AboveBase" -298 883 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14553,7 +14643,7 @@ SplineSet
  -284 1351 -266 1344 -246 1329 c 1
  -263 1074 l 2
 EndSplineSet
-Validated: 1
+Substitution2: "TN Top marks lookup" uni0EC8.top
 EndChar
 
 StartChar: uni0EC9
@@ -14564,6 +14654,7 @@ GlyphClass: 4
 Flags: W
 HStem: 1317 49<-396.537 -321.277>
 VStem: -450 48<1233.11 1311.16> -316 50<1232.79 1312.92>
+AnchorPoint: "AboveBase" -298 883 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -14608,7 +14699,7 @@ SplineSet
  -382 1317 -402 1297 -402 1272 c 3
  -402 1247 -382 1228 -358 1228 c 3
 EndSplineSet
-Validated: 1
+Substitution2: "TN Top marks lookup" uni0EC9.top
 EndChar
 
 StartChar: uni0ECD
@@ -14619,6 +14710,8 @@ GlyphClass: 4
 Flags: W
 HStem: 940 66<-459.278 -340.722> 1136 66<-459.278 -340.722>
 VStem: -535 66<1016.73 1125.27> -331 66<1016.73 1125.27>
+AnchorPoint: "AboveMark" -400 1259 basemark 0
+AnchorPoint: "AboveBase" -400 883 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14633,7 +14726,6 @@ SplineSet
  -265 999 -325 940 -400 940 c 3
  -475 940 -535 999 -535 1071 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0ED0
@@ -15344,6 +15436,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<162.556 346.913 827.962 1039.76> -20 66<583.668 685.546> 156 66<583.453 693.213> 584 66<71.2444 125.93> 616 66<346.311 416.735> 736 90<539.384 680.879> 760 66<69.453 168.547 345.573 430.483>
 VStem: -2 66<656.162 754.547> 38 90<102.503 453.334> 174 66<657.087 754.547> 279 66<684.046 757.954> 407 90<135.83 614.973> 512 66<51.6678 150.547> 736 90<201.787 675.375> 1106 90<142.59 712.969>
+AnchorPoint: "BelowBase" 806 -42 basechar 0
+AnchorPoint: "AboveBase" 806 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -15453,7 +15547,6 @@ SplineSet
  345 699 364 682 388 682 c 3x2a7e
  403 682 416 688 429 697 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EDC
@@ -15464,6 +15557,8 @@ GlyphClass: 2
 Flags: W
 HStem: -20 90<162.556 346.913 880.787 1045.76> 68 90<744.785 849.08> 584 66<71.2444 125.93> 616 66<346.311 416.648> 736 90<533.069 662.46> 760 66<69.453 168.547 345.573 429.804>
 VStem: -2 66<656.162 754.547> 38 90<102.503 453.334> 174 66<657.087 754.547> 279 66<684.046 757.954> 407 90<135.83 614.973> 702 90<167.586 703.708> 1091 90<115.92 712.969>
+AnchorPoint: "BelowBase" 806 -42 basechar 0
+AnchorPoint: "AboveBase" 806 883 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -15570,7 +15665,6 @@ SplineSet
  345 699 364 682 388 682 c 3x14f8
  403 682 417 688 429 698 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EC6
@@ -15656,6 +15750,7 @@ GlyphClass: 2
 Flags: W
 HStem: -350 90<-407.973 -313.198 -54.8204 65.6544> -242 66<-408.93 -354.18> -227 90<-237.327 -128.047> -66 66<-451.547 -352.453> 677 60<105.721 196.385> 744 82<-40.6191 85.8882>
 VStem: -523 66<-168.981 -71.453> -347 66<-170.26 -71.453> 78 90<-251.688 573.71>
+AnchorPoint: "BelowBase" -182 -288 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -15722,7 +15817,6 @@ SplineSet
  -347 -91 -372 -66 -402 -66 c 3
  -432 -66 -457 -91 -457 -121 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EC5
@@ -15802,6 +15896,7 @@ GlyphClass: 2
 Flags: W
 HStem: -378 90<-116.787 115.938> -96 66<-213.547 -114.453> 192 90<170.868 255.6> 736 90<104.983 186.602>
 VStem: -285 66<-198.427 -101.453> -109 66<-200.353 -101.453> 10 90<387.367 735.055> 261 90<-109.029 204 283.117 284.516 398 597.054>
+AnchorPoint: "BelowBase" 33 -378 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -15859,7 +15954,6 @@ SplineSet
  100 505 165 282 206 282 c 3
  222 282 239 290 256 303 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EDE
@@ -15870,6 +15964,7 @@ GlyphClass: 2
 Flags: W
 HStem: -519 66<-425.766 -306.912> -456 90<-114.528 142.903> -309 66<-421.309 -280.787> -232 66<-353.332 -274.495> -56 66<-353.547 -254.453>
 VStem: -503 66<-441.766 -325.611> -425 66<-160.332 -61.453> -249 66<-159.868 -61.453> 208 90<-295.75 361.25>
+AnchorPoint: "BelowBase" -102 -456 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -15936,7 +16031,6 @@ SplineSet
  -437 -422 -406 -453 -369 -453 c 3
  -308 -453 -288 -398 -280 -331 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0EDF
@@ -15947,6 +16041,7 @@ GlyphClass: 2
 Flags: W
 HStem: -392 66<-484.332 -385.453> -370 90<-117.561 36.6626> -189 90<-347 -259.343> 626 64<16.6812 115.857>
 VStem: -556 66<-320.332 -222.022> -380 66<-320.547 -221.196> 66 90<-252.267 539.249>
+AnchorPoint: "BelowBase" -200 -370 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -16007,7 +16102,6 @@ SplineSet
  -314 -336 -370 -392 -435 -392 c 3
  -499 -392 -556 -335 -556 -271 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: space
@@ -16977,6 +17071,62 @@ AnchorPoint: "AboveMark" -613 1419 mark 0
 LayerCount: 2
 Fore
 Refer: 118 6774 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0EC8.top
+Encoding: 65280 -1 216
+Width: 0
+VWidth: 1908
+GlyphClass: 4
+Flags: W
+HStem: 1045 306<-333.208 -262.356>
+VStem: -333 70<1045.01 1287.35>
+AnchorPoint: "AboveMark" -298 998 mark 0
+LayerCount: 2
+Fore
+Refer: 173 3784 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0EC9.top
+Encoding: 65281 -1 217
+Width: 0
+VWidth: 1908
+GlyphClass: 4
+Flags: W
+HStem: 1317 49<-396.537 -321.277>
+VStem: -450 48<1233.11 1311.16> -316 50<1232.79 1312.92>
+AnchorPoint: "AboveMark" -298 988 mark 0
+LayerCount: 2
+Fore
+Refer: 174 3785 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0EB8.deep
+Encoding: 65288 -1 218
+Width: 0
+VWidth: 1908
+GlyphClass: 4
+Flags: W
+HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
+VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156>
+AnchorPoint: "BelowMark" -370 -108 mark 0
+LayerCount: 2
+Fore
+Refer: 164 3768 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: uni0EB9.deep
+Encoding: 65289 -1 219
+Width: 0
+VWidth: 1908
+GlyphClass: 4
+Flags: W
+HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
+VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156> -230 80<-476.491 -140.451>
+AnchorPoint: "BelowMark" -312 -108 mark 0
+LayerCount: 2
+Fore
+Refer: 165 3769 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
