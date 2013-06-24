@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 002.001
+Version: 002.002
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1372056283
+ModificationTime: 1372065602
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -246,8 +246,8 @@ ContextSub2: class "Deep rigid subjoins append intermediate"  4 4 4 2
 EndFPST
 ContextSub2: coverage "Deep flexible subjoins"  0 0 0 1
  2 0 0
-  Coverage: 332 uni1A56 uni1A5B uni1A5C uni1A5D uni1A20.sub uni1A21.sub uni1A23.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub uni1A33.sub2
-  Coverage: 55 uni1A69 uni1A6A uni1A6C uni1A45.sub uni1A60 uni1A36.sub
+  Coverage: 353 uni1A56 uni1A5B uni1A5C uni1A5D uni1A7F uni1A20.sub uni1A21.sub uni1A23.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub uni1A33.sub2 uni1A7F.deep
+  Coverage: 63 uni1A60 uni1A69 uni1A6A uni1A6C uni1A7F uni1A36.sub uni1A45.sub
  1
   SeqLookup: 1 "Deep flexible subjoins" 
 EndFPST
@@ -589,7 +589,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 3792 8 4
+WinInfo: 6768 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -702,7 +702,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65598 224
+BeginChars: 65599 226
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -11093,47 +11093,27 @@ Width: 0
 VWidth: 2260
 GlyphClass: 4
 Flags: W
-HStem: -312 180<-847.039 -692.961 -533.039 -378.961>
-VStem: -860 180<-299.039 -144.961> -546 180<-299.039 -144.961>
+HStem: -312 60<-642.485 -583.515> -192 60<-642.485 -583.515>
+VStem: -703 60<-251.485 -192.515> -583 60<-251.485 -192.515>
+AnchorPoint: "BelowSideMark" -417 -222 basemark 0
+AnchorPoint: "BelowRightMark" -613 -354 basemark 0
+AnchorPoint: "BelowMark" -613 -354 basemark 0
 AnchorPoint: "BelowBase" -613 -42 mark 0
 LayerCount: 2
-Back
-SplineSet
--486 -222 m 3
- -486 -239 -473 -252 -456 -252 c 3
- -439 -252 -426 -239 -426 -222 c 3
- -426 -205 -439 -192 -456 -192 c 3
- -473 -192 -486 -205 -486 -222 c 3
--546 -222 m 3
- -546 -172 -506 -132 -456 -132 c 3
- -406 -132 -366 -172 -366 -222 c 3
- -366 -272 -406 -312 -456 -312 c 3
- -506 -312 -546 -272 -546 -222 c 3
--800 -222 m 3
- -800 -239 -787 -252 -770 -252 c 3
- -753 -252 -740 -239 -740 -222 c 3
- -740 -205 -753 -192 -770 -192 c 3
- -787 -192 -800 -205 -800 -222 c 3
--860 -222 m 3
- -860 -172 -820 -132 -770 -132 c 3
- -720 -132 -680 -172 -680 -222 c 3
- -680 -272 -720 -312 -770 -312 c 3
- -820 -312 -860 -272 -860 -222 c 3
-EndSplineSet
 Fore
 SplineSet
--546 -222 m 3
- -546 -172 -506 -132 -456 -132 c 3
- -406 -132 -366 -172 -366 -222 c 3
- -366 -272 -406 -312 -456 -312 c 3
- -506 -312 -546 -272 -546 -222 c 3
--860 -222 m 3
- -860 -172 -820 -132 -770 -132 c 3
- -720 -132 -680 -172 -680 -222 c 3
- -680 -272 -720 -312 -770 -312 c 3
- -820 -312 -860 -272 -860 -222 c 3
+-643 -222 m 3
+ -643 -239 -630 -252 -613 -252 c 3
+ -596 -252 -583 -239 -583 -222 c 3
+ -583 -205 -596 -192 -613 -192 c 3
+ -630 -192 -643 -205 -643 -222 c 3
+-703 -222 m 3
+ -703 -172 -663 -132 -613 -132 c 3
+ -563 -132 -523 -172 -523 -222 c 3
+ -523 -272 -563 -312 -613 -312 c 3
+ -663 -312 -703 -272 -703 -222 c 3
 EndSplineSet
-Validated: 1
+Substitution2: "Deep flexible subjoins lookup" uni1A7F.deep
 EndChar
 
 StartChar: uni1A60
@@ -17442,6 +17422,71 @@ SplineSet
  631 46 654 72 669 113 c 1
 EndSplineSet
 Ligature2: "'ccmp' TN subjoins and conjuncts lookup" uni0E84 uni0EBA uni0EA1
+EndChar
+
+StartChar: dieresisbelowcmb
+Encoding: 804 804 224
+Width: 0
+VWidth: 2260
+GlyphClass: 4
+Flags: W
+HStem: -312 180<-847.039 -692.961 -533.039 -378.961>
+VStem: -860 180<-299.039 -144.961> -546 180<-299.039 -144.961>
+AnchorPoint: "BelowBase" -613 -42 mark 0
+LayerCount: 2
+Back
+SplineSet
+-486 -222 m 7
+ -486 -239 -473 -252 -456 -252 c 7
+ -439 -252 -426 -239 -426 -222 c 7
+ -426 -205 -439 -192 -456 -192 c 7
+ -473 -192 -486 -205 -486 -222 c 7
+-546 -222 m 7
+ -546 -172 -506 -132 -456 -132 c 7
+ -406 -132 -366 -172 -366 -222 c 7
+ -366 -272 -406 -312 -456 -312 c 7
+ -506 -312 -546 -272 -546 -222 c 7
+-800 -222 m 7
+ -800 -239 -787 -252 -770 -252 c 7
+ -753 -252 -740 -239 -740 -222 c 7
+ -740 -205 -753 -192 -770 -192 c 7
+ -787 -192 -800 -205 -800 -222 c 7
+-860 -222 m 7
+ -860 -172 -820 -132 -770 -132 c 7
+ -720 -132 -680 -172 -680 -222 c 7
+ -680 -272 -720 -312 -770 -312 c 7
+ -820 -312 -860 -272 -860 -222 c 7
+EndSplineSet
+Fore
+SplineSet
+-546 -222 m 3
+ -546 -172 -506 -132 -456 -132 c 3
+ -406 -132 -366 -172 -366 -222 c 3
+ -366 -272 -406 -312 -456 -312 c 3
+ -506 -312 -546 -272 -546 -222 c 3
+-860 -222 m 3
+ -860 -172 -820 -132 -770 -132 c 3
+ -720 -132 -680 -172 -680 -222 c 3
+ -680 -272 -720 -312 -770 -312 c 3
+ -820 -312 -860 -272 -860 -222 c 3
+EndSplineSet
+EndChar
+
+StartChar: uni1A7F.deep
+Encoding: 65598 -1 225
+Width: 0
+VWidth: 2260
+GlyphClass: 4
+Flags: W
+HStem: -312 60<-642.485 -583.515> -192 60<-642.485 -583.515>
+VStem: -703 60<-251.485 -192.515> -583 60<-251.485 -192.515>
+AnchorPoint: "BelowMark" -613 -354 basemark 0
+AnchorPoint: "BelowRightMark" -613 -354 basemark 0
+AnchorPoint: "BelowSideMark" -417 -222 basemark 0
+AnchorPoint: "BelowMark" -613 -42 mark 0
+LayerCount: 2
+Fore
+Refer: 119 6783 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
