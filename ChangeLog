@@ -1,3 +1,17 @@
+2013-06-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Experimental Virama-based subjoining for Tai Noi.
+
+	* fonts/Khottabun.sfd:
+	  - Drop hard-coded subjoin code points, namely uni0EBE, uni0EBF,
+	    uni0EDE. Move them to corresponding uni*.sub glyphs.
+	  - Add uni0EBA as Virama.
+	  - Add uni0E*.sub glyphs for subjoined forms and uni0E*.uni0E* for
+	    conjunct forms.
+	  - Add "'ccmp' TN subjoins and conjuncts" GSUB for converting
+	    subjoin and conjunct sequences to corresponding glyphs.
+	  - Bump font version to 002.001.
+
 2013-05-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Add OpenType features to Tai Noi script.
