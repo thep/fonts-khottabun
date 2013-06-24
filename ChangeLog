@@ -1,5 +1,18 @@
 2013-06-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Use U+0324 for double-dotted final KA.
+
+	* fonts/Khottabun.sfd:
+	  - Move current uni1A7F (Cryptogrammic Dot) glyph to
+	    dieresisbelowcmb (U+0324).
+	  - Use single hollow dot shape for uni1A7F (Cryptogrammic Dot).
+	  - Add uni1A7F.deep glyph and add entries to "Deep flexible subjoins"
+	    GSUB rule to allow multiple Cryptogrammic Dots to be stacked
+	    vertically.
+	  - Bump font version to 002.002.
+
+2013-06-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Experimental Virama-based subjoining for Tai Noi.
 
 	* fonts/Khottabun.sfd:
