@@ -1,3 +1,13 @@
+2013-06-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Drop misleading subjoined A.
+
+	* fonts/Khottabun.sfd:
+	  - Drop SAKOT + A ligature from "Subjoined consonants lookup" rule.
+	    SAKOT + A is too enticing for users to use instead of the correct
+	    vowel OA below.
+	  - Bump font version to 002.003.
+
 2013-06-24  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Use U+0324 for double-dotted final KA.
