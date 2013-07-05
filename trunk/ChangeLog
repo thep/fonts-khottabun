@@ -1,3 +1,15 @@
+2013-07-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Switch to char-for-conjunct encoding scheme for the time being.
+
+	* fonts/Khottabun.sfd:
+	  - Move -OY to uni0EBE.
+	  - Move uni*.sub glyphs to extension code points:
+	    BA.sub = uni0EE0; MA.sub = uni0EE1; LA.sub = uni0EE2;
+	    SA.sub = uni0EE3.
+	  - Create conjunct glyphs uni0EE8..uni0EEF.
+	  - Bump font version to 002.004.
+
 2013-06-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Drop misleading subjoined A.
