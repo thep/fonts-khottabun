@@ -1,3 +1,12 @@
+2013-07-09  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Reallocate Tai Noi extension.
+
+	* fonts/Khottabun.sfd:
+	  - Reassign conjuncts uni0EE8..uni0EEF to uni0EF0..uni0EF7.
+	  - Add 3 subjoin glyphs uni0EE4..uni0EE6.
+	  - Bump font version to 002.005.
+
 2013-07-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Switch to char-for-conjunct encoding scheme for the time being.
