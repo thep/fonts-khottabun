@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 002.007
+Version: 002.008
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1384846517
+ModificationTime: 1384849489
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -588,7 +588,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 3808 8 4
+WinInfo: 3760 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -701,7 +701,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65599 234
+BeginChars: 65599 236
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -14329,7 +14329,7 @@ SplineSet
  -276 913 -332 857 -402 857 c 3
  -472 857 -528 913 -528 982 c 3
  -528 1117 -426 1184 -256 1184 c 3
- -72 1184 117 1072 173 926 c 1
+ -72 1184 117 1072 173 926 c 5
  0 1045 -136 1104 -256 1104 c 3
  -289 1104 -321 1101 -348 1095 c 1
 EndSplineSet
@@ -18378,6 +18378,85 @@ SplineSet
  -433 -368 -409 -356 -409 -289 c 3xb680
  -409 -202 -512 -163 -613 -163 c 3
  -671 -163 -730 -189 -768 -221 c 1
+EndSplineSet
+EndChar
+
+StartChar: uni0ECC
+Encoding: 3788 3788 234
+Width: 0
+VWidth: 1908
+GlyphClass: 4
+Flags: W
+HStem: 857 65<-451.621 -352.379> 1104 80<-344.229 58.3116>
+VStem: -528 69<927.572 1035.8> -345 69<927.572 1036.56>
+AnchorPoint: "AboveBase" -521 883 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-459 982 m 3
+ -459 949 -433 922 -402 922 c 3
+ -371 922 -345 949 -345 982 c 3
+ -345 1015 -371 1042 -402 1042 c 3
+ -433 1042 -459 1015 -459 982 c 3
+-348 1095 m 1
+ -306 1075 -276 1032 -276 982 c 3
+ -276 913 -332 857 -402 857 c 3
+ -472 857 -528 913 -528 982 c 3
+ -528 1117 -426 1184 -256 1184 c 3
+ -72 1184 110.5 1186.6 173 1333.6 c 1
+ 173 1129.6 66.2794 1104 -256 1104 c 3
+ -289 1104 -321 1101 -348 1095 c 1
+EndSplineSet
+EndChar
+
+StartChar: uni0EAF
+Encoding: 3759 3759 235
+Width: 630
+VWidth: 4096
+GlyphClass: 2
+Flags: W
+HStem: 0 21G<437.941 528> 584 66<85.6678 182.579> 760 66<85.453 184.547>
+VStem: 14 66<655.668 754.547> 190 66<681.347 754.547> 438 90<0 683>
+LayerCount: 2
+Back
+SplineSet
+80 705 m 3x3e54
+ 80 675 105 650 135 650 c 3
+ 165 650 190 675 190 705 c 3
+ 190 735 165 760 135 760 c 3
+ 105 760 80 735 80 705 c 3x3e54
+135 826 m 3
+ 200 826 256 770 256 705 c 3
+ 256 640 200 584 135 584 c 3
+ 71 584 14 641 14 705 c 3x3e4c
+ 14 770 70 826 135 826 c 3
+135 674 m 1
+ 286 674 331 684 449 826 c 1
+ 465 822 492 812 527 793 c 1
+ 528 0 l 1
+ 438 0 l 1
+ 436 683 l 1
+ 358 602 306 584 135 584 c 1
+ 135 674 l 1
+EndSplineSet
+Fore
+SplineSet
+135 826 m 3
+ 200 826 256 770 256 705 c 3
+ 256 697 255 689 253 681 c 1
+ 322 694 369 730 449 826 c 1
+ 465 822 492 812 527 793 c 1
+ 528 0 l 1
+ 438 0 l 1
+ 436 683 l 1
+ 358 602 306 584 135 584 c 3
+ 71 584 14 641 14 705 c 3
+ 14 770 70 826 135 826 c 3
+80 705 m 3
+ 80 675 105 650 135 650 c 3
+ 165 650 190 675 190 705 c 3
+ 190 735 165 760 135 760 c 3
+ 105 760 80 735 80 705 c 3
 EndSplineSet
 EndChar
 EndChars

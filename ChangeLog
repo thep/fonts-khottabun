@@ -1,5 +1,13 @@
 2013-11-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Add 2 Tai Noi glyphs for modern text.
+
+	* fonts/Khottabun.ttf:
+	  - Add glyphs for Tai Noi THANTHAKHAT (uni0ECC), PAIYANNOI (uni0EAF).
+	  - Bump font version to 002.008.
+
+2013-11-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Revise Tai Noi subjoining conjunct glyphs to base-line forms.
 
 	* fonts/Khottabun.sfd:
