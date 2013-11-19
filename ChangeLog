@@ -1,3 +1,13 @@
+2013-11-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Revise Tai Noi subjoining conjunct glyphs to base-line forms.
+
+	* fonts/Khottabun.sfd:
+	  - Modify Tai Noi conjuncts KHAI-NU (uni0EF0), KHAI-MA (uni0EF1),
+	    SUA-NU (uni0EF6), SUA-MA (uni0EF7) from subjoining forms to
+	    base-line forms.
+	  - Bump font version to 002.007.
+
 2013-07-22  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Actually set unicode value for uni0EE6.
