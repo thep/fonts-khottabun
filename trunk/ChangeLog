@@ -1,3 +1,10 @@
+2013-11-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Adjust SUA-MA glyph.
+
+	* fonts/Khottabun.sfd:
+	  - Adjust SUA-MA (uni0EF7) conjunct glyph for better look.
+
 2013-11-19  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Add 2 Tai Noi glyphs for modern text.
