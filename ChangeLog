@@ -1,3 +1,12 @@
+2013-11-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add Tai Noi subjoined TO TAO.
+
+	* fonts/Khottabun.sfd:
+	  - Add glyph for Tai Noi subjoined TO TAO at temporary code point
+	    uni0EE7.
+	  - Bump font version to 002.009.
+
 2013-11-27  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Adjust SUA-MA glyph.
