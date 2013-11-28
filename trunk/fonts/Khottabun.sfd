@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 002.008
+Version: 002.009
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1385565036
+ModificationTime: 1385631810
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -588,7 +588,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 3816 8 4
+WinInfo: 3792 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -701,7 +701,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65599 236
+BeginChars: 65599 237
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -18461,6 +18461,75 @@ SplineSet
  165 650 190 675 190 705 c 3
  190 735 165 760 135 760 c 3
  105 760 80 735 80 705 c 3
+EndSplineSet
+EndChar
+
+StartChar: uni0EE7
+Encoding: 3815 3815 236
+Width: 0
+VWidth: 4760
+GlyphClass: 4
+Flags: W
+HStem: -532 462
+VStem: -922 80<-377.829 -190.404> -384 80<-378.341 -176.379>
+AnchorPoint: "BelowBase" -613 -42 mark 0
+AnchorPoint: "BelowSideMark" -284 -301 basemark 0
+AnchorPoint: "BelowRightMark" -384 -532 basemark 0
+AnchorPoint: "BelowMark" -613 -532 basemark 0
+LayerCount: 2
+Back
+SplineSet
+-501 -134 m 25
+ -588 -70 l 25
+ -325 -70 l 25
+ -265 -166.4 l 17
+ -285 -153.4 -314.28 -134 -353 -134 c 2
+ -353 -134 -451.667 -134 -501 -134 c 25
+-501 -134 m 1
+ -501 -70 l 1
+ -476 -79.2 -304 -140 -304 -288 c 3
+ -304 -441 -459 -532 -555 -532 c 1
+ -613 -461 l 1
+ -671 -532 l 1
+ -772 -532 -922 -436 -922 -288 c 3
+ -922 -136 -791 -84 -771 -70 c 1
+ -725 -134 l 1
+ -767 -164 -842 -188 -842 -288 c 3
+ -842 -356 -763 -430 -706 -449 c 1
+ -613 -335 l 1
+ -520 -449 l 1
+ -467 -432 -384 -359 -384 -288 c 3
+ -384 -191 -457 -166 -501 -134 c 1
+-478 -102 m 0
+ -446 -125 -344 -164 -344 -288 c 3
+ -344 -399 -476 -492 -536 -492 c 1
+ -613 -398 l 1
+ -690 -492 l 1
+ -750 -492 -882 -399 -882 -288 c 3
+ -882 -164 -780 -125 -748 -102 c 0
+EndSplineSet
+Fore
+SplineSet
+-304 -288 m 3
+ -304 -441 -459 -532 -555 -532 c 1
+ -613 -461 l 1
+ -671 -532 l 1
+ -772 -532 -922 -436 -922 -288 c 3
+ -922 -136 -791 -84 -771 -70 c 1
+ -725 -134 l 1
+ -767 -164 -842 -188 -842 -288 c 3
+ -842 -356 -763 -430 -706 -449 c 1
+ -613 -335 l 1
+ -520 -449 l 1
+ -467 -432 -384 -359 -384 -288 c 3
+ -384 -225.093 -429.5 -163 -446.5 -141 c 0
+ -464.895 -117.195 -477 -106 -477 -83 c 3
+ -477 -76 -455 -70 -451 -70 c 3
+ -420 -70 -208 -166 -182 -192 c 1
+ -230 -192 -302 -155 -346 -155 c 3
+ -352 -155 -355 -160 -355 -163 c 1
+ -337.5 -184 l 2
+ -320.287 -204.655 -304 -242.956 -304 -288 c 3
 EndSplineSet
 EndChar
 EndChars
