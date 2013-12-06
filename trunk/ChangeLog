@@ -1,3 +1,12 @@
+2013-12-06  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Add Tai Noi subjoined CHO CHAN.
+
+	* fonts/Khottabun.sfd:
+	  - Add glyph for Tai Noi subjoined CHO CHAN at temporary code point
+	    uni0EE8.
+	  - Bump font version to 002.010.
+
 2013-11-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Add Tai Noi subjoined TO TAO.
