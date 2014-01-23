@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 002.011
+Version: 002.012
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1388217012
+ModificationTime: 1390475171
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -588,7 +588,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 3800 8 4
+WinInfo: 6752 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -701,7 +701,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65599 239
+BeginChars: 65599 240
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -7760,8 +7760,7 @@ Width: 0
 VWidth: 2260
 GlyphClass: 4
 Flags: W
-HStem: 940 65<-840.621 -741.379> 1187 80<-731.317 -398.153>
-VStem: -917 69<1010.57 1118.8> -734 69<1010.57 1119.6>
+HStem: 1187 80<-789.5 -436.5>
 AnchorPoint: "AboveMark" -613 1419 basemark 0
 AnchorPoint: "AboveBase" -613 883 mark 0
 LayerCount: 2
@@ -7773,16 +7772,6 @@ SplineSet
  -405 1267 -182 1155 -126 1009 c 1
  -299 1128 -469 1187 -613 1187 c 3
  -753 1187 -837 1159 -837 1065 c 1
--613 1187 m 3
- -473 1187 -292 1123 -126 1009 c 1
- -183 1153 -400 1267 -613 1267 c 3
- -826 1267 -1043 1153 -1100 1009 c 1
- -934 1123 -753 1187 -613 1187 c 3
--613 1187 m 3
- -473 1187 -292 1123 -126 1009 c 1
- -183 1153 -400 1267 -613 1267 c 3
- -826 1267 -1043 1153 -1100 1009 c 1
- -934 1123 -753 1187 -613 1187 c 3
 -917 1065 m 0
  -917 1134 -861 1190 -791 1190 c 0
  -721 1190 -665 1134 -665 1065 c 0
@@ -7796,21 +7785,17 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--848 1065 m 3
- -848 1032 -822 1005 -791 1005 c 3
- -760 1005 -734 1032 -734 1065 c 3
- -734 1098 -760 1125 -791 1125 c 3
- -822 1125 -848 1098 -848 1065 c 3
--733 1176 m 1
- -692 1155 -665 1113 -665 1065 c 3
- -665 996 -721 940 -791 940 c 3
- -861 940 -917 996 -917 1065 c 3
- -917 1200 -815 1267 -613 1267 c 3
- -405 1267 -182 1155 -126 1009 c 1
- -299 1128 -469 1187 -613 1187 c 3
- -660 1187 -700 1184 -733 1176 c 1
+-613 1187 m 3
+ -473 1187 -292 1123 -126 1009 c 1
+ -183 1153 -400 1267 -613 1267 c 3
+ -826 1267 -1043 1153 -1100 1009 c 1
+ -934 1123 -753 1187 -613 1187 c 3
+-613 1187 m 3
+ -473 1187 -292 1123 -126 1009 c 1
+ -183 1153 -400 1267 -613 1267 c 3
+ -826 1267 -1043 1153 -1100 1009 c 1
+ -934 1123 -753 1187 -613 1187 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni1A46
@@ -14293,8 +14278,7 @@ Width: 0
 VWidth: 1908
 GlyphClass: 4
 Flags: W
-HStem: 857 65<-451.621 -352.379> 1104 80<-345.48 -76.3377>
-VStem: -528 69<927.572 1035.8> -345 69<927.572 1036.56>
+HStem: 1104 80<-435.662 -76.3377>
 AnchorPoint: "AboveMark" -256 1241 basemark 0
 AnchorPoint: "AboveBase" -521 883 mark 0
 LayerCount: 2
@@ -14319,19 +14303,11 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
--459 982 m 3
- -459 949 -433 922 -402 922 c 3
- -371 922 -345 949 -345 982 c 3
- -345 1015 -371 1042 -402 1042 c 3
- -433 1042 -459 1015 -459 982 c 3
--348 1095 m 1
- -306 1075 -276 1032 -276 982 c 3
- -276 913 -332 857 -402 857 c 3
- -472 857 -528 913 -528 982 c 3
- -528 1117 -426 1184 -256 1184 c 3
- -72 1184 117 1072 173 926 c 5
+-256 1184 m 3
+ -72 1184 117 1072 173 926 c 1
  0 1045 -136 1104 -256 1104 c 3
- -289 1104 -321 1101 -348 1095 c 1
+ -376 1104 -512 1045 -685 926 c 1
+ -629 1072 -440 1184 -256 1184 c 3
 EndSplineSet
 EndChar
 
@@ -18640,6 +18616,35 @@ SplineSet
  -416 -328 -392 -357 -353 -357 c 3
  -317 -357 -290 -330 -290 -302 c 2
  -290 -248 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni1A7D
+Encoding: 6781 6781 239
+Width: 0
+VWidth: 2260
+GlyphClass: 4
+Flags: W
+HStem: 940 65<-840.621 -741.379> 1187 80<-731.317 -398.153>
+VStem: -917 69<1010.57 1118.8> -734 69<1010.57 1119.6>
+AnchorPoint: "AboveMark" -613 1419 basemark 0
+AnchorPoint: "AboveBase" -613 883 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-848 1065 m 3
+ -848 1032 -822 1005 -791 1005 c 3
+ -760 1005 -734 1032 -734 1065 c 3
+ -734 1098 -760 1125 -791 1125 c 3
+ -822 1125 -848 1098 -848 1065 c 3
+-733 1176 m 1
+ -692 1155 -665 1113 -665 1065 c 3
+ -665 996 -721 940 -791 940 c 3
+ -861 940 -917 996 -917 1065 c 3
+ -917 1200 -815 1267 -613 1267 c 3
+ -405 1267 -182 1155 -126 1009 c 1
+ -299 1128 -469 1187 -613 1187 c 3
+ -660 1187 -700 1184 -733 1176 c 1
 EndSplineSet
 EndChar
 EndChars
