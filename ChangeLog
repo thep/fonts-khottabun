@@ -1,3 +1,12 @@
+2014-01-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Remove head from Mai Kong.
+
+	* fonts/Khottabun.sfd:
+	  - Remove ring hook from Mai Kong (uni1A6B, uni0EBB).
+	  - Add uni1A7D as ad-hoc abbreviated vowel Ae (not standardized yet).
+	  - Bump font version to 002.012.
+
 2013-12-28  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Add Tai Noi subjoined NO NU.
