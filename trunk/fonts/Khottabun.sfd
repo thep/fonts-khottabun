@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 002.012
+Version: 002.013
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1390475171
+ModificationTime: 1390639856
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -50,7 +50,6 @@ Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin co
 Lookup: 4 0 1 "'ccmp' Subjoined consonants"  {"Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 1"  {"Deep rigid subjoins append intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 2"  {"Deep rigid subjoins remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Deep flexible subjoins"  {"Deep flexible subjoins"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM reorder stage 1"  {"'ccmp' AM reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM reorder stage 2"  {"'ccmp' AM reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM-T reorder stage 3"  {"'ccmp' AM-T reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
@@ -68,7 +67,6 @@ Lookup: 4 0 0 "Alternate subjoined consonant"  {"Alternate subjoined consonant l
 Lookup: 2 0 0 "ANG-LAN append intermediate"  {"ANG-LAN append intermediate lookup"  } []
 Lookup: 4 0 0 "ANG-LAN remove intermediate"  {"ANG-LAN remove intermediate lookup"  } []
 Lookup: 2 0 0 "LV E prepend intermediate"  {"LV E prepend intermediate lookup"  } []
-Lookup: 1 0 0 "Deep flexible subjoins"  {"Deep flexible subjoins lookup"  } []
 Lookup: 2 0 0 "U Deep rigid subjoins append intermediate"  {"U Deep rigid subjoins append intermediate lookup"  } []
 Lookup: 2 0 0 "UU Deep rigid subjoins append intermediate"  {"UU Deep rigid subjoins append intermediate lookup"  } []
 Lookup: 4 0 0 "Deep rigid subjoins remove intermediate"  {"Deep rigid subjoins remove intermediate lookup"  } []
@@ -91,10 +89,10 @@ Lookup: 2 0 0 "RA-UU prepend intermediate"  {"RA-UU prepend intermediate lookup"
 Lookup: 2 0 0 "RA prepend intermediate"  {"RA prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA-deep prepend intermediate"  {"RA-deep prepend intermediate lookup"  } []
 Lookup: 4 0 0 "RA remove intermediate"  {"RA-VV remove intermediate lookup"  "RA-V remove intermediate lookup"  "RA-C remove intermediate lookup"  "RA-S remove intermediate lookup"  "RA-AngV remove intermediate lookup"  "RA-Ang remove intermediate lookup"  } []
-Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' BelowBase Mark Positioning"  {"'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' AboveBase Mark Positioning"  {"'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark"  {"'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark"  {"'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 MarkAttachClasses: 6
 "AboveBase" 0 
 "BelowBase" 0 
@@ -242,13 +240,6 @@ ContextSub2: class "Deep rigid subjoins append intermediate"  4 4 4 2
   ClassNames: "All_Others"  "1"  "2"  "3"  
   BClassNames: "All_Others"  "1"  "2"  "3"  
   FClassNames: "All_Others"  "1"  "2"  "3"  
-EndFPST
-ContextSub2: coverage "Deep flexible subjoins"  0 0 0 1
- 2 0 0
-  Coverage: 353 uni1A56 uni1A5B uni1A5C uni1A5D uni1A7F uni1A20.sub uni1A21.sub uni1A23.sub uni1A26.sub uni1A27.sub uni1A28.sub uni1A29.sub uni1A2D.sub uni1A2E.sub uni1A2F.sub uni1A31.sub uni1A32.sub uni1A33.sub uni1A34.sub uni1A35.sub uni1A36.sub uni1A3B.sub uni1A3D.sub uni1A3E.sub uni1A45.sub uni1A46.sub uni1A48.sub uni1A49.sub uni1A4B.sub uni1A33.sub2 uni1A7F.deep
-  Coverage: 63 uni1A60 uni1A69 uni1A6A uni1A6C uni1A7F uni1A36.sub uni1A45.sub
- 1
-  SeqLookup: 1 "Deep flexible subjoins" 
 EndFPST
 ContextSub2: class "'ccmp' RA-CAR prepend intermediate"  10 10 10 6
   Class: 359 uni1A20 uni1A21 uni1A23 uni1A25 uni1A26 uni1A27 uni1A28 uni1A29 uni1A2A uni1A2B uni1A2C uni1A2D uni1A2E uni1A2F uni1A30 uni1A31 uni1A32 uni1A33 uni1A34 uni1A35 uni1A36 uni1A37 uni1A38 uni1A39 uni1A3A uni1A3B uni1A3C uni1A3D uni1A3E uni1A3F uni1A40 uni1A41 uni1A42 uni1A43 uni1A45 uni1A46 uni1A47 uni1A48 uni1A49 uni1A4A uni1A4B uni1A4C uni1A54 uni1A2C.uni1A2C
@@ -588,7 +579,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6752 8 4
+WinInfo: 65544 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -701,7 +692,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65599 240
+BeginChars: 65599 233
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -2837,7 +2828,7 @@ MultipleSubs2: "LV AI MAIMALAI prepend intermediate lookup" uni1A71 uni1A36 zero
 MultipleSubs2: "LV O prepend intermediate lookup" uni1A70 uni1A36 zerojoin
 MultipleSubs2: "LV AE prepend intermediate lookup" uni1A6F uni1A36 zerojoin
 MultipleSubs2: "LV E prepend intermediate lookup" uni1A6E uni1A36 zerojoin
-LCarets2: 3 0 0 0 
+LCarets2: 2 0 0 
 Ligature2: "ANG-LAN remove intermediate lookup" uni1A58 zerojoin uni1A36
 MultipleSubs2: "ANG-LAN append intermediate lookup" zerojoin uni1A36 uni1A58.lai
 EndChar
@@ -5129,6 +5120,7 @@ GlyphClass: 4
 Flags: W
 HStem: -492 60<-518.775 -82.4007>
 VStem: -658 90<-399.938 -168.596>
+AnchorPoint: "BelowSideMark" -678 -125 mark 0
 AnchorPoint: "BelowBase" -613 -42 mark 0
 LayerCount: 2
 Fore
@@ -5142,15 +5134,13 @@ SplineSet
  -518 -411 -434 -432 -339 -432 c 3
  -159 -432 94 -386 206 -364 c 1
 EndSplineSet
-Substitution2: "Deep flexible subjoins lookup" uni1A69.deep
-LCarets2: 3 0 0 0 
-Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A69 uni1A55
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A65
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A66
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A67
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A68
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A69
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A6A
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A69
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A68
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A67
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A66
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A69 uni1A55 uni1A65
+Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A69 uni1A55
 EndChar
 
 StartChar: uni1A6A
@@ -5161,6 +5151,7 @@ GlyphClass: 4
 Flags: W
 HStem: -492 60<-518.775 -82.4007>
 VStem: -658 90<-399.938 -168.596> -497 80<-340.1 -142.812>
+AnchorPoint: "BelowSideMark" -678 -125 mark 0
 AnchorPoint: "BelowBase" -613 -42 mark 0
 LayerCount: 2
 Fore
@@ -5179,15 +5170,13 @@ SplineSet
  -518 -411 -434 -432 -339 -432 c 3
  -159 -432 94 -386 206 -364 c 1
 EndSplineSet
-Substitution2: "Deep flexible subjoins lookup" uni1A6A.deep
-LCarets2: 3 0 0 0 
-Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A6A uni1A55
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A65
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A66
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A67
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A68
-Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A69
 Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A6A
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A69
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A68
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A67
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A66
+Ligature2: "RA-VV remove intermediate lookup" zerojoin uni1A6A uni1A55 uni1A65
+Ligature2: "RA-V remove intermediate lookup" zerojoin uni1A6A uni1A55
 EndChar
 
 StartChar: uni1A6E
@@ -5749,7 +5738,7 @@ VStem: -1030 80<-312.856 -195.766> -844 60<-398.485 -339.515> -288 80<-343.203 -
 AnchorPoint: "BelowMark" -613 -459 basemark 0
 AnchorPoint: "BelowRightMark" -288 -459 basemark 0
 AnchorPoint: "BelowSideMark" -188 -375 basemark 0
-AnchorPoint: "BelowBase" -613 -44 mark 0
+AnchorPoint: "BelowMark" -613 -42 mark 0
 LayerCount: 2
 Back
 SplineSet
@@ -7661,6 +7650,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-755.252 -465.234> -147 64<-854.236 -801.918>
 VStem: -919 64<-200.217 -147.918> -914 80<-516.664 -316.113> -801 64<-199.342 -147.764> -393 80<-515.969 -232.524>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -393 -667 basemark 0
 AnchorPoint: "BelowSideMark" -293 -375 basemark 0
@@ -8065,6 +8055,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 89<-481.39 -395.524> -667 64<-764.682 -713.31> -550 64<-765.632 -713.457> -163 80<-861.448 -678.151 -546.3 -372.016>
 VStem: -1015 80<-511.875 -244.205> -713 64<-602.543 -550.764> -313 80<-485.912 -230.426>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -668 basemark 0
 AnchorPoint: "BelowRightMark" -313 -667 basemark 0
 AnchorPoint: "BelowSideMark" -213 -375 basemark 0
@@ -8148,6 +8139,7 @@ GlyphClass: 4
 Flags: W
 HStem: -666 80<-770.508 -450.705> -457 80<-764.48 -465.098> -394 64<-831.082 -778.764> -162 80<-754.44 -459.561>
 VStem: -896 64<-329.876 -277.311> -864 80<-559.239 -483.346> -778 64<-329.543 -277.783> -362 80<-458.454 -253.25>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -668 basemark 0
 AnchorPoint: "BelowRightMark" -362 -667 basemark 0
 AnchorPoint: "BelowSideMark" -262 -375 basemark 0
@@ -8229,6 +8221,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 89<-506.284 -422.898> -667 64<-737.049 -685.31> -550 64<-737.335 -685.457> -163 80<-771.1 -472.187>
 VStem: -962 80<-531.536 -270.321> -685 64<-602.543 -550.764> -358 80<-500.509 -267.636>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -668 basemark 0
 AnchorPoint: "BelowRightMark" -358 -667 basemark 0
 AnchorPoint: "BelowSideMark" -258 -375 basemark 0
@@ -8446,6 +8439,7 @@ GlyphClass: 4
 Flags: W
 HStem: -459 63<-337.789 -150.661> -448 80<-897.445 -703.57> -263 60<-848.867 -789.515> -143 60<-848.937 -789.515>
 VStem: -1000 80<-344.441 -210.164> -789 60<-202.485 -143.515>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -468 basemark 0
 AnchorPoint: "BelowRightMark" -613 -468 basemark 0
 AnchorPoint: "BelowSideMark" -146 -271 basemark 0
@@ -8518,6 +8512,7 @@ GlyphClass: 4
 Flags: W
 HStem: -532 80<-759.155 -475.463> -162 80<-923.542 -820.058>
 VStem: -819 80<-278.655 -163.525> -347 80<-327.856 -108.909>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -532 basemark 0
 AnchorPoint: "BelowRightMark" -347 -532 basemark 0
 AnchorPoint: "BelowSideMark" -247 -307 basemark 0
@@ -8581,6 +8576,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-694.56 -475.586> -667 64<-842.86 -788.223> -557 64<-842.027 -787.594> -485 60<-825.485 -770.309> -365 60<-825.485 -767.099> -163 80<-770.628 -488.973> -87 19<-705.424 -698.674>
 VStem: -907 64<-602.027 -557.14> -886 60<-424.485 -365.515> -766 76<-500.436 -481 -462.713 -365.212> -394 80<-497.049 -257.03>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -394 -667 basemark 0
 AnchorPoint: "BelowSideMark" -294 -375 basemark 0
@@ -8683,6 +8679,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-794.59 -677.454 -558.284 -433.919> -610 80<-686.546 -553.716> -475 64<-426.082 -374.549> -358 64<-426.264 -389.044> -163 80<-749.773 -459.526>
 VStem: -875 80<-585.683 -518.381> -491 64<-410.876 -358.842> -374 115<-410.993 -358.194> -288 29<-508.465 -463.346>
+AnchorPoint: "BelowMark" -613 -43 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -374 -667 basemark 0
 AnchorPoint: "BelowSideMark" -239 -375 basemark 0
@@ -8994,6 +8991,7 @@ SplineSet
  37 678 -26 714 -68 714 c 3
  -84 714 -90 713 -102 711 c 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A2C.sub
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A2C.sub
 MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A2C.sub uni1A69
@@ -9015,6 +9013,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-844.89 -747.981 -561.032 -427.954> -571 80<-688.557 -623.375> -265 64<-791.366 -739.764> -147 64<-790.323 -739.918 -500.202 -389.109>
 VStem: -935 80<-579.023 -437.358 -289.528 -209.05> -872 80<-425.467 -302.544> -739 64<-200.082 -147.764> -361 80<-521.951 -282.688>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -361 -667 basemark 0
 AnchorPoint: "BelowSideMark" -261 -375 basemark 0
@@ -9113,9 +9112,10 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-873.392 -371.571> -275 80<-916.475 -610.534> -25 20G<-223 -210>
 VStem: -1051 80<-514.29 -327.092> -290 80<-514.77 -204 -203.997 -63.1362>
+AnchorPoint: "BelowRightMark" -250 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowSideMark" -190 -375 basemark 0
-AnchorPoint: "BelowRightMark" -290 -667 basemark 0
+AnchorPoint: "BelowRightMark" -250 -667 basemark 0
 AnchorPoint: "BelowBase" -613 -42 mark 0
 LayerCount: 2
 Back
@@ -9203,6 +9203,7 @@ Flags: W
 HStem: -667 80<-812.705 -626.938> -607 80<-683.258 -461.841> -395 64<-832.082 -779.764> -163 80<-741.542 -458.507>
 VStem: -897 64<-330.236 -278.8> -893 80<-586.577 -552.803> -779 64<-330.082 -277.213> -463 80<-822.911 -607.235> -409 80<-369.526 -212.421>
 DStem2: -814 -480 -770 -551 0.959412 0.282009<-24.2229 428.81> -725 -571 -705 -652 0.971903 0.235383<-79.1934 204.163>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -733 -667 basemark 0
 AnchorPoint: "BelowRightMark" -733 -667 basemark 0
 AnchorPoint: "BelowSideMark" -309 -375 basemark 0
@@ -9406,6 +9407,7 @@ SplineSet
  -557 -242 -573 -163 -599 -163 c 3xede0
  -609 -163 -616 -166 -623 -173 c 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A30.sub
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A30.sub
 MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A30.sub uni1A69
@@ -9427,6 +9429,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-690.843 -534.298> -667 64<-946.718 -894.764> -550 64<-946.648 -894.918> -163 80<-991.901 -762.159 -468.793 -263.889>
 VStem: -1147 80<-518.63 -238.872> -894 64<-602.543 -550.764> -787 80<-570.545 -409.416> -711 80<-384.896 -210.468> -596 80<-384.956 -208.581> -519 80<-569.489 -409.303> -192 80<-473.34 -237.699>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -192 -667 basemark 0
 AnchorPoint: "BelowSideMark" -92 -375 basemark 0
@@ -9527,6 +9530,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-983.635 -742.572> -163 80<-983.428 -742.819 -502.202 -267.724>
 VStem: -1153 80<-496.161 -253.632> -653 80<-495.484 -252.313> -197 80<-451.305 -233.026>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -197 -667 basemark 0
 AnchorPoint: "BelowSideMark" -97 -375 basemark 0
@@ -9599,6 +9603,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 64<-718.635 -633.31> -550 64<-685.973 -633.457> -163 80<-765.328 -466.532>
 VStem: -904 80<-558.144 -445.821 -346.874 -216.905> -750 64<-573 -550.94> -633 64<-602.543 -550.764> -360 80<-500.551 -268.636>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -360 -667 basemark 0
 AnchorPoint: "BelowSideMark" -260 -375 basemark 0
@@ -9689,6 +9694,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-792.782 -629.862> -439 64<-639.876 -587.918> -163 80<-761.54 -481.199>
 VStem: -940 80<-514.103 -256.937> -704 64<-492.977 -439.918> -587 64<-492.194 -439.764> -378 80<-509.938 -263.409>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -378 -667 basemark 0
 AnchorPoint: "BelowSideMark" -278 -375 basemark 0
@@ -9761,6 +9767,7 @@ GlyphClass: 4
 Flags: W
 HStem: -532 462
 VStem: -922 80<-377.829 -190.404> -384 80<-378.341 -188.828>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -532 basemark 0
 AnchorPoint: "BelowRightMark" -384 -532 basemark 0
 AnchorPoint: "BelowSideMark" -284 -301 basemark 0
@@ -9833,6 +9840,8 @@ GlyphClass: 4
 Flags: W
 HStem: -437 80<-412.482 -292.951> -247 80<-412.827 -290 -210 16.3262>
 VStem: -496 80<-352.221 -252.459> -290 80<-350.197 -250 -167 -42>
+AnchorPoint: "BelowRightMark" -250 -437 basemark 0
+AnchorPoint: "BelowRightMark" -250 -42 mark 0
 AnchorPoint: "BelowSideMark" -210 -437 basemark 0
 AnchorPoint: "BelowRight" -250 -42 mark 0
 AnchorPoint: "BelowMark" -210 -437 basemark 0
@@ -9868,15 +9877,13 @@ SplineSet
  -317 -357 -290 -330 -290 -302 c 2
  -290 -248 l 1
 EndSplineSet
-Substitution2: "Deep flexible subjoins lookup" uni1A36.deep
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A36.sub uni1A55
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A36
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A36.sub uni1A72
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A36.sub uni1A55
 EndChar
 
 StartChar: uni1A37.sub
@@ -10088,6 +10095,7 @@ SplineSet
  -333 -333 -373 -373 -423 -373 c 3
  -465 -373 -500 -345 -510 -306 c 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A38.sub
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A38.sub
 MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A38.sub uni1A69
@@ -10219,6 +10227,7 @@ SplineSet
  58 703 72 690 90 690 c 3
  103 690 118 692 135 696 c 1
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A39.sub
 Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A39.sub
 MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A39.sub uni1A69
@@ -10240,8 +10249,10 @@ GlyphClass: 4
 Flags: W
 HStem: -668 80<-896.595 -392.914> -338 80<-899.147 -290 -210 -107.697>
 VStem: -1046 80<-527.167 -389.737> -290 80<-506.817 -338 -258 -83>
+AnchorPoint: "BelowRightMark" -250 -42 mark 0
+AnchorPoint: "BelowRight" -250 -42 mark 0
 AnchorPoint: "BelowMark" -613 -668 basemark 0
-AnchorPoint: "BelowRightMark" -290 -667 basemark 0
+AnchorPoint: "BelowRightMark" -250 -667 basemark 0
 AnchorPoint: "BelowSideMark" -68 -375 basemark 0
 LayerCount: 2
 Back
@@ -10324,6 +10335,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 72<-670.14 -664.034 -465.357 -458.562> -163 80<-702.417 -417.629> -147 64<-890.236 -838.033>
 VStem: -955 64<-200.787 -147.918> -949 80<-525.622 -390.679> -332 80<-493.865 -246.186>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -332 -667 basemark 0
 AnchorPoint: "BelowSideMark" -232 -375 basemark 0
@@ -10408,8 +10420,9 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-839.524 -285.202> -438 80<-445.711 -359.812> -214 80<-850.432 -533>
 VStem: -1073 80<-477.22 -321.819> -533 80<-353.375 -230 -139 -83> -357 80<-357.67 -247.131>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
-AnchorPoint: "BelowRightMark" -357 -667 basemark 0
+AnchorPoint: "BelowRightMark" -317 -667 basemark 0
 AnchorPoint: "BelowBase" -613 -42 mark 0
 AnchorPoint: "BelowSideMark" -167 -375 basemark 0
 LayerCount: 2
@@ -10651,6 +10664,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-735.784 -490.679> -163 80<-735.578 -490.472>
 VStem: -908 80<-494.284 -253.417> -399 80<-496.583 -253.624>
+AnchorPoint: "BelowMark" -613 -63 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -399 -667 basemark 0
 AnchorPoint: "BelowSideMark" -299 -375 basemark 0
@@ -10669,15 +10683,13 @@ SplineSet
  -319 -538 -453 -667 -613 -667 c 3
  -777 -667 -908 -534 -908 -375 c 3
 EndSplineSet
-Substitution2: "Deep flexible subjoins lookup" uni1A45.deep
-Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A45.sub uni1A55
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A72
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A71
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A70
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A6F
-Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A6E
-LCarets2: 2 0 0 
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A45
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A6E
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A6F
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A70
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A71
+Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A45.sub uni1A72
+Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A45.sub uni1A55
 EndChar
 
 StartChar: uni1A46.sub
@@ -10688,6 +10700,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 89<-499.284 -415.898> -667 64<-730.049 -678.31> -550 64<-730.335 -678.457> -163 80<-764.1 -477.265>
 VStem: -955 80<-531.536 -270.321> -678 64<-602.543 -550.764> -351 80<-500.509 -268.213>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -351 -667 basemark 0
 AnchorPoint: "BelowSideMark" -251 -375 basemark 0
@@ -10915,6 +10928,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-902.752 -672.572 -361 -291.745> -163 80<-571.046 -351.858> -147 64<-927.876 -875.918>
 VStem: -1004 80<-562.266 -389.979 -200.335 -147.918> -875 64<-197.943 -147.764> -689 80<-497.085 -200.052> -650 80<-561.516 -307.814> -302 80<-458.386 -211.704>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -302 -667 basemark 0
 AnchorPoint: "BelowSideMark" -202 -375 basemark 0
@@ -11000,6 +11014,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-790.82 -425.733> -414 80<-536.34 -329.11> -276 80<-536.831 -328.117>
 VStem: -992 80<-485.839 -268.913> -288 80<-484.954 -387.644>
+AnchorPoint: "BelowMark" -613 -172 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -288 -667 basemark 0
 AnchorPoint: "BelowSideMark" -188 -375 basemark 0
@@ -11078,6 +11093,7 @@ GlyphClass: 4
 Flags: W
 HStem: -312 60<-642.485 -583.515> -192 60<-642.485 -583.515>
 VStem: -703 60<-251.485 -192.515> -583 60<-251.485 -192.515>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowSideMark" -417 -222 basemark 0
 AnchorPoint: "BelowRightMark" -613 -354 basemark 0
 AnchorPoint: "BelowMark" -613 -354 basemark 0
@@ -11096,7 +11112,6 @@ SplineSet
  -523 -272 -563 -312 -613 -312 c 3
  -663 -312 -703 -272 -703 -222 c 3
 EndSplineSet
-Substitution2: "Deep flexible subjoins lookup" uni1A7F.deep
 EndChar
 
 StartChar: uni1A60
@@ -11107,6 +11122,7 @@ GlyphClass: 4
 Flags: W
 HStem: -258 80<-324 -243 -163 -81>
 VStem: -243 80<-340 -258 -178 -96>
+AnchorPoint: "BelowMark" -203 -76 mark 0
 AnchorPoint: "BelowBase" -203 -42 mark 0
 LayerCount: 2
 Fore
@@ -11125,8 +11141,6 @@ SplineSet
  -324 -258 l 1
  -324 -178 l 1
 EndSplineSet
-Validated: 1
-Substitution2: "Deep flexible subjoins lookup" uni1A60.deep
 EndChar
 
 StartChar: uni1A36.uni1A63
@@ -11434,9 +11448,10 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-873.392 -371.571> -275 80<-916.475 -610.534> -25 20G<-223 -210>
 VStem: -1051 80<-514.29 -327.092> -290 80<-514.77 -204 -203.997 -63.1362>
-AnchorPoint: "BelowBase" -613 -42 mark 0
+AnchorPoint: "BelowRightMark" -250 -42 mark 0
+AnchorPoint: "BelowRight" -250 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
-AnchorPoint: "BelowRightMark" -290 -667 basemark 0
+AnchorPoint: "BelowRightMark" -250 -667 basemark 0
 AnchorPoint: "BelowSideMark" -190 -375 basemark 0
 LayerCount: 2
 Fore
@@ -11473,6 +11488,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-790.82 -425.733> -414 80<-536.34 -329.11> -276 80<-536.831 -328.117>
 VStem: -992 80<-485.839 -268.913> -288 80<-484.954 -387.644>
+AnchorPoint: "BelowMark" -613 -172 mark 0
 AnchorPoint: "BelowBase" -613 -42 mark 0
 LayerCount: 2
 Back
@@ -11510,7 +11526,6 @@ SplineSet
  -535 -310 -510 -334 -438 -334 c 3
  -406 -334 -365 -329 -327 -315 c 1
 EndSplineSet
-Substitution2: "Deep flexible subjoins lookup" uni1A6C.deep
 EndChar
 
 StartChar: uni1A73
@@ -15867,6 +15882,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 90<-965.509 -495.62> -325 66<-375.332 -311.155> -149 66<-375.547 -276.453>
 VStem: -1256 90<-405.665 -204.015> -447 66<-253.332 -154.453> -271 66<-252.488 -154.453>
+AnchorPoint: "BelowMark" -731 -42 mark 0
 AnchorPoint: "BelowRightMark" -250 -667 basemark 0
 AnchorPoint: "BelowMark" -731 -667 basemark 0
 AnchorPoint: "BelowBase" -731 -42 mark 0
@@ -15962,6 +15978,7 @@ GlyphClass: 4
 Flags: W
 HStem: -667 80<-755.252 -464.493> -510 64<-635.082 -583.124> -393 64<-635.236 -537.68> -147 64<-854.236 -801.918>
 VStem: -919 64<-200.217 -147.918> -914 80<-516.664 -316.113> -801 64<-199.342 -147.764> -700 64<-445.236 -393.457> -583 64<-445.8 -418.254> -393 80<-376 -233.686> -303 76<-704.454 -517.075>
+AnchorPoint: "BelowMark" -613 -42 mark 0
 AnchorPoint: "BelowMark" -613 -667 basemark 0
 AnchorPoint: "BelowRightMark" -393 -667 basemark 0
 AnchorPoint: "BelowBase" -613 -42 mark 0
@@ -16539,92 +16556,8 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A72
 EndChar
 
-StartChar: uni1A6C.deep
-Encoding: 65591 -1 202
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: -667 80<-790.82 -425.733> -414 80<-536.34 -329.11> -276 80<-536.831 -328.117>
-VStem: -992 80<-485.839 -268.913> -288 80<-484.954 -387.644>
-AnchorPoint: "BelowMark" -613 -172 mark 0
-LayerCount: 2
-Fore
-Refer: 125 6764 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni1A45.deep
-Encoding: 65592 -1 203
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: -667 80<-735.784 -490.679> -163 80<-735.578 -490.472>
-VStem: -908 80<-494.284 -253.417> -399 80<-496.583 -253.624>
-AnchorPoint: "BelowMark" -613 -63 mark 0
-LayerCount: 2
-Fore
-Refer: 112 -1 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni1A69.deep
-Encoding: 65589 -1 204
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: -492 60<-518.775 -82.4007>
-VStem: -658 90<-399.938 -168.596>
-AnchorPoint: "BelowSideMark" -678 -125 mark 0
-LayerCount: 2
-Fore
-Refer: 46 6761 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni1A6A.deep
-Encoding: 65590 -1 205
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: -492 60<-518.775 -82.4007>
-VStem: -658 90<-399.938 -168.596> -497 80<-340.1 -142.812>
-AnchorPoint: "BelowSideMark" -678 -125 mark 0
-LayerCount: 2
-Fore
-Refer: 47 6762 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni1A60.deep
-Encoding: 65593 -1 206
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: -258 80<-324 -243 -163 -81>
-VStem: -243 80<-340 -258 -178 -96>
-AnchorPoint: "BelowMark" -203 -76 mark 0
-LayerCount: 2
-Fore
-Refer: 120 6752 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni1A36.deep
-Encoding: 65594 -1 207
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: -437 80<-412.482 -292.951> -247 80<-412.827 -290 -210 16.3262>
-VStem: -496 80<-352.221 -252.459> -290 80<-350.197 -250 -167 -42>
-AnchorPoint: "BelowRightMark" -250 -42 mark 0
-LayerCount: 2
-Fore
-Refer: 102 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: uni1A74.top
-Encoding: 65595 -1 208
+Encoding: 65595 -1 202
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -16638,7 +16571,7 @@ Refer: 79 6772 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1A75.top
-Encoding: 65596 -1 209
+Encoding: 65596 -1 203
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -16652,7 +16585,7 @@ Refer: 117 6773 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni1A76.top
-Encoding: 65597 -1 210
+Encoding: 65597 -1 204
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -16667,7 +16600,7 @@ Refer: 118 6774 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EC8.top
-Encoding: 65280 -1 211
+Encoding: 65280 -1 205
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -16681,7 +16614,7 @@ Refer: 173 3784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EC9.top
-Encoding: 65281 -1 212
+Encoding: 65281 -1 206
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -16695,7 +16628,7 @@ Refer: 174 3785 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EB8.deep
-Encoding: 65288 -1 213
+Encoding: 65288 -1 207
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -16709,7 +16642,7 @@ Refer: 164 3768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EB9.deep
-Encoding: 65289 -1 214
+Encoding: 65289 -1 208
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -16723,10 +16656,10 @@ Refer: 165 3769 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EBA
-Encoding: 3770 3770 215
+Encoding: 3770 3770 209
 Width: 0
 VWidth: 2260
-Flags: W
+Flags: HW
 HStem: -258 80<-324 -243 -163 -81>
 VStem: -243 80<-340 -258 -178 -96>
 LayerCount: 2
@@ -16735,7 +16668,7 @@ Refer: 120 6752 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dieresisbelowcmb
-Encoding: 804 804 216
+Encoding: 804 804 210
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -16782,25 +16715,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni1A7F.deep
-Encoding: 65598 -1 217
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: -312 60<-642.485 -583.515> -192 60<-642.485 -583.515>
-VStem: -703 60<-251.485 -192.515> -583 60<-251.485 -192.515>
-AnchorPoint: "BelowMark" -613 -354 basemark 0
-AnchorPoint: "BelowRightMark" -613 -354 basemark 0
-AnchorPoint: "BelowSideMark" -417 -222 basemark 0
-AnchorPoint: "BelowMark" -613 -42 mark 0
-LayerCount: 2
-Fore
-Refer: 119 6783 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: uni0EBE
-Encoding: 3774 3774 218
+Encoding: 3774 3774 211
 Width: 258
 VWidth: 1908
 GlyphClass: 2
@@ -16868,7 +16784,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE0
-Encoding: 3808 3808 219
+Encoding: 3808 3808 212
 Width: 242
 VWidth: 1908
 GlyphClass: 2
@@ -16945,7 +16861,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE2
-Encoding: 3810 3810 220
+Encoding: 3810 3810 213
 Width: 302
 VWidth: 1908
 GlyphClass: 2
@@ -17016,7 +16932,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE3
-Encoding: 3811 3811 221
+Encoding: 3811 3811 214
 Width: 481
 VWidth: 1908
 GlyphClass: 2
@@ -17084,7 +17000,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE1
-Encoding: 3809 3809 222
+Encoding: 3809 3809 215
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -17134,7 +17050,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF0
-Encoding: 3824 3824 223
+Encoding: 3824 3824 216
 Width: 1267
 VWidth: 1894
 GlyphClass: 2
@@ -17301,7 +17217,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF1
-Encoding: 3825 3825 224
+Encoding: 3825 3825 217
 Width: 1267
 VWidth: 1908
 GlyphClass: 2
@@ -17453,7 +17369,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF2
-Encoding: 3826 3826 225
+Encoding: 3826 3826 218
 Width: 1327
 VWidth: 1908
 GlyphClass: 2
@@ -17552,7 +17468,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF3
-Encoding: 3827 3827 226
+Encoding: 3827 3827 219
 Width: 1293
 VWidth: 1908
 GlyphClass: 2
@@ -17654,7 +17570,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF4
-Encoding: 3828 3828 227
+Encoding: 3828 3828 220
 Width: 1360
 VWidth: 1894
 GlyphClass: 2
@@ -17769,7 +17685,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF5
-Encoding: 3829 3829 228
+Encoding: 3829 3829 221
 Width: 913
 VWidth: 1908
 GlyphClass: 2
@@ -17887,7 +17803,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF6
-Encoding: 3830 3830 229
+Encoding: 3830 3830 222
 Width: 1337
 VWidth: 1894
 GlyphClass: 2
@@ -18025,7 +17941,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF7
-Encoding: 3831 3831 230
+Encoding: 3831 3831 223
 Width: 1595
 VWidth: 1908
 GlyphClass: 2
@@ -18183,7 +18099,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE4
-Encoding: 3812 3812 231
+Encoding: 3812 3812 224
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18226,7 +18142,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE5
-Encoding: 3813 3813 232
+Encoding: 3813 3813 225
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18269,7 +18185,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE6
-Encoding: 3814 3814 233
+Encoding: 3814 3814 226
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -18362,7 +18278,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0ECC
-Encoding: 3788 3788 234
+Encoding: 3788 3788 227
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -18390,7 +18306,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EAF
-Encoding: 3759 3759 235
+Encoding: 3759 3759 228
 Width: 630
 VWidth: 4096
 GlyphClass: 2
@@ -18441,7 +18357,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE7
-Encoding: 3815 3815 236
+Encoding: 3815 3815 229
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18510,7 +18426,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE8
-Encoding: 3816 3816 237
+Encoding: 3816 3816 230
 Width: 0
 VWidth: 2249
 GlyphClass: 4
@@ -18575,7 +18491,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE9
-Encoding: 3817 3817 238
+Encoding: 3817 3817 231
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -18620,7 +18536,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A7D
-Encoding: 6781 6781 239
+Encoding: 6781 6781 232
 Width: 0
 VWidth: 2260
 GlyphClass: 4

@@ -1,3 +1,17 @@
+2014-01-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Improve Tham deep below-base marks positioning.
+
+	* fonts/Khottabun.sfd:
+	  - Reorder 'mkmk' to after 'mark' to take priority when applied
+	    simultaneously.
+	  - Remove "'ccmp' Deep flexible subjoins" lookup and the
+	    associated "Deep flexible subjoins" lookup.
+	  - Add either "BelowMark", "BelowRightMark", or "BelowSideMark"
+	    mark anchor to all subjoins and below vowels.
+	  - Remove all *.deep glyphs.
+	  - Bump font version to 002.013.
+
 2014-01-23  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Remove head from Mai Kong.
