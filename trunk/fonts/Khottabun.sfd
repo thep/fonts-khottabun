@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 002.014
+Version: 002.015
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1390640966
+ModificationTime: 1390641849
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -40,10 +40,6 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 5 0 0 "'ccmp' TN Top marks"  {"'ccmp' TN Top marks lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' TN Deep marks"  {"'ccmp' TN Deep marks lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
-Lookup: 1 0 0 "TN Top marks"  {"TN Top marks lookup"  } []
-Lookup: 1 0 0 "TN Deep marks"  {"TN Deep marks lookup"  } []
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1"  {"'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2"  {"'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
@@ -98,20 +94,6 @@ MarkAttachClasses: 6
 "BelowMark" 0 
 "BelowRight" 0 
 DEI: 91125
-ContextSub2: coverage "'ccmp' TN Deep marks lookup"  0 0 0 1
- 2 0 0
-  Coverage: 7 uni0EBC
-  Coverage: 15 uni0EB8 uni0EB9
- 1
-  SeqLookup: 1 "TN Deep marks" 
-EndFPST
-ContextSub2: coverage "'ccmp' TN Top marks lookup"  0 0 0 1
- 2 0 0
-  Coverage: 55 uni0EB1 uni0EB4 uni0EB5 uni0EB6 uni0EB7 uni0EBB uni0ECD
-  Coverage: 15 uni0EC8 uni0EC9
- 1
-  SeqLookup: 1 "TN Top marks" 
-EndFPST
 ContextSub2: class "'ccmp' AM-T reorder remove intermediate"  4 4 4 1
   Class: 15 uni1A75 uni1A76
   Class: 8 zerojoin
@@ -570,7 +552,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6744 8 4
+WinInfo: 3792 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -683,7 +665,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65599 230
+BeginChars: 65599 226
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -14103,6 +14085,7 @@ GlyphClass: 4
 Flags: W
 HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
 VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156>
+AnchorPoint: "BelowMark" -370 -108 mark 0
 AnchorPoint: "BelowBase" -370 -42 mark 0
 LayerCount: 2
 Back
@@ -14150,7 +14133,6 @@ SplineSet
  -406 -242 -417 -231 -431 -231 c 3
  -445 -231 -456 -242 -456 -255 c 3
 EndSplineSet
-Substitution2: "TN Deep marks lookup" uni0EB8.deep
 EndChar
 
 StartChar: uni0EB9
@@ -14161,6 +14143,7 @@ GlyphClass: 4
 Flags: W
 HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
 VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156> -230 80<-476.491 -140.451>
+AnchorPoint: "BelowMark" -312 -108 mark 0
 AnchorPoint: "BelowBase" -312 -42 mark 0
 LayerCount: 2
 Back
@@ -14226,7 +14209,6 @@ SplineSet
  -406 -242 -417 -231 -431 -231 c 0
  -445 -231 -456 -242 -456 -255 c 3
 EndSplineSet
-Substitution2: "TN Deep marks lookup" uni0EB9.deep
 EndChar
 
 StartChar: uni0EB1
@@ -14593,6 +14575,7 @@ GlyphClass: 4
 Flags: W
 HStem: 1045 306<-333.208 -262.356>
 VStem: -333 70<1045.01 1287.35>
+AnchorPoint: "AboveMark" -298 998 mark 0
 AnchorPoint: "AboveBase" -298 883 mark 0
 LayerCount: 2
 Fore
@@ -14605,7 +14588,6 @@ SplineSet
  -284 1351 -266 1344 -246 1329 c 1
  -263 1074 l 2
 EndSplineSet
-Substitution2: "TN Top marks lookup" uni0EC8.top
 EndChar
 
 StartChar: uni0EC9
@@ -14616,6 +14598,7 @@ GlyphClass: 4
 Flags: W
 HStem: 1317 49<-396.537 -321.277>
 VStem: -450 48<1233.11 1311.16> -316 50<1232.79 1312.92>
+AnchorPoint: "AboveMark" -298 988 mark 0
 AnchorPoint: "AboveBase" -298 883 mark 0
 LayerCount: 2
 Back
@@ -14661,7 +14644,6 @@ SplineSet
  -382 1317 -402 1297 -402 1272 c 3
  -402 1247 -382 1228 -358 1228 c 3
 EndSplineSet
-Substitution2: "TN Top marks lookup" uni0EC9.top
 EndChar
 
 StartChar: uni0ECD
@@ -16548,67 +16530,11 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A72
 EndChar
 
-StartChar: uni0EC8.top
-Encoding: 65280 -1 202
-Width: 0
-VWidth: 1908
-GlyphClass: 4
-Flags: W
-HStem: 1045 306<-333.208 -262.356>
-VStem: -333 70<1045.01 1287.35>
-AnchorPoint: "AboveMark" -298 998 mark 0
-LayerCount: 2
-Fore
-Refer: 173 3784 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni0EC9.top
-Encoding: 65281 -1 203
-Width: 0
-VWidth: 1908
-GlyphClass: 4
-Flags: W
-HStem: 1317 49<-396.537 -321.277>
-VStem: -450 48<1233.11 1311.16> -316 50<1232.79 1312.92>
-AnchorPoint: "AboveMark" -298 988 mark 0
-LayerCount: 2
-Fore
-Refer: 174 3785 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni0EB8.deep
-Encoding: 65288 -1 204
-Width: 0
-VWidth: 1908
-GlyphClass: 4
-Flags: W
-HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
-VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156>
-AnchorPoint: "BelowMark" -370 -108 mark 0
-LayerCount: 2
-Fore
-Refer: 164 3768 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni0EB9.deep
-Encoding: 65289 -1 205
-Width: 0
-VWidth: 1908
-GlyphClass: 4
-Flags: W
-HStem: -309 30<-453.768 -408.232> -212 80<-397 -350.622>
-VStem: -486 30<-276.467 -233.705> -406 30<-276.467 -233.42> -360 80<-476.491 -212.156> -230 80<-476.491 -140.451>
-AnchorPoint: "BelowMark" -312 -108 mark 0
-LayerCount: 2
-Fore
-Refer: 165 3769 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: uni0EBA
-Encoding: 3770 3770 206
+Encoding: 3770 3770 202
 Width: 0
 VWidth: 2260
-Flags: HW
+Flags: W
 HStem: -258 80<-324 -243 -163 -81>
 VStem: -243 80<-340 -258 -178 -96>
 LayerCount: 2
@@ -16617,7 +16543,7 @@ Refer: 120 6752 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dieresisbelowcmb
-Encoding: 804 804 207
+Encoding: 804 804 203
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -16665,7 +16591,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EBE
-Encoding: 3774 3774 208
+Encoding: 3774 3774 204
 Width: 258
 VWidth: 1908
 GlyphClass: 2
@@ -16733,7 +16659,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE0
-Encoding: 3808 3808 209
+Encoding: 3808 3808 205
 Width: 242
 VWidth: 1908
 GlyphClass: 2
@@ -16810,7 +16736,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE2
-Encoding: 3810 3810 210
+Encoding: 3810 3810 206
 Width: 302
 VWidth: 1908
 GlyphClass: 2
@@ -16881,7 +16807,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE3
-Encoding: 3811 3811 211
+Encoding: 3811 3811 207
 Width: 481
 VWidth: 1908
 GlyphClass: 2
@@ -16949,7 +16875,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE1
-Encoding: 3809 3809 212
+Encoding: 3809 3809 208
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -16999,7 +16925,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF0
-Encoding: 3824 3824 213
+Encoding: 3824 3824 209
 Width: 1267
 VWidth: 1894
 GlyphClass: 2
@@ -17166,7 +17092,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF1
-Encoding: 3825 3825 214
+Encoding: 3825 3825 210
 Width: 1267
 VWidth: 1908
 GlyphClass: 2
@@ -17318,7 +17244,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF2
-Encoding: 3826 3826 215
+Encoding: 3826 3826 211
 Width: 1327
 VWidth: 1908
 GlyphClass: 2
@@ -17417,7 +17343,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF3
-Encoding: 3827 3827 216
+Encoding: 3827 3827 212
 Width: 1293
 VWidth: 1908
 GlyphClass: 2
@@ -17519,7 +17445,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF4
-Encoding: 3828 3828 217
+Encoding: 3828 3828 213
 Width: 1360
 VWidth: 1894
 GlyphClass: 2
@@ -17634,7 +17560,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF5
-Encoding: 3829 3829 218
+Encoding: 3829 3829 214
 Width: 913
 VWidth: 1908
 GlyphClass: 2
@@ -17752,7 +17678,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF6
-Encoding: 3830 3830 219
+Encoding: 3830 3830 215
 Width: 1337
 VWidth: 1894
 GlyphClass: 2
@@ -17890,7 +17816,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF7
-Encoding: 3831 3831 220
+Encoding: 3831 3831 216
 Width: 1595
 VWidth: 1908
 GlyphClass: 2
@@ -18048,7 +17974,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE4
-Encoding: 3812 3812 221
+Encoding: 3812 3812 217
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18091,7 +18017,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE5
-Encoding: 3813 3813 222
+Encoding: 3813 3813 218
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18134,7 +18060,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE6
-Encoding: 3814 3814 223
+Encoding: 3814 3814 219
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -18227,7 +18153,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0ECC
-Encoding: 3788 3788 224
+Encoding: 3788 3788 220
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -18255,7 +18181,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EAF
-Encoding: 3759 3759 225
+Encoding: 3759 3759 221
 Width: 630
 VWidth: 4096
 GlyphClass: 2
@@ -18306,7 +18232,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE7
-Encoding: 3815 3815 226
+Encoding: 3815 3815 222
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18375,7 +18301,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE8
-Encoding: 3816 3816 227
+Encoding: 3816 3816 223
 Width: 0
 VWidth: 2249
 GlyphClass: 4
@@ -18440,7 +18366,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE9
-Encoding: 3817 3817 228
+Encoding: 3817 3817 224
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -18485,7 +18411,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A7D
-Encoding: 6781 6781 229
+Encoding: 6781 6781 225
 Width: 0
 VWidth: 2260
 GlyphClass: 4

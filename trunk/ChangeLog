@@ -1,5 +1,17 @@
 2014-01-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Clean up Tai Noi top/deep marks positioning.
+
+	* fonts/Khottabun.sfd:
+	  - Remove "'ccmp' TN Top marks" and "'ccmp' TN Deep marks" lookups
+	    and the associated "TN Top/Deep marks" lookups.
+	  - Add "AboveMark" mark anchor to tone marks.
+	  - Add "BelowMark" mark anchor to below vowels.
+	  - Remove all *.top and *.deep glyphs.
+	  - Bump font version to 002.015.
+
+2014-01-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Clean up Tham deep above-base marks positioning.
 
 	* fonts/Khottabun.sfd:
