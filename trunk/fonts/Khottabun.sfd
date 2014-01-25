@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 002.013
+Version: 002.014
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1390639856
+ModificationTime: 1390640966
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -54,7 +54,6 @@ Lookup: 5 0 0 "'ccmp' AM reorder stage 1"  {"'ccmp' AM reorder prepend intermedi
 Lookup: 5 0 0 "'ccmp' AM reorder stage 2"  {"'ccmp' AM reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM-T reorder stage 3"  {"'ccmp' AM-T reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM-T reorder stage 4"  {"'ccmp' AM-T reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Top marks"  {"'ccmp' Top marks lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1"  {"'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2"  {"'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' RA reorder stage 1"  {"'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA-CAR prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -74,7 +73,6 @@ Lookup: 2 0 0 "AM reorder prepend intermediate"  {"AM reorder prepend intermedia
 Lookup: 4 0 0 "AM reorder remove intermediate"  {"AM reorder remove intermediate lookup"  } []
 Lookup: 2 0 0 "AM-T reorder prepend intermediate"  {"AM-T reorder prepend intermediate lookup"  } []
 Lookup: 4 0 0 "AM-T reorder remove intermediate"  {"AM-T reorder remove intermediate lookup"  } []
-Lookup: 1 0 0 "Top marks"  {"Top marks lookup"  } []
 Lookup: 2 0 0 "LV AE prepend intermediate"  {"LV AE prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV O prepend intermediate"  {"LV O prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV AI MAIMALAI prepend intermediate"  {"LV AI MAIMALAI prepend intermediate lookup"  } []
@@ -187,13 +185,6 @@ ContextSub2: class "'ccmp' AM reorder prepend intermediate"  3 3 3 1
   ClassNames: "All_Others"  "1"  "2"  
   BClassNames: "All_Others"  "1"  "2"  
   FClassNames: "All_Others"  "1"  "2"  
-EndFPST
-ContextSub2: coverage "'ccmp' Top marks lookup"  0 0 0 1
- 2 0 0
-  Coverage: 79 uni1A58 uni1A59 uni1A62 uni1A65 uni1A66 uni1A67 uni1A68 uni1A6B uni1A73 uni1A74
-  Coverage: 23 uni1A74 uni1A75 uni1A76
- 1
-  SeqLookup: 1 "Top marks" 
 EndFPST
 ContextSub2: class "Deep rigid subjoins remove intermediate"  4 4 4 1
   Class: 115 uni1A57 uni1A2B.sub uni1A2C.sub uni1A30.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3F.sub uni1A43.sub uni1A48.sub
@@ -579,7 +570,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65544 8 4
+WinInfo: 6744 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -692,7 +683,7 @@ Grid
  4096 940 l 0
 EndSplineSet
 AnchorClass2: "BelowSideMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark"  "'mkmk' BelowMark Mark to Mark-1" "BelowRight"  "'mark' BelowBase Mark Positioning-1" "BelowMark"  "'mkmk' BelowMark Mark to Mark-1" "AboveMark"  "'mkmk' AboveMark Mark to Mark-1" "BelowBase"  "'mark' BelowBase Mark Positioning-1" "AboveBase"  "'mark' AboveBase Mark Positioning-1" 
-BeginChars: 65599 233
+BeginChars: 65599 230
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -7725,6 +7716,7 @@ GlyphClass: 4
 Flags: W
 HStem: 940 80<-691.825 -534.175> 1162 80<-691.825 -534.175>
 VStem: -783 80<1032.29 1149.71> -523 80<1032.29 1149.71>
+AnchorPoint: "AboveMark" -613 883 mark 0
 AnchorPoint: "AboveMark" -613 1299 basemark 0
 AnchorPoint: "AboveBase" -613 883 mark 0
 LayerCount: 2
@@ -7741,7 +7733,6 @@ SplineSet
  -443 1008 -519 940 -613 940 c 3
  -707 940 -783 1008 -783 1091 c 3
 EndSplineSet
-Substitution2: "Top marks lookup" uni1A74.top
 EndChar
 
 StartChar: uni1A6B
@@ -11036,6 +11027,7 @@ GlyphClass: 4
 Flags: W
 HStem: 1476 320<-635 -591>
 VStem: -635 44<1476 1639.84>
+AnchorPoint: "AboveMark" -613 1419 mark 0
 AnchorPoint: "AboveBase" -613 1419 mark 0
 LayerCount: 2
 Fore
@@ -11049,7 +11041,6 @@ EndSplineSet
 LCarets2: 2 0 0 
 Ligature2: "AM-T reorder remove intermediate lookup" uni1A75 zerojoin uni1A74
 MultipleSubs2: "AM-T reorder prepend intermediate lookup" uni1A74 uni1A75 zerojoin
-Substitution2: "Top marks lookup" uni1A75.top
 EndChar
 
 StartChar: uni1A76
@@ -11061,6 +11052,7 @@ Flags: W
 HStem: 1635 80<-882.642 -744.493>
 VStem: -744 90<1611 1632.97>
 DStem2: -654 1611 -630 1535 0.942028 0.335534<0 726.396>
+AnchorPoint: "AboveMark" -613 1419 mark 0
 AnchorPoint: "AboveBase" -613 1419 mark 0
 LayerCount: 2
 Fore
@@ -11080,9 +11072,9 @@ SplineSet
  -896 1682 l 1
  -857 1697 -814 1715 -763 1715 c 3
 EndSplineSet
+LCarets2: 2 0 0 
 Ligature2: "AM-T reorder remove intermediate lookup" uni1A76 zerojoin uni1A74
 MultipleSubs2: "AM-T reorder prepend intermediate lookup" uni1A74 uni1A76 zerojoin
-Substitution2: "Top marks lookup" uni1A76.top
 EndChar
 
 StartChar: uni1A7F
@@ -16556,51 +16548,8 @@ Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A71
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A58.lai uni1A72
 EndChar
 
-StartChar: uni1A74.top
-Encoding: 65595 -1 202
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: 940 80<-691.825 -534.175> 1162 80<-691.825 -534.175>
-VStem: -783 80<1032.29 1149.71> -523 80<1032.29 1149.71>
-AnchorPoint: "AboveMark" -613 883 mark 0
-LayerCount: 2
-Fore
-Refer: 79 6772 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni1A75.top
-Encoding: 65596 -1 203
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: 1476 320<-635 -591>
-VStem: -635 44<1476 1639.84>
-AnchorPoint: "AboveMark" -613 1419 mark 0
-LayerCount: 2
-Fore
-Refer: 117 6773 N 1 0 0 1 0 0 2
-EndChar
-
-StartChar: uni1A76.top
-Encoding: 65597 -1 204
-Width: 0
-VWidth: 2260
-GlyphClass: 4
-Flags: W
-HStem: 1635 80<-882.642 -744.493>
-VStem: -744 90<1611 1632.97>
-DStem2: -654 1611 -630 1535 0.942028 0.335534<0 726.396>
-AnchorPoint: "AboveMark" -613 1419 mark 0
-LayerCount: 2
-Fore
-Refer: 118 6774 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: uni0EC8.top
-Encoding: 65280 -1 205
+Encoding: 65280 -1 202
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -16614,7 +16563,7 @@ Refer: 173 3784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EC9.top
-Encoding: 65281 -1 206
+Encoding: 65281 -1 203
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -16628,7 +16577,7 @@ Refer: 174 3785 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EB8.deep
-Encoding: 65288 -1 207
+Encoding: 65288 -1 204
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -16642,7 +16591,7 @@ Refer: 164 3768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EB9.deep
-Encoding: 65289 -1 208
+Encoding: 65289 -1 205
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -16656,7 +16605,7 @@ Refer: 165 3769 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0EBA
-Encoding: 3770 3770 209
+Encoding: 3770 3770 206
 Width: 0
 VWidth: 2260
 Flags: HW
@@ -16668,7 +16617,7 @@ Refer: 120 6752 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: dieresisbelowcmb
-Encoding: 804 804 210
+Encoding: 804 804 207
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -16716,7 +16665,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EBE
-Encoding: 3774 3774 211
+Encoding: 3774 3774 208
 Width: 258
 VWidth: 1908
 GlyphClass: 2
@@ -16784,7 +16733,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE0
-Encoding: 3808 3808 212
+Encoding: 3808 3808 209
 Width: 242
 VWidth: 1908
 GlyphClass: 2
@@ -16861,7 +16810,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE2
-Encoding: 3810 3810 213
+Encoding: 3810 3810 210
 Width: 302
 VWidth: 1908
 GlyphClass: 2
@@ -16932,7 +16881,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE3
-Encoding: 3811 3811 214
+Encoding: 3811 3811 211
 Width: 481
 VWidth: 1908
 GlyphClass: 2
@@ -17000,7 +16949,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE1
-Encoding: 3809 3809 215
+Encoding: 3809 3809 212
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -17050,7 +16999,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF0
-Encoding: 3824 3824 216
+Encoding: 3824 3824 213
 Width: 1267
 VWidth: 1894
 GlyphClass: 2
@@ -17217,7 +17166,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF1
-Encoding: 3825 3825 217
+Encoding: 3825 3825 214
 Width: 1267
 VWidth: 1908
 GlyphClass: 2
@@ -17369,7 +17318,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF2
-Encoding: 3826 3826 218
+Encoding: 3826 3826 215
 Width: 1327
 VWidth: 1908
 GlyphClass: 2
@@ -17468,7 +17417,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF3
-Encoding: 3827 3827 219
+Encoding: 3827 3827 216
 Width: 1293
 VWidth: 1908
 GlyphClass: 2
@@ -17570,7 +17519,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF4
-Encoding: 3828 3828 220
+Encoding: 3828 3828 217
 Width: 1360
 VWidth: 1894
 GlyphClass: 2
@@ -17685,7 +17634,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF5
-Encoding: 3829 3829 221
+Encoding: 3829 3829 218
 Width: 913
 VWidth: 1908
 GlyphClass: 2
@@ -17803,7 +17752,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF6
-Encoding: 3830 3830 222
+Encoding: 3830 3830 219
 Width: 1337
 VWidth: 1894
 GlyphClass: 2
@@ -17941,7 +17890,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EF7
-Encoding: 3831 3831 223
+Encoding: 3831 3831 220
 Width: 1595
 VWidth: 1908
 GlyphClass: 2
@@ -18099,7 +18048,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE4
-Encoding: 3812 3812 224
+Encoding: 3812 3812 221
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18142,7 +18091,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE5
-Encoding: 3813 3813 225
+Encoding: 3813 3813 222
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18185,7 +18134,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE6
-Encoding: 3814 3814 226
+Encoding: 3814 3814 223
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -18278,7 +18227,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0ECC
-Encoding: 3788 3788 227
+Encoding: 3788 3788 224
 Width: 0
 VWidth: 1908
 GlyphClass: 4
@@ -18306,7 +18255,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EAF
-Encoding: 3759 3759 228
+Encoding: 3759 3759 225
 Width: 630
 VWidth: 4096
 GlyphClass: 2
@@ -18357,7 +18306,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE7
-Encoding: 3815 3815 229
+Encoding: 3815 3815 226
 Width: 0
 VWidth: 4760
 GlyphClass: 4
@@ -18426,7 +18375,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE8
-Encoding: 3816 3816 230
+Encoding: 3816 3816 227
 Width: 0
 VWidth: 2249
 GlyphClass: 4
@@ -18491,7 +18440,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0EE9
-Encoding: 3817 3817 231
+Encoding: 3817 3817 228
 Width: 0
 VWidth: 2260
 GlyphClass: 4
@@ -18536,7 +18485,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1A7D
-Encoding: 6781 6781 232
+Encoding: 6781 6781 229
 Width: 0
 VWidth: 2260
 GlyphClass: 4

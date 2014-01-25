@@ -1,5 +1,16 @@
 2014-01-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Clean up Tham deep above-base marks positioning.
+
+	* fonts/Khottabun.sfd:
+	  - Remove "'ccmp' Top marks" lookup and the associated "Top marks"
+	    lookup.
+	  - Add "AboveMark" mark anchor to MAI KANG and tone marks.
+	  - Remove all *.top glyphs.
+	  - Bump font version to 002.014.
+
+2014-01-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Improve Tham deep below-base marks positioning.
 
 	* fonts/Khottabun.sfd:
