@@ -1,5 +1,18 @@
 2014-01-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
+	Clean up Tai Noi anchors.
+
+	* fonts/Khottabun.sfd:
+	  - Add missing "AboveBase" base anchors for side-subjoin glyphs.
+	  - Remove "BelowSideMark" and "BelowRightMark" anchors in glyphs
+	    copied from Tham.
+	  - Add missing "BelowBase" mark anchor for subjoined
+	    PHO PHAN (uni0EE4).
+	  - Adjust "BelowMark" base anchor for subjoined NO NU (uni0EE9).
+	  - Bump font version to 002.016.
+
+2014-01-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
 	Clean up Tai Noi top/deep marks positioning.
 
 	* fonts/Khottabun.sfd:
