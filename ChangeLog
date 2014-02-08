@@ -1,3 +1,15 @@
+2014-02-08  Theppitak Karoonboonyanan  <thep@linux.thai.net>
+
+	Use ZWJ to join Tai Noi conjuncts.
+
+	No more hard-coding on conjuncts. Use <A, ZWJ, B> for A-B conjuncts.
+
+	* fonts/Khottabun.sfd:
+	  - Rename conjunct glyphs to A.B form and remove their Unicode values.
+	  - Add "'ccmp' TN conjuncts" GSUB and ligature subtable to convert
+	    "A zerojoin B -> A.B".
+	  - Bump font version to 002.017.
+
 2014-01-25  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Clean up Tai Noi anchors.

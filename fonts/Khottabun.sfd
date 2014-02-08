@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created." 
-Version: 002.016
+Version: 002.017
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1390647447
+ModificationTime: 1391853148
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -40,6 +40,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 4 0 0 "'ccmp' TN conjuncts"  {"'ccmp' TN conjuncts"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1"  {"'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2"  {"'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin"  {"Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
@@ -552,7 +553,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 3776 8 4
+WinInfo: 3808 8 4
 BeginPrivate: 5
 BlueValues 15 [-20 0 806 826]
 StdHW 4 [90]
@@ -16926,8 +16927,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0EF0
-Encoding: 3824 3824 209
+StartChar: uni0E82.uni0E99
+Encoding: 3824 -1 209
 Width: 1267
 VWidth: 1894
 GlyphClass: 2
@@ -17091,10 +17092,11 @@ SplineSet
  615 669 491 736 360 736 c 3
  302 736 239 722 191 696 c 1
 EndSplineSet
+Ligature2: "'ccmp' TN conjuncts" uni0E82 zerojoin uni0E99
 EndChar
 
-StartChar: uni0EF1
-Encoding: 3825 3825 210
+StartChar: uni0E82.uni0EA1
+Encoding: 3825 -1 210
 Width: 1267
 VWidth: 1908
 GlyphClass: 2
@@ -17243,10 +17245,11 @@ SplineSet
  594 71 619 46 649 46 c 3x1e7c
  673 46 694 77 708 121 c 1
 EndSplineSet
+Ligature2: "'ccmp' TN conjuncts" uni0E82 zerojoin uni0EA1
 EndChar
 
-StartChar: uni0EF2
-Encoding: 3826 3826 211
+StartChar: uni0E84.uni0E99
+Encoding: 3826 -1 211
 Width: 1327
 VWidth: 1908
 GlyphClass: 2
@@ -17342,10 +17345,11 @@ SplineSet
  230 320 l 2
  233 419 302 506 395 506 c 3
 EndSplineSet
+Ligature2: "'ccmp' TN conjuncts" uni0E84 zerojoin uni0E99
 EndChar
 
-StartChar: uni0EF3
-Encoding: 3827 3827 212
+StartChar: uni0E84.uni0EA1
+Encoding: 3827 -1 212
 Width: 1293
 VWidth: 1908
 GlyphClass: 2
@@ -17444,10 +17448,11 @@ SplineSet
  544 71 569 46 599 46 c 3x7f70
  631 46 654 72 669 113 c 1
 EndSplineSet
+Ligature2: "'ccmp' TN conjuncts" uni0E84 zerojoin uni0EA1
 EndChar
 
-StartChar: uni0EF4
-Encoding: 3828 3828 213
+StartChar: uni0E96.uni0E99
+Encoding: 3828 -1 213
 Width: 1360
 VWidth: 1894
 GlyphClass: 2
@@ -17559,10 +17564,11 @@ SplineSet
  82 612 107 587 137 587 c 3
  168 587 186 610 206 642 c 1
 EndSplineSet
+Ligature2: "'ccmp' TN conjuncts" uni0E96 zerojoin uni0E99
 EndChar
 
-StartChar: uni0EF5
-Encoding: 3829 3829 214
+StartChar: uni0E96.uni0EA5
+Encoding: 3829 -1 214
 Width: 913
 VWidth: 1908
 GlyphClass: 2
@@ -17677,10 +17683,11 @@ SplineSet
  161 131 136 156 106 156 c 3
  76 156 51 131 51 101 c 3x1e40
 EndSplineSet
+Ligature2: "'ccmp' TN conjuncts" uni0E96 zerojoin uni0EA5
 EndChar
 
-StartChar: uni0EF6
-Encoding: 3830 3830 215
+StartChar: uni0EAA.uni0E99
+Encoding: 3830 -1 215
 Width: 1337
 VWidth: 1894
 GlyphClass: 2
@@ -17815,10 +17822,11 @@ SplineSet
  64 622 219 596 324 596 c 3
  395 596 479 622 560 670 c 1
 EndSplineSet
+Ligature2: "'ccmp' TN conjuncts" uni0EAA zerojoin uni0E99
 EndChar
 
-StartChar: uni0EF7
-Encoding: 3831 3831 216
+StartChar: uni0EAA.uni0EA1
+Encoding: 3831 -1 216
 Width: 1595
 VWidth: 1908
 GlyphClass: 2
@@ -17973,6 +17981,7 @@ SplineSet
  871 71 896 46 926 46 c 3x5f2e
  950 46 971 77 985 121 c 1
 EndSplineSet
+Ligature2: "'ccmp' TN conjuncts" uni0EAA zerojoin uni0EA1
 EndChar
 
 StartChar: uni0EE4
