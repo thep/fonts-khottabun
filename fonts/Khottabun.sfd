@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1399289181
+ModificationTime: 1517543673
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -54,8 +54,8 @@ Lookup: 5 0 0 "'ccmp' AM-T reorder stage 3" { "'ccmp' AM-T reorder prepend inter
 Lookup: 5 0 0 "'ccmp' AM-T reorder stage 4" { "'ccmp' AM-T reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1" { "'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2" { "'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' RA reorder stage 1" { "'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA-CAR prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' RA reorder stage 2" { "'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' RA reorder stage 1" { "'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA-CAR prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' RA reorder stage 2" { "'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 4 8 1 "'ccmp' Misc ligatures" { "'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Ligatures with marks" { "'ccmp' Ligatures with marks lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 8 0 "'pstf' Post Base Ligatures" { "'pstf' Post Base Ligatures lookup"  } ['pstf' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]

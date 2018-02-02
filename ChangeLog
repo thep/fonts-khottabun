@@ -1,5 +1,15 @@
 2018-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Apply RA GSUB on 'lana' script.
+
+	Harfbuzz has somehow dropped the RA reordering from its
+	preprocessing. So, we have to re-enable our ad hoc rules.
+
+	* fonts/Khottabun.sfd:
+	  - Add 'lana' script to RA GSUB stages.
+
+2018-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Update FontForge file format.
 
 	* fonts/Khottabun.sfd:
