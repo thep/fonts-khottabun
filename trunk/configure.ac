@@ -47,6 +47,24 @@ fi
 
 AM_CONDITIONAL(ENABLE_OTF,test $enable_otf = "yes")
 
+dnl Enable WOFF
+AC_ARG_ENABLE(woff,
+  [AC_HELP_STRING([--enable-woff],
+                  [enable WOFF generation])],
+                  , enable_woff="no")
+if test "x$enable_woff" = "xyes"; then
+  AC_ARG_WITH(woffdir,
+    [AC_HELP_STRING([--with-woffdir=DIR],
+                    [font directory in DIR [PREFIX/share/fonts/woff/khottabun]])],
+    [woffdir="$withval"], [woffdir=\$\{prefix\}/share/fonts/woff/khottabun])
+  AC_MSG_CHECKING(--with-woffdir)
+  AC_MSG_RESULT("$woffdir")
+
+  AC_SUBST(woffdir)
+fi
+
+AM_CONDITIONAL(ENABLE_WOFF,test $enable_woff = "yes")
+
 # Checks for programs.
 AC_PROG_INSTALL
 AC_PROG_LN_S
