@@ -1,3 +1,10 @@
+2018-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Update FontForge file format.
+
+	* fonts/Khottabun.sfd:
+	  - Open & save with Fontforge 11:21 (libfontforge 20170924).
+
 2014-05-05  Theppitak Karoonboonyanan  <thep@linux.thai.net>
 
 	Scale glyphs by 150% to match Thai and Western fonts.
