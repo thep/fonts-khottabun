@@ -1,5 +1,19 @@
 2018-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Add WOFF build support.
+
+	* configure.ac:
+	  - Add --enable-woff and --with-woffdir options
+	    and set $woffdir ver and ENABLE_WOFF condition accordingly.
+	* scripts/Makefile.am, +scripts/gen-woff.pe:
+	  - Add fontforge script for generating WOFF.
+	* fonts/Makefile.am:
+	  - Add .woff to SUFFIXES
+	  - Add rule to generate and install .woff from .sfd
+	  - Add *.woff to CLEANFILES
+
+2018-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Update fontforge version check.
 
 	* configure.ac:
