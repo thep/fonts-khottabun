@@ -4,7 +4,8 @@
 AC_PREREQ([2.67])
 AC_INIT([fonts-khottabun], [0.1.0], [thep@linux.thai.net])
 
-FONTFORGE_MIN_VER=20080110
+FONTFORGE_MIN_MAJOR=11
+FONTFORGE_MIN_MINOR=21
 
 AM_INIT_AUTOMAKE
 
@@ -55,9 +56,19 @@ AC_CHECK_PROGS(FONTFORGE,fontforge,no)
 if test "x$FONTFORGE" = "xno"; then
   AC_MSG_ERROR([You need fontforge to generate fonts.])
 else
+  FONTFORGE_MIN_VER="$FONTFORGE_MIN_MAJOR:$FONTFORGE_MIN_MINOR"
   AC_MSG_CHECKING([for Fontforge >= $FONTFORGE_MIN_VER])
-  FONTFORGE_VER=`$FONTFORGE --version 2>/dev/null | grep '^fontforge' | cut -d' ' -f2`
-  if test $FONTFORGE_VER -lt $FONTFORGE_MIN_VER; then
+  FONTFORGE_VER=$($FONTFORGE --version 2>/dev/null | grep '^fontforge' | cut -d' ' -f2)
+  if echo $FONTFORGE_VER | grep ':' >/dev/null 2>&1; then
+    FONTFORGE_MAJOR=$(echo $FONTFORGE_VER | cut -d':' -f1)
+    FONTFORGE_MINOR=$(echo $FONTFORGE_VER | cut -d':' -f2)
+    if test $FONTFORGE_MAJOR -lt $FONTFORGE_MIN_MAJOR \
+       || test $FONTFORGE_MAJOR -eq $FONTFORGE_MIN_MAJOR -a \
+               $FONTFORGE_MINOR -lt $FONTFORGE_MIN_MINOR
+      then
+        AC_MSG_ERROR([Requires Fontforge >= $FONTFORGE_MIN_VER but $FONTFORGE_VER was found)])
+    fi
+  else
     AC_MSG_ERROR([Requires Fontforge >= $FONTFORGE_MIN_VER but $FONTFORGE_VER was found)])
   fi
   AC_MSG_RESULT([$FONTFORGE_VER found, ok])

@@ -1,5 +1,14 @@
 2018-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Update fontforge version check.
+
+	* configure.ac:
+	  - Check and compare "MAJOR:MINOR" version format instead of
+	    the old "YEAR" format and consider the old format older than
+	    the new one.
+
+2018-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Apply RA GSUB on 'lana' script.
 
 	Harfbuzz has somehow dropped the RA reordering from its
