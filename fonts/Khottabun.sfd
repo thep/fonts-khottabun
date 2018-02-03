@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1517543673
+ModificationTime: 1517638444
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -554,7 +554,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6680 8 4
+WinInfo: 65568 8 4
 BeginPrivate: 5
 BlueValues 17 [-30 0 1209 1239]
 StdHW 5 [135]
@@ -15959,9 +15959,6 @@ GlyphClass: 2
 Flags: W
 HStem: -1443 135<353.241 541.5> -1100 100<600.621 743.379> 2110 136<977.198 1715.46>
 VStem: 90 135<-1150.64 1592.95> 490 100<-1254.59 -1110.62> 754 100<-1254.01 -1110.62>
-AnchorPoint: "BelowMark" -470 -1000 basemark 0
-AnchorPoint: "BelowBase" 494 -1476 basechar 0
-AnchorPoint: "AboveBase" 501 2210 basechar 0
 LayerCount: 2
 Back
 SplineSet

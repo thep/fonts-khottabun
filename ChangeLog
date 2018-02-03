@@ -1,3 +1,11 @@
+2018-02-03  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Remove anchors from deep RA WONG.
+
+	* fonts/Khottabun.sfd:
+	  - Remove anchors from uni1A55.deep, to prevent wrong subjoining
+	    & upper vowel positioning, e.g. in อินฺทฺรีย, สนฺตินฺทฺริโย.
+
 2018-02-02  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Add WOFF build support.
