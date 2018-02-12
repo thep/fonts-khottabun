@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created."
-Version: 002.018
+Version: 002.019
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1517638444
+ModificationTime: 1518419684
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -58,7 +58,7 @@ Lookup: 5 0 0 "'ccmp' RA reorder stage 1" { "'ccmp' RA-CVR I prepend intermediat
 Lookup: 5 0 0 "'ccmp' RA reorder stage 2" { "'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 4 8 1 "'ccmp' Misc ligatures" { "'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Ligatures with marks" { "'ccmp' Ligatures with marks lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 4 8 0 "'pstf' Post Base Ligatures" { "'pstf' Post Base Ligatures lookup"  } ['pstf' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 4 8 0 "'psts' Post Base Ligatures" { "'psts' Post Base Ligatures lookup"  } ['psts' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Ligatures with marks" { "'pstf' Post Base Ligatures with marks lookup"  } ['pstf' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 4 0 0 "Alternate subjoined consonant" { "Alternate subjoined consonant lookup"  } []
 Lookup: 2 0 0 "ANG-LAN append intermediate" { "ANG-LAN append intermediate lookup"  } []
@@ -554,7 +554,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 65568 8 4
+WinInfo: 6688 8 4
 BeginPrivate: 5
 BlueValues 17 [-30 0 1209 1239]
 StdHW 5 [135]
@@ -11115,7 +11115,7 @@ SplineSet
  1425 604 1268 474 1062 474 c 3
 EndSplineSet
 Ligature2: "'ccmp' Misc ligatures lookup" uni1A36 uni1A63
-Ligature2: "'pstf' Post Base Ligatures lookup" uni1A36 uni1A63
+Ligature2: "'psts' Post Base Ligatures lookup" uni1A36 uni1A63
 EndChar
 
 StartChar: uni1A45.uni1A63
@@ -11212,7 +11212,7 @@ SplineSet
  215 1524 177 1487 177 1442 c 3
 EndSplineSet
 Ligature2: "'ccmp' Misc ligatures lookup" uni1A45 uni1A63
-Ligature2: "'pstf' Post Base Ligatures lookup" uni1A45 uni1A63
+Ligature2: "'psts' Post Base Ligatures lookup" uni1A45 uni1A63
 EndChar
 
 StartChar: uni1A2C.uni1A2C
@@ -16393,6 +16393,7 @@ LayerCount: 2
 Fore
 Refer: 79 6772 N 1 0 0 1 920 0 2
 Refer: 41 6755 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 Ligature2: "'pstf' Post Base Ligatures with marks lookup" uni1A63 uni1A74
 Ligature2: "'ccmp' Ligatures with marks lookup" uni1A63 uni1A74
 EndChar

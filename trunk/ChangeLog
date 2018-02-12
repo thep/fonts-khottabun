@@ -1,3 +1,13 @@
+2018-02-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Fix NAA ligature with leading vowel.
+
+	* fonts/Khottabun.sfd:
+	  - Use 'psts' tag instead of 'pstf' for NAA/WAA ligatures,
+	    as 'psts' is applied after reordering, while 'pstf' is
+	    applied before.
+	  - Bump font version to 002.019.
+
 2018-02-03  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Remove anchors from deep RA WONG.
