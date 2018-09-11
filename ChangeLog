@@ -1,3 +1,10 @@
+2018-09-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Add README content after GitHub migration.
+
+	* README:
+	  - Add content.
+
 2018-02-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Fix NAA ligature with leading vowel.
