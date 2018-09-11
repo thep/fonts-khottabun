@@ -1,5 +1,13 @@
 2018-09-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Update years & my e-mail address in Copyright.
+
+	* fonts/Khottabun.sfd (TTFNames):
+	  - Update my e-mail address.
+	  - Update years.
+
+2018-09-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Add README content after GitHub migration.
 
 	* README:
