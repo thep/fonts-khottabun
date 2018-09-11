@@ -1,4 +1,7 @@
-FONTSOURCES = Khottabun.sfd
+FONTSOURCES = \
+	Khottabun.sfd	\
+	Viravong.sfd	\
+	$(NULL)
 
 TTF_TARGETS = $(FONTSOURCES:.sfd=.ttf)
 OTF_TARGETS = $(FONTSOURCES:.sfd=.otf)

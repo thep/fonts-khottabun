@@ -1,5 +1,20 @@
 2018-09-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Add initial Viravong font.
+
+	Viravong is a contemporary Lao font with Pali-Sanskrit extension,
+	based on Unicode proposl L2/17-106r by Vinodh Rajan et. al.
+
+	https://www.unicode.org/L2/L2017/17106r-lao-for-pali.pdf
+
+	The glyphs are imported & normalized from Sanit Phokhaphan's
+	LaneXang_Mon non-Unicode TrueType font, with Sanit's permission.
+
+	* fonts/Makefile.am, +fonts/Viravong.sfd:
+	  - Add Viravong font.
+
+2018-09-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Update years & my e-mail address in Copyright.
 
 	* fonts/Khottabun.sfd (TTFNames):
