@@ -1,3 +1,13 @@
+2018-09-14  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Viravong: Add BlueValues & Adjust ascender/descender.
+
+	* fonts/Viravong.sfd:
+	  - Add BlueValues for Lao characters
+	  - Adjust ascender/descender of all glyphs to BlueValues
+	  - Clear background layer for glyphs without the need
+	  - Bump font version to 001.001
+
 2018-09-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Add initial Viravong font.
