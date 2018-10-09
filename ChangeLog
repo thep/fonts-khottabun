@@ -1,5 +1,13 @@
 2018-10-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Viravong: Add Latin glyphs from TLWG Garuda
+
+	* fonts/Viravong.sfd:
+	  - Add Latin glyphs from TLWG Garuda
+	  - Bump font version to 001.006
+
+2018-10-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Viravong: Add "AboveLeft" anchor class
 
 	* fonts/Viravong.sfd:
