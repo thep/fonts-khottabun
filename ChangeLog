@@ -1,3 +1,15 @@
+2018-10-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Viravong: Add "AboveLeft" anchor class
+
+	* fonts/Viravong.sfd:
+	  - Add GPOS lookup and anchor class "AboveLeft" for finer
+	    mark positioning on long-tailed consonants
+	  - Add "AboveLeft" anchor to marks
+	  - Change "AboveBase" anchors in PO PLA, FO FA, FO FAN, YO YA
+	    to "AboveLeft" and adjust their positions
+	  - Bump font version to 001.005
+
 2018-10-08  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Viravong: Add GPOS lookups & anchors

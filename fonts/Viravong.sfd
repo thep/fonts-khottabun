@@ -5,7 +5,7 @@ FamilyName: Viravong
 Weight: Regular
 Copyright: Viravong, Lao Pali font based on Sanit Phokhaphan's LaneXang_Mon.\nCopyright (c) 2018, Theppitak Karoonboonyanan.\n\nLaneXang_Mon - font for the Laotian language of Laos.\nCopyright (c) 2013, Sanit Phokhaphan.\n
 UComments: "2018-9-3: Created with FontForge (http://fontforge.org)"
-Version: 001.004
+Version: 001.005
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1535951478
-ModificationTime: 1538986648
+ModificationTime: 1539071190
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,6 +43,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 260 0 0 "'mark' BelowBase Mark Positioning" { "BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' AboveBase Mark Positioning" { "AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' AboveLeft Mark Positioning" { "AboveLeft Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark" { "BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 262 2 0 "'mkmk' AboveMark Mark to Mark" { "AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 MarkAttachClasses: 5
@@ -58,7 +59,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 3736 8 4
+WinInfo: 3752 8 4
 BeginPrivate: 5
 BlueValues 14 [-8 0 580 591]
 StdVW 4 [72]
@@ -66,7 +67,7 @@ StemSnapV 10 [50 60 72]
 StdHW 4 [68]
 StemSnapH 10 [48 57 68]
 EndPrivate
-AnchorClass2: "AboveMark" "AboveMark Mark to Mark-1" "BelowMark" "BelowMark Mark to Mark-1" "AboveBase" "AboveBase Mark Positioning-1" "BelowBase" "BelowBase Mark Positioning-1"
+AnchorClass2: "AboveLeft" "AboveLeft Mark Positioning-1" "AboveMark" "AboveMark Mark to Mark-1" "BelowMark" "BelowMark Mark to Mark-1" "AboveBase" "AboveBase Mark Positioning-1" "BelowBase" "BelowBase Mark Positioning-1"
 BeginChars: 65536 83
 
 StartChar: uni0E81
@@ -624,7 +625,7 @@ VWidth: 1058
 Flags: W
 HStem: -8 68<191.433 425.478> 389 48<100.261 149.699> 543 48<99.5382 180.817> 859 57<523.277 651.917> 886 57<464.713 550.524>
 VStem: 41 72<121.826 239.46> 42 50<444.258 535.567> 189 60<444.723 535.447> 404 60<849.061 885.172> 525 72<138.472 782.879>
-AnchorPoint: "AboveBase" 230 617 basechar 0
+AnchorPoint: "AboveLeft" 453 617 basechar 0
 AnchorPoint: "BelowBase" 412 -35 basechar 0
 LayerCount: 2
 Fore
@@ -722,7 +723,7 @@ VWidth: 1063
 Flags: W
 HStem: -8 68<148.422 279.062 437.931 554.068> 396 48<167.458 234.237> 534 57<167.545 233.753> 560 20G<333 405> 859 57<601.277 729.892> 886 57<542.713 628.524>
 VStem: 28 72<114.766 459.051> 241 50<449.657 528.361> 333 72<111.962 580> 482 60<849.061 885.127> 602 72<111.19 783.587>
-AnchorPoint: "AboveBase" 271 617 basechar 0
+AnchorPoint: "AboveLeft" 530 617 basechar 0
 AnchorPoint: "BelowBase" 458 -35 basechar 0
 LayerCount: 2
 Fore
@@ -816,7 +817,7 @@ VWidth: 1063
 Flags: W
 HStem: -8 68<147.998 303.007 451.448 569.781> 392 48<101.484 156.178> 543 48<102.143 188.925> 560 20G<345 417> 859 57<617.052 745.392> 886 57<558.713 643.561>
 VStem: 42 50<450.055 533.635> 45 72<89.9881 225.019> 198 60<449.557 533.396> 345 72<102.437 580> 498 60<849.061 885.172> 618 72<113.547 781.745>
-AnchorPoint: "AboveBase" 289 617 basechar 0
+AnchorPoint: "AboveLeft" 546 617 basechar 0
 AnchorPoint: "BelowBase" 475 -35 basechar 0
 LayerCount: 2
 Fore
@@ -909,7 +910,7 @@ VWidth: 1063
 Flags: W
 HStem: -8 68<207.226 430.525> 241 68<173.355 319.235> 404 48<208.031 274.334> 534 57<207.731 273.965> 859 57<521.409 649.392> 886 57<462.713 548.41>
 VStem: 39 72<125.785 201.771 344.188 487.754> 279 50<456.212 529.631> 402 60<849.061 885.172> 524 72<128.514 780.129>
-AnchorPoint: "AboveBase" 235 617 basechar 0
+AnchorPoint: "AboveLeft" 452 617 basechar 0
 AnchorPoint: "BelowBase" 410 -35 basechar 0
 LayerCount: 2
 Fore
@@ -1302,8 +1303,9 @@ VWidth: 1063
 Flags: W
 HStem: 654 68<-419.228 -229.758> 838 48<-519.593 -453.896>
 VStem: -575 50<767.777 833.578> -449 50<766.418 832.738> -146 72<794.651 874>
+AnchorPoint: "AboveLeft" -74 617 mark 0
 AnchorPoint: "AboveMark" -342 939 basemark 0
-AnchorPoint: "AboveBase" -371 617 mark 0
+AnchorPoint: "AboveBase" -342 617 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1375,6 +1377,7 @@ VWidth: 1063
 Flags: W
 HStem: 625 63<-559.78 -471.417 -350.491 -262.22> 834 68<-539.917 -282.083>
 VStem: -669 72<719.317 795.14> -225 72<719.777 795.14>
+AnchorPoint: "AboveLeft" -153 617 mark 0
 AnchorPoint: "AboveMark" -411 939 basemark 0
 AnchorPoint: "AboveBase" -411 617 mark 0
 LayerCount: 2
@@ -1403,6 +1406,7 @@ VWidth: 1063
 Flags: W
 HStem: 625 63<-559.78 -471.417 -350.583 -286.469> 632 93<-286 -108> 834 68<-539.917 -282.083>
 VStem: -669 72<719.317 795.14> -225 72<719.79 795.14>
+AnchorPoint: "AboveLeft" -153 617 mark 0
 AnchorPoint: "AboveMark" -411 939 basemark 0
 AnchorPoint: "AboveBase" -411 617 mark 0
 LayerCount: 2
@@ -1437,6 +1441,7 @@ Flags: W
 HStem: 625 63<-559.78 -471.417 -350.491 -262.22> 696 92<-443.97 -378.03> 834 68<-539.917 -282.083>
 VStem: -669 72<719.317 795.14> -450 78<700.776 783.224> -225 72<719.777 795.14>
 CounterMasks: 1 1c
+AnchorPoint: "AboveLeft" -153 617 mark 0
 AnchorPoint: "AboveMark" -411 939 basemark 0
 AnchorPoint: "AboveBase" -411 617 mark 0
 LayerCount: 2
@@ -1471,6 +1476,7 @@ Flags: W
 HStem: 625 63<-559.78 -471.417 -350.583 -286.469> 632 93<-286 -108> 696 92<-443.97 -378.03> 834 68<-539.917 -282.083>
 VStem: -669 72<719.317 795.14> -450 78<700.776 783.224> -225 72<719.79 795.14>
 CounterMasks: 1 0e
+AnchorPoint: "AboveLeft" -153 617 mark 0
 AnchorPoint: "AboveMark" -411 939 basemark 0
 AnchorPoint: "AboveBase" -411 617 mark 0
 LayerCount: 2
@@ -1593,6 +1599,7 @@ VWidth: 1063
 Flags: W
 HStem: 618 48<-557.426 -489.027> 783 68<-457.369 -254.026>
 VStem: -612 50<670.857 738.642> -484 50<670.809 739.657> -157 72<627 697.972>
+AnchorPoint: "AboveLeft" -85 617 mark 0
 AnchorPoint: "AboveMark" -363 939 basemark 0
 AnchorPoint: "AboveBase" -368 617 mark 0
 LayerCount: 2
@@ -1919,6 +1926,7 @@ VWidth: 1063
 Flags: W
 HStem: 641 200<-261 -189>
 VStem: -261 72<641 841>
+AnchorPoint: "AboveLeft" -129 617 mark 0
 AnchorPoint: "AboveMark" -225 641 mark 0
 AnchorPoint: "AboveBase" -225 617 mark 0
 LayerCount: 2
@@ -1939,6 +1947,7 @@ VWidth: 1063
 Flags: W
 HStem: 656 68<-362 -239.117> 798 48<-474.048 -421.91>
 VStem: -525 50<757.074 797.246> -420 72<733.637 796.461>
+AnchorPoint: "AboveLeft" -83 617 mark 0
 AnchorPoint: "AboveMark" -315 641 mark 0
 AnchorPoint: "AboveBase" -315 617 mark 0
 LayerCount: 2
@@ -1970,6 +1979,7 @@ VWidth: 1063
 Flags: W
 HStem: 762 68<-373.907 -302.41 -216.532 -144.692>
 VStem: -447 72<694.875 757.871> -142 72<733 755.04> -46 72<738.384 822.962>
+AnchorPoint: "AboveLeft" 26 617 mark 0
 AnchorPoint: "AboveMark" -259 641 mark 0
 AnchorPoint: "AboveBase" -259 617 mark 0
 LayerCount: 2
@@ -2008,6 +2018,7 @@ VWidth: 1063
 Flags: W
 HStem: 738 68<-302 -221 -149 -68>
 VStem: -221 72<653 738 806 892>
+AnchorPoint: "AboveLeft" -48 617 mark 0
 AnchorPoint: "AboveMark" -185 641 mark 0
 AnchorPoint: "AboveBase" -185 617 mark 0
 LayerCount: 2
@@ -2036,6 +2047,7 @@ VWidth: 1063
 Flags: W
 HStem: 635 48<-263.068 -196.377>
 VStem: -316 50<686.358 746.149> -194 50<685.971 746.296>
+AnchorPoint: "AboveLeft" 7 617 mark 0
 AnchorPoint: "AboveMark" -230 641 mark 0
 AnchorPoint: "AboveBase" -230 617 mark 0
 LayerCount: 2
@@ -2066,6 +2078,7 @@ VWidth: 1063
 Flags: W
 HStem: 670 57<-335.866 -262.721> 811 57<-335.866 -262.822>
 VStem: -402 60<732.38 804.682> -258 60<732.03 806.176>
+AnchorPoint: "AboveLeft" -138 617 mark 0
 AnchorPoint: "AboveMark" -300 622 mark 0
 AnchorPoint: "AboveMark" -300 939 basemark 0
 AnchorPoint: "AboveBase" -300 617 mark 0
