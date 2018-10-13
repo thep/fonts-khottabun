@@ -1,3 +1,12 @@
+2018-10-13  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Viravong: Adjust middle stem of KHO RAKHANG
+
+	* fonts/Viravong.sfd:
+	  - Shift middle stem of KHO RAKHANG to 1/3 of the space
+	    on its both sides, to be more balanced.
+	  - Bump font version to 001.008
+
 2018-10-09  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Viravong: Set OS/2 values

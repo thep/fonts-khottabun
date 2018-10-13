@@ -5,7 +5,7 @@ FamilyName: Viravong
 Weight: Regular
 Copyright: Viravong, Lao Pali font based on Sanit Phokhaphan's LaneXang_Mon.\nCopyright (c) 2018, Theppitak Karoonboonyanan.\n\nLaneXang_Mon - font for the Laotian language of Laos.\nCopyright (c) 2013, Sanit Phokhaphan.\n
 UComments: "2018-9-3: Created with FontForge (http://fontforge.org)"
-Version: 001.007
+Version: 001.008
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1535951478
-ModificationTime: 1539075179
+ModificationTime: 1539425656
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -59,7 +59,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 3760 8 4
+WinInfo: 3712 8 4
 BeginPrivate: 5
 BlueValues 14 [-8 0 580 591]
 StdVW 4 [72]
@@ -3394,9 +3394,9 @@ Encoding: 3718 3718 80
 Width: 783
 VWidth: 1063
 Flags: W
-HStem: -8 68<163.113 327.118 481.668 586.025> 406 48<61.5218 121.719> 494 57<179.081 228.466> 534 57<100.384 179.081 237.36 278.964> 560 20G<376 448 627 699>
-VStem: 9 50<456.702 514.595> 45 72<101.903 221.896> 124 50<455.798 515.398> 282 72<397.731 533.563> 376 72<112.286 580> 627 72<103.179 580>
-AnchorPoint: "AboveBase" 412 617 basechar 0
+HStem: -8 68<167.66 357.43 510.788 591.064> 406 48<61.5218 121.719> 494 57<179.081 228.466> 534 57<100.384 179.081 237.36 278.964> 560 20G<411 483 627 699>
+VStem: 9 50<456.702 514.595> 45 72<105.145 221.896> 124 50<455.798 515.398> 282 72<397.731 533.563> 411 72<115.04 580> 627 72<99.2438 580>
+AnchorPoint: "AboveBase" 447 617 basechar 0
 AnchorPoint: "BelowBase" 469 -35 basechar 0
 LayerCount: 2
 Fore
@@ -3406,14 +3406,14 @@ SplineSet
  74 517 59 503 59 486 c 3
  59 468 74 454 92 454 c 3
  110 454 124 468 124 486 c 3xc5e0
-535 60 m 259
+552 60 m 259
  584 60 627 114 627 163 c 2
- 627 580 l 5
+ 627 580 l 1
  699 580 l 1xcbe0
  699 163 l 2
- 699 66 634 -8 538 -8 c 3
- 480 -8 453 20 410 55 c 1
- 382 20 324 -8 257 -8 c 3
+ 699 66 634 -8 555 -8 c 3
+ 514 -8 475 20 447 55 c 1
+ 419 20 358 -8 274 -8 c 3
  134 -8 45 49 45 165 c 3
  45 265 114 306 177 326 c 0
  243 348 282 415 282 482 c 3
@@ -3430,12 +3430,12 @@ SplineSet
  331 591 354 539 354 468 c 3
  354 393 299 294 231 277 c 0
  166 260 117 218 117 165 c 3
- 117 93 178 60 251 60 c 3
- 339 60 376 116 376 208 c 2
- 376 580 l 1
- 448 580 l 1xcbe0
- 448 208 l 2
- 448 122 469 60 535 60 c 259
+ 117 93 178 60 268 60 c 3
+ 373 60 411 116 411 208 c 2
+ 411 580 l 1
+ 483 580 l 1xcbe0
+ 483 208 l 2
+ 483 122 503 60 552 60 c 259
 EndSplineSet
 EndChar
 
