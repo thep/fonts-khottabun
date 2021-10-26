@@ -1,3 +1,13 @@
+2021-10-26  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Update configure script.
+
+	* configure.ac:
+	  - Replace obsolete AC_HELP_STRING() with AS_HELP_STRING().
+	  - Update AC_PREREQ() from 2.67 to 2.71.
+	  - Update my e-mail address.
+	  - Update checks for fontforge version.
+
 2018-10-13  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Viravong: Adjust middle stem of KHO RAKHANG
