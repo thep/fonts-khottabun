@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created."
-Version: 002.021
+Version: 002.022
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1742528895
+ModificationTime: 1742529516
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -554,7 +554,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6688 8 4
+WinInfo: 6736 8 4
 BeginPrivate: 5
 BlueValues 17 [-30 0 1209 1239]
 StdHW 5 [135]
@@ -7679,15 +7679,15 @@ EndSplineSet
 Fore
 SplineSet
 -920 1780 m 3
- -710 1780 -438 1685 -189 1514 c 1
- -275 1730 -600 1900 -920 1900 c 3
- -1240 1900 -1564 1730 -1650 1514 c 1
- -1401 1685 -1130 1780 -920 1780 c 3
+ -1130 1780 -1401 1685 -1650 1514 c 1
+ -1564 1730 -1240 1900 -920 1900 c 3
+ -600 1900 -275 1730 -189 1514 c 1
+ -438 1685 -710 1780 -920 1780 c 3
 -920 1780 m 3
- -710 1780 -438 1685 -189 1514 c 1
- -275 1730 -600 1900 -920 1900 c 3
- -1240 1900 -1564 1730 -1650 1514 c 1
- -1401 1685 -1130 1780 -920 1780 c 3
+ -1130 1780 -1401 1685 -1650 1514 c 1
+ -1564 1730 -1240 1900 -920 1900 c 3
+ -600 1900 -275 1730 -189 1514 c 1
+ -438 1685 -710 1780 -920 1780 c 3
 EndSplineSet
 EndChar
 
