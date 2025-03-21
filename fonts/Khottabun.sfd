@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created."
-Version: 002.020
+Version: 002.021
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1635258176
+ModificationTime: 1742528895
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -42,8 +42,8 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' TN conjuncts" { "'ccmp' TN conjuncts"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1" { "'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2" { "'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1" { "'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2" { "'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin" { "Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 4 0 1 "'ccmp' Subjoined consonants" { "Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 1" { "Deep rigid subjoins append intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
@@ -554,7 +554,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6744 8 4
+WinInfo: 6688 8 4
 BeginPrivate: 5
 BlueValues 17 [-30 0 1209 1239]
 StdHW 5 [135]

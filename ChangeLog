@@ -1,3 +1,11 @@
+2025-03-21  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Khottabun: Set 'lana' script for ANG-LAN GSUBs.
+
+	* fonts/Khottabun.sfd:
+	  - Set 'lana' script, along with languages, to ANG-LAN GSUBs.
+	  - Bump font version to 002.021.
+
 2021-10-26  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Khottabun: Set OS/2 proper Typo metrics
