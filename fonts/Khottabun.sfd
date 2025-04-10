@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created."
-Version: 002.022
+Version: 003.000
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1742529516
+ModificationTime: 1744276506
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -42,24 +42,21 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' TN conjuncts" { "'ccmp' TN conjuncts"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1" { "'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2" { "'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin" { "Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 4 0 1 "'ccmp' Subjoined consonants" { "Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 1" { "Deep rigid subjoins append intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 2" { "Deep rigid subjoins remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' AM reorder stage 1" { "'ccmp' AM reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' AM reorder stage 2" { "'ccmp' AM reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' AM-T reorder stage 3" { "'ccmp' AM-T reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' AM-T reorder stage 4" { "'ccmp' AM-T reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1" { "'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2" { "'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin" { "Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 4 0 1 "'ccmp' Subjoined consonants" { "Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 1" { "Deep rigid subjoins append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 2" { "Deep rigid subjoins remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' AM reorder stage 1" { "'ccmp' AM reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' AM reorder stage 2" { "'ccmp' AM reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' AM-T reorder stage 3" { "'ccmp' AM-T reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' AM-T reorder stage 4" { "'ccmp' AM-T reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 1" { "'ccmp' LV reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2" { "'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' RA reorder stage 1" { "'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA-CAR prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' RA reorder stage 2" { "'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' RA reorder stage 1" { "'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA-CAR prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' RA reorder stage 2" { "'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 8 1 "'ccmp' Misc ligatures" { "'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Ligatures with marks" { "'ccmp' Ligatures with marks lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 4 8 0 "'psts' Post Base Ligatures" { "'psts' Post Base Ligatures lookup"  } ['psts' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
-Lookup: 4 0 0 "'pstf' Post Base Ligatures with marks" { "'pstf' Post Base Ligatures with marks lookup"  } ['pstf' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > ) ]
 Lookup: 4 0 0 "Alternate subjoined consonant" { "Alternate subjoined consonant lookup"  } []
 Lookup: 2 0 0 "ANG-LAN append intermediate" { "ANG-LAN append intermediate lookup"  } []
 Lookup: 4 0 0 "ANG-LAN remove intermediate" { "ANG-LAN remove intermediate lookup"  } []
@@ -85,10 +82,10 @@ Lookup: 2 0 0 "RA-UU prepend intermediate" { "RA-UU prepend intermediate lookup"
 Lookup: 2 0 0 "RA prepend intermediate" { "RA prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA-deep prepend intermediate" { "RA-deep prepend intermediate lookup"  } []
 Lookup: 4 0 0 "RA remove intermediate" { "RA-VV remove intermediate lookup"  "RA-V remove intermediate lookup"  "RA-C remove intermediate lookup"  "RA-S remove intermediate lookup"  "RA-AngV remove intermediate lookup"  "RA-Ang remove intermediate lookup"  } []
-Lookup: 260 0 0 "'mark' BelowBase Mark Positioning" { "'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
-Lookup: 260 0 0 "'mark' AboveBase Mark Positioning" { "'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark" { "'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark" { "'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lana' <'LAO ' 'PAL ' 'SAN ' 'THA ' 'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' BelowBase Mark Positioning" { "'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' AboveBase Mark Positioning" { "'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark" { "'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' AboveMark Mark to Mark" { "'mkmk' AboveMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 MarkAttachClasses: 6
 "AboveBase" 0 
 "BelowBase" 0 
@@ -11115,7 +11112,6 @@ SplineSet
  1425 604 1268 474 1062 474 c 3
 EndSplineSet
 Ligature2: "'ccmp' Misc ligatures lookup" uni1A36 uni1A63
-Ligature2: "'psts' Post Base Ligatures lookup" uni1A36 uni1A63
 EndChar
 
 StartChar: uni1A45.uni1A63
@@ -11212,7 +11208,6 @@ SplineSet
  215 1524 177 1487 177 1442 c 3
 EndSplineSet
 Ligature2: "'ccmp' Misc ligatures lookup" uni1A45 uni1A63
-Ligature2: "'psts' Post Base Ligatures lookup" uni1A45 uni1A63
 EndChar
 
 StartChar: uni1A2C.uni1A2C
@@ -16394,8 +16389,6 @@ Fore
 Refer: 79 6772 N 1 0 0 1 920 0 2
 Refer: 41 6755 N 1 0 0 1 0 0 2
 LCarets2: 1 0
-Ligature2: "'pstf' Post Base Ligatures with marks lookup" uni1A63 uni1A74
-Ligature2: "'ccmp' Ligatures with marks lookup" uni1A63 uni1A74
 EndChar
 
 StartChar: uni1A58.lai

@@ -1,3 +1,27 @@
+2025-04-10  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Khottabun: Avoid USE.
+
+	By the absence of 'lana' script tag in all rules, Harfbuzz will
+	handle Tai Tham script using "default" engine, rather than USE.
+	With this, only limited features like 'ccmp' and 'liga' are called.
+
+	While the USE engine provides many useful reordering, it's not
+	ready for Tai Tham yet. Doing it all ourselves make us free from
+	its restrictions on clustering and encoding order. As a result,
+	we gain the working Mai Kang Lai handling, for example.
+
+	* fonts/Khottabun.sfd:
+	  - Remove 'lana' script tag from all GSUB, GPOS.
+	  - Remove "'psts' Post Base Ligatures" and
+	    "'pstf' Post Base Ligatures with marks",
+	    as they are not called in default engine.
+	    No replacement since there are already 'ccmp' rules that do
+	    the same job.
+	  - Remove "'ccmp' Ligatures with marks", as SARA AM is already
+	    handled in other rules.
+	  - Bump font version to 003.000.
+
 2025-03-21  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Khottabun: Correct spline direction for Mai Kong.
