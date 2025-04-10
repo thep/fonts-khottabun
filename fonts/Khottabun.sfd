@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1744277353
+ModificationTime: 1744297210
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -46,8 +46,8 @@ Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1" { "'ccmp' Pali ANG-LAN append interm
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2" { "'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin" { "Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 1 "'ccmp' Subjoined consonants" { "Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 1" { "Deep rigid subjoins append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Deep rigid subjoins stage 2" { "Deep rigid subjoins remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' BV-sub reorder stage 1" { "BV-sub append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' BV-sub reorder stage 2" { "BV-sub remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM reorder stage 1" { "'ccmp' AM reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM reorder stage 2" { "'ccmp' AM reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM-T reorder stage 3" { "'ccmp' AM-T reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -61,9 +61,9 @@ Lookup: 4 0 0 "Alternate subjoined consonant" { "Alternate subjoined consonant l
 Lookup: 2 0 0 "ANG-LAN append intermediate" { "ANG-LAN append intermediate lookup"  } []
 Lookup: 4 0 0 "ANG-LAN remove intermediate" { "ANG-LAN remove intermediate lookup"  } []
 Lookup: 2 0 0 "LV E prepend intermediate" { "LV E prepend intermediate lookup"  } []
-Lookup: 2 0 0 "U Deep rigid subjoins append intermediate" { "U Deep rigid subjoins append intermediate lookup"  } []
-Lookup: 2 0 0 "UU Deep rigid subjoins append intermediate" { "UU Deep rigid subjoins append intermediate lookup"  } []
-Lookup: 4 0 0 "Deep rigid subjoins remove intermediate" { "Deep rigid subjoins remove intermediate lookup"  } []
+Lookup: 2 0 0 "U-sub append intermediate" { "U-sub append intermediate lookup"  } []
+Lookup: 2 0 0 "UU-sub append intermediate" { "UU-sub append intermediate lookup"  } []
+Lookup: 4 0 0 "BV-sub remove intermediate" { "BV-sub remove intermediate lookup"  } []
 Lookup: 2 0 0 "AM reorder prepend intermediate" { "AM reorder prepend intermediate lookup"  } []
 Lookup: 4 0 0 "AM reorder remove intermediate" { "AM reorder remove intermediate lookup"  } []
 Lookup: 2 0 0 "AM-T reorder prepend intermediate" { "AM-T reorder prepend intermediate lookup"  } []
@@ -167,7 +167,7 @@ ContextSub2: class "'ccmp' AM reorder prepend intermediate" 3 3 3 1
   BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others" "1" "2"
 EndFPST
-ContextSub2: class "Deep rigid subjoins remove intermediate" 4 4 4 1
+ContextSub2: class "BV-sub remove intermediate" 4 4 4 1
   Class: 127 uni1A57 uni1A25.sub uni1A2B.sub uni1A2C.sub uni1A30.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3F.sub uni1A43.sub uni1A48.sub
   Class: 15 uni1A69 uni1A6A
   Class: 8 zerojoin
@@ -182,12 +182,12 @@ ContextSub2: class "Deep rigid subjoins remove intermediate" 4 4 4 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Deep rigid subjoins remove intermediate"
+  SeqLookup: 0 "BV-sub remove intermediate"
   ClassNames: "All_Others" "1" "2" "3"
   BClassNames: "All_Others" "1" "2" "3"
   FClassNames: "All_Others" "1" "2" "3"
 EndFPST
-ContextSub2: class "Deep rigid subjoins append intermediate" 4 4 4 2
+ContextSub2: class "BV-sub append intermediate" 4 4 4 2
   Class: 127 uni1A57 uni1A25.sub uni1A2B.sub uni1A2C.sub uni1A30.sub uni1A37.sub uni1A38.sub uni1A39.sub uni1A3F.sub uni1A43.sub uni1A48.sub
   Class: 7 uni1A69
   Class: 7 uni1A6A
@@ -202,13 +202,13 @@ ContextSub2: class "Deep rigid subjoins append intermediate" 4 4 4 2
   BClsList:
   FClsList:
  1
-  SeqLookup: 1 "U Deep rigid subjoins append intermediate"
+  SeqLookup: 1 "U-sub append intermediate"
  2 0 0
   ClsList: 3 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 1 "UU Deep rigid subjoins append intermediate"
+  SeqLookup: 1 "UU-sub append intermediate"
   ClassNames: "All_Others" "1" "2" "3"
   BClassNames: "All_Others" "1" "2" "3"
   FClassNames: "All_Others" "1" "2" "3"
@@ -7500,10 +7500,10 @@ SplineSet
  -816 -471 -756 -531 -756 -606 c 3
  -756 -681 -816 -741 -891 -741 c 3x7bf8
 EndSplineSet
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A57
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A57
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A57 uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A57 uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A57
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A57
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A57 uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A57 uni1A6A
 LCarets2: 2 0 0
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A57 uni1A6F
@@ -8315,10 +8315,10 @@ SplineSet
  -1142 -326 -1186 -244 -1210 -244 c 3x2be0
  -1218 -244 -1226 -251 -1232 -260 c 1
 EndSplineSet
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A25.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A25.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A25.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A25.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A25.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A25.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A25.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A25.sub uni1A6A
 LCarets2: 2 0 0
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A25.sub uni1A55
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A25.sub uni1A72
@@ -8784,10 +8784,10 @@ SplineSet
  -194 -616 -183 -601 -183 -561 c 2
  -183 -543 l 1x9f68
 EndSplineSet
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A2B.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A2B.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A2B.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A2B.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A2B.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A2B.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A2B.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A2B.sub uni1A6A
 LCarets2: 2 0 0
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A2B
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2B.sub uni1A6E
@@ -8890,10 +8890,10 @@ SplineSet
  -126 1071 -135 1069 -153 1066 c 1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A2C.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A2C.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A2C.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A2C.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A2C.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A2C.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A2C.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A2C.sub uni1A6A
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A2C
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A2C.sub uni1A6F
@@ -9306,10 +9306,10 @@ SplineSet
  -913 -244 -924 -250 -934 -260 c 1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A30.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A30.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A30.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A30.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A30.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A30.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A30.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A30.sub uni1A6A
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A30
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A30.sub uni1A6F
@@ -9890,10 +9890,10 @@ SplineSet
  -697 -560 -750 -517 -765 -459 c 1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A37.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A37.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A37.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A37.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A37.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A37.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A37.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A37.sub uni1A6A
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A37
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A37.sub uni1A6F
@@ -9993,10 +9993,10 @@ SplineSet
  -697 -560 -750 -517 -765 -459 c 1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A38.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A38.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A38.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A38.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A38.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A38.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A38.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A38.sub uni1A6A
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A38
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A38.sub uni1A6F
@@ -10125,10 +10125,10 @@ SplineSet
  155 1035 176 1038 202 1044 c 1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A39.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A39.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A39.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A39.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A39.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A39.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A39.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A39.sub uni1A6A
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A39
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A39.sub uni1A6F
@@ -10431,10 +10431,10 @@ SplineSet
  -377 -124 -316 -185 -316 -260 c 3
  -316 -324 -361 -378 -423 -392 c 1
 EndSplineSet
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A3F.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A3F.sub
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A3F.sub uni1A6A
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A3F.sub uni1A69
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A3F.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A3F.sub
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A3F.sub uni1A6A
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A3F.sub uni1A69
 LCarets2: 2 0 0
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A3F
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A3F.sub uni1A6E
@@ -10539,10 +10539,10 @@ SplineSet
  -756 -681 -816 -741 -891 -741 c 3
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A43.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A43.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A43.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A43.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A43.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A43.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A43.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A43.sub uni1A6A
 Ligature2: "RA-S remove intermediate lookup" zerojoin uni1A43.sub uni1A55
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A72
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A43.sub uni1A71
@@ -10803,10 +10803,10 @@ SplineSet
  66 842 l 2
  66 916 -30 1058 -112 1170 c 1
 EndSplineSet
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A6A zerojoin uni1A48.sub
-Ligature2: "Deep rigid subjoins remove intermediate lookup" uni1A69 zerojoin uni1A48.sub
-MultipleSubs2: "U Deep rigid subjoins append intermediate lookup" zerojoin uni1A48.sub uni1A69
-MultipleSubs2: "UU Deep rigid subjoins append intermediate lookup" zerojoin uni1A48.sub uni1A6A
+Ligature2: "BV-sub remove intermediate lookup" uni1A6A zerojoin uni1A48.sub
+Ligature2: "BV-sub remove intermediate lookup" uni1A69 zerojoin uni1A48.sub
+MultipleSubs2: "U-sub append intermediate lookup" zerojoin uni1A48.sub uni1A69
+MultipleSubs2: "UU-sub append intermediate lookup" zerojoin uni1A48.sub uni1A6A
 Ligature2: "Subjoined consonants lookup" uni1A60 uni1A48
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6E
 Ligature2: "LV remove intermediate for subjoin" zerojoin uni1A48.sub uni1A6F

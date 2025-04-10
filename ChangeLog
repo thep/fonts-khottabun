@@ -1,5 +1,12 @@
 2025-04-10  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Khottabun: Rename some GSUB's to be more intuitive.
+
+	* fonts/Khottabun.sfd:
+	  - Rename "Deep rigit subjoins" in rule names to "BV-sub".
+
+2025-04-10  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Khottabun: Fix incomplete BV reordering.
 
 	* fonts/Khottabun.sfd:
