@@ -1,5 +1,14 @@
 2025-04-10  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Khottabun: Fix incomplete BV reordering.
+
+	* fonts/Khottabun.sfd:
+	  - Add missing uni1A25.sub in the glyph list for class "1"
+	    in "'ccmp' Deep rigid subjoin remove intermediate" rule.
+	  - Bump font version to 003.001.
+
+2025-04-10  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Khottabun: Avoid USE.
 
 	By the absence of 'lana' script tag in all rules, Harfbuzz will
