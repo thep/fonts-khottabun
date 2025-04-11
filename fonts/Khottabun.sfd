@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created."
-Version: 003.001
+Version: 003.002
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1744297210
+ModificationTime: 1744344818
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -46,8 +46,6 @@ Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1" { "'ccmp' Pali ANG-LAN append interm
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2" { "'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Context-sensitive subjoin" { "Context-sensitive subjoin convert"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 1 "'ccmp' Subjoined consonants" { "Subjoined consonants lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' BV-sub reorder stage 1" { "BV-sub append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' BV-sub reorder stage 2" { "BV-sub remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM reorder stage 1" { "'ccmp' AM reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM reorder stage 2" { "'ccmp' AM reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' AM-T reorder stage 3" { "'ccmp' AM-T reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -56,18 +54,17 @@ Lookup: 5 0 0 "'ccmp' LV reorder stage 1" { "'ccmp' LV reorder prepend intermedi
 Lookup: 5 0 0 "'ccmp' LV reorder stage 2" { "'ccmp' LV reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' RA reorder stage 1" { "'ccmp' RA-CVR I prepend intermediate"  "'ccmp' RA-CVR II prepend intermediate"  "'ccmp' RA-CVR UE prepend intermediate"  "'ccmp' RA-CVR UEE prepend intermediate"  "'ccmp' RA-CVR U prepend intermediate"  "'ccmp' RA-CVR UU prepend intermediate"  "'ccmp' RA-CAR prepend intermediate"  "'ccmp' RA reorder prepend intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' RA reorder stage 2" { "'ccmp' RA reorder remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' BV-sub reorder stage 1" { "BV-sub append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' BV-sub reorder stage 2" { "BV-sub remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 8 1 "'ccmp' Misc ligatures" { "'ccmp' Misc ligatures lookup"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 4 0 0 "Alternate subjoined consonant" { "Alternate subjoined consonant lookup"  } []
 Lookup: 2 0 0 "ANG-LAN append intermediate" { "ANG-LAN append intermediate lookup"  } []
 Lookup: 4 0 0 "ANG-LAN remove intermediate" { "ANG-LAN remove intermediate lookup"  } []
-Lookup: 2 0 0 "LV E prepend intermediate" { "LV E prepend intermediate lookup"  } []
-Lookup: 2 0 0 "U-sub append intermediate" { "U-sub append intermediate lookup"  } []
-Lookup: 2 0 0 "UU-sub append intermediate" { "UU-sub append intermediate lookup"  } []
-Lookup: 4 0 0 "BV-sub remove intermediate" { "BV-sub remove intermediate lookup"  } []
 Lookup: 2 0 0 "AM reorder prepend intermediate" { "AM reorder prepend intermediate lookup"  } []
 Lookup: 4 0 0 "AM reorder remove intermediate" { "AM reorder remove intermediate lookup"  } []
 Lookup: 2 0 0 "AM-T reorder prepend intermediate" { "AM-T reorder prepend intermediate lookup"  } []
 Lookup: 4 0 0 "AM-T reorder remove intermediate" { "AM-T reorder remove intermediate lookup"  } []
+Lookup: 2 0 0 "LV E prepend intermediate" { "LV E prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV AE prepend intermediate" { "LV AE prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV O prepend intermediate" { "LV O prepend intermediate lookup"  } []
 Lookup: 2 0 0 "LV AI MAIMALAI prepend intermediate" { "LV AI MAIMALAI prepend intermediate lookup"  } []
@@ -82,6 +79,9 @@ Lookup: 2 0 0 "RA-UU prepend intermediate" { "RA-UU prepend intermediate lookup"
 Lookup: 2 0 0 "RA prepend intermediate" { "RA prepend intermediate lookup"  } []
 Lookup: 2 0 0 "RA-deep prepend intermediate" { "RA-deep prepend intermediate lookup"  } []
 Lookup: 4 0 0 "RA remove intermediate" { "RA-VV remove intermediate lookup"  "RA-V remove intermediate lookup"  "RA-C remove intermediate lookup"  "RA-S remove intermediate lookup"  "RA-AngV remove intermediate lookup"  "RA-Ang remove intermediate lookup"  } []
+Lookup: 2 0 0 "U-sub append intermediate" { "U-sub append intermediate lookup"  } []
+Lookup: 2 0 0 "UU-sub append intermediate" { "UU-sub append intermediate lookup"  } []
+Lookup: 4 0 0 "BV-sub remove intermediate" { "BV-sub remove intermediate lookup"  } []
 Lookup: 260 0 0 "'mark' BelowBase Mark Positioning" { "'mark' BelowBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 260 0 0 "'mark' AboveBase Mark Positioning" { "'mark' AboveBase Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' BelowMark Mark to Mark" { "'mkmk' BelowMark Mark to Mark-1"  } ['mkmk' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]

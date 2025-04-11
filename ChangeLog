@@ -1,5 +1,20 @@
 2025-04-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Khottabun: Do BV-sub after RA reordering.
+
+	One possible sequence (although no real sample is found yet):
+	  C + U + RA + SAKOT + YA  ->  RA + C + U + YA.sub
+	In this case, U + YA.sub should still be reordered.
+
+	* fonts/Khottabun.sfd:
+	  - Move 'ccmp' BV-sub reorder stage 1/2 rules to after
+	    'ccmp' RA reorder stage 1/2.
+	  - Move helper rules for BV-sub to bottom,
+	    LV E prepend intermediate to where it belongs.
+	  - Bump font version to 003.002.
+
+2025-04-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Khottabun: Use unexposed 'dummy' glyph instead of 'zerojoin'.
 
 	* fonts/Khottabun.sfd:
