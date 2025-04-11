@@ -1,5 +1,15 @@
 2025-04-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
+	Khottabun: Do not use deep RA for spacing subjoins.
+
+	* fonts/Khottabun.sfd:
+	  - Move spacing subjoins from class "4" to class "3"
+	    in "'ccmp' RA reorder prepend intermediate" sub-rule,
+	    so that normal RA is prepended instead of the deep version.
+	  - Bump font version to 003.003.
+
+2025-04-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
 	Khottabun: Do BV-sub after RA reordering.
 
 	One possible sequence (although no real sample is found yet):
