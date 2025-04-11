@@ -1,3 +1,11 @@
+2025-04-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Khottabun: Use unexposed 'dummy' glyph instead of 'zerojoin'.
+
+	* fonts/Khottabun.sfd:
+	  - Rename 'zerojoin' glyph to 'dummy' and unset its Unicode value.
+	  - Replace 'zerojoin' in all GSUB rules with 'dummy'.
+
 2025-04-10  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Khottabun: Rename some GSUB's to be more intuitive.
