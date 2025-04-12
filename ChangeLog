@@ -1,3 +1,13 @@
+2025-04-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Khottabun: Merge patterns for RA reordering.
+
+	* fonts/Khottabun.sfd:
+	  - Move uni1A58.lai from class "5" to class "3" in
+	    "'ccmp' RA reorder prepend intermediate" subtable
+	    and remove class "5" and the associated pattern.
+	  - Bump font version to 003.004.
+
 2025-04-11  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Khottabun: Do not use deep RA for spacing subjoins.
