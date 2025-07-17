@@ -5,7 +5,7 @@ FamilyName: Khottabun
 Weight: Medium
 Copyright: Created by Theppitak Karoonboonyanan, with FontForge 2.0 (http://fontforge.sf.net).\n\nTham glyphs are based on UbwManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, 8 September 2004.\n\nThai Noi glyphs are based on TNManut font by Sanit Pokhaphun, Ubon Ratchathani Rajabhat University, Thailand, September 2004.
 UComments: "2010-12-9: Created."
-Version: 003.004
+Version: 004.000
 ItalicAngle: 0
 UnderlinePosition: -174
 UnderlineWidth: 184
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291888288
-ModificationTime: 1744442168
+ModificationTime: 1752742092
 PfmFamily: 33
 TTFWeight: 500
 TTFWidth: 5
@@ -41,6 +41,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 4 0 0 "'ccmp' TN subjoins" { "'ccmp' TN subjoins"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' TN conjuncts" { "'ccmp' TN conjuncts"  } ['ccmp' ('DFLT' <'dflt' > 'lao ' <'LAO ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 1" { "'ccmp' Pali ANG-LAN append intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Pali ANG-LAN stage 2" { "'ccmp' Pali ANG-LAN remove intermediate"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -544,7 +545,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 6688 8 4
+WinInfo: 3728 8 2
 BeginPrivate: 5
 BlueValues 17 [-30 0 1209 1239]
 StdHW 5 [135]
@@ -657,7 +658,7 @@ Grid
  6144 1410 l 1024
 EndSplineSet
 AnchorClass2: "BelowSideMark" "'mkmk' BelowMark Mark to Mark-1" "BelowRightMark" "'mkmk' BelowMark Mark to Mark-1" "BelowRight" "'mark' BelowBase Mark Positioning-1" "BelowMark" "'mkmk' BelowMark Mark to Mark-1" "AboveMark" "'mkmk' AboveMark Mark to Mark-1" "BelowBase" "'mark' BelowBase Mark Positioning-1" "AboveBase" "'mark' AboveBase Mark Positioning-1"
-BeginChars: 65599 226
+BeginChars: 65599 228
 
 StartChar: uni1A20
 Encoding: 6688 6688 0
@@ -15821,8 +15822,8 @@ Ligature2: "LV remove intermediate for subjoin" dummy uni1A33.sub2 uni1A72
 Ligature2: "RA-S remove intermediate lookup" dummy uni1A33.sub2 uni1A55
 EndChar
 
-StartChar: dummy
-Encoding: 8205 -1 195
+StartChar: zerojoin
+Encoding: 8205 8205 195
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -16540,8 +16541,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0EE0
-Encoding: 3808 3808 205
+StartChar: uni0E9A.sub
+Encoding: 3808 -1 205
 Width: 363
 VWidth: 2862
 GlyphClass: 2
@@ -16616,10 +16617,11 @@ SplineSet
  -520 -137 -558 -99 -603 -99 c 3
  -648 -99 -686 -137 -686 -182 c 3
 EndSplineSet
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0E9A
 EndChar
 
-StartChar: uni0EE2
-Encoding: 3810 3810 206
+StartChar: uni0EA5.sub
+Encoding: 3810 -1 206
 Width: 453
 VWidth: 2862
 GlyphClass: 2
@@ -16688,10 +16690,12 @@ SplineSet
  -471 -504 -554 -588 -652 -588 c 3
  -748 -588 -834 -502 -834 -406 c 3
 EndSplineSet
+LCarets2: 1 0
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0EA5
 EndChar
 
-StartChar: uni0EE3
-Encoding: 3811 3811 207
+StartChar: uni0EAA.sub
+Encoding: 3811 -1 207
 Width: 721
 VWidth: 2862
 GlyphClass: 2
@@ -16757,10 +16761,12 @@ SplineSet
  150 757 247 423 309 423 c 3
  333 423 358 434 384 454 c 1
 EndSplineSet
+LCarets2: 1 0
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0EAA
 EndChar
 
-StartChar: uni0EE1
-Encoding: 3809 3809 208
+StartChar: uni0EA1.sub
+Encoding: 3809 -1 208
 Width: 0
 VWidth: 3390
 GlyphClass: 4
@@ -16805,6 +16811,7 @@ SplineSet
  -558 -537 -536 -495 -536 -441 c 3
  -536 -402 -558 -369 -680 -345 c 1xee
 EndSplineSet
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0EA1
 EndChar
 
 StartChar: uni0E82.uni0E99
@@ -16972,7 +16979,8 @@ SplineSet
  922 1003 736 1104 540 1104 c 3
  453 1104 358 1083 286 1044 c 1
 EndSplineSet
-Ligature2: "'ccmp' TN conjuncts" uni0E82 dummy uni0E99
+LCarets2: 2 0 0
+Ligature2: "'ccmp' TN conjuncts" uni0E82 zerojoin uni0E99
 EndChar
 
 StartChar: uni0E82.uni0EA1
@@ -17125,7 +17133,7 @@ SplineSet
  891 107 929 69 974 69 c 3x1e7c
  1010 69 1041 116 1062 182 c 1
 EndSplineSet
-Ligature2: "'ccmp' TN conjuncts" uni0E82 dummy uni0EA1
+Ligature2: "'ccmp' TN conjuncts" uni0E82 zerojoin uni0EA1
 EndChar
 
 StartChar: uni0E84.uni0E99
@@ -17225,7 +17233,7 @@ SplineSet
  345 480 l 2
  349 628 452 759 592 759 c 3
 EndSplineSet
-Ligature2: "'ccmp' TN conjuncts" uni0E84 dummy uni0E99
+Ligature2: "'ccmp' TN conjuncts" uni0E84 zerojoin uni0E99
 EndChar
 
 StartChar: uni0E84.uni0EA1
@@ -17328,7 +17336,7 @@ SplineSet
  816 107 853 69 898 69 c 3x7f70
  946 69 982 108 1004 170 c 1
 EndSplineSet
-Ligature2: "'ccmp' TN conjuncts" uni0E84 dummy uni0EA1
+Ligature2: "'ccmp' TN conjuncts" uni0E84 zerojoin uni0EA1
 EndChar
 
 StartChar: uni0E96.uni0E99
@@ -17444,7 +17452,7 @@ SplineSet
  123 918 161 880 206 880 c 3
  252 880 279 915 309 963 c 1
 EndSplineSet
-Ligature2: "'ccmp' TN conjuncts" uni0E96 dummy uni0E99
+Ligature2: "'ccmp' TN conjuncts" uni0E96 zerojoin uni0E99
 EndChar
 
 StartChar: uni0E96.uni0EA5
@@ -17563,7 +17571,7 @@ SplineSet
  242 197 204 234 159 234 c 3
  114 234 76 197 76 152 c 3x1e40
 EndSplineSet
-Ligature2: "'ccmp' TN conjuncts" uni0E96 dummy uni0EA5
+Ligature2: "'ccmp' TN conjuncts" uni0E96 zerojoin uni0EA5
 EndChar
 
 StartChar: uni0EAA.uni0E99
@@ -17702,7 +17710,7 @@ SplineSet
  96 933 328 894 486 894 c 3
  592 894 718 933 840 1005 c 1
 EndSplineSet
-Ligature2: "'ccmp' TN conjuncts" uni0EAA dummy uni0E99
+Ligature2: "'ccmp' TN conjuncts" uni0EAA zerojoin uni0E99
 EndChar
 
 StartChar: uni0EAA.uni0EA1
@@ -17861,11 +17869,12 @@ SplineSet
  1306 107 1344 69 1389 69 c 3x5f2e
  1425 69 1457 116 1478 182 c 1
 EndSplineSet
-Ligature2: "'ccmp' TN conjuncts" uni0EAA dummy uni0EA1
+LCarets2: 2 0 0
+Ligature2: "'ccmp' TN conjuncts" uni0EAA zerojoin uni0EA1
 EndChar
 
-StartChar: uni0EE4
-Encoding: 3812 3812 217
+StartChar: uni0E9E.sub
+Encoding: 3812 -1 217
 Width: 0
 VWidth: 7140
 GlyphClass: 4
@@ -17904,10 +17913,11 @@ SplineSet
  -518 -882 -435 -716 -435 -642 c 2
  -435 -507 l 1
 EndSplineSet
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0E9E
 EndChar
 
-StartChar: uni0EE5
-Encoding: 3813 3813 218
+StartChar: uni0E98.sub
+Encoding: 3813 -1 218
 Width: 0
 VWidth: 7140
 GlyphClass: 4
@@ -17944,10 +17954,12 @@ SplineSet
  -700 -648 -576 -538 -576 -432 c 3
  -576 -286 -686 -249 -752 -201 c 1
 EndSplineSet
+LCarets2: 1 0
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0E98
 EndChar
 
-StartChar: uni0EE6
-Encoding: 3814 3814 219
+StartChar: uni0E94.sub
+Encoding: 3814 -1 219
 Width: 0
 VWidth: 3390
 GlyphClass: 4
@@ -18035,6 +18047,7 @@ SplineSet
  -614 -304 -768 -244 -920 -244 c 3
  -1007 -244 -1095 -284 -1152 -332 c 1
 EndSplineSet
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0E94
 EndChar
 
 StartChar: uni0ECC
@@ -18116,8 +18129,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0EE7
-Encoding: 3815 3815 222
+StartChar: uni0E95.sub
+Encoding: 3815 -1 222
 Width: 0
 VWidth: 7140
 GlyphClass: 4
@@ -18180,10 +18193,12 @@ SplineSet
  -506 -276 l 2
  -480 -307 -456 -364 -456 -432 c 3
 EndSplineSet
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0E95
+LCarets2: 1 0
 EndChar
 
-StartChar: uni0EE8
-Encoding: 3816 3816 223
+StartChar: uni0E88.sub
+Encoding: 3816 -1 223
 Width: 0
 VWidth: 3373
 GlyphClass: 4
@@ -18243,10 +18258,11 @@ SplineSet
  -374 -678 -220 -463 -220 -321 c 3
  -220 -257 -225 -153 -252 -105 c 1
 EndSplineSet
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0E88
 EndChar
 
-StartChar: uni0EE9
-Encoding: 3817 3817 224
+StartChar: uni0E99.sub
+Encoding: 3817 -1 224
 Width: 0
 VWidth: 3390
 GlyphClass: 4
@@ -18287,6 +18303,7 @@ SplineSet
  -476 -536 -435 -495 -435 -453 c 2
  -435 -372 l 1
 EndSplineSet
+Ligature2: "'ccmp' TN subjoins" uni0EBA uni0E99
 EndChar
 
 StartChar: uni1A7D
@@ -18316,6 +18333,20 @@ SplineSet
  -449 1692 -704 1780 -920 1780 c 3
  -990 1780 -1050 1776 -1100 1764 c 1
 EndSplineSet
+EndChar
+
+StartChar: dummy
+Encoding: 0 -1 226
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0E98
+Encoding: 3736 3736 227
+Width: 0
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

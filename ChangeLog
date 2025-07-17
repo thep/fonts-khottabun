@@ -1,3 +1,20 @@
+2025-07-17  Theppitak Karoonboonyanan  <theppitak@gmail.com>
+
+	Khottabun: Represent Thai Noi subjoins with PHINTHU.
+
+	* fonts/Khottabun.sfd:
+	  - Rename 'dummy' glyph at slot 0x200d back to 'zerojoin'.
+	  - Add detached 'dummy' glyph back at slot 0.
+	  - Fix "'ccmp' TN conjuncts" substitutions by replacing
+	    'dummy' with 'zerojoin'.
+	  - Add "'ccmp' TN subjoins" lookup for subjoins.
+	  - Detach subjoin glyphs from Unicode codepoints,
+	    rename them to uniXXXX.sub form,
+	    add "'ccmp' TN subjoins" substitutions as appropriate.
+	  - Add dummy 'uni0E98' glyph as required by subjoined
+	    THO THONG substitution.
+	  - Bump font version to 004.000.
+
 2025-04-12  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Khottabun: Merge patterns for RA reordering.
